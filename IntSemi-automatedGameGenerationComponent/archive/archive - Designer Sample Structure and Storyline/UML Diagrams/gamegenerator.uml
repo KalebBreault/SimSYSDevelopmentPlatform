@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>edu.utdallas.gamegenerator</OriginalElement>
+  <nodes>
+    <node x="794.2130268199236" y="1353.0">edu.utdallas.gamegenerator.Characters.NPCCharacter</node>
+    <node x="1072.4976053639848" y="974.0">edu.utdallas.gamegenerator.Locale.ObjectMovement</node>
+    <node x="2569.3861590038314" y="836.0">edu.utdallas.gamegenerator.LearningObjective.Screen.LearningObjectiveSuccess</node>
+    <node x="2962.0111590038314" y="587.5">edu.utdallas.gamegenerator.LearningObjective.Challenge.ChallengeOptionType</node>
+    <node x="3215.8861590038314" y="10.0">edu.utdallas.gamegenerator.LearningObjective.Prop.TextType</node>
+    <node x="2248.080938697318" y="1383.0">edu.utdallas.gamegenerator.LearningObjective.Lesson</node>
+    <node x="1251.4976053639848" y="806.0">edu.utdallas.gamegenerator.Locale.ObjectMovementType</node>
+    <node x="2689.1361590038314" y="1094.0">edu.utdallas.gamegenerator.LearningObjective.Screen.LearningObjectiveChallenge</node>
+    <node x="335.0028256704977" y="1383.0">edu.utdallas.gamegenerator.Subject.Subject</node>
+    <node x="2358.080938697318" y="1822.5">edu.utdallas.gamegenerator.LearningObjective.LearningObjective</node>
+    <node x="2465.2546934865904" y="308.5">edu.utdallas.gamegenerator.LearningObjective.Prop.GameButton</node>
+    <node x="25.0" y="2401.5">edu.utdallas.gamegenerator.Structure.Act</node>
+    <node x="1611.4976053639848" y="1782.5">edu.utdallas.gamegenerator.LearningObjective.Screen.ScreenType</node>
+    <node x="1980.3861590038312" y="836.0">edu.utdallas.gamegenerator.LearningObjective.Screen.LearningObjectiveLesson</node>
+    <node x="3160.3861590038314" y="248.0">edu.utdallas.gamegenerator.LearningObjective.Prop.GameText</node>
+    <node x="1801.4028256704976" y="2291.0">edu.utdallas.gamegenerator.ScreenNode</node>
+    <node x="297.7124042145588" y="2740.0">edu.utdallas.gamegenerator.Structure.Structure</node>
+    <node x="0.0" y="2830.5">edu.utdallas.gamegenerator.Structure.Game</node>
+    <node x="2865.0111590038314" y="607.5">edu.utdallas.gamegenerator.LearningObjective.Challenge.Reward</node>
+    <node x="21.0" y="1822.5">edu.utdallas.gamegenerator.Structure.Scene</node>
+    <node x="1129.8380268199237" y="1383.0">edu.utdallas.gamegenerator.Locale.LocaleCharacter</node>
+    <node x="203.21302681992347" y="1622.0">edu.utdallas.gamegenerator.Theme.Theme</node>
+    <node x="2374.3861590038314" y="836.0">edu.utdallas.gamegenerator.LearningObjective.Screen.LearningObjectiveFailure</node>
+    <node x="1787.0874042145588" y="40.0">edu.utdallas.gamegenerator.LearningObjective.Character.LearningObjectiveCharacterType</node>
+    <node x="648.2130268199235" y="1443.5">edu.utdallas.gamegenerator.Characters.PlayerCharacter</node>
+    <node x="2579.5046934865904" y="0.0">edu.utdallas.gamegenerator.LearningObjective.Screen.TransitionType</node>
+    <node x="64.5" y="1443.5">edu.utdallas.gamegenerator.Structure.Screen</node>
+    <node x="653.2124042145588" y="994.0">edu.utdallas.gamegenerator.Characters.GameCharacter</node>
+    <node x="858.8374042145587" y="2161.0">edu.utdallas.gamegenerator.Locale.Locale</node>
+    <node x="2176.3861590038314" y="836.0">edu.utdallas.gamegenerator.LearningObjective.Screen.LearningObjectiveNeutral</node>
+    <node x="2045.6754310344822" y="60.0">edu.utdallas.gamegenerator.LearningObjective.Character.Movement</node>
+    <node x="1826.0874042145588" y="318.5">edu.utdallas.gamegenerator.LearningObjective.Character.LearningObjectiveCharacter</node>
+    <node x="1309.0880268199237" y="30.0">edu.utdallas.gamegenerator.Locale.GameObject</node>
+    <node x="2800.2611590038314" y="796.0">edu.utdallas.gamegenerator.LearningObjective.Challenge.ChallengeOption</node>
+    <node x="2366.2546934865904" y="507.0">edu.utdallas.gamegenerator.LearningObjective.Screen.LearningObjectiveScreen</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="edu.utdallas.gamegenerator.Locale.Locale" target="edu.utdallas.gamegenerator.Characters.PlayerCharacter">
+      <point x="-139.875" y="-264.5" />
+      <point x="1091.9624042145588" y="2111.0" />
+      <point x="742.7130268199235" y="2111.0" />
+      <point x="31.5" y="14.0" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.Theme.Theme" target="edu.utdallas.gamegenerator.Locale.LocaleCharacter">
+      <point x="211.5999999999999" y="-224.5" />
+      <point x="679.3130268199234" y="1602.0" />
+      <point x="1226.5880268199237" y="1602.0" />
+      <point x="-96.75" y="74.5" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.LearningObjective.Challenge.ChallengeOption" target="edu.utdallas.gamegenerator.LearningObjective.Screen.LearningObjectiveScreen">
+      <point x="-128.25" y="-64.0" />
+      <point x="2843.0111590038314" y="756.0" />
+      <point x="2681.588026819924" y="756.0" />
+      <point x="143.33333333333348" y="114.5" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.Theme.Theme" target="edu.utdallas.gamegenerator.Locale.GameObject">
+      <point x="-211.5999999999999" y="-224.5" />
+      <point x="256.11302681992356" y="1602.0" />
+      <point x="324.5028256704977" y="1602.0" />
+      <point x="324.5028256704977" y="218.0" />
+      <point x="1351.3380268199237" y="218.0" />
+      <point x="-42.25" y="64.0" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.LearningObjective.Screen.LearningObjectiveNeutral" target="edu.utdallas.gamegenerator.LearningObjective.Screen.LearningObjectiveScreen">
+      <point x="0.0" y="-24.0" />
+      <point x="2265.3861590038314" y="776.0" />
+      <point x="2452.2546934865904" y="776.0" />
+      <point x="-86.0" y="114.5" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.LearningObjective.Screen.LearningObjectiveScreen" target="edu.utdallas.gamegenerator.LearningObjective.Prop.GameText">
+      <point x="114.66666666666663" y="-114.5" />
+      <point x="2652.921360153257" y="482.0" />
+      <point x="3237.3861590038314" y="482.0" />
+      <point x="-77.0" y="104.5" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.LearningObjective.Screen.LearningObjectiveChallenge" target="edu.utdallas.gamegenerator.LearningObjective.Screen.LearningObjectiveScreen">
+      <point x="-72.75" y="-44.5" />
+      <point x="2761.8861590038314" y="766.0" />
+      <point x="2624.2546934865904" y="766.0" />
+      <point x="86.0" y="114.5" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.ScreenNode" target="edu.utdallas.gamegenerator.Locale.GameObject">
+      <point x="-59.59999999999991" y="-134.5" />
+      <point x="1890.8028256704977" y="2101.0" />
+      <point x="1779.9976053639848" y="2101.0" />
+      <point x="1779.9976053639848" y="218.0" />
+      <point x="1435.8380268199237" y="218.0" />
+      <point x="42.25" y="64.0" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.Locale.Locale" target="edu.utdallas.gamegenerator.Theme.Theme">
+      <point x="-233.125" y="-264.5" />
+      <point x="998.7124042145587" y="2121.0" />
+      <point x="599.9630268199235" y="2121.0" />
+      <point x="132.25" y="224.5" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.Locale.Locale" target="edu.utdallas.gamegenerator.Locale.GameObject">
+      <point x="139.875" y="-264.5" />
+      <point x="1371.7124042145588" y="2101.0" />
+      <point x="1600.9976053639848" y="2101.0" />
+      <point x="1600.9976053639848" y="228.0" />
+      <point x="1407.671360153257" y="228.0" />
+      <point x="14.083333333333258" y="64.0" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.Locale.LocaleCharacter" target="edu.utdallas.gamegenerator.LearningObjective.Character.LearningObjectiveCharacterType">
+      <point x="129.0" y="-74.5" />
+      <point x="1452.3380268199237" y="1328.0" />
+      <point x="1815.5874042145588" y="1328.0" />
+      <point x="1815.5874042145588" y="228.0" />
+      <point x="1842.3374042145588" y="228.0" />
+      <point x="-55.25" y="54.0" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.ScreenNode" target="edu.utdallas.gamegenerator.LearningObjective.Screen.ScreenType">
+      <point x="-119.20000000000005" y="-134.5" />
+      <point x="1831.2028256704975" y="2111.0" />
+      <point x="1729.9976053639848" y="2111.0" />
+      <point x="39.5" y="64.0" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.LearningObjective.LearningObjective" target="edu.utdallas.gamegenerator.LearningObjective.Lesson">
+      <point x="0.0" y="-24.0" />
+      <point x="0.0" y="74.5" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.Locale.Locale" target="edu.utdallas.gamegenerator.LearningObjective.LearningObjective">
+      <point x="326.375" y="-264.5" />
+      <point x="1558.2124042145588" y="2121.0" />
+      <point x="2437.080938697318" y="2121.0" />
+      <point x="0.0" y="24.0" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.LearningObjective.Challenge.ChallengeOption" target="edu.utdallas.gamegenerator.LearningObjective.Challenge.ChallengeOptionType">
+      <point x="42.75" y="-64.0" />
+      <point x="3014.0111590038314" y="776.0" />
+      <point x="3039.0111590038314" y="776.0" />
+      <point x="0.0" y="34.0" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.Theme.Theme" target="edu.utdallas.gamegenerator.Characters.PlayerCharacter">
+      <point x="0.0" y="-224.5" />
+      <point x="467.71302681992347" y="1582.0" />
+      <point x="679.7130268199235" y="1582.0" />
+      <point x="-31.5" y="14.0" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.Locale.Locale" target="edu.utdallas.gamegenerator.Characters.NPCCharacter">
+      <point x="-46.625" y="-264.5" />
+      <point x="1185.2124042145588" y="2101.0" />
+      <point x="1030.4630268199235" y="2101.0" />
+      <point x="78.75" y="104.5" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.LearningObjective.Screen.LearningObjectiveChallenge" target="edu.utdallas.gamegenerator.LearningObjective.Challenge.ChallengeOption">
+      <point x="72.75" y="-44.5" />
+      <point x="2907.3861590038314" y="949.0" />
+      <point x="2885.7611590038314" y="949.0" />
+      <point x="-85.5" y="64.0" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.LearningObjective.Character.LearningObjectiveCharacter" target="edu.utdallas.gamegenerator.Locale.GameObject">
+      <point x="-102.33333333333326" y="-34.0" />
+      <point x="1877.2540708812253" y="208.0" />
+      <point x="1464.0046934865904" y="208.0" />
+      <point x="70.41666666666674" y="64.0" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.Structure.Structure" target="edu.utdallas.gamegenerator.Locale.Locale">
+      <point x="100.0" y="-114.5" />
+      <point x="547.7124042145588" y="2720.0" />
+      <point x="1231.8374042145588" y="2720.0" />
+      <point x="0.0" y="264.5" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.LearningObjective.Screen.LearningObjectiveScreen" target="edu.utdallas.gamegenerator.LearningObjective.Prop.GameButton">
+      <point x="0.0" y="-114.5" />
+      <point x="0.0" y="44.0" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.Locale.LocaleCharacter" target="edu.utdallas.gamegenerator.Locale.ObjectMovement">
+      <point x="0.0" y="-74.5" />
+      <point x="1323.3380268199237" y="1328.0" />
+      <point x="1331.4976053639848" y="1328.0" />
+      <point x="0.0" y="164.5" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.Theme.Theme" target="edu.utdallas.gamegenerator.Characters.NPCCharacter">
+      <point x="105.80000000000018" y="-224.5" />
+      <point x="573.5130268199237" y="1592.0" />
+      <point x="872.9630268199236" y="1592.0" />
+      <point x="-78.75" y="104.5" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.Characters.NPCCharacter" target="edu.utdallas.gamegenerator.Characters.GameCharacter">
+      <point x="0.0" y="-104.5" />
+      <point x="951.7130268199236" y="1328.0" />
+      <point x="929.9624042145588" y="1328.0" />
+      <point x="92.25" y="144.5" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.ScreenNode" target="edu.utdallas.gamegenerator.LearningObjective.Prop.GameText">
+      <point x="119.20000000000005" y="-134.5" />
+      <point x="2069.6028256704976" y="2141.0" />
+      <point x="3391.3861590038314" y="2141.0" />
+      <point x="77.0" y="104.5" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.Structure.Act" target="edu.utdallas.gamegenerator.Structure.Scene">
+      <point x="0.0" y="-24.0" />
+      <point x="0.0" y="24.0" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.LearningObjective.Character.LearningObjectiveCharacter" target="edu.utdallas.gamegenerator.LearningObjective.Character.LearningObjectiveCharacterType">
+      <point x="0.0" y="-34.0" />
+      <point x="1979.5874042145588" y="228.0" />
+      <point x="1952.8374042145588" y="228.0" />
+      <point x="55.25" y="54.0" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.LearningObjective.Screen.LearningObjectiveSuccess" target="edu.utdallas.gamegenerator.LearningObjective.Screen.LearningObjectiveScreen">
+      <point x="0.0" y="-24.0" />
+      <point x="2660.3861590038314" y="776.0" />
+      <point x="2566.9213601532574" y="776.0" />
+      <point x="28.666666666666742" y="114.5" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.LearningObjective.Screen.LearningObjectiveFailure" target="edu.utdallas.gamegenerator.LearningObjective.Screen.LearningObjectiveScreen">
+      <point x="0.0" y="-24.0" />
+      <point x="2461.8861590038314" y="776.0" />
+      <point x="2509.588026819924" y="776.0" />
+      <point x="-28.66666666666663" y="114.5" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.Locale.Locale" target="edu.utdallas.gamegenerator.Locale.LocaleCharacter">
+      <point x="46.625" y="-264.5" />
+      <point x="1278.4624042145588" y="2091.0" />
+      <point x="1420.0880268199237" y="2091.0" />
+      <point x="96.75" y="74.5" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.LearningObjective.Character.LearningObjectiveCharacter" target="edu.utdallas.gamegenerator.LearningObjective.Character.Movement">
+      <point x="102.33333333333326" y="-34.0" />
+      <point x="2081.920737547892" y="228.0" />
+      <point x="2129.6754310344822" y="228.0" />
+      <point x="0.0" y="34.0" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.Structure.Scene" target="edu.utdallas.gamegenerator.Structure.Screen">
+      <point x="0.0" y="-24.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.Structure.Structure" target="edu.utdallas.gamegenerator.Theme.Theme">
+      <point x="0.0" y="-114.5" />
+      <point x="447.7124042145588" y="2710.0" />
+      <point x="334.25" y="2710.0" />
+      <point x="334.25" y="2141.0" />
+      <point x="335.46302681992347" y="2141.0" />
+      <point x="-132.25" y="224.5" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.LearningObjective.Challenge.ChallengeOption" target="edu.utdallas.gamegenerator.LearningObjective.Screen.TransitionType">
+      <point x="128.25" y="-64.0" />
+      <point x="3099.5111590038314" y="776.0" />
+      <point x="3126.5111590038314" y="776.0" />
+      <point x="3126.5111590038314" y="228.0" />
+      <point x="2857.7546934865904" y="228.0" />
+      <point x="92.75" y="94.0" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.Characters.PlayerCharacter" target="edu.utdallas.gamegenerator.Characters.GameCharacter">
+      <point x="0.0" y="-14.0" />
+      <point x="711.2130268199235" y="1328.0" />
+      <point x="745.4624042145588" y="1328.0" />
+      <point x="-92.25" y="144.5" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.ScreenNode" target="edu.utdallas.gamegenerator.LearningObjective.Character.LearningObjectiveCharacter">
+      <point x="0.0" y="-134.5" />
+      <point x="1950.4028256704976" y="2111.0" />
+      <point x="1902.8374042145588" y="2111.0" />
+      <point x="-76.75" y="34.0" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.ScreenNode" target="edu.utdallas.gamegenerator.LearningObjective.Challenge.ChallengeOption">
+      <point x="59.59999999999991" y="-134.5" />
+      <point x="2010.0028256704975" y="2131.0" />
+      <point x="3056.7611590038314" y="2131.0" />
+      <point x="85.5" y="64.0" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.Locale.LocaleCharacter" target="edu.utdallas.gamegenerator.Locale.GameObject">
+      <point x="-129.0" y="-74.5" />
+      <point x="1194.3380268199237" y="1328.0" />
+      <point x="1053.25" y="1328.0" />
+      <point x="1053.25" y="228.0" />
+      <point x="1379.5046934865904" y="228.0" />
+      <point x="-14.083333333333258" y="64.0" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.LearningObjective.Prop.GameButton" target="edu.utdallas.gamegenerator.LearningObjective.Screen.TransitionType">
+      <point x="0.0" y="-44.0" />
+      <point x="2538.2546934865904" y="228.0" />
+      <point x="2672.2546934865904" y="228.0" />
+      <point x="-92.75" y="94.0" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.Structure.Game" target="edu.utdallas.gamegenerator.Structure.Act">
+      <point x="0.0" y="-24.0" />
+      <point x="-38.0" y="24.0" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.LearningObjective.Screen.LearningObjectiveLesson" target="edu.utdallas.gamegenerator.LearningObjective.Screen.LearningObjectiveScreen">
+      <point x="0.0" y="-24.0" />
+      <point x="2068.3861590038314" y="766.0" />
+      <point x="2394.9213601532574" y="766.0" />
+      <point x="-143.33333333333326" y="114.5" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.LearningObjective.Lesson" target="edu.utdallas.gamegenerator.LearningObjective.Screen.LearningObjectiveChallenge">
+      <point x="94.5" y="-74.5" />
+      <point x="2531.580938697318" y="1328.0" />
+      <point x="2834.6361590038314" y="1328.0" />
+      <point x="0.0" y="44.5" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.LearningObjective.Screen.LearningObjectiveScreen" target="edu.utdallas.gamegenerator.LearningObjective.Character.LearningObjectiveCharacter">
+      <point x="-114.66666666666674" y="-114.5" />
+      <point x="2423.5880268199235" y="482.0" />
+      <point x="2056.337404214559" y="482.0" />
+      <point x="76.75" y="34.0" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.Locale.Locale" target="edu.utdallas.gamegenerator.LearningObjective.Screen.ScreenType">
+      <point x="233.125" y="-264.5" />
+      <point x="1464.9624042145588" y="2111.0" />
+      <point x="1650.9976053639848" y="2111.0" />
+      <point x="-39.5" y="64.0" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.LearningObjective.Lesson" target="edu.utdallas.gamegenerator.LearningObjective.Screen.LearningObjectiveLesson">
+      <point x="-94.5" y="-74.5" />
+      <point x="2342.580938697318" y="1328.0" />
+      <point x="2068.3861590038314" y="1328.0" />
+      <point x="0.0" y="24.0" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.Locale.ObjectMovement" target="edu.utdallas.gamegenerator.Locale.ObjectMovementType">
+      <point x="0.0" y="-164.5" />
+      <point x="0.0" y="54.0" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.LearningObjective.Prop.GameText" target="edu.utdallas.gamegenerator.LearningObjective.Prop.TextType">
+      <point x="0.0" y="-104.5" />
+      <point x="0.0" y="84.0" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.Theme.Theme" target="edu.utdallas.gamegenerator.Subject.Subject">
+      <point x="-105.80000000000018" y="-224.5" />
+      <point x="361.9130268199233" y="1602.0" />
+      <point x="445.5028256704977" y="1602.0" />
+      <point x="0.0" y="74.5" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.Structure.Structure" target="edu.utdallas.gamegenerator.Structure.Act">
+      <point x="-100.0" y="-114.5" />
+      <point x="347.7124042145588" y="2720.0" />
+      <point x="139.0" y="2720.0" />
+      <point x="38.0" y="24.0" />
+    </edge>
+    <edge source="edu.utdallas.gamegenerator.LearningObjective.Challenge.ChallengeOption" target="edu.utdallas.gamegenerator.LearningObjective.Challenge.Reward">
+      <point x="-42.75" y="-64.0" />
+      <point x="2928.5111590038314" y="776.0" />
+      <point x="2903.5111590038314" y="776.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.30000000000000016" x="1962.3333333333321" y="1266.6666666666658" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,387 @@
+GameGenerator.java
+
+//Load layer xml files
+call loadXmlComponents with xml component filenames
+//Build the game object
+call buildGame with the layers object
+//Export the game to xml
+call exportGame with the game object and filename as the parameters
+
+function loadXmlComponents
+	for each layer other than lesson and challenge
+		create jaxbContext of class
+		open a file pointer to the xml file
+		create a jaxb unmarshaller from the jaxbContext
+		unmarshal the xml file into an object
+		set the object in the layers object
+	end for
+	create jaxbContext of lesson
+	create a jaxb unmarshaller from the jaxbContext
+	set lessons to a new list of Lesson
+	for each lesson xml
+		open a file pointer to the xml file
+		unmarshal the xml file into an object
+		add the lesson to the lessons
+	end for
+	create jaxbContext of challenge
+	create a jaxb unmarshaller from the jaxbContext
+	set challenges to a new list of Challenge
+	for each challenge xml
+		open a file pointer to the xml file
+		unmarshal the xml file into an object
+		add the challenge to the challenges
+	end for
+	set learningActs to a new list of LearningAct
+	for each lesson in lessons
+		set learningAct to a new LearningAct
+		set lessonActs to a new list of LessonAct
+		set lessonAct to a new LessonAct
+		set lessonScreens on lessonAct to lessonScreens on lesson
+		set lessonChallenges on lessonAct to lessonChallenges on challenge
+		add lessonAct to lessonActs
+		set lessonActs on learningAct to lessonActs
+		add learningAct to learningActs
+	end for
+	set learningActs on layers to learningActs
+	call wireUpLayers
+	return layers object
+
+function buildGame
+	call the createGame function on the Structure layer
+	return the Game
+
+function exportGame
+	create jaxbContext of the Game class
+	open a file pointer to the destination file
+	create a jaxb marshaller from the jaxbContext
+	marshal the Game to the file
+
+function wireUpLayers
+	inject the theme layer into the locale
+	inject the learning acts into the locale
+	inject the characters into the locale
+	inject the subject into the theme
+	inject the characters into the theme
+	inject the locale into the structure
+	inject the theme into the structure
+	
+
+Structure.java
+
+function createGame
+	create a new list of acts
+	call createActFromScreens and pass in the theme's intro
+	add the returned act to the list of acts
+	for(x = 0; x < learningacts.length; x++)
+		call getAct(x)
+		call createActFromScreens and pass in the returned list of screens
+		add the returned act to the list of acts
+	end for
+	call createActFromScreens and pass in the theme's outro
+	add the returned act to the list of acts
+	call wireUpActs with the list of acts
+	call nameEverything
+	call convertAssetsAndBehaviors
+	return the Game object
+	
+function createActFromScreens
+	create a new Act object
+	create a new list of scenes
+	for each screenNode in the list
+		create a new scene
+		set the scene's screens to the current screenNode
+		set the scene's background to the current screenNode's background
+		add the screen to the scene
+	end for
+	set the acts scenes to the new scene
+	return the act
+	
+function wireUpActs
+	for each act in the list
+		set nextActId to the id of the first screen in the next act
+		for each behavior in every screen
+			if the behavior is a transition behavior and the transitionId is null
+				set the behavior's transition id to nextActId
+			end if
+		end for
+	end for
+	
+//to be moved into main algorithm
+function nameEverything
+	set the game's name
+	for each act
+		set the act's name
+		for each scene in the act
+			set the scene's name
+			for each screen in the scene
+				set the screen's name
+			end for
+		end for
+	end for
+
+//to be moved into main algorithm
+function convertAssetsAndBehaviors
+	for each asset in the game
+		if the asset is an image asset
+			create a new image asset from the asset
+		else if the asset is a button asset
+			create a new button asset from the asset
+		else if the asset is a character asset
+			create a new character asset from the asset
+		else if the asset is an information box asset
+			create a new information box asset from the asset
+		end if
+		if the new asset is not null
+			replace the current asset with the new asset
+		end if
+		if the new asset has behaviors
+			for each behavior
+				if the behavior is a transition behavior
+					create a new transition behavior from the behavior
+				else if the behavior is an end game behavior
+					create a new end game behavior from the behavior
+				end if
+				if the new behavior is not null
+					replace the current behavior with the new behavior
+				end if
+			end for
+		end if
+	end for
+	
+		
+Theme.java
+
+function getIntro
+	if introScreens is not null
+		call getScreens with introScreens
+		return the resulting list of ScreenNode
+	else
+		return a new list of ScreenNode
+
+function getOutro
+	if outroScreens is not null
+		call getScreens with outroScreens
+		return the resulting list of ScreenNode
+	else
+		return a new list of ScreenNode
+		
+function getScreens
+	create a new list of ScreenNode
+	set currentScreen to a new random UUID
+	set nextScreen to a new random UUID
+	for each ThemeScreen in the list
+		create a new ScreenNode
+		set the background of the screen node to the theme screen's background
+		set the id of the screen node to currentScreen
+		create a new list of assets
+		if the theme screen contains game objects
+			for each game object
+				create a new asset from the game object
+				add the asset to the list of assets
+			end for
+		end if
+		if the theme screen contains characters
+			for each character
+				set characterType to the character's type
+				call getCharacter with the characterType
+				set gameCharacter to the returned character
+				create a new asset from the character and gameCharacter
+				add the asset to th e list of assets
+			end for
+		end if
+		if the theme screen contains information boxes
+			for each information box
+				create a new asset from the information box
+				add the asset to the list of assets
+			end for
+		end if
+		if the screen contains buttons
+			for each button
+				create a new asset from the button
+				if the asset has behaviors
+					for each behavior
+						if the behavior is a transition behavior and the type is NEXT_SCREEN
+							set the behavior's transitionId to nextScreen
+						end if
+					end for
+				end if
+				add the asset to the list of assets
+			end for
+		end if
+		set the assets on the screen node to the list of assets
+		add the screen node to the list of screen nodes
+		set nextScreen to a new random UUID
+	end for
+	return the list of ScreenNode
+	
+	
+Locale.java
+
+function getAct
+	set actScreens to a new list of ScreenNode
+	call buildScreens with the learningActId and ScreenType of LESSON_STORY_INTRO
+	add the returned list of ScreenNode to actScreens
+	call buildScreens with the learningActId and ScreenType of LESSON_STORY_OUTRO
+	add the returned list of ScreenNode to actScreens
+	call buildLesson with the learningActId
+	add the returned list of ScreenNode to actScreens
+	call buildChallenges with the learningActId
+	add the returned list of ScreenNode to actScreens
+	return actScreens
+	
+function buildScreens
+	set lessonScreens to a new list of ScreenNode
+	set currentScreen to a random UUID
+	set nextScreen to null
+	set themeStory to the theme story for the learningActId
+	if the screen type is LESSON_STORY_INTRO
+		call getIntro on the themeStory
+		set themeStoryScreen to a new list of LearningActScreen passing in the returned list
+	else
+		set END_OF_STORY on the screenTransitions map to currentScreen
+		call getOutro on the themeStory
+		set themeStoryScreen to a new list of LearningActScreen passing in the returned list
+	end if
+	for each screen in themeStoryScreen
+		set nextScreen to a random UUID
+		set localeScreen to the localeScreen matching the screenType
+		call buildScreen with the learningActId, screen, localeScreen, currentScreen, and nextScreen
+		set currentScreen to nextScreen
+	end for
+	if the screen type is LESSON_STORY_INTRO
+		set BEGINNING_OF_LESSON on the screenTransitions map to nextScreen
+	end if
+	
+function buildScreen
+	set screenNodes to a new list of ScreenNode
+	set screenNode to a new ScreenNode
+	add screenNode to screenNodes
+	set the id of screenNode to screenId
+	set the background of screenNode to the background of localeScreen
+	set the name of screenNode
+	set assets to a new list of Asset
+	set the assets of screenNode to assets
+	if gameObjects in localeScreen is not null
+		for each game object
+			create a new asset from the game object
+			add the asset to assets
+		end for
+	end if
+	if characters in screen is not null
+		for each character
+			set localeCharacter to the character from localeScreen which matches the character's type
+			set gameCharacter to the character from the characters layer that matches the character's type
+			create a new asset from character, localeCharacter, and gameCharacter
+			add the asset to the list of assets
+		end for
+	end if
+	set screenInformationBoxes to screen's informationBoxes
+	set localeInformationBoxes to localeScreen's informationBoxes
+	if screenInformationBoxes is not null
+		for each gameText in screenInformationBoxes
+		create a new asset from gameText and the corresponding localeInformationBox that matches the type
+		add the asset to the list of assets
+	end if
+	set gameButtons to a new list created from screen's buttons
+	if screen is an instance of LearningActChallenge
+		set challenge to the cast version of screen
+		if challengeOptions on challenge is not null
+			add all challengeOptions to gameButtons
+		end if
+	end if
+	set localeButtons to localeScreen's buttons
+	if gameButtons is not null
+		for each gameButton in gameButtons
+			set localeButton to the SharedButton from localeButtons which matches the button location type
+			set asset to a new asset created from localButton and gameButton
+			set behavior to null
+			for(int a = 0; a < asset.getBehaviors(); a++)
+				if on asset, getBehavior(a)'s behavior type is transition behavior
+					set behavior to getBehavior(a)
+				end if
+			end for
+			if behavior is not null
+				switch on gameButton's transition type
+					case of beginning of lesson
+						set behavior's transition id to the corresponding transition id in screenTransitions
+					end case
+					case of beginning of challenge
+						set behavior's transition id to the corresponding transition id in screenTransitions
+					end case
+					case of current challenge
+						set behavior's transition id to the corresponding transition id in screenTransitions
+					end case
+					case of next challenge
+						set behavior's transition id to the corresponding transition id in screenTransitions
+					end case
+					case of end of story
+						set behavior's transition id to the corresponding transition id in screenTransitions
+					end case
+					case of next screen
+						set behavior's transition id to nextScreenId
+					end case
+					case of additional
+						if the gameButton is an instance of ChallengeOption
+							set challengeOption to a ChallengeOption casted version of gameButton
+							set additionalScreenId to a new random UUID
+							call buildAdditionalScreens with the challengeOption's additionalScreens and additionalScreenId
+							set the behavior's transitionId to additionalScreenId
+						end if
+					end case
+				end switch
+			end if
+			add asset to assets
+		end for
+	end if
+	return screenNodes
+	
+function buildAdditionalScreens
+	set screenNodes to a new array list of ScreenNode
+	set nextScreen to a random UUID
+	for each screen in additionalScreens
+		set localeScreen to the matching screen type in localeScreens
+		call buildScreen with 0, screen, localeScreen, additionalScreenId, nextScreen
+		add all returned screens to screenNodes
+		set additionalScreenId to nextScreen
+		set nextScreen to a random UUID
+	end for
+	return screenNodes
+	
+function buildLesson
+	set lessonScreens to a new ArrayList of ScreenNode
+	set currentScreen to the screenTransition which matches the transition type
+	set nextScreen to null
+	set lesson to the first lesson in the learning act
+	set screens to the lesson screens in the lesson
+	for each screen in screens
+		set nextScreen to a random UUID
+		set localeScreen to the localeScreen which matches the screen type
+		call buildScreen with learningActId, screen, localeScreen, currentScreen, nextScreen
+		add all returned screens to lessonScreens
+		set currentScreen to nextScreen
+	end for
+	set the screenTransition that matches beginning of challenge to nextScreen
+	return lessonScreens
+	
+function buildChallenges
+	set crrentScreen to the screenTransition that represents beginning of challenge
+	set lesson to the first lesson in the learning act
+	set screenNodes to a new array list of ScreenNode
+	let challenges to the lesson's challenges
+	for each challenge in challenges
+		set nextChallenge to a random UUID
+		set next challenge in screenTransitions to nextChallenge
+		set current challenge in screenTransitions to currentScreen
+		call buildChallenge with learningActId, challenge, and currentScreen
+		add all returned screens to screenNodes
+		set currentScreen to nextChallenge
+	end for
+	return screenNodes
+	
+function buildChallenge
+	set nextScreen to a random UUID
+	set screenNodes to a new array list of ScreenNode
+	set localeScreen to the localeScreen for screen type of challenge
+	call build screen on learningActId, challenge, localeScreen, currentScreen, nextScreen
+	add all returned screens to screenNodes
+	return screenNodes
