@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Top level game  -->
+<game>
+<!-- Test Game 1 contains 1 Act and 1 Character -->
+	<acts>
+	<!-- Test Game 1 Act 1 contains 1 Scene -->
+		<scenes>
+			<!-- Test Game 1 Act 1 Scene 1 contains 1 Backdrop -->
+			<!-- BlueSky Backdrop is presented -->
+			<gameElement xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:type="backdrop">
+				<name>BlueSky.png</name>
+			</gameElement>
+			<!-- Test Game 1 Act 1 Scene 1 contains 1 Screen -->
+			<screen>
+			<!-- Test Game 1 Act 1 Scene 1 Screen 1 contains 1 or Game Elements -->
+			<!-- A Button with Text 'Play to Win!' with medium size and UC location is displayed. 
+			On clicking the button AddPoints method of rewards class with 5000 points as parameter is called. -->
+				<gameElement xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:type="prop">
+					<!--  Following behavior is similar to MATLAB Scripting and is in format Model.Action.Parameter-->
+					<behavior>Reward.AddPoints.5000</behavior>
+					<color>Yellow</color>
+					<location>UC</location>
+					<size>Medium</size>
+					<text>Play to Win!</text>
+					<typeName>Button</typeName>
+				</gameElement>
+				<!-- After the user clicks on the button, an information bubble with a message with total points won
+				is displayed in medium size in Upper Center location -->
+				<gameElement xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:type="prop">								
+					<color>Yellow</color>
+					<location>UC</location>
+					<size>Medium</size>
+					<!-- Actual points are sent from the model and are appended to the message below -->
+					<text>You Won!!! Your current points are </text>
+					<typeName>Information Bubble</typeName>
+				</gameElement>
+				<!-- A button with text End Game is displayed. On clicking the button, the stop method of GameControl is
+				called and the Game is ended -->
+				<gameElement xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:type="prop">
+					<behavior>GameControl.Stop</behavior>
+					<color>Yellow</color>
+					<location>DC</location>
+					<size>Medium</size>
+					<text>End Game</text>
+					<typeName>Button</typeName>
+				</gameElement>
+			</screen>
+		</scenes>
+	</acts>
+	<!-- The player starts the game with 1000 points -->
+	<gameElement xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:type="player">
+		<!-- Player contains 1 location and 1 reward -->
+		<location>OSR</location>
+		<size>Large</size>
+		<reward>
+			<certificates>0</certificates>
+			<hint>0</hint>
+			<points>1000</points>
+			<promotions>0</promotions>
+			<trophies>0</trophies>			
+		</reward>
+	</gameElement>
+</game>
