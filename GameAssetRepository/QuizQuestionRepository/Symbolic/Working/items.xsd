@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="item_list">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="item" minOccurs="1">
+
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="id" minOccurs="1" type="xs:integer" />
+							<xs:element name="knowledge" minOccurs="1" type="xs:string" />
+							<xs:element name="area" minOccurs="1" type="xs:string" />
+							<xs:element name="topic_list" minOccurs="1">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element maxOccurs="unbounded" minOccurs="1"
+											name="topics" type="xs:string" />
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="expression" type="xs:string"
+								minOccurs="1" />
+							<xs:element name="learning_taxonomy_list" minOccurs="1">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element maxOccurs="unbounded" minOccurs="1"
+											name="learning_taxonomy" type="xs:string" />
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="image_list">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element maxOccurs="unbounded" name="image"
+											type="xs:string" />
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element minOccurs="1" name="question_list">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="question" minOccurs="1">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="question_id" minOccurs="1"
+														type="xs:integer" />
+													<xs:element name="topic_list" minOccurs="1">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element maxOccurs="unbounded" minOccurs="1"
+																	name="topics" type="xs:string" />
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="depth" minOccurs="1" type="xs:string" />
+													<xs:element name="stem_lead-in_questions"
+														minOccurs="1" type="xs:string" />
+													<xs:element name="option_list" minOccurs="1">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element minOccurs="1" maxOccurs="unbounded"
+																	name="incorrect_option" type="xs:string" />
+																<xs:element maxOccurs="1"
+																	name="partiallly_correct_option" type="xs:string" />
+																<xs:element maxOccurs="1" name="correct"
+																	type="xs:string" />
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="hint" minOccurs="1" type="xs:string" />
+													<xs:element name="correct_feedback" minOccurs="1"
+														type="xs:string" />
+													<xs:element name="incorrect_feedback" minOccurs="1"
+														type="xs:string" />
+													<xs:element name="correct_follow_up_question_list"
+														minOccurs="1" type="xs:integer" />
+													<xs:element name="incorrect_follow_up_question_list"
+														minOccurs="1" type="xs:integer" />
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+</xs:schema>

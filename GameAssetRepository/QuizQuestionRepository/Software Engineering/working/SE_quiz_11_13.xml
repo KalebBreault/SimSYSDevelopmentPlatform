@@ -1,0 +1,133 @@
+<!--sample software engineering test (multiple choice quiz)--> 
+<!--Software Engineering quiz to test software development models and processes-->
+<!--path list-->
+<path_list>NULL</path_list>
+
+<quiz_area>software engineering</quiz_area>
+<objective_list>
+	<objective>Software enginnering tools and methods</objective>
+	<objective>Software Engineering management</objective>
+</objective_list>
+
+<condition_list>
+	<condition value="timer">moderate</condition>
+	<condition value="player">protagonist</condition>
+	<condition value="NPC">antagonist</condition>
+	<condition value="timer">moderate</condition>
+	<condition value="reward">
+		<correct>1</correct>
+		<partially_correct>0</partially_correct>
+		<incorrect>0</incorrect>			<!-- Can have negative values for penalty -->
+	</condition>
+	<condition value="context">
+		<scenario>...</scenario>
+		<goal>...</goal>
+		<save_point>...</save_point>
+	</condition>
+</condition_list>
+
+<mechanics_list>				<!--Here we can have all the mechanics settings like how questions are presented, music, animations, effects etc-->
+	<mechanics value="music">
+		<path id="4">Tune1</path>
+	</mechanics>
+	<mechanics value="inputs">
+		<input>mouse</input>
+		<input>keyboard</input>
+	</mechanics>
+	<mechanics value="environment">Bubbles</mechanics>
+</mechanics_list>
+
+<item_list>
+	<item>
+		<id>1</id>
+		<knowledge>software engineering</knowledge>
+		<area>Software enginnering tools and methods</area>
+		<topic_list>
+			<topic>Analysis of Models</topic>
+		</topic_list>
+		<expression>dialog</expression>
+		<learning_taxonomy_list>
+			<learning_taxonomy>knowledge</learning_taxonomy>
+			<learning_taxonomy>application</learning_taxonomy>
+		</learning_taxonomy_list>
+		<stem_description>Which of the following is not true</stem_description>
+		<image_list>NULL</image_list>
+
+		<question_list>
+			<question>
+				<question_id>1</question_id>
+				<topic_list>
+					<topic>Analysis of Models</topic>
+				</topic_list>
+				<depth>Easy</depth>
+				<stem_lead-in_questions>Which of the folowing is not true about Waterfall Model.</stem_lead-in_questions>
+				<option_list>
+					<incorrect_option>The set of requirements should be well-defined</incorrect_option>
+					<incorrect_option>It is a linear, sequential model</incorrect_option>
+					<incorrect_option>A prototype guides the development process</incorrect_option>
+					<correct_option>All of the abve</correct_option>
+				</option_list>
+				<hint>Every statement is true about waterfall model</hint>
+				<correct_feedback>Well done!</correct_feedback>
+				<incorrect_feedback>Wrong answer!</incorrect_feedback>
+				<correct_follow_up_question_list>2</correct_follow_up_question_list>  <!-- Item_id of the next question -->
+				<incorrect_follow_up_question_list>3</incorrect_follow_up_question_list>
+			</question>
+		</question_list>		
+
+	</item>
+	<item>
+		<id>2</id>
+		<knowledge>software engineering</knowledge>
+		<area>Software Engineering management</area>
+		<topic_list>
+			<topic>initiation and scope definition</topic>
+		</topic_list>
+		<expression>dialog</expression>
+		<learning_taxonomy_list>
+			<learning_taxonomy>knowledge</learning_taxonomy>
+			<learning_taxonomy>application</learning_taxonomy>
+		</learning_taxonomy_list>
+		<stem_description>Chose the correct options</stem_description>
+		<image_list>NULL</image_list>
+
+		<question_list>
+			<question>
+				<question_id>2</question_id>
+				<topic_list>
+					<topic>initiation and scope definition</topic>
+				</topic_list>
+				<depth>Easy</depth>
+				<stem_lead-in_questions>Requirements can be documented</stem_lead-in_questions>
+				<option_list>
+					<incorrect_option>in natural language (e.g., English)</incorrect_option>
+					<incorrect_option>as UML use cases</incorrect_option>
+					<incorrect_option>as data flow diagrams</incorrect_option>	
+					<incorrect_option>with a formal definition such as Z</incorrect_option>
+					<correct_option>All of he above</correct_option>
+				</option_list>
+				<hint>The requirments can be documented in all the ways mentioned above.</hint>
+				<correct_feedback>Well done!</correct_feedback>
+				<incorrect_feedback>Wrong answer!</incorrect_feedback>
+				<correct_follow_up_question_list>4</correct_follow_up_question_list>  <!-- Item_id of the next question -->
+				<incorrect_follow_up_question_list>3</incorrect_follow_up_question_list>
+				
+			</question>
+
+		</question_list>	
+	</item>	
+</item_list>
+
+
+<!--references: from the Swebok Guide--!>
+<!--
+Area A: Software Construction
+Area B: Software Configuration Management
+Area C: Computing Foundations
+Area D: Software Engineering Models and Methods
+Area E: Software Maintenance
+Area F: Mathematical Foundations
+Area G: Software Design
+Area H: Software Engineering Management
+Area I: Software Engineering Professional Practice
+-->

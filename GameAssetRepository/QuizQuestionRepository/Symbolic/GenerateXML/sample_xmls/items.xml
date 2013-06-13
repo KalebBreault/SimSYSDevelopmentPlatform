@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<item_xml>
+    <item_list>
+        <item>
+            <id>1</id>
+            <knowledge>GXOO</knowledge>
+            <area>E9VY</area>
+            <topic_list>
+                <topic>K3F9</topic>
+                <topic>Q8QR</topic>
+                <topic>REIE</topic>
+            </topic_list>
+            <learning_taxonomy>
+                <expression>ANDW</expression>
+                <type_list>
+                    <type>O4QA</type>
+                    <type>3ZHW</type>
+                </type_list>
+            </learning_taxonomy>
+            <image_list>
+                <image>OUF6</image>
+            </image_list>
+            <question_list>
+                <question>
+                    <question_id>2</question_id>
+                    <topic_list>
+                        <topic>V4XQ</topic>
+                        <topic>UUAU</topic>
+                    </topic_list>
+                    <depth>A34Q</depth>
+                    <timer>4</timer>
+                    <timer_event_list>
+                        <timer_event>
+                            <time>EIVR</time>
+                            <event_msg>RZ5L</event_msg>
+                        </timer_event>
+                    </timer_event_list>
+                    <max_no_of_attempts>2</max_no_of_attempts>
+                    <reward>
+                        <correct>1</correct>
+                        <partially_correct>2</partially_correct>
+                        <incorrect>4</incorrect>
+                    </reward>
+                    <stem_lead-in_questions>U9HQ</stem_lead-in_questions>
+                    <option_list>
+                        <option>
+                            <choice>ZKXY</choice>
+                            <text>K86L</text>
+                            <feedback>JRNL</feedback>
+                            <hint>LP5O</hint>
+                        </option>
+                    </option_list>
+                    <follow_up>
+                        <correct_follow_up_question>
+                            <stem_lead-in_questions>665X</stem_lead-in_questions>
+                            <option_list>
+<option>
+    <choice>RJ1Z</choice>
+    <text>5PPY</text>
+    <feedback>LJQ6</feedback>
+    <hint>NS7G</hint>
+</option>
+<option>
+    <choice>O20H</choice>
+    <text>U841</text>
+    <feedback>I3MT</feedback>
+    <hint>8ZOT</hint>
+</option>
+                            </option_list>
+                        </correct_follow_up_question>
+                        <incorrect_follow_up_question>
+                            <stem_lead-in_questions>001X</stem_lead-in_questions>
+                            <option_list>
+<option>
+    <choice>GJPK</choice>
+    <text>R54U</text>
+    <feedback>S8GZ</feedback>
+    <hint>C87L</hint>
+</option>
+<option>
+    <choice>I8H7</choice>
+    <text>5TAK</text>
+    <feedback>EY0R</feedback>
+    <hint>AESD</hint>
+</option>
+                            </option_list>
+                        </incorrect_follow_up_question>
+                    </follow_up>
+                </question>
+            </question_list>
+        </item>
+    </item_list>
+</item_xml>

@@ -1,0 +1,127 @@
+<questions>
+	<question>
+		<subject>Maths</subject>
+		<level>4</level>
+		<taxonomy>Numerical Questions</taxonomy>
+		<statement>5 + 5(10 - 2)</statement>
+		<no_of_images>0</no_of_images>
+		<images></images>
+		<no_of_subques>0</no_of_subques>
+		<subques></subques>
+		<subskill>Computation</subskill>
+		<depth>Easy</depth>
+		<no_of_options>4</no_of_options>
+		<options>
+			<option>25</option>
+			<option>45</option>
+			<option>65</option>
+			<option>53</option>
+		</options>
+		<answer>45</answer>
+		<award_pts>1</award_pts>
+		<penalty_pts>0</penalty_pts>
+		<hint>5 + 5(10 - 2) => 5 + 5(8) => 5 + 40 => 45</hint>
+	</question>
+	<question>
+		<subject>Maths</subject>
+		<level>4</level>
+		<taxonomy>Geometry</taxonomy>
+		<statement>In the given diagrams identify all the acute angle?</statement>
+		<no_of_images>3</no_of_images>
+		<images>
+			<image>
+				<figure_path>/images/angles/acute_angle1.jpg</figure_path>
+				<caption>A</caption>
+			</image>
+			<image>
+				<figure_path>/images/angles/obtuse_angle1.jpg</figure_path>
+				<caption>B</caption>
+			</image>
+			<image>
+				<figure_path>/images/angles/acute_angle2.jpg</figure_path>
+				<caption>C</caption>
+			</image>
+		</images>
+		<no_of_subques>0</no_of_subques>
+		<subques></subques>
+		<subskill>Angles</subskill>
+		<depth>Easy</depth>
+		<no_of_options>5</no_of_options>
+		<options>
+			<option>None</option>
+			<option>Only A</option>
+			<option>Both A and B</option>
+			<option>Both A and C</option>
+			<option>All of them</option>
+		</options>
+		<answer>Both A and C</answer>
+		<award_pts>2</award_pts>
+		<penalty_pts>0</penalty_pts>
+		<hint>Any angle from 0 degrees to 90 degrees are called acute angles.</hint>
+	</question>
+	<question>
+		<subject>Maths</subject>
+		<level>4</level>
+		<taxonomy>Word Problems</taxonomy>
+		<statement>Clayton plays basketball on a team. He has played three games so far. In the first game, he scored 10 points. In the second game, he scored 14 points. In the third game,he scored 6 points. </statement>
+		<no_of_images>0</no_of_images>
+		<images></images>
+		<no_of_subques>2</no_of_subques>
+		<subques>
+			<subskill>Addition</subskill>
+			<depth>easy</depth>
+			<statement>What is Clayton's total points?</statement>
+			<no_of_options>4</no_of_options>
+			<options>
+				<option>20</option>
+				<option>24</option>
+				<option>30</option>
+				<option>26</option>
+			</options>
+			<answer>30</answer>
+			<award_pts>2</award_pts>
+			<penalty_pts>0</penalty_pts>
+			<hint>10 + 14 + 6 = 30 points</hint>
+		</subques>
+		<subques>
+			<subskill>Averages</subskill>
+			<depth>medium</depth>
+			<statement>What is Clayton's average points pergame?</statement>
+			<no_of_options>4</no_of_options>
+			<options>
+				<option>14</option>
+				<option>8</option>
+				<option>30</option>
+				<option>10</option>
+			</options>
+			<answer>10</answer>
+			<award_pts>3</award_pts>
+			<penalty_pts>0</penalty_pts>
+			<hint>(10+14+6)/3 => 30/3 => 10</hint>
+		</subques>
+	</question>
+	<question>
+		<subject>Software Engineering</subject>
+		<level>I</level>
+		<taxonomy>Basics</taxonomy>
+		<statement>Which type of system usually requires more extensive validation and testing?</statement>
+		<no_of_images>0</no_of_images>
+		<images></images>
+		<no_of_subques>0</no_of_subques>
+		<subques></subques>
+		<subskill>Validation and Testing</subskill>
+		<depth>Easy</depth>
+		<no_of_options>4</no_of_options>
+		<options>
+			<option>Web based system</option>
+			<option>Real Time System</option>
+			<option>Stand alone system</option>
+			<option>Information system</option>
+		</options>
+		<answer>Web based system</answer>
+		<award_pts>2</award_pts>
+		<penalty_pts>0</penalty_pts>
+		<hint>Among the given options, web based systems require extensive testing.</hint>
+	</question>
+</questions>
+		

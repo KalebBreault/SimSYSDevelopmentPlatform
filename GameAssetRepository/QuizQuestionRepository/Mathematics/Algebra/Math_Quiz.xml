@@ -1,0 +1,305 @@
+<!--sample math test (multiple choice quiz)--> 
+<!--Math quiz to test arithmetic and geometry for Grade 4-->
+<!--path list-->
+<quiz>
+	<path_list>
+		<path id="1">~/images/angles/acute_angle1.jpg</path>
+		<path id="2">~/images/angles/obtuse_angle1.jpg</path>
+		<path id="3">~/images/angles/acute_angle2.jpg</path>
+		<path id="4">~/music/background/tune1.mp3</path>
+	</path_list>
+		
+	<quiz_area>math</quiz_area>
+	<objective_list>
+		<objective>arithmetic</objective>
+		<objective>geometry</objective>
+	</objective_list>
+	
+	<condition_list>
+		<timed>yes</timed>
+		<competetive>no</competetive>
+		<limited_resources>no</limited_resources>
+		<player>protagonist</player>
+		<antagonist>anto</antagonist>
+	</condition_list>
+	
+	<mechanics_list>				<!--Here we can have all the mechanics settings like how questions are presented, music, animations, effects etc-->
+		<music>
+			<path id="4">Tune1</path>
+		</music>
+		<input_list>
+			<input>mouse</input>
+			<input>keyboard</input>
+		</input_list>
+		<environment>Bubbles</environment>
+	</mechanics_list>
+
+	<item_list>
+		<item>
+			<id>1</id>
+			<knowledge>math</knowledge>
+			<area>arithmetic</area>
+			<topic_list>
+				<topic>computation</topic>
+			</topic_list>
+			<learning_taxonomy>
+				<expression>dialog</expression>
+				<type_list>
+					<type>application</type>
+				</type_list>
+			</learning_taxonomy>
+			<stem_vignette>Evaluate the below expression</stem_vignette>
+			<image_list>NULL</image_list>
+			<question_list>
+				<question>
+					<question_id>1</question_id>
+					<topic_list>
+						<topic>computation</topic>
+					</topic_list>
+					<depth>Easy</depth>
+					<timer>60</timer>
+					<timer_event_list>
+						<timer_event>
+							<time>30</time>
+							<event_msg>Warning: Only 30 secs left</event_msg>
+						</timer_event>
+						<timer_event>
+							<time>45</time>
+							<event_msg>Hint: expression in the braces should be evaluated first</event_msg>
+						</timer_event>
+					</timer_event_list>
+					<max_no_of_attempts>2</max_no_of_attempts>
+					<reward>
+						<correct>2</correct>
+						<partially_correct>0</partially_correct>
+						<incorrect>0</incorrect>
+					</reward>
+					<stem_lead-in_questions>5 + 5(10 - 2)</stem_lead-in_questions>
+					<option_list>
+						<option>
+							<choice>correct</choice>
+							<text>45</text>
+							<feedback>Well Done</feedback>
+							<hint>TBD</hint>
+						</option>
+						<option>
+							<choice>incorrect</choice>
+							<text>25</text>
+							<feedback>Incorrect answer</feedback>
+							<hint>TBD</hint>
+						</option>
+						<option>
+							<choice>incorrect</choice>
+							<text>65</text>
+							<feedback>Incorrect answer</feedback>
+							<hint>TBD</hint>
+						</option>
+						<option>
+							<choice>incorrect</choice>
+							<text>53</text>
+							<feedback>Incorrect answer</feedback>
+							<hint>TBD</hint>
+						</option>
+					</option_list>
+					<follow_up>
+						<correct_follow_up_question>
+							<stem_lead-in_questions>You’re right, 45 is the correct answer.  Is this because</stem_lead-in_questions>
+							<option_list>
+								<option>
+									<choice>correct</choice>
+									<text>The proper computational order requires computation inside parentheses first.</text>
+									<feedback>Yes. That is correct </feedback>
+									<hint>TBD</hint>
+								</option>
+								<option>
+									<choice>incorrect</choice>
+									<text>The proper computational order flows from left to right.</text>
+									<feedback></feedback>
+									<hint>TBD</hint>
+								</option>
+							</option_list>
+						</correct_follow_up_question>
+						<incorrect_follow_up_question>
+							<stem_lead-in_questions>4 + 3(5 + 1)</stem_lead-in_questions>
+							<option_list>
+								<option>
+									<choice>incorrect</choice>
+									<text>20</text>
+									<feedback>Incorrect Answer</feedback>
+									<hint>TBD</hint>
+								</option>
+								<option>
+									<choice>correct</choice>
+									<text>22</text>
+									<feedback>Well Done</feedback>
+									<hint>TBD</hint>
+								</option>
+								<option>
+									<choice>incorrect</choice>
+									<text>18</text>
+									<feedback>Incorrect Answer</feedback>
+									<hint>TBD</hint>
+								</option>
+								<option>
+									<choice>correct</choice>
+									<text>16</text>
+									<feedback>Incorrect Answer</feedback>
+									<hint>TBD</hint>
+								</option>
+							</option_list>						
+						</incorrect_follow_up_question>
+					</follow_up>
+				</question>
+			</question_list>		
+		</item>
+		<item>
+			<id>2</id>
+			<knowledge>math</knowledge>
+			<area>geometry</area>
+			<topic_list>
+				<topic>figurative</topic>
+			</topic_list>
+			<learning_taxonomy>
+				<expression>dialog</expression>
+				<type_list>
+					<type>application</type>
+				</type_list>
+			</learning_taxonomy>
+			<stem_vignette>Identify the angles</stem_vignette>
+			<image_list>
+				<path id="1">A</path>
+				<path id="2">B</path>
+				<path id="3">C</path>
+			</image_list>
+			<question_list>
+				<question>
+					<question_id>2</question_id>
+					<topic_list>
+						<topic>figurative</topic>
+					</topic_list>
+					<depth>Easy</depth>
+					<timer>60</timer>
+					<timer_event_list>
+						<timer_event>
+							<time>30</time>
+							<event_msg>Warning: Only 30 secs left</event_msg>
+						</timer_event>
+						<timer_event>
+							<time>45</time>
+							<event_msg>Hint: Any angle from 0 degrees to 90 degrees are called acute angles.</event_msg>
+						</timer_event>
+					</timer_event_list>
+					<max_no_of_attempts>2</max_no_of_attempts>				
+					<reward>
+						<correct>2</correct>
+						<partially_correct>1</partially_correct>
+						<incorrect>0</incorrect>
+					</reward>
+					<stem_lead-in_questions>In the given diagrams identify all the acute angle?</stem_lead-in_questions>
+					<option_list>
+						<option>
+							<choice>correct</choice>
+							<text>Both A and C</text>
+							<feedback>Well Done</feedback>
+							<hint>TBD</hint>
+						</option>
+						<option>
+							<choice>incorrect</choice>
+							<text>None</text>
+							<feedback>Incorrect answer</feedback>
+							<hint>TBD</hint>
+						</option>
+						<option>
+							<choice>partial</choice>
+							<text>Only A</text>
+							<feedback>Partially correct answer</feedback>
+							<hint>TBD</hint>
+						</option>
+						<option>
+							<choice>incorrect</choice>
+							<text>Both A and B</text>
+							<feedback>Incorrect answer</feedback>
+							<hint>TBD</hint>
+						</option>
+						<option>
+							<choice>incorrect</choice>
+							<text>All of them</text>
+							<feedback>Incorrect answer</feedback>
+							<hint>TBD</hint>
+						</option>
+					</option_list>
+					<follow_up>
+						<correct_follow_up_question>
+							<stem_lead-in_questions>What is the range for acute angles</stem_lead-in_questions>
+							<option_list>
+								<option>
+									<choice>correct</choice>
+									<text>0-90 degrees</text>
+									<feedback>Yes. That is correct </feedback>
+									<hint>TBD</hint>
+								</option>
+								<option>
+									<choice>incorrect</choice>
+									<text>90 - 180 degrees</text>
+									<feedback>Incorret answer</feedback>
+									<hint>TBD</hint>
+								</option>
+							</option_list>
+						</correct_follow_up_question>
+						<incorrect_follow_up_question>
+							<stem_lead-in_questions>What is the angle between 2 perpendicular lines</stem_lead-in_questions>
+							<option_list>
+								<option>
+									<choice>incorrect</choice>
+									<text>0</text>
+									<feedback>Incorrect Answer</feedback>
+									<hint>TBD</hint>
+								</option>
+								<option>
+									<choice>correct</choice>
+									<text>90</text>
+									<feedback>Well Done</feedback>
+									<hint>TBD</hint>
+								</option>
+								<option>
+									<choice>incorrect</choice>
+									<text>45</text>
+									<feedback>Incorrect Answer</feedback>
+									<hint>TBD</hint>
+								</option>
+								<option>
+									<choice>incorrect</choice>
+									<text>180</text>
+									<feedback>Incorrect Answer</feedback>
+									<hint>TBD</hint>
+								</option>
+							</option_list>						
+						</incorrect_follow_up_question>
+					</follow_up>
+				</question>
+			</question_list>	
+		</item>	
+	</item_list>
+</quiz>
+
+<!--references: from the Wisconsin Knowledge and Concepts in Math Grade 4 Guide-->
+<!--Area A:  Mathematical Processes -> <processes>
+Area B: Number Operations and Relationships -> <arithmetic>
+Topic B.a.: Concepts -> <concepts>
+Topic B.b.: Computation -> <computation>
+Area C: Geometry -> <geometry>
+Topic C.a.: Describe figures -> <figurative>
+Topic C.b.: Spatial relationships and transformations -> <spatial>
+Topic C.c.: Coordinate Systems -> <coordinate>
+Area D: Measurement -> <measurement>
+Topic D.a.: Measurable attributes -> <measurable>
+Topic D.b.: Direct measurement -> <direct>
+Topic D.c.: Indirect measurement -> <indirect>
+Area E: Statistics and Probability -> <data_analysis>
+Topic E.a.: Data analysis and statistics -> <statistics>
+Topic E.b.: Probability -> <probability>
+Area F: Algebraic Relationships -> <algebra>
+Topic F.a.: Patterns, relations and functions -> <relations>
+Topic F.b.: Expressions, equations and inequalities -> <expressions>
+Topic F.c.: Properties -> <properties>
+-->

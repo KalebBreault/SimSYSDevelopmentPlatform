@@ -1,0 +1,218 @@
+<!-- Item repository for the software engineering quiz. -->
+<item_xml>
+	<path_list>NULL</path_list>
+	
+	<item_list>
+		<item>
+			<id>1</id>
+			<knowledge>software engineering</knowledge>
+			<area>Software enginnering tools and methods</area>
+			<topic_list>
+				<topic>Analysis of Models</topic>
+			</topic_list>
+			<expression>dialog</expression>
+			<learning_taxonomy_list>
+				<learning_taxonomy>knowledge</learning_taxonomy>
+				<learning_taxonomy>application</learning_taxonomy>
+			</learning_taxonomy_list>
+			<stem_description>Which of the following is not true</stem_description>
+			<image_list>NULL</image_list>
+	
+			<question_list>
+				<question>
+					<question_id>1</question_id>
+					<topic_list>
+						<topic>Analysis of Models</topic>
+					</topic_list>
+					<depth>Easy</depth>
+					<timer>60</timer>
+					<timer_event_list>
+						<timer_event>
+							<time>30</time>
+							<event_msg>Warning: Only 30 secs left</event_msg>
+						</timer_event>
+						<timer_event>
+							<time>45</time>
+							<event_msg>Hint: Every statement is true about waterfall model</event_msg>
+						</timer_event>
+					</timer_event_list>
+					<max_no_of_attempts>2</max_no_of_attempts>
+					<stem_lead-in_questions>Which of the folowing is not true about Waterfall Model.</stem_lead-in_questions>
+					<option_list>
+							<option>
+								<choice>incorrect</choice>
+								<text>The set of requirements should be well-defined</text>
+								<feedback>Incorrect answer.! This is not the only option that is correct about Waterfall model.</feedback>
+							</option>
+							<option>
+								<choice>incorrect</choice>
+								<text>It is a linear, sequential model</text>
+								<feedback>Incorrect answer.! This is not the only option that is correct about Waterfall model.</feedback>
+							</option>
+							<option>
+								<choice>incorrect</choice>
+								<text>A prototype guides the development process</text>
+								<feedback>Incorrect answer.! This is not the only option that is correct about Waterfall model.</feedback>
+							</option>
+							<option>
+								<choice>correct</choice>
+								<text>All of the abve</text>
+								<feedback>Well Done..!</feedback>
+							</option>
+						</option_list>
+						<follow_up>
+							<correct_follow_up_question>
+								<stem_lead-in_questions>Can we add requirments in the middle of a development process that follows waterfall model.</stem_lead-in_questions>
+								<option_list>
+									<option>
+										<choice>correct</choice>
+										<text>False</text>
+										<feedback>Yes. Thats is correct</feedback>
+									</option>
+									<option>
+										<choice>incorrect</choice>
+										<text>True</text>
+										<feedback>We cannot add requirments after the development process has started.</feedback>
+									</option>
+								</option_list>
+							</correct_follow_up_question>
+							<incorrect_follow_up_question>
+								<stem_lead-in_questions>Is it neccessary that a software developed using waterfall model to have a prototype.</stem_lead-in_questions>
+								<option_list>
+									<option>
+										<choice>correct</choice>
+										<text>True</text>
+										<feedback>Yes. That is correct </feedback>
+									</option>
+									<option>
+										<choice>incorrect</choice>
+										<text>False</text>
+										<feedback>We have to create a prototype before starting the development.</feedback>
+									</option>
+								</option_list>						
+							</incorrect_follow_up_question>
+						</follow_up>
+				</question>
+			</question_list>		
+	
+		</item>
+		<item>
+			<id>2</id>
+			<knowledge>software engineering</knowledge>
+			<area>Software Engineering management</area>
+			<topic_list>
+				<topic>initiation and scope definition</topic>
+			</topic_list>
+			<expression>dialog</expression>
+			<learning_taxonomy_list>
+				<learning_taxonomy>knowledge</learning_taxonomy>
+				<learning_taxonomy>application</learning_taxonomy>
+			</learning_taxonomy_list>
+			<stem_description>Chose the correct options</stem_description>
+			<image_list>NULL</image_list>
+	
+			<question_list>
+				<question>
+					<question_id>2</question_id>
+					<topic_list>
+						<topic>initiation and scope definition</topic>
+					</topic_list>
+					<depth>Easy</depth>
+					<timer>60</timer>
+					<timer_event_list>
+						<timer_event>
+							<time>30</time>
+							<event_msg>Warning: Only 30 secs left</event_msg>
+						</timer_event>
+						<timer_event>
+							<time>45</time>
+							<event_msg>Hint: Requirment document should define the requirments clearly and it need not be any specific form.</event_msg>
+						</timer_event>
+					</timer_event_list>
+					<max_no_of_attempts>2</max_no_of_attempts>
+					<stem_lead-in_questions>Requirements can be documented</stem_lead-in_questions>
+					
+					<option_list>
+						<incorrect_option>in natural language (e.g., English)</incorrect_option>
+						<incorrect_option>as UML use cases</incorrect_option>
+						<incorrect_option>as data flow diagrams</incorrect_option>	
+						<incorrect_option>with a formal definition such as Z</incorrect_option>
+						<correct_option>All of he above</correct_option>
+					</option_list>
+					<option_list>
+							<option>
+								<choice>incorrect</choice>
+								<text>in natural language (e.g., English)</text>
+								<feedback>Incorrect answer.! This is not the only way that the requirments can be documented.</feedback>
+							</option>
+							<option>
+								<choice>incorrect</choice>
+								<text>as UML use cases</text>
+								<feedback>Incorrect answer.! This is not the only way that the requirments can be documented.</feedback>
+							</option>
+							<option>
+								<choice>incorrect</choice>
+								<text>as data flow diagrams</text>
+								<feedback>Incorrect answer.! This is not the only way that the requirments can be documented.</feedback>
+							</option>
+							<option>
+								<choice>incorrect</choice>
+								<text>with a formal definition such as Z</text>
+								<feedback>Incorrect answer.! This is not the only way that the requirments can be documented.</feedback>
+							</option>
+							<option>
+								<choice>correct</choice>
+								<text>All of the abve</text>
+								<feedback>Well Done..!</feedback>
+							</option>
+						</option_list>
+						<follow_up>
+							<correct_follow_up_question>
+								<stem_lead-in_questions>Can the requirments be documented in more than one form.</stem_lead-in_questions>
+								<option_list>
+									<option>
+										<choice>correct</choice>
+										<text>True</text>
+										<feedback>Yes. Thats is correct</feedback>
+									</option>
+									<option>
+										<choice>incorrect</choice>
+										<text>False</text>
+										<feedback>We can document the requirments in more than one form.</feedback>
+									</option>
+								</option_list>
+							</correct_follow_up_question>
+							<incorrect_follow_up_question>
+								<stem_lead-in_questions>Can the requirement be documemted in English and also use data flow diagrams for graphical representation.</stem_lead-in_questions>
+								<option_list>
+									<option>
+										<choice>correct</choice>
+										<text>True</text>
+										<feedback>Yes. That is correct </feedback>
+									</option>
+									<option>
+										<choice>incorrect</choice>
+										<text>False</text>
+										<feedback>We can use both.</feedback>
+									</option>
+								</option_list>						
+							</incorrect_follow_up_question>
+						</follow_up>
+				</question>
+			</question_list>	
+		</item>	
+	</item_list>
+</item_xml>	
+
+<!-- references: from the Swebok Guide -->
+<!-- 
+Area A: Software Construction
+Area B: Software Configuration Management
+Area C: Computing Foundations
+Area D: Software Engineering Models and Methods
+Area E: Software Maintenance
+Area F: Mathematical Foundations
+Area G: Software Design
+Area H: Software Engineering Management
+Area I: Software Engineering Professional Practice
+-->
