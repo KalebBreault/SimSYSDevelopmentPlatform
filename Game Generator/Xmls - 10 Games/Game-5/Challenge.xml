@@ -1,0 +1,544 @@
+<Challenge>
+    <LessonChallenges>
+      <LessonChallenge>
+        <Buttons>
+        </Buttons>
+  <ChallengeOptions>
+	<ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	  <ButtonLocationType>CHALLENGE_1</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+	  <Text>distributed systems  </Text>
+	  <Timer></Timer>
+	  <TransitionType>ADDITIONAL</TransitionType>
+	  <AdditionalScreens>
+		<AdditionalScreen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="learningObjectiveFailure">
+		  <Buttons>
+			<Button>
+			  <ButtonLocationType>NEXT</ButtonLocationType>
+			  <Text>Retry</Text>
+			  <Timer></Timer>
+			  <TransitionType>CURRENT_CHALLENGE</TransitionType>
+			</Button>
+		  </Buttons>
+		  <Characters>
+			<Character>
+			  <CharacterType>VILLIAN</CharacterType>
+			  <Timer></Timer>
+			</Character>
+			<Character>
+			  <CharacterType>HERO</CharacterType>
+			  <Timer></Timer>
+			</Character>
+		  </Characters>
+		  <InformationBoxes>
+			<InformationBox>
+			  <Text>You answered incorrectly!</Text>
+			  <TextType>ALT1</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+			<InformationBox>
+			  <Text>Don't worry! You can try again.</Text>
+			  <TextType>HERO</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+		  </InformationBoxes>
+		  <ChallengeOptions />
+		  <Timer></Timer>
+		</AdditionalScreen>
+	  </AdditionalScreens>
+	  <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	</ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_2</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text>communication systems   </Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_CHALLENGE</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_3</ButtonLocationType>
+            <Reward>
+              <Points>2</Points>
+            </Reward>
+            <Text>enterprise resource systems </Text>
+            <Timer></Timer>
+            <TransitionType>END_OF_STORY</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_4</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text>centralized systems  </Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_LESSON</TransitionType>
+          </ChallengeOption>
+  </ChallengeOptions>
+        <Characters>
+          <Character>
+            <CharacterType>HERO</CharacterType>
+            <MovementType></MovementType>
+            <Timer></Timer>
+          </Character>
+        </Characters>
+        <InformationBoxes>
+          <InformationBox>
+            <Text>You can do it!!</Text>
+            <TextType>HERO</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>Using Answer:</Text>
+            <TextType>CHALLENGE_QUESTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>A multi-user computer that hosts all the components of an information system is used in: ?  </Text>
+            <TextType>CHALLENGE_DESCRIPTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+        </InformationBoxes>
+        <Timer>60</Timer>
+      </LessonChallenge>
+<LessonChallenge>
+        <Buttons>
+        </Buttons>
+  <ChallengeOptions>
+	<ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	  <ButtonLocationType>CHALLENGE_1</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+	  <Text> two </Text>
+	  <Timer></Timer>
+	  <TransitionType>ADDITIONAL</TransitionType>
+	  <AdditionalScreens>
+		<AdditionalScreen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="learningObjectiveFailure">
+		  <Buttons>
+			<Button>
+			  <ButtonLocationType>NEXT</ButtonLocationType>
+			  <Text>Retry</Text>
+			  <Timer></Timer>
+			  <TransitionType>CURRENT_CHALLENGE</TransitionType>
+			</Button>
+		  </Buttons>
+		  <Characters>
+			<Character>
+			  <CharacterType>VILLIAN</CharacterType>
+			  <Timer></Timer>
+			</Character>
+			<Character>
+			  <CharacterType>HERO</CharacterType>
+			  <Timer></Timer>
+			</Character>
+		  </Characters>
+		  <InformationBoxes>
+			<InformationBox>
+			  <Text>You answered incorrectly!</Text>
+			  <TextType>ALT1</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+			<InformationBox>
+			  <Text>Don't worry! You can try again.</Text>
+			  <TextType>HERO</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+		  </InformationBoxes>
+		  <ChallengeOptions />
+		  <Timer></Timer>
+		</AdditionalScreen>
+	  </AdditionalScreens>
+	  <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	</ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_2</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text>three </Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_CHALLENGE</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_3</ButtonLocationType>
+            <Reward>
+              <Points>2</Points>
+            </Reward>
+            <Text>four </Text>
+            <Timer></Timer>
+            <TransitionType>END_OF_STORY</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_4</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text>five  </Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_LESSON</TransitionType>
+          </ChallengeOption>
+  </ChallengeOptions>
+        <Characters>
+          <Character>
+            <CharacterType>HERO</CharacterType>
+            <MovementType></MovementType>
+            <Timer></Timer>
+          </Character>
+        </Characters>
+        <InformationBoxes>
+          <InformationBox>
+            <Text>You can do it!!</Text>
+            <TextType>HERO</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>Using Answer:</Text>
+            <TextType>CHALLENGE_QUESTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>An application system can be mapped into how many different layers? </Text>
+            <TextType>CHALLENGE_DESCRIPTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+        </InformationBoxes>
+        <Timer>60</Timer>
+      </LessonChallenge>
+<LessonChallenge>
+        <Buttons>
+        </Buttons>
+  <ChallengeOptions>
+	<ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	  <ButtonLocationType>CHALLENGE_1</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+	  <Text>the presentation logic layer  </Text>
+	  <Timer></Timer>
+	  <TransitionType>ADDITIONAL</TransitionType>
+	  <AdditionalScreens>
+		<AdditionalScreen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="learningObjectiveFailure">
+		  <Buttons>
+			<Button>
+			  <ButtonLocationType>NEXT</ButtonLocationType>
+			  <Text>Retry</Text>
+			  <Timer></Timer>
+			  <TransitionType>CURRENT_CHALLENGE</TransitionType>
+			</Button>
+		  </Buttons>
+		  <Characters>
+			<Character>
+			  <CharacterType>VILLIAN</CharacterType>
+			  <Timer></Timer>
+			</Character>
+			<Character>
+			  <CharacterType>HERO</CharacterType>
+			  <Timer></Timer>
+			</Character>
+		  </Characters>
+		  <InformationBoxes>
+			<InformationBox>
+			  <Text>You answered incorrectly!</Text>
+			  <TextType>ALT1</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+			<InformationBox>
+			  <Text>Don't worry! You can try again.</Text>
+			  <TextType>HERO</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+		  </InformationBoxes>
+		  <ChallengeOptions />
+		  <Timer></Timer>
+		</AdditionalScreen>
+	  </AdditionalScreens>
+	  <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	</ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_2</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text>the application logic layer </Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_CHALLENGE</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_3</ButtonLocationType>
+            <Reward>
+              <Points>2</Points>
+            </Reward>
+            <Text>the data manipulation layer  </Text>
+            <Timer></Timer>
+            <TransitionType>END_OF_STORY</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_4</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text>the data layer  </Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_LESSON</TransitionType>
+          </ChallengeOption>
+  </ChallengeOptions>
+        <Characters>
+          <Character>
+            <CharacterType>HERO</CharacterType>
+            <MovementType></MovementType>
+            <Timer></Timer>
+          </Character>
+        </Characters>
+        <InformationBoxes>
+          <InformationBox>
+            <Text>You can do it!!</Text>
+            <TextType>HERO</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>Using Answer:</Text>
+            <TextType>CHALLENGE_QUESTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>The information system application layer that provides the actual user interface is known as: ? </Text>
+            <TextType>CHALLENGE_DESCRIPTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+        </InformationBoxes>
+        <Timer>60</Timer>
+      </LessonChallenge>
+<LessonChallenge>
+        <Buttons>
+        </Buttons>
+  <ChallengeOptions>
+	<ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	  <ButtonLocationType>CHALLENGE_1</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+	  <Text>the presentation logic layer   </Text>
+	  <Timer></Timer>
+	  <TransitionType>ADDITIONAL</TransitionType>
+	  <AdditionalScreens>
+		<AdditionalScreen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="learningObjectiveFailure">
+		  <Buttons>
+			<Button>
+			  <ButtonLocationType>NEXT</ButtonLocationType>
+			  <Text>Retry</Text>
+			  <Timer></Timer>
+			  <TransitionType>CURRENT_CHALLENGE</TransitionType>
+			</Button>
+		  </Buttons>
+		  <Characters>
+			<Character>
+			  <CharacterType>VILLIAN</CharacterType>
+			  <Timer></Timer>
+			</Character>
+			<Character>
+			  <CharacterType>HERO</CharacterType>
+			  <Timer></Timer>
+			</Character>
+		  </Characters>
+		  <InformationBoxes>
+			<InformationBox>
+			  <Text>You answered incorrectly!</Text>
+			  <TextType>ALT1</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+			<InformationBox>
+			  <Text>Don't worry! You can try again.</Text>
+			  <TextType>HERO</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+		  </InformationBoxes>
+		  <ChallengeOptions />
+		  <Timer></Timer>
+		</AdditionalScreen>
+	  </AdditionalScreens>
+	  <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	</ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_2</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text>the application logic layer   </Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_CHALLENGE</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_3</ButtonLocationType>
+            <Reward>
+              <Points>2</Points>
+            </Reward>
+            <Text> the data manipulation layer  </Text>
+            <Timer></Timer>
+            <TransitionType>END_OF_STORY</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_4</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text>the data layer  </Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_LESSON</TransitionType>
+          </ChallengeOption>
+  </ChallengeOptions>
+        <Characters>
+          <Character>
+            <CharacterType>HERO</CharacterType>
+            <MovementType></MovementType>
+            <Timer></Timer>
+          </Character>
+        </Characters>
+        <InformationBoxes>
+          <InformationBox>
+            <Text>You can do it!!</Text>
+            <TextType>HERO</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>Using Answer:</Text>
+            <TextType>CHALLENGE_QUESTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>The information system application layer that implements any processing that must be done to generate the user interface is known as: ?  </Text>
+            <TextType>CHALLENGE_DESCRIPTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+        </InformationBoxes>
+        <Timer>60</Timer>
+      </LessonChallenge>
+<LessonChallenge>
+        <Buttons>
+        </Buttons>
+  <ChallengeOptions>
+	<ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	  <ButtonLocationType>CHALLENGE_1</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+	  <Text>the presentation logic layer  </Text>
+	  <Timer></Timer>
+	  <TransitionType>ADDITIONAL</TransitionType>
+	  <AdditionalScreens>
+		<AdditionalScreen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="learningObjectiveFailure">
+		  <Buttons>
+			<Button>
+			  <ButtonLocationType>NEXT</ButtonLocationType>
+			  <Text>Retry</Text>
+			  <Timer></Timer>
+			  <TransitionType>CURRENT_CHALLENGE</TransitionType>
+			</Button>
+		  </Buttons>
+		  <Characters>
+			<Character>
+			  <CharacterType>VILLIAN</CharacterType>
+			  <Timer></Timer>
+			</Character>
+			<Character>
+			  <CharacterType>HERO</CharacterType>
+			  <Timer></Timer>
+			</Character>
+		  </Characters>
+		  <InformationBoxes>
+			<InformationBox>
+			  <Text>You answered incorrectly!</Text>
+			  <TextType>ALT1</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+			<InformationBox>
+			  <Text>Don't worry! You can try again.</Text>
+			  <TextType>HERO</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+		  </InformationBoxes>
+		  <ChallengeOptions />
+		  <Timer></Timer>
+		</AdditionalScreen>
+	  </AdditionalScreens>
+	  <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	</ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_2</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text>the application logic layer  </Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_CHALLENGE</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_3</ButtonLocationType>
+            <Reward>
+              <Points>2</Points>
+            </Reward>
+            <Text>the data manipulation layer  </Text>
+            <Timer></Timer>
+            <TransitionType>END_OF_STORY</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_4</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text> the data layer  </Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_LESSON</TransitionType>
+          </ChallengeOption>
+  </ChallengeOptions>
+        <Characters>
+          <Character>
+            <CharacterType>HERO</CharacterType>
+            <MovementType></MovementType>
+            <Timer></Timer>
+          </Character>
+        </Characters>
+        <InformationBoxes>
+          <InformationBox>
+            <Text>You can do it!!</Text>
+            <TextType>HERO</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>Using Answer:</Text>
+            <TextType>CHALLENGE_QUESTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>The information system application layer that includes all the logic and processing required to support the actual business application and rules is known as:  ?</Text>
+            <TextType>CHALLENGE_DESCRIPTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+        </InformationBoxes>
+        <Timer>60</Timer>
+      </LessonChallenge>
+    </LessonChallenges>
+</Challenge>

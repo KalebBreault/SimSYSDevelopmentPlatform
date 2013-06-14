@@ -1,0 +1,976 @@
+<Challenge>
+    <LessonChallenges>
+      <LessonChallenge>
+        <Buttons>
+        </Buttons>
+  <ChallengeOptions>
+	<ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	  <ButtonLocationType>CHALLENGE_1</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+	  <Text>They are made up of many specialized cells. </Text>
+	  <Timer></Timer>
+	  <TransitionType>ADDITIONAL</TransitionType>
+	  <AdditionalScreens>
+		<AdditionalScreen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="learningObjectiveFailure">
+		  <Buttons>
+			<Button>
+			  <ButtonLocationType>NEXT</ButtonLocationType>
+			  <Text>Retry</Text>
+			  <Timer></Timer>
+			  <TransitionType>CURRENT_CHALLENGE</TransitionType>
+			</Button>
+		  </Buttons>
+		  <Characters>
+			<Character>
+			  <CharacterType>VILLIAN</CharacterType>
+			  <Timer></Timer>
+			</Character>
+			<Character>
+			  <CharacterType>HERO</CharacterType>
+			  <Timer></Timer>
+			</Character>
+		  </Characters>
+		  <InformationBoxes>
+			<InformationBox>
+			  <Text>You answered incorrectly!</Text>
+			  <TextType>ALT1</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+			<InformationBox>
+			  <Text>Don't worry! You can try again.</Text>
+			  <TextType>HERO</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+		  </InformationBoxes>
+		  <ChallengeOptions />
+		  <Timer></Timer>
+		</AdditionalScreen>
+	  </AdditionalScreens>
+	  <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	</ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_2</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text>They contain genetic material. </Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_CHALLENGE</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_3</ButtonLocationType>
+            <Reward>
+              <Points>2</Points>
+            </Reward>
+            <Text>They reproduce by mitosis. </Text>
+            <Timer></Timer>
+            <TransitionType>END_OF_STORY</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_4</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text>They contain chlorophyll. </Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_LESSON</TransitionType>
+          </ChallengeOption>
+  </ChallengeOptions>
+        <Characters>
+          <Character>
+            <CharacterType>HERO</CharacterType>
+            <MovementType></MovementType>
+            <Timer></Timer>
+          </Character>
+        </Characters>
+        <InformationBoxes>
+          <InformationBox>
+            <Text>You can do it!!</Text>
+            <TextType>HERO</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>Using Answer:</Text>
+            <TextType>CHALLENGE_QUESTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>Viruses are exceptions to the cell theory, but they have some characteristics of living things. What is one of these characteristics ? </Text>
+            <TextType>CHALLENGE_DESCRIPTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+        </InformationBoxes>
+        <Timer>60</Timer>
+      </LessonChallenge>
+<LessonChallenge>
+        <Buttons>
+        </Buttons>
+  <ChallengeOptions>
+	<ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	  <ButtonLocationType>CHALLENGE_1</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+	  <Text> Mg(OH)2  </Text>
+	  <Timer></Timer>
+	  <TransitionType>ADDITIONAL</TransitionType>
+	  <AdditionalScreens>
+		<AdditionalScreen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="learningObjectiveFailure">
+		  <Buttons>
+			<Button>
+			  <ButtonLocationType>NEXT</ButtonLocationType>
+			  <Text>Retry</Text>
+			  <Timer></Timer>
+			  <TransitionType>CURRENT_CHALLENGE</TransitionType>
+			</Button>
+		  </Buttons>
+		  <Characters>
+			<Character>
+			  <CharacterType>VILLIAN</CharacterType>
+			  <Timer></Timer>
+			</Character>
+			<Character>
+			  <CharacterType>HERO</CharacterType>
+			  <Timer></Timer>
+			</Character>
+		  </Characters>
+		  <InformationBoxes>
+			<InformationBox>
+			  <Text>You answered incorrectly!</Text>
+			  <TextType>ALT1</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+			<InformationBox>
+			  <Text>Don't worry! You can try again.</Text>
+			  <TextType>HERO</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+		  </InformationBoxes>
+		  <ChallengeOptions />
+		  <Timer></Timer>
+		</AdditionalScreen>
+	  </AdditionalScreens>
+	  <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	</ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_2</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text>NaCl  </Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_CHALLENGE</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_3</ButtonLocationType>
+            <Reward>
+              <Points>2</Points>
+            </Reward>
+            <Text>C12H22O11  </Text>
+            <Timer></Timer>
+            <TransitionType>END_OF_STORY</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_4</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text> NH3 	</Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_LESSON</TransitionType>
+          </ChallengeOption>
+  </ChallengeOptions>
+        <Characters>
+          <Character>
+            <CharacterType>HERO</CharacterType>
+            <MovementType></MovementType>
+            <Timer></Timer>
+          </Character>
+        </Characters>
+        <InformationBoxes>
+          <InformationBox>
+            <Text>You can do it!!</Text>
+            <TextType>HERO</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>Using Answer:</Text>
+            <TextType>CHALLENGE_QUESTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>Which formula represents an organic compound ? </Text>
+            <TextType>CHALLENGE_DESCRIPTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+        </InformationBoxes>
+        <Timer>60</Timer>
+      </LessonChallenge>
+<LessonChallenge>
+        <Buttons>
+        </Buttons>
+  <ChallengeOptions>
+	<ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	  <ButtonLocationType>CHALLENGE_1</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+	  <Text>Glucose </Text>
+	  <Timer></Timer>
+	  <TransitionType>ADDITIONAL</TransitionType>
+	  <AdditionalScreens>
+		<AdditionalScreen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="learningObjectiveFailure">
+		  <Buttons>
+			<Button>
+			  <ButtonLocationType>NEXT</ButtonLocationType>
+			  <Text>Retry</Text>
+			  <Timer></Timer>
+			  <TransitionType>CURRENT_CHALLENGE</TransitionType>
+			</Button>
+		  </Buttons>
+		  <Characters>
+			<Character>
+			  <CharacterType>VILLIAN</CharacterType>
+			  <Timer></Timer>
+			</Character>
+			<Character>
+			  <CharacterType>HERO</CharacterType>
+			  <Timer></Timer>
+			</Character>
+		  </Characters>
+		  <InformationBoxes>
+			<InformationBox>
+			  <Text>You answered incorrectly!</Text>
+			  <TextType>ALT1</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+			<InformationBox>
+			  <Text>Don't worry! You can try again.</Text>
+			  <TextType>HERO</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+		  </InformationBoxes>
+		  <ChallengeOptions />
+		  <Timer></Timer>
+		</AdditionalScreen>
+	  </AdditionalScreens>
+	  <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	</ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_2</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text>water </Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_CHALLENGE</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_3</ButtonLocationType>
+            <Reward>
+              <Points>2</Points>
+            </Reward>
+            <Text>sodium chloride </Text>
+            <Timer></Timer>
+            <TransitionType>END_OF_STORY</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_4</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text>oxygen gas </Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_LESSON</TransitionType>
+          </ChallengeOption>
+  </ChallengeOptions>
+        <Characters>
+          <Character>
+            <CharacterType>HERO</CharacterType>
+            <MovementType></MovementType>
+            <Timer></Timer>
+          </Character>
+        </Characters>
+        <InformationBoxes>
+          <InformationBox>
+            <Text>You can do it!!</Text>
+            <TextType>HERO</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>Using Answer:</Text>
+            <TextType>CHALLENGE_QUESTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>Which is an organic compound found in most cells ? </Text>
+            <TextType>CHALLENGE_DESCRIPTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+        </InformationBoxes>
+        <Timer>60</Timer>
+      </LessonChallenge>
+<LessonChallenge>
+        <Buttons>
+        </Buttons>
+  <ChallengeOptions>
+	<ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	  <ButtonLocationType>CHALLENGE_1</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+	  <Text>carbon, oxygen, nitrogen, sulfur   </Text>
+	  <Timer></Timer>
+	  <TransitionType>ADDITIONAL</TransitionType>
+	  <AdditionalScreens>
+		<AdditionalScreen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="learningObjectiveFailure">
+		  <Buttons>
+			<Button>
+			  <ButtonLocationType>NEXT</ButtonLocationType>
+			  <Text>Retry</Text>
+			  <Timer></Timer>
+			  <TransitionType>CURRENT_CHALLENGE</TransitionType>
+			</Button>
+		  </Buttons>
+		  <Characters>
+			<Character>
+			  <CharacterType>VILLIAN</CharacterType>
+			  <Timer></Timer>
+			</Character>
+			<Character>
+			  <CharacterType>HERO</CharacterType>
+			  <Timer></Timer>
+			</Character>
+		  </Characters>
+		  <InformationBoxes>
+			<InformationBox>
+			  <Text>You answered incorrectly!</Text>
+			  <TextType>ALT1</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+			<InformationBox>
+			  <Text>Don't worry! You can try again.</Text>
+			  <TextType>HERO</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+		  </InformationBoxes>
+		  <ChallengeOptions />
+		  <Timer></Timer>
+		</AdditionalScreen>
+	  </AdditionalScreens>
+	  <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	</ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_2</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text>carbon, oxygen, hydrogen, nitrogen  </Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_CHALLENGE</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_3</ButtonLocationType>
+            <Reward>
+              <Points>2</Points>
+            </Reward>
+            <Text> carbon, oxygen, sulfur, phosphorus  </Text>
+            <Timer></Timer>
+            <TransitionType>END_OF_STORY</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_4</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text>carbon, sulfur, hydrogen, magnesium	</Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_LESSON</TransitionType>
+          </ChallengeOption>
+  </ChallengeOptions>
+        <Characters>
+          <Character>
+            <CharacterType>HERO</CharacterType>
+            <MovementType></MovementType>
+            <Timer></Timer>
+          </Character>
+        </Characters>
+        <InformationBoxes>
+          <InformationBox>
+            <Text>You can do it!!</Text>
+            <TextType>HERO</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>Using Answer:</Text>
+            <TextType>CHALLENGE_QUESTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>Which are the four most abundant elements in living cells? </Text>
+            <TextType>CHALLENGE_DESCRIPTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+        </InformationBoxes>
+        <Timer>60</Timer>
+      </LessonChallenge>
+<LessonChallenge>
+        <Buttons>
+        </Buttons>
+  <ChallengeOptions>
+	<ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	  <ButtonLocationType>CHALLENGE_1</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+	  <Text>nucleic acids and minerals   </Text>
+	  <Timer></Timer>
+	  <TransitionType>ADDITIONAL</TransitionType>
+	  <AdditionalScreens>
+		<AdditionalScreen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="learningObjectiveFailure">
+		  <Buttons>
+			<Button>
+			  <ButtonLocationType>NEXT</ButtonLocationType>
+			  <Text>Retry</Text>
+			  <Timer></Timer>
+			  <TransitionType>CURRENT_CHALLENGE</TransitionType>
+			</Button>
+		  </Buttons>
+		  <Characters>
+			<Character>
+			  <CharacterType>VILLIAN</CharacterType>
+			  <Timer></Timer>
+			</Character>
+			<Character>
+			  <CharacterType>HERO</CharacterType>
+			  <Timer></Timer>
+			</Character>
+		  </Characters>
+		  <InformationBoxes>
+			<InformationBox>
+			  <Text>You answered incorrectly!</Text>
+			  <TextType>ALT1</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+			<InformationBox>
+			  <Text>Don't worry! You can try again.</Text>
+			  <TextType>HERO</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+		  </InformationBoxes>
+		  <ChallengeOptions />
+		  <Timer></Timer>
+		</AdditionalScreen>
+	  </AdditionalScreens>
+	  <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	</ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_2</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text>proteins and water  </Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_CHALLENGE</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_3</ButtonLocationType>
+            <Reward>
+              <Points>2</Points>
+            </Reward>
+            <Text>water and salts  </Text>
+            <Timer></Timer>
+            <TransitionType>END_OF_STORY</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_4</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text> nucleic acids and proteins </Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_LESSON</TransitionType>
+          </ChallengeOption>
+  </ChallengeOptions>
+        <Characters>
+          <Character>
+            <CharacterType>HERO</CharacterType>
+            <MovementType></MovementType>
+            <Timer></Timer>
+          </Character>
+        </Characters>
+        <InformationBoxes>
+          <InformationBox>
+            <Text>You can do it!!</Text>
+            <TextType>HERO</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>Using Answer:</Text>
+            <TextType>CHALLENGE_QUESTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>Which pair of compounds can be classified as inorganic? </Text>
+            <TextType>CHALLENGE_DESCRIPTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+        </InformationBoxes>
+        <Timer>60</Timer>
+      </LessonChallenge>
+<LessonChallenge>
+        <Buttons>
+        </Buttons>
+  <ChallengeOptions>
+	<ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	  <ButtonLocationType>CHALLENGE_1</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+	  <Text> artificial selection and inbreeding  </Text>
+	  <Timer></Timer>
+	  <TransitionType>ADDITIONAL</TransitionType>
+	  <AdditionalScreens>
+		<AdditionalScreen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="learningObjectiveFailure">
+		  <Buttons>
+			<Button>
+			  <ButtonLocationType>NEXT</ButtonLocationType>
+			  <Text>Retry</Text>
+			  <Timer></Timer>
+			  <TransitionType>CURRENT_CHALLENGE</TransitionType>
+			</Button>
+		  </Buttons>
+		  <Characters>
+			<Character>
+			  <CharacterType>VILLIAN</CharacterType>
+			  <Timer></Timer>
+			</Character>
+			<Character>
+			  <CharacterType>HERO</CharacterType>
+			  <Timer></Timer>
+			</Character>
+		  </Characters>
+		  <InformationBoxes>
+			<InformationBox>
+			  <Text>You answered incorrectly!</Text>
+			  <TextType>ALT1</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+			<InformationBox>
+			  <Text>Don't worry! You can try again.</Text>
+			  <TextType>HERO</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+		  </InformationBoxes>
+		  <ChallengeOptions />
+		  <Timer></Timer>
+		</AdditionalScreen>
+	  </AdditionalScreens>
+	  <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	</ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_2</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text>grafting and hybridization  </Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_CHALLENGE</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_3</ButtonLocationType>
+            <Reward>
+              <Points>2</Points>
+            </Reward>
+            <Text>regeneration and incubation </Text>
+            <Timer></Timer>
+            <TransitionType>END_OF_STORY</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_4</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text>vegetative propagation and binary fission </Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_LESSON</TransitionType>
+          </ChallengeOption>
+  </ChallengeOptions>
+        <Characters>
+          <Character>
+            <CharacterType>HERO</CharacterType>
+            <MovementType></MovementType>
+            <Timer></Timer>
+          </Character>
+        </Characters>
+        <InformationBoxes>
+          <InformationBox>
+            <Text>You can do it!!</Text>
+            <TextType>HERO</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>Using Answer:</Text>
+            <TextType>CHALLENGE_QUESTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>Breeders have developed a variety of chicken that has no feathers. Which methods were most likely used to produce this variety? </Text>
+            <TextType>CHALLENGE_DESCRIPTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+        </InformationBoxes>
+        <Timer>60</Timer>
+      </LessonChallenge>
+<LessonChallenge>
+        <Buttons>
+        </Buttons>
+  <ChallengeOptions>
+	<ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	  <ButtonLocationType>CHALLENGE_1</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+	  <Text> careful microscopic examinations of genes and chromosomes  </Text>
+	  <Timer></Timer>
+	  <TransitionType>ADDITIONAL</TransitionType>
+	  <AdditionalScreens>
+		<AdditionalScreen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="learningObjectiveFailure">
+		  <Buttons>
+			<Button>
+			  <ButtonLocationType>NEXT</ButtonLocationType>
+			  <Text>Retry</Text>
+			  <Timer></Timer>
+			  <TransitionType>CURRENT_CHALLENGE</TransitionType>
+			</Button>
+		  </Buttons>
+		  <Characters>
+			<Character>
+			  <CharacterType>VILLIAN</CharacterType>
+			  <Timer></Timer>
+			</Character>
+			<Character>
+			  <CharacterType>HERO</CharacterType>
+			  <Timer></Timer>
+			</Character>
+		  </Characters>
+		  <InformationBoxes>
+			<InformationBox>
+			  <Text>You answered incorrectly!</Text>
+			  <TextType>ALT1</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+			<InformationBox>
+			  <Text>Don't worry! You can try again.</Text>
+			  <TextType>HERO</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+		  </InformationBoxes>
+		  <ChallengeOptions />
+		  <Timer></Timer>
+		</AdditionalScreen>
+	  </AdditionalScreens>
+	  <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	</ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_2</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text>dissections to determine how fertilization occurs in pea plants  </Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_CHALLENGE</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_3</ButtonLocationType>
+            <Reward>
+              <Points>2</Points>
+            </Reward>
+            <Text>breeding experiments with many generations of fruit flies   </Text>
+            <Timer></Timer>
+            <TransitionType>END_OF_STORY</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_4</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text>analysis of the offspring produced from many pea plant crosses </Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_LESSON</TransitionType>
+          </ChallengeOption>
+  </ChallengeOptions>
+        <Characters>
+          <Character>
+            <CharacterType>HERO</CharacterType>
+            <MovementType></MovementType>
+            <Timer></Timer>
+          </Character>
+        </Characters>
+        <InformationBoxes>
+          <InformationBox>
+            <Text>You can do it!!</Text>
+            <TextType>HERO</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>Using Answer:</Text>
+            <TextType>CHALLENGE_QUESTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>Mendel's discovery that characteristics are inherited due to the transmission of hereditary factors resulted from his ?</Text>
+            <TextType>CHALLENGE_DESCRIPTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+        </InformationBoxes>
+        <Timer>60</Timer>
+      </LessonChallenge>
+<LessonChallenge>
+        <Buttons>
+        </Buttons>
+  <ChallengeOptions>
+	<ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	  <ButtonLocationType>CHALLENGE_1</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+	  <Text> independent assortment  </Text>
+	  <Timer></Timer>
+	  <TransitionType>ADDITIONAL</TransitionType>
+	  <AdditionalScreens>
+		<AdditionalScreen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="learningObjectiveFailure">
+		  <Buttons>
+			<Button>
+			  <ButtonLocationType>NEXT</ButtonLocationType>
+			  <Text>Retry</Text>
+			  <Timer></Timer>
+			  <TransitionType>CURRENT_CHALLENGE</TransitionType>
+			</Button>
+		  </Buttons>
+		  <Characters>
+			<Character>
+			  <CharacterType>VILLIAN</CharacterType>
+			  <Timer></Timer>
+			</Character>
+			<Character>
+			  <CharacterType>HERO</CharacterType>
+			  <Timer></Timer>
+			</Character>
+		  </Characters>
+		  <InformationBoxes>
+			<InformationBox>
+			  <Text>You answered incorrectly!</Text>
+			  <TextType>ALT1</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+			<InformationBox>
+			  <Text>Don't worry! You can try again.</Text>
+			  <TextType>HERO</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+		  </InformationBoxes>
+		  <ChallengeOptions />
+		  <Timer></Timer>
+		</AdditionalScreen>
+	  </AdditionalScreens>
+	  <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	</ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_2</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text>crossing-over  </Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_CHALLENGE</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_3</ButtonLocationType>
+            <Reward>
+              <Points>2</Points>
+            </Reward>
+            <Text>artificial selection  </Text>
+            <Timer></Timer>
+            <TransitionType>END_OF_STORY</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_4</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text>natural selection </Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_LESSON</TransitionType>
+          </ChallengeOption>
+  </ChallengeOptions>
+        <Characters>
+          <Character>
+            <CharacterType>HERO</CharacterType>
+            <MovementType></MovementType>
+            <Timer></Timer>
+          </Character>
+        </Characters>
+        <InformationBoxes>
+          <InformationBox>
+            <Text>You can do it!!</Text>
+            <TextType>HERO</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>Using Answer:</Text>
+            <TextType>CHALLENGE_QUESTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>Which is a breeding method used by humans to produce new and improved varieties of plants and animals? </Text>
+            <TextType>CHALLENGE_DESCRIPTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+        </InformationBoxes>
+        <Timer>60</Timer>
+      </LessonChallenge>
+<LessonChallenge>
+        <Buttons>
+        </Buttons>
+  <ChallengeOptions>
+	<ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	  <ButtonLocationType>CHALLENGE_1</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+	  <Text> nondisjunction  </Text>
+	  <Timer></Timer>
+	  <TransitionType>ADDITIONAL</TransitionType>
+	  <AdditionalScreens>
+		<AdditionalScreen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="learningObjectiveFailure">
+		  <Buttons>
+			<Button>
+			  <ButtonLocationType>NEXT</ButtonLocationType>
+			  <Text>Retry</Text>
+			  <Timer></Timer>
+			  <TransitionType>CURRENT_CHALLENGE</TransitionType>
+			</Button>
+		  </Buttons>
+		  <Characters>
+			<Character>
+			  <CharacterType>VILLIAN</CharacterType>
+			  <Timer></Timer>
+			</Character>
+			<Character>
+			  <CharacterType>HERO</CharacterType>
+			  <Timer></Timer>
+			</Character>
+		  </Characters>
+		  <InformationBoxes>
+			<InformationBox>
+			  <Text>You answered incorrectly!</Text>
+			  <TextType>ALT1</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+			<InformationBox>
+			  <Text>Don't worry! You can try again.</Text>
+			  <TextType>HERO</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+		  </InformationBoxes>
+		  <ChallengeOptions />
+		  <Timer></Timer>
+		</AdditionalScreen>
+	  </AdditionalScreens>
+	  <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	</ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_2</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text>crossing-over  </Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_CHALLENGE</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_3</ButtonLocationType>
+            <Reward>
+              <Points>2</Points>
+            </Reward>
+            <Text>segregation </Text>
+            <Timer></Timer>
+            <TransitionType>END_OF_STORY</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_4</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text>hybridization </Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_LESSON</TransitionType>
+          </ChallengeOption>
+  </ChallengeOptions>
+        <Characters>
+          <Character>
+            <CharacterType>HERO</CharacterType>
+            <MovementType></MovementType>
+            <Timer></Timer>
+          </Character>
+        </Characters>
+        <InformationBoxes>
+          <InformationBox>
+            <Text>You can do it!!</Text>
+            <TextType>HERO</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>Using Answer:</Text>
+            <TextType>CHALLENGE_QUESTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>A child is born with an extra chromosome in each of its cells. This condition is usually the result of ? </Text>
+            <TextType>CHALLENGE_DESCRIPTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+        </InformationBoxes>
+        <Timer>60</Timer>
+      </LessonChallenge>
+    </LessonChallenges>
+</Challenge>

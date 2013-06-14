@@ -1,0 +1,98 @@
+<Lesson>
+    <LessonScreens>
+      <LessonScreen>
+        <Buttons>
+          <Button>
+            <ButtonLocationType>NEXT</ButtonLocationType>
+            <Text>Continue</Text>
+            <Timer></Timer>
+            <TransitionType>NEXT_SCREEN</TransitionType>
+          </Button>
+        </Buttons>
+        <Characters>
+          <Character>
+            <CharacterType>Hero</CharacterType>
+            <Timer></Timer>
+          </Character>
+        </Characters>
+        <InformationBoxes>
+          <InformationBox>
+            <Text>Hey Gooble users welcome to the class</Text>
+            <TextType>ALT1</TextType>
+            <Timer></Timer>
+          </InformationBox>
+        </InformationBoxes>
+      </LessonScreen>
+<LessonScreen>
+        <Buttons>
+          <Button>
+            <ButtonLocationType>NEXT</ButtonLocationType>
+            <Text>Continue</Text>
+            <Timer></Timer>
+            <TransitionType>NEXT_SCREEN</TransitionType>
+          </Button>
+        </Buttons>
+        <Characters>
+          <Character>
+            <CharacterType>Hero</CharacterType>
+            <Timer></Timer>
+          </Character>
+        </Characters>
+        <InformationBoxes>
+          <InformationBox>
+            <Text>The operating system is the most important program that runs on a computer. Every general-purpose computer must have an operating system to run other programs. </Text>
+            <TextType>ALT1</TextType>
+            <Timer></Timer>
+          </InformationBox>
+        </InformationBoxes>
+      </LessonScreen>
+<LessonScreen>
+        <Buttons>
+          <Button>
+            <ButtonLocationType>NEXT</ButtonLocationType>
+            <Text>Continue</Text>
+            <Timer></Timer>
+            <TransitionType>NEXT_SCREEN</TransitionType>
+          </Button>
+        </Buttons>
+        <Characters>
+          <Character>
+            <CharacterType>Hero</CharacterType>
+            <Timer></Timer>
+          </Character>
+        </Characters>
+        <InformationBoxes>
+          <InformationBox>
+            <Text>Operating systems perform basic tasks, such as recognizing input from the keyboard, sending output to the display screen, keeping track of files and directories on the disk, and controlling peripheral devices such as disk drives and printers.
+		</Text>
+            <TextType>ALT1</TextType>
+            <Timer></Timer>
+          </InformationBox>
+        </InformationBoxes>
+      </LessonScreen>
+<LessonScreen>
+        <Buttons>
+          <Button>
+            <ButtonLocationType>NEXT</ButtonLocationType>
+            <Text>Continue</Text>
+            <Timer></Timer>
+            <TransitionType>NEXT_SCREEN</TransitionType>
+          </Button>
+        </Buttons>
+        <Characters>
+          <Character>
+            <CharacterType>Hero</CharacterType>
+            <Timer></Timer>
+          </Character>
+        </Characters>
+        <InformationBoxes>
+          <InformationBox>
+            <Text>For large systems, the operating system has even greater responsibilities and powers. It is like a traffic cop -- it makes sure that different programs and users running at the same time do not interfere with each other. The operating system is also responsible for security, ensuring that unauthorized users do not access the system.
+		</Text>
+            <TextType>ALT1</TextType>
+            <Timer></Timer>
+          </InformationBox>
+        </InformationBoxes>
+      </LessonScreen>
+    </LessonScreens>
+</Lesson>

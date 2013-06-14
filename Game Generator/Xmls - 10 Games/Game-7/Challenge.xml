@@ -1,0 +1,977 @@
+<Challenge>
+    <LessonChallenges>
+      <LessonChallenge>
+        <Buttons>
+        </Buttons>
+  <ChallengeOptions>
+	<ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	  <ButtonLocationType>CHALLENGE_1</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+	  <Text>Cloth is a poor conductor of heat </Text>
+	  <Timer></Timer>
+	  <TransitionType>ADDITIONAL</TransitionType>
+	  <AdditionalScreens>
+		<AdditionalScreen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="learningObjectiveFailure">
+		  <Buttons>
+			<Button>
+			  <ButtonLocationType>NEXT</ButtonLocationType>
+			  <Text>Retry</Text>
+			  <Timer></Timer>
+			  <TransitionType>CURRENT_CHALLENGE</TransitionType>
+			</Button>
+		  </Buttons>
+		  <Characters>
+			<Character>
+			  <CharacterType>VILLIAN</CharacterType>
+			  <Timer></Timer>
+			</Character>
+			<Character>
+			  <CharacterType>HERO</CharacterType>
+			  <Timer></Timer>
+			</Character>
+		  </Characters>
+		  <InformationBoxes>
+			<InformationBox>
+			  <Text>You answered incorrectly!</Text>
+			  <TextType>ALT1</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+			<InformationBox>
+			  <Text>Don't worry! You can try again.</Text>
+			  <TextType>HERO</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+		  </InformationBoxes>
+		  <ChallengeOptions />
+		  <Timer></Timer>
+		</AdditionalScreen>
+	  </AdditionalScreens>
+	  <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	</ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_2</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text>Cloth is good conductor of heat </Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_CHALLENGE</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_3</ButtonLocationType>
+            <Reward>
+              <Points>2</Points>
+            </Reward>
+            <Text>External heat rays enter into the body through woolen clothes  </Text>
+            <Timer></Timer>
+            <TransitionType>END_OF_STORY</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_4</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text>None of above	</Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_LESSON</TransitionType>
+          </ChallengeOption>
+  </ChallengeOptions>
+        <Characters>
+          <Character>
+            <CharacterType>HERO</CharacterType>
+            <MovementType></MovementType>
+            <Timer></Timer>
+          </Character>
+        </Characters>
+        <InformationBoxes>
+          <InformationBox>
+            <Text>You can do it!!</Text>
+            <TextType>HERO</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>Using Answer:</Text>
+            <TextType>CHALLENGE_QUESTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>Woolen Clothes protect the body from cold because ? </Text>
+            <TextType>CHALLENGE_DESCRIPTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+        </InformationBoxes>
+        <Timer>60</Timer>
+      </LessonChallenge>
+<LessonChallenge>
+        <Buttons>
+        </Buttons>
+  <ChallengeOptions>
+	<ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	  <ButtonLocationType>CHALLENGE_1</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+	  <Text> It has squint eyes </Text>
+	  <Timer></Timer>
+	  <TransitionType>ADDITIONAL</TransitionType>
+	  <AdditionalScreens>
+		<AdditionalScreen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="learningObjectiveFailure">
+		  <Buttons>
+			<Button>
+			  <ButtonLocationType>NEXT</ButtonLocationType>
+			  <Text>Retry</Text>
+			  <Timer></Timer>
+			  <TransitionType>CURRENT_CHALLENGE</TransitionType>
+			</Button>
+		  </Buttons>
+		  <Characters>
+			<Character>
+			  <CharacterType>VILLIAN</CharacterType>
+			  <Timer></Timer>
+			</Character>
+			<Character>
+			  <CharacterType>HERO</CharacterType>
+			  <Timer></Timer>
+			</Character>
+		  </Characters>
+		  <InformationBoxes>
+			<InformationBox>
+			  <Text>You answered incorrectly!</Text>
+			  <TextType>ALT1</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+			<InformationBox>
+			  <Text>Don't worry! You can try again.</Text>
+			  <TextType>HERO</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+		  </InformationBoxes>
+		  <ChallengeOptions />
+		  <Timer></Timer>
+		</AdditionalScreen>
+	  </AdditionalScreens>
+	  <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	</ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_2</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text>It has large eyes with orbs directed forward, giving it binocular sight </Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_CHALLENGE</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_3</ButtonLocationType>
+            <Reward>
+              <Points>2</Points>
+            </Reward>
+            <Text>It has light bulbs in its eyes provided by nature  </Text>
+            <Timer></Timer>
+            <TransitionType>END_OF_STORY</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_4</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text>None of the above </Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_LESSON</TransitionType>
+          </ChallengeOption>
+  </ChallengeOptions>
+        <Characters>
+          <Character>
+            <CharacterType>HERO</CharacterType>
+            <MovementType></MovementType>
+            <Timer></Timer>
+          </Character>
+        </Characters>
+        <InformationBoxes>
+          <InformationBox>
+            <Text>You can do it!!</Text>
+            <TextType>HERO</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>Using Answer:</Text>
+            <TextType>CHALLENGE_QUESTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>The owl can see most clearly in total 
+darkness because- ? </Text>
+            <TextType>CHALLENGE_DESCRIPTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+        </InformationBoxes>
+        <Timer>60</Timer>
+      </LessonChallenge>
+<LessonChallenge>
+        <Buttons>
+        </Buttons>
+  <ChallengeOptions>
+	<ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	  <ButtonLocationType>CHALLENGE_1</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+	  <Text>Chromium,Nickel,Iron and Carbon </Text>
+	  <Timer></Timer>
+	  <TransitionType>ADDITIONAL</TransitionType>
+	  <AdditionalScreens>
+		<AdditionalScreen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="learningObjectiveFailure">
+		  <Buttons>
+			<Button>
+			  <ButtonLocationType>NEXT</ButtonLocationType>
+			  <Text>Retry</Text>
+			  <Timer></Timer>
+			  <TransitionType>CURRENT_CHALLENGE</TransitionType>
+			</Button>
+		  </Buttons>
+		  <Characters>
+			<Character>
+			  <CharacterType>VILLIAN</CharacterType>
+			  <Timer></Timer>
+			</Character>
+			<Character>
+			  <CharacterType>HERO</CharacterType>
+			  <Timer></Timer>
+			</Character>
+		  </Characters>
+		  <InformationBoxes>
+			<InformationBox>
+			  <Text>You answered incorrectly!</Text>
+			  <TextType>ALT1</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+			<InformationBox>
+			  <Text>Don't worry! You can try again.</Text>
+			  <TextType>HERO</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+		  </InformationBoxes>
+		  <ChallengeOptions />
+		  <Timer></Timer>
+		</AdditionalScreen>
+	  </AdditionalScreens>
+	  <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	</ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_2</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text>Nickel,Iron and Carbon </Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_CHALLENGE</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_3</ButtonLocationType>
+            <Reward>
+              <Points>2</Points>
+            </Reward>
+            <Text>Iron and Carbon only </Text>
+            <Timer></Timer>
+            <TransitionType>END_OF_STORY</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_4</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text>Chromium,Iron and Carbon</Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_LESSON</TransitionType>
+          </ChallengeOption>
+  </ChallengeOptions>
+        <Characters>
+          <Character>
+            <CharacterType>HERO</CharacterType>
+            <MovementType></MovementType>
+            <Timer></Timer>
+          </Character>
+        </Characters>
+        <InformationBoxes>
+          <InformationBox>
+            <Text>You can do it!!</Text>
+            <TextType>HERO</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>Using Answer:</Text>
+            <TextType>CHALLENGE_QUESTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>Stainless steel contains- ? </Text>
+            <TextType>CHALLENGE_DESCRIPTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+        </InformationBoxes>
+        <Timer>60</Timer>
+      </LessonChallenge>
+<LessonChallenge>
+        <Buttons>
+        </Buttons>
+  <ChallengeOptions>
+	<ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	  <ButtonLocationType>CHALLENGE_1</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+	  <Text>55 </Text>
+	  <Timer></Timer>
+	  <TransitionType>ADDITIONAL</TransitionType>
+	  <AdditionalScreens>
+		<AdditionalScreen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="learningObjectiveFailure">
+		  <Buttons>
+			<Button>
+			  <ButtonLocationType>NEXT</ButtonLocationType>
+			  <Text>Retry</Text>
+			  <Timer></Timer>
+			  <TransitionType>CURRENT_CHALLENGE</TransitionType>
+			</Button>
+		  </Buttons>
+		  <Characters>
+			<Character>
+			  <CharacterType>VILLIAN</CharacterType>
+			  <Timer></Timer>
+			</Character>
+			<Character>
+			  <CharacterType>HERO</CharacterType>
+			  <Timer></Timer>
+			</Character>
+		  </Characters>
+		  <InformationBoxes>
+			<InformationBox>
+			  <Text>You answered incorrectly!</Text>
+			  <TextType>ALT1</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+			<InformationBox>
+			  <Text>Don't worry! You can try again.</Text>
+			  <TextType>HERO</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+		  </InformationBoxes>
+		  <ChallengeOptions />
+		  <Timer></Timer>
+		</AdditionalScreen>
+	  </AdditionalScreens>
+	  <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	</ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_2</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text>75 </Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_CHALLENGE</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_3</ButtonLocationType>
+            <Reward>
+              <Points>2</Points>
+            </Reward>
+            <Text> 85 </Text>
+            <Timer></Timer>
+            <TransitionType>END_OF_STORY</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_4</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text>120</Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_LESSON</TransitionType>
+          </ChallengeOption>
+  </ChallengeOptions>
+        <Characters>
+          <Character>
+            <CharacterType>HERO</CharacterType>
+            <MovementType></MovementType>
+            <Timer></Timer>
+          </Character>
+        </Characters>
+        <InformationBoxes>
+          <InformationBox>
+            <Text>You can do it!!</Text>
+            <TextType>HERO</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>Using Answer:</Text>
+            <TextType>CHALLENGE_QUESTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>The maximum limit of sound beyond which a person can become deaf is- ? </Text>
+            <TextType>CHALLENGE_DESCRIPTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+        </InformationBoxes>
+        <Timer>60</Timer>
+      </LessonChallenge>
+<LessonChallenge>
+        <Buttons>
+        </Buttons>
+  <ChallengeOptions>
+	<ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	  <ButtonLocationType>CHALLENGE_1</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+	  <Text>Nitrogen </Text>
+	  <Timer></Timer>
+	  <TransitionType>ADDITIONAL</TransitionType>
+	  <AdditionalScreens>
+		<AdditionalScreen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="learningObjectiveFailure">
+		  <Buttons>
+			<Button>
+			  <ButtonLocationType>NEXT</ButtonLocationType>
+			  <Text>Retry</Text>
+			  <Timer></Timer>
+			  <TransitionType>CURRENT_CHALLENGE</TransitionType>
+			</Button>
+		  </Buttons>
+		  <Characters>
+			<Character>
+			  <CharacterType>VILLIAN</CharacterType>
+			  <Timer></Timer>
+			</Character>
+			<Character>
+			  <CharacterType>HERO</CharacterType>
+			  <Timer></Timer>
+			</Character>
+		  </Characters>
+		  <InformationBoxes>
+			<InformationBox>
+			  <Text>You answered incorrectly!</Text>
+			  <TextType>ALT1</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+			<InformationBox>
+			  <Text>Don't worry! You can try again.</Text>
+			  <TextType>HERO</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+		  </InformationBoxes>
+		  <ChallengeOptions />
+		  <Timer></Timer>
+		</AdditionalScreen>
+	  </AdditionalScreens>
+	  <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	</ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_2</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text>Carbon monoxide  </Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_CHALLENGE</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_3</ButtonLocationType>
+            <Reward>
+              <Points>2</Points>
+            </Reward>
+            <Text>Carbon di oxide </Text>
+            <Timer></Timer>
+            <TransitionType>END_OF_STORY</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_4</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text> Oxygen </Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_LESSON</TransitionType>
+          </ChallengeOption>
+  </ChallengeOptions>
+        <Characters>
+          <Character>
+            <CharacterType>HERO</CharacterType>
+            <MovementType></MovementType>
+            <Timer></Timer>
+          </Character>
+        </Characters>
+        <InformationBoxes>
+          <InformationBox>
+            <Text>You can do it!!</Text>
+            <TextType>HERO</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>Using Answer:</Text>
+            <TextType>CHALLENGE_QUESTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>Which gas often creates more air- pollution ?</Text>
+            <TextType>CHALLENGE_DESCRIPTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+        </InformationBoxes>
+        <Timer>60</Timer>
+      </LessonChallenge>
+<LessonChallenge>
+        <Buttons>
+        </Buttons>
+  <ChallengeOptions>
+	<ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	  <ButtonLocationType>CHALLENGE_1</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+	  <Text> Mouth of Mouth resuscitation </Text>
+	  <Timer></Timer>
+	  <TransitionType>ADDITIONAL</TransitionType>
+	  <AdditionalScreens>
+		<AdditionalScreen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="learningObjectiveFailure">
+		  <Buttons>
+			<Button>
+			  <ButtonLocationType>NEXT</ButtonLocationType>
+			  <Text>Retry</Text>
+			  <Timer></Timer>
+			  <TransitionType>CURRENT_CHALLENGE</TransitionType>
+			</Button>
+		  </Buttons>
+		  <Characters>
+			<Character>
+			  <CharacterType>VILLIAN</CharacterType>
+			  <Timer></Timer>
+			</Character>
+			<Character>
+			  <CharacterType>HERO</CharacterType>
+			  <Timer></Timer>
+			</Character>
+		  </Characters>
+		  <InformationBoxes>
+			<InformationBox>
+			  <Text>You answered incorrectly!</Text>
+			  <TextType>ALT1</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+			<InformationBox>
+			  <Text>Don't worry! You can try again.</Text>
+			  <TextType>HERO</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+		  </InformationBoxes>
+		  <ChallengeOptions />
+		  <Timer></Timer>
+		</AdditionalScreen>
+	  </AdditionalScreens>
+	  <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	</ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_2</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text>Giving external cardiac Massage  </Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_CHALLENGE</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_3</ButtonLocationType>
+            <Reward>
+              <Points>2</Points>
+            </Reward>
+            <Text>Giving cool water to drink </Text>
+            <Timer></Timer>
+            <TransitionType>END_OF_STORY</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_4</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text>Giving complete body Massage</Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_LESSON</TransitionType>
+          </ChallengeOption>
+  </ChallengeOptions>
+        <Characters>
+          <Character>
+            <CharacterType>HERO</CharacterType>
+            <MovementType></MovementType>
+            <Timer></Timer>
+          </Character>
+        </Characters>
+        <InformationBoxes>
+          <InformationBox>
+            <Text>You can do it!!</Text>
+            <TextType>HERO</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>Using Answer:</Text>
+            <TextType>CHALLENGE_QUESTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>During cardiac failure, which of the following is advised as a first aid ?</Text>
+            <TextType>CHALLENGE_DESCRIPTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+        </InformationBoxes>
+        <Timer>60</Timer>
+      </LessonChallenge>
+<LessonChallenge>
+        <Buttons>
+        </Buttons>
+  <ChallengeOptions>
+	<ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	  <ButtonLocationType>CHALLENGE_1</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+	  <Text> Light </Text>
+	  <Timer></Timer>
+	  <TransitionType>ADDITIONAL</TransitionType>
+	  <AdditionalScreens>
+		<AdditionalScreen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="learningObjectiveFailure">
+		  <Buttons>
+			<Button>
+			  <ButtonLocationType>NEXT</ButtonLocationType>
+			  <Text>Retry</Text>
+			  <Timer></Timer>
+			  <TransitionType>CURRENT_CHALLENGE</TransitionType>
+			</Button>
+		  </Buttons>
+		  <Characters>
+			<Character>
+			  <CharacterType>VILLIAN</CharacterType>
+			  <Timer></Timer>
+			</Character>
+			<Character>
+			  <CharacterType>HERO</CharacterType>
+			  <Timer></Timer>
+			</Character>
+		  </Characters>
+		  <InformationBoxes>
+			<InformationBox>
+			  <Text>You answered incorrectly!</Text>
+			  <TextType>ALT1</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+			<InformationBox>
+			  <Text>Don't worry! You can try again.</Text>
+			  <TextType>HERO</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+		  </InformationBoxes>
+		  <ChallengeOptions />
+		  <Timer></Timer>
+		</AdditionalScreen>
+	  </AdditionalScreens>
+	  <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	</ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_2</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text>Heat</Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_CHALLENGE</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_3</ButtonLocationType>
+            <Reward>
+              <Points>2</Points>
+            </Reward>
+            <Text>Sound  </Text>
+            <Timer></Timer>
+            <TransitionType>END_OF_STORY</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_4</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text>Electro-Magnetic </Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_LESSON</TransitionType>
+          </ChallengeOption>
+  </ChallengeOptions>
+        <Characters>
+          <Character>
+            <CharacterType>HERO</CharacterType>
+            <MovementType></MovementType>
+            <Timer></Timer>
+          </Character>
+        </Characters>
+        <InformationBoxes>
+          <InformationBox>
+            <Text>You can do it!!</Text>
+            <TextType>HERO</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>Using Answer:</Text>
+            <TextType>CHALLENGE_QUESTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>waves cannot be transmitted through vacuum-?</Text>
+            <TextType>CHALLENGE_DESCRIPTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+        </InformationBoxes>
+        <Timer>60</Timer>
+      </LessonChallenge>
+<LessonChallenge>
+        <Buttons>
+        </Buttons>
+  <ChallengeOptions>
+	<ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	  <ButtonLocationType>CHALLENGE_1</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+	  <Text> They can see the objects in darkness </Text>
+	  <Timer></Timer>
+	  <TransitionType>ADDITIONAL</TransitionType>
+	  <AdditionalScreens>
+		<AdditionalScreen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="learningObjectiveFailure">
+		  <Buttons>
+			<Button>
+			  <ButtonLocationType>NEXT</ButtonLocationType>
+			  <Text>Retry</Text>
+			  <Timer></Timer>
+			  <TransitionType>CURRENT_CHALLENGE</TransitionType>
+			</Button>
+		  </Buttons>
+		  <Characters>
+			<Character>
+			  <CharacterType>VILLIAN</CharacterType>
+			  <Timer></Timer>
+			</Character>
+			<Character>
+			  <CharacterType>HERO</CharacterType>
+			  <Timer></Timer>
+			</Character>
+		  </Characters>
+		  <InformationBoxes>
+			<InformationBox>
+			  <Text>You answered incorrectly!</Text>
+			  <TextType>ALT1</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+			<InformationBox>
+			  <Text>Don't worry! You can try again.</Text>
+			  <TextType>HERO</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+		  </InformationBoxes>
+		  <ChallengeOptions />
+		  <Timer></Timer>
+		</AdditionalScreen>
+	  </AdditionalScreens>
+	  <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	</ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_2</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text>They have weak legs land are likely to be attacked by predators </Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_CHALLENGE</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_3</ButtonLocationType>
+            <Reward>
+              <Points>2</Points>
+            </Reward>
+            <Text>They generate flashes of light </Text>
+            <Timer></Timer>
+            <TransitionType>END_OF_STORY</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_4</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text>They generate ultrasonic sound waves </Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_LESSON</TransitionType>
+          </ChallengeOption>
+  </ChallengeOptions>
+        <Characters>
+          <Character>
+            <CharacterType>HERO</CharacterType>
+            <MovementType></MovementType>
+            <Timer></Timer>
+          </Character>
+        </Characters>
+        <InformationBoxes>
+          <InformationBox>
+            <Text>You can do it!!</Text>
+            <TextType>HERO</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>Using Answer:</Text>
+            <TextType>CHALLENGE_QUESTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>The small bats can fly in dark because- ?</Text>
+            <TextType>CHALLENGE_DESCRIPTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+        </InformationBoxes>
+        <Timer>60</Timer>
+      </LessonChallenge>
+<LessonChallenge>
+        <Buttons>
+        </Buttons>
+  <ChallengeOptions>
+	<ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	  <ButtonLocationType>CHALLENGE_1</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+	  <Text> Decreases  </Text>
+	  <Timer></Timer>
+	  <TransitionType>ADDITIONAL</TransitionType>
+	  <AdditionalScreens>
+		<AdditionalScreen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="learningObjectiveFailure">
+		  <Buttons>
+			<Button>
+			  <ButtonLocationType>NEXT</ButtonLocationType>
+			  <Text>Retry</Text>
+			  <Timer></Timer>
+			  <TransitionType>CURRENT_CHALLENGE</TransitionType>
+			</Button>
+		  </Buttons>
+		  <Characters>
+			<Character>
+			  <CharacterType>VILLIAN</CharacterType>
+			  <Timer></Timer>
+			</Character>
+			<Character>
+			  <CharacterType>HERO</CharacterType>
+			  <Timer></Timer>
+			</Character>
+		  </Characters>
+		  <InformationBoxes>
+			<InformationBox>
+			  <Text>You answered incorrectly!</Text>
+			  <TextType>ALT1</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+			<InformationBox>
+			  <Text>Don't worry! You can try again.</Text>
+			  <TextType>HERO</TextType>
+			  <Timer></Timer>
+			</InformationBox>
+		  </InformationBoxes>
+		  <ChallengeOptions />
+		  <Timer></Timer>
+		</AdditionalScreen>
+	  </AdditionalScreens>
+	  <ChallengeOptionType>BUTTON</ChallengeOptionType>
+	</ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_2</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text>Increases </Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_CHALLENGE</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_3</ButtonLocationType>
+            <Reward>
+              <Points>2</Points>
+            </Reward>
+            <Text>Remains the same </Text>
+            <Timer></Timer>
+            <TransitionType>END_OF_STORY</TransitionType>
+          </ChallengeOption>
+          <ChallengeOption>
+            <ChallengeOptionType>BUTTON</ChallengeOptionType>
+            <ButtonLocationType>CHALLENGE_4</ButtonLocationType>
+            <Reward>
+              <Points>-2147483646</Points>
+            </Reward>
+            <Text>Is zero </Text>
+            <Timer></Timer>
+            <TransitionType>BEGINNING_OF_LESSON</TransitionType>
+          </ChallengeOption>
+  </ChallengeOptions>
+        <Characters>
+          <Character>
+            <CharacterType>HERO</CharacterType>
+            <MovementType></MovementType>
+            <Timer></Timer>
+          </Character>
+        </Characters>
+        <InformationBoxes>
+          <InformationBox>
+            <Text>You can do it!!</Text>
+            <TextType>HERO</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>Using Answer:</Text>
+            <TextType>CHALLENGE_QUESTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+          <InformationBox>
+            <Text>The time period of a pendulum on moon- ?</Text>
+            <TextType>CHALLENGE_DESCRIPTION</TextType>
+            <Timer></Timer>
+          </InformationBox>
+        </InformationBoxes>
+        <Timer>60</Timer>
+      </LessonChallenge>
+    </LessonChallenges>
+</Challenge>
