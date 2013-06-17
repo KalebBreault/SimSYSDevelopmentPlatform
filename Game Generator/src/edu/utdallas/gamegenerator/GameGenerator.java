@@ -31,6 +31,10 @@ import static edu.utdallas.gamegenerator.Layers.*;
  */
 public class GameGenerator {
     public static void main(String[] args) {
+    	
+    	Search search = new Search();
+        args=search.getAllFiles();
+        
         if(args.length == 6) {
             Map<String, String> xmlFiles = new HashMap<String, String>();
             xmlFiles.put(CHARACTERS, args[0]);
