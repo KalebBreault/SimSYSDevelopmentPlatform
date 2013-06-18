@@ -6,6 +6,7 @@ import edu.utdallas.gamegenerator.LearningAct.LearningAct;
 import edu.utdallas.gamegenerator.LearningAct.LessonAct;
 import edu.utdallas.gamegenerator.Lesson.Lesson;
 import edu.utdallas.gamegenerator.Locale.Locale;
+import edu.utdallas.gamegenerator.Search.Search;
 import edu.utdallas.gamegenerator.Structure.Game;
 import edu.utdallas.gamegenerator.Structure.Structure;
 import edu.utdallas.gamegenerator.Subject.Subject;
