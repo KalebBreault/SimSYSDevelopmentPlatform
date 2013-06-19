@@ -5,7 +5,6 @@ import java.util.Scanner;
 
 public class SearchInput {
 	private LinkedList<String> inputList;
-	private String[] inputListArray;
 
 	public SearchInput(SearchComponents searchcomponents){
 		String userInput="null";
@@ -25,8 +24,8 @@ public class SearchInput {
 				System.out.println("Unable to find that Criteria, please try again.");
 			}
 		}
-
-		
+		input.close();
+	
 	}
 	
 	public LinkedList<String> getSearchCriteria(){
