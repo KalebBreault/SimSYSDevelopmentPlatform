@@ -10,7 +10,11 @@ public class Search {
 	private String[] allFiles = new String[6];
 	
 	public Search(){
-		SearchGUI searchgui = new SearchGUI();
+		
+		SearchComponents searchcomponents = new SearchComponents();
+		SearchInput searchinput = new SearchInput(searchcomponents);
+		SearchAlgo searchalgo = new SearchAlgo(searchinput.getSearchCriteria(), searchcomponents);
+		allFiles=searchalgo.searchResults();
 		
 		xmlCharacters="Characters.xml";
 		xmlLessons="Lesson.xml";
@@ -20,59 +24,7 @@ public class Search {
 		xmlTheme="Theme.xml";
 		
 	}
-	
-	private String searchAlgo(){
-		return null;
-	}
-	
-	private void findCharacters(){
-		xmlCharacters=this.searchAlgo();
-	}
-	private void findLesson(){
-		xmlLessons=this.searchAlgo();
-	}
-	private void findChallenges(){
-		xmlChallenges=this.searchAlgo();
-	}
-	private void findLocale(){
-		xmlLocale=this.searchAlgo();
-	}
-	private void findSubject(){
-		xmlSubject=this.searchAlgo();
-	}
-	private void findTheme(){
-		xmlTheme=this.searchAlgo();
-	}
-	public void findGroupXML(){
-		
-	}
-	public void findAllXML(){
-		this.findCharacters();
-		this.findLesson();
-		this.findChallenges();
-		this.findLocale();
-		this.findSubject();
-		this.findTheme();
-		
-	}
-	public String getCharacters(){
-		return xmlCharacters;
-	}
-	public String getLessons(){
-		return xmlLessons;
-	}
-	public String getChallenges(){
-		return xmlChallenges;
-	}
-	public String getLocale(){
-		return xmlLocale;
-	}
-	public String getSubject(){
-		return xmlSubject;
-	}
-	public String getTheme(){
-		return xmlTheme;
-	}
+
 	public String[] getAllFiles(){
 		allFiles[0]=xmlCharacters;
 		allFiles[1]=xmlLessons;
