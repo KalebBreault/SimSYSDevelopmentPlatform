@@ -7,14 +7,17 @@ package edu.utdallas.gamegenerator.Search;
  * */
 public class Search {
 	
+	private SearchComponents searchcomponents;
+	private SearchInput searchinput;
+	private SearchAlgo searchalgo;
 	private String[] allFiles = new String[6];
 	
 
 	public Search(){
 		
-		SearchComponents searchcomponents = new SearchComponents();
-		SearchInput searchinput = new SearchInput(searchcomponents);
-		SearchAlgo searchalgo = new SearchAlgo(searchinput.getSearchCriteria(), searchcomponents);
+		searchcomponents = new SearchComponents();
+		searchinput = new SearchInput(searchcomponents);
+		searchalgo = new SearchAlgo(searchinput.getSearchCriteria(), searchcomponents);
 		allFiles=searchalgo.searchResults();
 		
 	}
