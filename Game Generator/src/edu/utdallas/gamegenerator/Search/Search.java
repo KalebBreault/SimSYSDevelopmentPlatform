@@ -1,14 +1,15 @@
 package edu.utdallas.gamegenerator.Search;
 
+/* 1) Initializes SearchComponents - LinkedList of criteria that can be searched.
+ * 2) Initializes SearchInput - Creates a LinkedList of desired criteria.
+ * 3) Initializes SearchAlgo - Uses SearchComponents List and SearchInput List for SearchAlgo
+ * 4) Returns the Search Results as an array. 
+ * */
 public class Search {
-	private String xmlCharacters;
-	private String xmlLessons;
-	private String xmlChallenges;
-	private String xmlLocale;
-	private String xmlSubject;
-	private String xmlTheme;
+	
 	private String[] allFiles = new String[6];
 	
+
 	public Search(){
 		
 		SearchComponents searchcomponents = new SearchComponents();
@@ -16,22 +17,9 @@ public class Search {
 		SearchAlgo searchalgo = new SearchAlgo(searchinput.getSearchCriteria(), searchcomponents);
 		allFiles=searchalgo.searchResults();
 		
-		xmlCharacters="Characters.xml";
-		xmlLessons="Lesson.xml";
-		xmlChallenges="Challenge.xml";
-		xmlLocale="Locale.xml";
-		xmlSubject="Subject.xml";
-		xmlTheme="Theme.xml";
-		
 	}
 
 	public String[] getAllFiles(){
-		allFiles[0]=xmlCharacters;
-		allFiles[1]=xmlLessons;
-		allFiles[2]=xmlChallenges;
-		allFiles[3]=xmlLocale;
-		allFiles[4]=xmlSubject;
-		allFiles[5]=xmlTheme;
 		
 		return allFiles;
 	}

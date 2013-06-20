@@ -14,9 +14,8 @@ public class SearchInput {
 		while(!userInput.equals("done")){
 			System.out.println("What are your search preferences?(type 'done' when finished.)");
 			userInput=input.nextLine();
-			
-	
-			if(searchcomponents.componentValidate(userInput)){
+				
+			if(searchcomponents.componentValidate(userInput)){			
 				inputList.add(userInput);
 			} else if(userInput.equals("done")) {
 				System.out.println("Searching...");		
