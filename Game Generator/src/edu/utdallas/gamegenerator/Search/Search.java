@@ -2,10 +2,11 @@ package edu.utdallas.gamegenerator.Search;
 
 /* Boundary Class-
  * 
- * 1) Initializes SearchComponents - LinkedList of criteria that can be searched.
- * 2) Initializes SearchInput - Creates a LinkedList of desired criteria.
- * 3) Initializes SearchAlgo - Uses SearchComponents List and SearchInput List for SearchAlgo
- * 4) Returns the Search Results as an array. 
+ * 
+ * 1) Initializes SearchInput - Creates a LinkedList of desired criteria.
+ * 2) Initializes SearchAlgo - Uses SearchComponents List and SearchInput List for SearchAlgo
+ * 3) Returns the Search Results as an array. 
+ * 
  * 
  * 
  * */
