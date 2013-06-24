@@ -2,7 +2,8 @@ package edu.utdallas.gamegenerator.Search;
 
 import java.util.LinkedList;
 import java.util.Scanner;
-//Control Class- Prompts the user for the search criteria input. Validates the input by calling the SearchComponents class.
+//Control Class- Prompts the user for the search criteria input.
+//Validates the input by calling the SearchComponents class.
 public class SearchInput {
 	private LinkedList<String> inputList;
 	private SearchCriteriaList criteriaList;
