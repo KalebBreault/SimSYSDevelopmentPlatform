@@ -5,11 +5,10 @@ import java.util.Scanner;
 //Control Class- Prompts the user for the search criteria input. Validates the input by calling the SearchComponents class.
 public class SearchInput {
 	private LinkedList<String> inputList;
-	private SearchComponents searchcomponents;
+	private SearchCriteriaList criteriaList;
 	
 	public SearchInput(){
-		searchcomponents = new SearchComponents();
-		
+		criteriaList = new SearchCriteriaList();
 		
 		String userInput="null";
 		Scanner input= new Scanner(System.in);
@@ -19,7 +18,7 @@ public class SearchInput {
 			System.out.println("What are your search preferences?(type 'done' when finished.)");
 			userInput=input.nextLine();
 				
-			if(searchcomponents.componentValidate(userInput)){			
+			if(criteriaList.componentValidate(userInput)){			
 				inputList.add(userInput);
 			} else if(userInput.equals("done")) {
 				System.out.println("Searching...");		
@@ -32,7 +31,7 @@ public class SearchInput {
 	}
 	
 	public LinkedList<String> getSearchCriteria(){
-		return searchcomponents.getCriteriaList();
+		return criteriaList.getCriteriaList();
 	}
 	public LinkedList<String> getInputList(){
 		return inputList;
