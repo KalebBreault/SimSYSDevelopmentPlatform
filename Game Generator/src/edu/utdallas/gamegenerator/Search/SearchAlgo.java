@@ -1,7 +1,7 @@
 package edu.utdallas.gamegenerator.Search;
 
 import java.util.LinkedList;
-
+//Control Class
 public class SearchAlgo {
 	private String xmlCharacters;
 	private String xmlLessons;
@@ -11,7 +11,8 @@ public class SearchAlgo {
 	private String xmlTheme;
 	private String[] allFiles = new String[6];
 
-	public SearchAlgo(LinkedList<String> inputedCriteriaList, SearchComponents searchcomponents){
+	public SearchAlgo(LinkedList<String> CriteriaList, LinkedList<String>inputedCriteriaList){
+		
 		xmlCharacters="Characters.xml";
 		xmlLessons="Lesson.xml";
 		xmlChallenges="Challenge.xml";

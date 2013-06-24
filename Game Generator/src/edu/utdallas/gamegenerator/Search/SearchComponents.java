@@ -1,7 +1,7 @@
 package edu.utdallas.gamegenerator.Search;
 
 import java.util.LinkedList;
-
+//Entity Class- Creates the list of search criteria available. Has a validate feature to ensure the CriteriaInput is search-able. 
 public class SearchComponents {
 	private String Criteria_1="Criteria_1";
 	private String Criteria_2="Criteria_2";
@@ -20,8 +20,12 @@ public class SearchComponents {
 		SearchComponentsList.add(Criteria_5);
 		SearchComponentsList.add(Criteria_6);
 	}
+	public LinkedList<String> getCriteriaList(){
+		return SearchComponentsList;
+	}
 	public Boolean componentValidate(String component){
 		return SearchComponentsList.contains(component);
 	}
+	
 
 }
