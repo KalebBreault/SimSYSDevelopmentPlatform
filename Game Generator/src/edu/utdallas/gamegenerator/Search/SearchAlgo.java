@@ -1,7 +1,8 @@
 package edu.utdallas.gamegenerator.Search;
 
 import java.util.LinkedList;
-//Control Class
+/*Control Class
+*/
 public class SearchAlgo {
 	private String xmlCharacters;
 	private String xmlLessons;

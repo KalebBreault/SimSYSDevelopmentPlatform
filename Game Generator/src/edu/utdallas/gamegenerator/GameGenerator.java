@@ -47,7 +47,7 @@ public class GameGenerator {
 
             GameGenerator gameGenerator = new GameGenerator();
 
-            String exportFilename = "C:\\Users\\Chris Mojica\\Documents\\2013\\Summer\\Git Output\\Game1.xml";
+            String exportFilename = "C:\\Users\\Chris Mojica\\Documents\\2013\\Summer\\Git Output\\OfficeGame.xml";
             //String exportFilename = "C:\\Users\\Chris Mojica\\Documents\\2013\\Summer\\Git Output\\Game.xml";
             //String exportFilename = "C:\\Users\\Chris Mojica\\Documents\\2013\\Summer\\Git Output\\Game.xml";
 
