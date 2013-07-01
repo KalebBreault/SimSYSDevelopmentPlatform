@@ -97,11 +97,11 @@
         <entry>
           <key>PLAYER</key>
           <value>
-            <Height>352.91667175293</Height>
-            <LocX>209.36663818359375</LocX>
-            <LocY>130.48335266113281</LocY>
+            <Height>301</Height>
+            <LocX>340</LocX>
+            <LocY>234</LocY>
             <Text></Text>
-            <Width>171.433349609375</Width>
+            <Width>194</Width>
             <CharacterAssetType>WALK_RIGHT_BEHIND</CharacterAssetType>
             <CharacterType>PLAYER</CharacterType>
           </value>
