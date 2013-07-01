@@ -1005,4 +1005,10 @@
       </value>
     </entry>
   </LocaleScreens>
+  <SearchMetaData>
+    <Setting>Space</Setting>
+    <GameType>Adventure</GameType>
+    <Subject>Moon</Subject>
+    
+  </SearchMetaData>
 </Locale>

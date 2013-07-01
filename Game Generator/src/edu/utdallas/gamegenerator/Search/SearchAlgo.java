@@ -24,7 +24,7 @@ public class SearchAlgo {
 		xmlSubject="Subject.xml";
 		xmlTheme="Theme.xml";
 		String[] gameComponents = {"Characters", "Lesson", "Challange", "Locale", "Subect", "Theme"};
-		for(int x=0; x<gameComponents.length; x++)
+	/*	for(int x=0; x<gameComponents.length; x++)
 		{
 			SearchSpace search= new SearchSpace(gameComponents[x]); 
 			//searchSpace which should be from the metadata tags
@@ -41,7 +41,7 @@ public class SearchAlgo {
 			Matrix criteriaScore = componentInput.times(weightedMatrix);
 			//multiplies the weighted score matrix by the input matrix. 
 			allFiles[x]=gameComponents[x]+getLargestValue(criteriaScore);
-		}
+		}*/
 		//Get rid of this vvvv when SearchInput is working. 
 		allFiles[0]=xmlCharacters;
 		allFiles[1]=xmlLessons;

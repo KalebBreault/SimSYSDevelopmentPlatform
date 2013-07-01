@@ -88,4 +88,10 @@
         </InformationBoxes>
       </LessonScreen>
     </LessonScreens>
+    <SearchMetaData>
+    <Subject>
+      <General>Workplace</General>
+      <Focus>OfficeRules</Focus>
+    </Subject>
+  </SearchMetaData>
 </Lesson>

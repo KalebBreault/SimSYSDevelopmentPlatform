@@ -10,12 +10,12 @@ public class SearchInput {
 	private SearchCriteriaList criteriaList;
 	private double[][] searchInputMatrix;  
 	public SearchInput(){
-//		criteriaList = new SearchCriteriaList();
-//		
-//		String userInput="null";
-//		Scanner input= new Scanner(System.in);
-//		inputList= new LinkedList<String>();
-//		
+		criteriaList = new SearchCriteriaList();
+		
+		String userInput="null";
+		Scanner input= new Scanner(System.in);
+		inputList= new LinkedList<String>();
+		
 //		while(!userInput.equals("done")){
 //			System.out.println("What are your search preferences?(type 'done' when finished.)");
 //			userInput=input.nextLine();

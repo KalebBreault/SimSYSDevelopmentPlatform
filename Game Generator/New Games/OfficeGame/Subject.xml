@@ -2,4 +2,8 @@
 <Subject>
   <IntroText>Workplace</IntroText>
   <Subject>Company Process</Subject>
+  <SearchMetaData>
+    <Subject>Workplace</Subject>
+    <Focus>OfficeRules</Focus>  
+  </SearchMetaData>
 </Subject>

@@ -2,4 +2,8 @@
 <Subject>
   <IntroText>Algebra</IntroText>
   <Subject>Algebra Adventures</Subject>
+  <SearchMetaData>
+    <Subject>Math</Subject>
+    <Focus>Addition</Focus>  
+  </SearchMetaData>
 </Subject>

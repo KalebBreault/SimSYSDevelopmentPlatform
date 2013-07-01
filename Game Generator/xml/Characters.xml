@@ -16,8 +16,13 @@
     <Prefix>char22</Prefix>
   </Villain>
   <Player>
-    <Directory>character_15</Directory>
+    <Directory>character_10</Directory>
     <Name>Siva</Name>
-    <Prefix>char15</Prefix>
+    <Prefix>char10</Prefix>
   </Player>
+  <SearchMetaData>
+    <Age>Young</Age>
+    <PlayerGender>Female</PlayerGender>
+    <Dress>Casual</Dress>
+  </SearchMetaData>
 </Characters>

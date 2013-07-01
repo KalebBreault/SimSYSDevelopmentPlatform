@@ -268,4 +268,9 @@
       </StoryOutroScreens>
     </ThemeStory>
   </ThemeStories>
+  <SearchMetaData>
+    <Setting>Medieval</Setting>
+    <GameType>Adventure</GameType>
+    <Subject>Math</Subject>
+  </SearchMetaData>
 </Theme>

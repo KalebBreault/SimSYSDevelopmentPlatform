@@ -97,4 +97,10 @@
         </InformationBoxes>
       </LessonScreen>
     </LessonScreens>
+  <SearchMetaData>
+    <Subject>
+      <General>Science</General>
+      <Focus>SolarSystem</Focus>
+    </Subject>
+  </SearchMetaData>
 </Lesson>

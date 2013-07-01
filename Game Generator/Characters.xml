@@ -20,4 +20,9 @@
     <Name>Siva</Name>
     <Prefix>char15</Prefix>
   </Player>
+  <SearchMetaData>
+    <Age>Young</Age>
+    <PlayerGender>Male</PlayerGender>
+    <Dress>Casual</Dress>
+  </SearchMetaData>
 </Characters>

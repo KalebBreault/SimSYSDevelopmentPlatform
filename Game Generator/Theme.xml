@@ -366,4 +366,12 @@
       </StoryOutroScreens>
     </ThemeStory>
   </ThemeStories>
+  <searchCriteria>
+  <Criteria>Space</Criteria>
+</searchCriteria>
+  <SearchMetaData>
+    <Setting>Space</Setting>
+    <GameType>Adventure</GameType>
+    <Subject>Science</Subject>
+  </SearchMetaData>
 </Theme>
