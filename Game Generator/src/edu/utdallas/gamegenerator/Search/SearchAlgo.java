@@ -37,9 +37,9 @@ public class SearchAlgo {
 			EigenvalueDecomposition eigenDecomp= searchInput.eig();
 			//creates new object that contains the eigenvector
 			Matrix weightedMatrix = eigenDecomp.getV();
-			//takes the eigenvector of  
+			//makes the eigenvector matrix of the input
 			Matrix criteriaScore = componentInput.times(weightedMatrix);
-			
+			//multiplies the weighted score matrix by the input matrix. 
 			allFiles[x]=gameComponents[x]+getLargestValue(criteriaScore);
 		}
 		//Get rid of this vvvv when SearchInput is working. 
