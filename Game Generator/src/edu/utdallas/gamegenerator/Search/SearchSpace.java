@@ -6,9 +6,10 @@ public class SearchSpace {
 	/**
 	 * @param String type : type of game component search. 
 	 */
-	int[][] searchSpace;
+	double[][] searchSpace;
 	int numberOfChoices;
 	int numberOfCriteria;
+	
 	public SearchSpace(String type){
 		
 		try {
@@ -16,20 +17,20 @@ public class SearchSpace {
 			Scanner input = new Scanner(new FileReader(type+".txt"));
 			numberOfChoices= input.nextInt();
 			numberOfCriteria = input.nextInt();
-			searchSpace = new int[numberOfChoices][numberOfCriteria];
+			searchSpace = new double[numberOfChoices][numberOfCriteria];
 			int choiceCounter=0;
 	/**
 	 * do not uncomment the print statements without commenting out the input.next() statements 
 	 * that immediately follow them. (one needs to be commented out at all times.)
 	 */
-			//System.out.println("@@@@"+input.next()); //list type name
+			//System.out.println("#"+input.next()); //list type name
 			input.next(); //ignore type name
 			while (input.hasNextLine()) {
-				//System.out.println("@@@@"+input.next()); //list choice name
+				//System.out.println("#"+input.next()); //list choice name
 				input.next(); //ignore choice name
 				for(int i=0; i<numberOfCriteria; i++)
 					{
-				//	System.out.println("@@@@"+input.next()); //list criteria name
+				//	System.out.println("#"+input.next()); //list criteria name
 					input.next(); //ignore criteria name
 					searchSpace[choiceCounter][i]=input.nextInt();
 					}
@@ -44,7 +45,7 @@ public class SearchSpace {
 		}
 	}
 	
-	public int[][] getSearchSpace()
+	public double[][] getSearchSpace()
 	{
 		return searchSpace;
 	}
