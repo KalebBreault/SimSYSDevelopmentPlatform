@@ -47,10 +47,8 @@ public class GameGenerator {
 
             GameGenerator gameGenerator = new GameGenerator();
 
-            String exportFilename = "C:\\Users\\Chris Mojica\\Documents\\2013\\Summer\\Git Output\\OfficeGame.xml";
-            //String exportFilename = "C:\\Users\\Chris Mojica\\Documents\\2013\\Summer\\Git Output\\Game.xml";
-            //String exportFilename = "C:\\Users\\Chris Mojica\\Documents\\2013\\Summer\\Git Output\\Game.xml";
-
+            String exportFilename = "C:\\Users\\Kaleb\\Documents\\GitHub\\SimSYSDevelopmentPlatform\\Game Generator\\Game.xml";
+          //  String exportFilename = "C:\\Users\\Chris Mojica\\Documents\\2013\\Summer\\Git Output\\OfficeGame.xml";
             try {
                 Layers layers = gameGenerator.loadXmlComponents(xmlFiles);
                 Game game = gameGenerator.buildGame(layers);

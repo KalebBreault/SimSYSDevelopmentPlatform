@@ -1,5 +1,6 @@
 package edu.utdallas.gamegenerator.Search;
 
+import java.io.FileReader;
 import java.util.LinkedList;
 import java.util.Scanner;
 
@@ -9,13 +10,16 @@ public class SearchInput {
 	private LinkedList<String> inputList;
 	private SearchCriteriaList criteriaList;
 	private double[][] searchInputMatrix;  
+	int numberOfChoices;
+	int numberOfCriteria;
+	
 	public SearchInput(){
-		criteriaList = new SearchCriteriaList();
-		
-		String userInput="null";
-		Scanner input= new Scanner(System.in);
-		inputList= new LinkedList<String>();
-		
+//		criteriaList = new SearchCriteriaList();
+//		
+//		String userInput="null";
+//		Scanner input= new Scanner(System.in);
+//		inputList= new LinkedList<String>();
+//		
 //		while(!userInput.equals("done")){
 //			System.out.println("What are your search preferences?(type 'done' when finished.)");
 //			userInput=input.nextLine();
@@ -38,6 +42,37 @@ public class SearchInput {
 	public void receiveInput()
 	{
 		//TODO
+		try {
+			//BufferedReader input = new BufferedReader(new FileReader(type+".txt"));
+			Scanner input = new Scanner(new FileReader("input.txt"));
+			numberOfChoices= input.nextInt();
+			numberOfCriteria = input.nextInt();
+			searchInputMatrix = new double[numberOfChoices][numberOfCriteria];
+			int choiceCounter=0;
+	/**
+	 * do not uncomment the print statements without commenting out the input.next() statements 
+	 * that immediately follow them. (one needs to be commented out at all times.)
+	 */
+			//System.out.println("#"+input.next()); //list type name
+			input.next(); //ignore type name
+			while (input.hasNextLine()) {
+				//System.out.println("#"+input.next()); //list choice name
+				input.next(); //ignore choice name
+				for(int i=0; i<numberOfCriteria; i++)
+					{
+				//	System.out.println("#"+input.next()); //list criteria name
+					input.next(); //ignore criteria name
+					searchInputMatrix[choiceCounter][i]=input.nextInt();
+					}
+				choiceCounter++;
+			}
+			input.close();
+		}
+		catch(Exception e)
+		{
+			System.out.println(e.getMessage());
+			e.printStackTrace();
+		}
 	}
 	//assemble input from user into square matrix
 	public void assembleInput()
