@@ -55,11 +55,11 @@ public class SearchInput {
 	 */
 //			System.out.println("#"+input.next()); //list type name
 			input.next(); //ignore type name
-<<<<<<< HEAD
+//<<<<<<< HEAD
 //			System.out.println("#"+input.nextLine()+input.nextLine());
 			input.nextLine(); 
-=======
->>>>>>> 43bdde482c48996a5b7fe99a5a1ac553adc73af8
+//=======
+//>>>>>>> 43bdde482c48996a5b7fe99a5a1ac553adc73af8
 			input.nextLine();
 			while (input.hasNextLine()) {
 //				System.out.println("#"+input.next()); //list choice name
