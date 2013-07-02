@@ -1,5 +1,12 @@
+<<<<<<< HEAD
+3 Characters
+		      vCharacters1		vCharacters2			vCharacters3
+Characters1: ageDiversity: 1 racialDevieristy: 3 numberOfCharacters: 3
+Characters2: ageDiversity: .33 racialDiversity: 1 numberOfCharacters: 2
+=======
 2 3 Characters
 		      Characters1		Characters2			Characters3
 Characters1: ageDiversity: 1 racialDevieristy: 3 numberOfCharacters: 3
 Characters2: ageDiversity: .33 racialDiversity: 1 numberOfCharacters: 2
+>>>>>>> 43bdde482c48996a5b7fe99a5a1ac553adc73af8
 Characters3: ageDiversity: .33 racialDiversity: .5 numberOfCharacters: 1
