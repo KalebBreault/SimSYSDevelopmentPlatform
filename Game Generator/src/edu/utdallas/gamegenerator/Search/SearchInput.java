@@ -14,9 +14,9 @@ public class SearchInput {
 	int numberOfCriteria;
 	
 	public SearchInput(){
-//		criteriaList = new SearchCriteriaList();
-//		
-//		String userInput="null";
+		criteriaList = new SearchCriteriaList();
+		
+		String userInput="null";
 //		Scanner input= new Scanner(System.in);
 //		inputList= new LinkedList<String>();
 //		
@@ -44,7 +44,7 @@ public class SearchInput {
 		//TODO
 		try {
 			//BufferedReader input = new BufferedReader(new FileReader(type+".txt"));
-			Scanner input = new Scanner(new FileReader("input.txt"));
+			Scanner input = new Scanner(new FileReader("input"));
 			numberOfChoices= input.nextInt();
 			numberOfCriteria = input.nextInt();
 			searchInputMatrix = new double[numberOfChoices][numberOfCriteria];
