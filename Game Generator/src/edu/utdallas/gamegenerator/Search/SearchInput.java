@@ -55,6 +55,7 @@ public class SearchInput {
 	 */
 			//System.out.println("#"+input.next()); //list type name
 			input.next(); //ignore type name
+			input.nextLine();
 			while (input.hasNextLine()) {
 				//System.out.println("#"+input.next()); //list choice name
 				input.next(); //ignore choice name
@@ -62,7 +63,7 @@ public class SearchInput {
 					{
 				//	System.out.println("#"+input.next()); //list criteria name
 					input.next(); //ignore criteria name
-					searchInputMatrix[choiceCounter][i]=input.nextInt();
+					searchInputMatrix[choiceCounter][i]=input.nextDouble();
 					}
 				choiceCounter++;
 			}
