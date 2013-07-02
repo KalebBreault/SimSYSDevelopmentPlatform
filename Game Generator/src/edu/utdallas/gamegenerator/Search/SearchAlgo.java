@@ -24,15 +24,16 @@ public class SearchAlgo {
 		xmlSubject="Subject.xml";
 		xmlTheme="Theme.xml";
 		String[] gameComponents = {"Characters", "Lesson", "Challange", "Locale", "Subect", "Theme"};
-	/*	for(int x=0; x<gameComponents.length; x++)
+		//for(int x=0; x<gameComponents.length; x++)
 		{
-			SearchSpace search= new SearchSpace(gameComponents[x]); 
+			SearchSpace search= new SearchSpace(gameComponents[0]); 
 			//searchSpace which should be from the metadata tags
 			Matrix componentInput = new Matrix(search.getSearchSpace());
 			//changes the SearchSpace array into a Matrix object
 			SearchInput input = new SearchInput(); 
 			//The input from the user 
 			Matrix searchInput = new Matrix(input.getInput());
+			printMatrix(searchInput);
 			//brings the input into this class
 			EigenvalueDecomposition eigenDecomp= searchInput.eig();
 			//creates new object that contains the eigenvector
@@ -40,8 +41,10 @@ public class SearchAlgo {
 			//makes the eigenvector matrix of the input
 			Matrix criteriaScore = componentInput.times(weightedMatrix);
 			//multiplies the weighted score matrix by the input matrix. 
-			allFiles[x]=gameComponents[x]+getLargestValue(criteriaScore);
-		}*/
+			allFiles[0]=gameComponents[0]+getLargestValue(criteriaScore);
+			System.out.println(allFiles[0]);
+			printMatrix(criteriaScore);
+		}
 		//Get rid of this vvvv when SearchInput is working. 
 		allFiles[0]=xmlCharacters;
 		allFiles[1]=xmlLessons;
@@ -57,13 +60,25 @@ public class SearchAlgo {
 		int largestIndex=0;
 		for(int x = 0; x<inputArray.length; x++)
 		{	
-			if(inputArray[x][0]>largestValue)
+			if(inputArray[x][0]<largestValue)
 			{
 				largestValue = inputArray[x][0];
 				largestIndex = x;
 			}
 		}
 		return largestIndex;
+	}
+	public void printMatrix(Matrix  inputMatrix)
+	{
+		double[][] inputArray = inputMatrix.getArray();
+		for(int x=0; x < inputArray.length; x++)
+		{
+			for (int y =0; y <  inputArray[x].length; y++)
+			{
+				System.out.print(inputArray[x][y]+" ");
+			}
+			System.out.println("");
+		}
 	}
 	public String getCharacters(){
 		return xmlCharacters;
