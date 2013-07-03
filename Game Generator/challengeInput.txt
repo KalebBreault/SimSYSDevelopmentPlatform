@@ -1,6 +1,7 @@
 3 challenge
-		      vcriteria1		vcriteria2			vcriteria3			vcriteria4
-criteria1: setting: 5 		gameTypeSocial: 5 	gameTypeProfessional: 4	subject: 5
-criteria2: setting: 5 		gameTypeSocial: 5 	gameTypeProfessional: 4	subject: 5
-criteria3: setting: 5 		gameTypeSocial: 5 	gameTypeProfessional: 4	subject: 5
-criteria4: setting: 5 		gameTypeSocial: 5 	gameTypeProfessional: 4	subject: 5
+		      vcriteria1		vcriteria2			vcriteria3			vcriteria4				vcriteria5
+criteria1: Length: 1 		difficulty: 1		professionalSubject: 4	educationalSubject: 5	type: 1
+criteria2: Length: 1		difficulty: 1		professionalSubject: 4	educationalSubject: 5	type: 1
+criteria3: Length: 1		difficulty: 1		professionalSubject: 1	educationalSubject: 5	type: 1
+criteria4: Length: 1		difficulty: 1		professionalSubject: 4	educationalSubject: 1	type: 1
+criteria5: Length: 5 		difficulty: 5 		professionalSubject: 4	educationalSubject: 5	type: 1
