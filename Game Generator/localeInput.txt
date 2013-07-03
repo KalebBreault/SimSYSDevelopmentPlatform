@@ -1,0 +1,6 @@
+4 locale
+		   vcriteria1		vcriteria2				vcriteria3					vcriteria4
+criteria1: setting: 1 		gameTypeSocial: 5 		gameTypeProfessional: 4		subject: 5
+criteria2: setting: 1/5 	gameTypeSocial: 1/5 	gameTypeProfessional: 4		subject: 5
+criteria3: setting: 5 		gameTypeSocial: 5 		gameTypeProfessional: 1		subject: 5
+criteria4: setting: 5 		gameTypeSocial: 5 		gameTypeProfessional: 4		subject: 1

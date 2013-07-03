@@ -1,0 +1,4 @@
+2 Characters
+     	 	vcriteria1			vcriteria2					
+criteria1: socialSubject: 1		professionalSubject: 1		
+criteria2: socialSubject: 1		professionalSubject: 1	

@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 3 3 Characters
 Characters1: ageDiversity: 7 racialDevieristy: 15 numberOfCharacters: 6
 Characters2: ageDiversity: 24 racialDiversity: 1 numberOfCharacters: 7
 Characters3: ageDiversity: 1 racialDiversity: 1 numberOfCharacters: 1
+=======
+3 4 Characters
+Characters0: age: 4  	playerGender: 1 	numberOfCharacters: 6	nicelyDressed:   
+Characters1: age: 1 	playerGender: 1 	numberOfCharacters: 7	nicelyDressed: 
+Characters2: age: 6 	playerGender: 1 	numberOfCharacters: 1	nicelyDressed: 
+>>>>>>> 2d4bd38c106bb1a8bfc653ab7b19f067c531424c

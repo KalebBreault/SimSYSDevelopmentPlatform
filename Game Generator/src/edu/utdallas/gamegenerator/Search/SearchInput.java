@@ -10,10 +10,10 @@ public class SearchInput {
 	private LinkedList<String> inputList;
 	private SearchCriteriaList criteriaList;
 	private double[][] searchInputMatrix;  
-	int numberOfChoices;
-	int numberOfCriteria;
+	private int numberOfChoices;
+	private int numberOfCriteria;
 	
-	public SearchInput(){
+	public SearchInput(String type){
 		criteriaList = new SearchCriteriaList();
 		
 		String userInput="null";
@@ -35,16 +35,16 @@ public class SearchInput {
 //		input.close();
 //	
 		
-		receiveInput();
+		receiveInput(type);
 		assembleInput();
 	}
 	//get input from user
-	public void receiveInput()
+	public void receiveInput(String type)
 	{
 		//TODO
 		try {
 			//BufferedReader input = new BufferedReader(new FileReader(type+".txt"));
-			Scanner input = new Scanner(new FileReader("input"));
+			Scanner input = new Scanner(new FileReader(type+"input"));
 			numberOfChoices= input.nextInt();
 			numberOfCriteria = numberOfChoices;
 			searchInputMatrix = new double[numberOfChoices][numberOfCriteria];
@@ -55,11 +55,17 @@ public class SearchInput {
 	 */
 //			System.out.println("#"+input.next()); //list type name
 			input.next(); //ignore type name
+<<<<<<< HEAD
 //<<<<<<< HEAD
 //			System.out.println("#"+input.nextLine()+input.nextLine());
 			input.nextLine(); 
 //=======
 //>>>>>>> 43bdde482c48996a5b7fe99a5a1ac553adc73af8
+=======
+//			System.out.println("#"+input.nextLine()+input.nextLine());
+			input.nextLine(); 
+
+>>>>>>> 2d4bd38c106bb1a8bfc653ab7b19f067c531424c
 			input.nextLine();
 			while (input.hasNextLine()) {
 //				System.out.println("#"+input.next()); //list choice name

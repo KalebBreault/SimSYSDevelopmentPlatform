@@ -1,0 +1,5 @@
+3 Characters
+		      vCharacters1		vCharacters2			vCharacters3
+Characters1: ageDiversity: 1 	racialDiveristy: 3		numberOfCharacters: 3
+Characters2: ageDiversity: .33 	racialDiversity: 1		numberOfCharacters: 2
+Characters3: ageDiversity: .33 	racialDiversity: .5		numberOfCharacters: 1
