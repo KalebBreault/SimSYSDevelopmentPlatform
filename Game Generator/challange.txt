@@ -1,4 +1,0 @@
-3 3 challenge
-challenge0: ageDiversity: 7 racialDevieristy: 15 numberOfCharacters: 6
-challenge1: ageDiversity: 24 racialDiversity: 1 numberOfCharacters: 7
-challenge2: ageDiversity: 1 racialDiversity: 1 numberOfCharacters: 1

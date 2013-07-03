@@ -1,4 +1,4 @@
 3 3 locale
-locale0: ageDiversity: 7 racialDevieristy: 15 numberOfCharacters: 6
-locale1: ageDiversity: 24 racialDiversity: 1 numberOfCharacters: 7
-locale2: ageDiversity: 1 racialDiversity: 1 numberOfCharacters: 1
+locale0: setting: 5 	gameTypeSocial: 5 	gameTypeProfessional: 4		subject: 5
+locale1: setting: 5		gameTypeSocial: 8	gameTypeProfessional: 1		subject: 5
+locale2: setting: 5 	gameTypeSocial: 1 	gameTypeProfessional: 8		subject: 5

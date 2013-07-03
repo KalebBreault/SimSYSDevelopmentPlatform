@@ -1,4 +1,4 @@
 3 3 lesson
-lesson0: ageDiversity: 7 racialDevieristy: 15 numberOfCharacters: 6
-lesson1: ageDiversity: 24 racialDiversity: 1 numberOfCharacters: 7
-lesson2: ageDiversity: 1 racialDiversity: 1 numberOfCharacters: 1
+lesson0: socialSubject: 1	professionalSubject:	1	educationalSubject:	9
+lesson1: socialSubject: 1	professionalSubject:	6	educationalSubject:	6
+lesson2: socialSubject: 1	professionalSubject:	7	educationalSubject:	1

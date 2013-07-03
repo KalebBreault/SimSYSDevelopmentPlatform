@@ -1,0 +1,5 @@
+3 lesson
+		      vcriteria1		vcriteria2					vcriteria3
+criteria1: socialSubject: 1		professionalSubject: 1		educationalSubject:	9
+criteria2: socialSubject: 1		professionalSubject: 1		educationalSubject:	9
+criteria3: socialSubject: 1		professionalSubject: 1		educationalSubject:	9
