@@ -20,8 +20,6 @@ public class Search {
 
 	public Search(){
 		
-		
-		searchInput = new SearchInput();
 		searchAlgo = new SearchAlgo(searchInput.getSearchCriteria(), searchInput.getInputList());
 		allFiles=searchAlgo.searchResults();
 		

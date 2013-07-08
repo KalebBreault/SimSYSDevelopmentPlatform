@@ -24,13 +24,13 @@ public class SearchAlgo {
 		xmlSubject="Subject.xml";
 		xmlTheme="Theme.xml";
 		String[] gameComponents = {"Characters", "Lesson", "Challange", "Locale", "Subect", "Theme"};
-		//for(int x=0; x<gameComponents.length; x++)
+		for(int x=0; x<gameComponents.length; x++)
 		{
 			SearchSpace search= new SearchSpace(gameComponents[0]); 
 			//searchSpace which should be from the metadata tags
 			Matrix componentInput = new Matrix(search.getSearchSpace());
 			//changes the SearchSpace array into a Matrix object
-			SearchInput input = new SearchInput(); 
+			SearchInput input = new SearchInput(gameComponents[x]); 
 			//The input from the user 
 			Matrix searchInput = new Matrix(input.getInput());
 			printMatrix(searchInput);
