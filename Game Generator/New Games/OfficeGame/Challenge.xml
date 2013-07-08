@@ -326,13 +326,5 @@
         <Timer>60</Timer>
       </LessonChallenge>
     </LessonChallenges>
-  <SearchMetaData>
-    <Length>Medium</Length>
-    <Difficulty>Medium</Difficulty>
-    <Subject>
-      <General>Workplace</General>
-      <Focus>OfficeRules</Focus>
-    </Subject>
-    <QuestionType>MultipleChoice</QuestionType>
-  </SearchMetaData>
+
 </Challenge>

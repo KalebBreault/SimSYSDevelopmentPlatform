@@ -5,3 +5,4 @@ criteria2: Length: 1		difficulty: 1		professionalSubject: 4	educationalSubject: 
 criteria3: Length: 1		difficulty: 1		professionalSubject: 1	educationalSubject: 5	type: 1
 criteria4: Length: 1		difficulty: 1		professionalSubject: 4	educationalSubject: 1	type: 1
 criteria5: Length: 5 		difficulty: 5 		professionalSubject: 4	educationalSubject: 5	type: 1
+
