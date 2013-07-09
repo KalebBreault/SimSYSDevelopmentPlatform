@@ -2,7 +2,7 @@
 <Theme>
   <IntroScreens>
     <IntroScreen>
-      <Background>Backdrops\science room.png</Background>
+      <Background>Backdrops\Bedroom master.png</Background>
       <ThemeButtons>
         <entry>
           <key>NEXT</key>
@@ -37,40 +37,28 @@
           <Height>59.20001220703125</Height>
           <LocX>346.88330078125</LocX>
           <LocY>128.63331604003906</LocY>
-          <Text>Today we will be going on a virtual tour! Everyone please sit down and watch the screen.</Text>
+          <Text>I hope I am ready for the test tomorrow. After a long day of studying, all I need is a good nights sleep.</Text>
           <Width>210.28340148925781</Width>
-          <name>Today we will be going on a virtual tour! Everyone please sit down and watch the screen.</name>
+          <name>I hope I am ready for the test tomorrow. After a long day of studying, all I need is a good nights sleep.</name>
         </InformationBox>
       </InformationBoxes>
       <ThemeCharacters>
         <entry>
-          <key>ALT</key>
+          <key>PLAYER</key>
           <value>
-            <Height>352.91667175293</Height>
+            <Height>292.91667175292969</Height>
             <LocX>209.36663818359375</LocX>
             <LocY>130.48335266113281</LocY>
             <Text></Text>
             <Width>171.433349609375</Width>
-            <CharacterAssetType>WALK_RIGHT_BEHIND</CharacterAssetType>
+            <CharacterAssetType>WALK_LEFT_BEHIND</CharacterAssetType>
             <CharacterType>PLAYER</CharacterType>
-          </value>
-        </entry>
-        <entry>
-          <key>HERO</key>
-          <value>
-            <Height>583.91667175293</Height>
-            <LocX>200.366638183594</LocX>
-            <LocY>292.483352661133</LocY>
-            <Text></Text>
-            <Width>336.433349609375</Width>
-            <CharacterAssetType>RIGHT_POINT_UP</CharacterAssetType>
-            <CharacterType>ALT</CharacterType>
           </value>
         </entry>
       </ThemeCharacters>
     </IntroScreen>
     <IntroScreen>
-      <Background>Backdrops\FaceingPC.png</Background>
+      <Background>Backdrops\blue.png</Background>
       <ThemeButtons>
 		<entry>
           <key>NEXT</key>
@@ -97,59 +85,34 @@
           <Height>67.833343505859375</Height>
           <LocX>191.48330688476563</LocX>
           <LocY>152.06666564941406</LocY>
-          <Text>Gooble!</Text>
+          <Text>Dreamable!</Text>
           <Width>390.35000610351562</Width>
-          <name>Gooble!</name>
+          <name>Dreamable!</name>
         </InformationBox>
         <InformationBox>
           <Height>36.999984741210938</Height>
           <LocX>193.33329772949219</LocX>
           <LocY>224.2166748046875</LocY>
-          <Text>Science</Text>
+          <Text>Vocabulary</Text>
           <Width>220.15000915527344</Width>
-          <name>Science</name>
+          <name>Vocabulary</name>
         </InformationBox>
         <InformationBox>
           <Height>64.133331298828125</Height>
           <LocX>192.0999755859375</LocX>
           <LocY>266.14999389648438</LocY>
-          <Text>Solar System Tour</Text>
+          <Text>The Infinite Forest</Text>
           <Width>221.38333129882813</Width>
-          <name>Solar System Tour</name>
+          <name>The Infinite Forest</name>
         </InformationBox>
       </InformationBoxes>
       <ThemeCharacters />
     </IntroScreen>
-    <IntroScreen>
-      <Background>Backdrops\FaceingPC _Warping.png</Background>
-      <ThemeButtons>
-        <entry>
-          <key>NEXT</key>
-          <value>
-            <Height>52.416656494140625</Height>
-            <LocX>636.71661376953125</LocX>
-            <LocY>336.45001220703125</LocY>
-            <Text>Continue</Text>
-            <Width>129.50006103515625</Width>
-            <behavior>
-              <behaviorType>TRANSITION_BEHAVIOR</behaviorType>
-              <displayName>Transition Behavior</displayName>
-              <transition>NEXT_ACT</transition>
-              <trigger>Click</trigger>
-            </behavior>
-            <name>Continue</name>
-          </value>
-        </entry>
-      </ThemeButtons>
-      <GameObjects />
-      <InformationBoxes />
-      <ThemeCharacters />
-    </IntroScreen>
+    
   </IntroScreens>
   <OutroScreens>
- 
-    <OutroScreen><!-- Final screen -->
-      <Background>Backdrops\science room.png</Background>
+    <OutroScreen>
+      <Background>Backdrops\Bedroom master.png</Background>
       <ThemeButtons>
         <entry>
           <key>NEXT</key>
@@ -182,9 +145,9 @@
           <Height>66.599990844726562</Height>
           <LocX>375.86663818359375</LocX>
           <LocY>113.83334350585938</LocY>
-          <Text>What a great virtual tour! I learned so much.</Text>
+          <Text>That was a ... productive dream. I hope I am ready for the test today.</Text>
           <Width>249.75003051757813</Width>
-          <name>What a great virtual tour! I learned so much.</name>
+          <name>That was a ... productive dream. I hope I am ready for the test today.</name>
         </InformationBox>
       </InformationBoxes>
       <ThemeCharacters>
@@ -196,7 +159,7 @@
             <LocY>126.16666412353516</LocY>
             <PathToAsset>PathToAsset10</PathToAsset>
             <Width>239.88330078125</Width>
-            <CharacterAssetType>RIGHT_POINT_UP</CharacterAssetType>
+            <CharacterAssetType>LEFT_POINT_UP</CharacterAssetType>
             <CharacterType>PLAYER</CharacterType>
             <Movements>
             </Movements>
@@ -232,28 +195,28 @@
 		  <InformationBoxes>
 		    <InformationBox>
 			  <TextType>PLAYER</TextType>
-			  <Text>Who are you?</Text>
+			  <Text>Where am I?</Text>
 			  <Timer></Timer>
 			</InformationBox>
 		    <InformationBox>
 			  <TextType>HERO</TextType>
-			  <Text>My name is Sam the Space Man and I will be your tour guide today!</Text>
+			  <Text>Welcome to The Forest of Many Questions. Here you will be tested thought a series of questions. Your goal is to escape through the cabin in the portal. I will do my best to prepare you for Lord Askalot's questions. He will try and prevent you from leaving.</Text>
 			  <Timer></Timer>
 			</InformationBox>
 		    <InformationBox>
 			  <TextType>ALT1</TextType>
-			  <Text>You find yourself on the moon with this strange man. You soon realize that the moon is actually a spaceship...</Text>
+			  <Text>You find yourself in what seems to be an infinite forest.</Text>
 			  <Timer></Timer>
 			</InformationBox>
 		  </InformationBoxes>			
         </StoryIntroScreen>
       </StoryIntroScreens>
-      <StoryOutroScreens> <!-- Needs to be after the Lessons and Challenges -->
+      <StoryOutroScreens>
         <StoryOutroScreen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="themeStoryScreenOutro">
 		  <Buttons>
 		    <Button>
 		      <ButtonLocationType>NEXT</ButtonLocationType>
-			  <Text>End Virtual Tour</Text>
+			  <Text>Let's get out of here!</Text>
 			  <Timer></Timer>
 			  <TransitionType>NEXT_ACT</TransitionType>
 			</Button>
@@ -264,7 +227,7 @@
 			  <MovementType></MovementType>
 			  <Timer></Timer>
 			</Character>
-			<Character>
+		   <Character>
 			  <CharacterType>PLAYER</CharacterType>
 			  <MovementType></MovementType>
 			  <Timer></Timer>
@@ -273,12 +236,12 @@
 		  <InformationBoxes>
 		    <InformationBox>
 			  <TextType>HERO</TextType>
-			  <Text>Have a safe journey back to Earth!</Text>
+			  <Text>You did it! You can escape though that cabin. I hope you don't forget what you have learned.</Text>
 			  <Timer></Timer>
 			</InformationBox>
 		    <InformationBox>
 			  <TextType>ALT1</TextType>
-			  <Text>After the completion of the tour, Sam the Space Man takes you back to the warp zone that will take you back to Earth.</Text>
+			  <Text>After answering all of Lord Askalot's questions, a cabin seems to have appeared out of nowhere.</Text>
 			  <Timer></Timer>
 			</InformationBox>
 		  </InformationBoxes>			
@@ -286,5 +249,5 @@
       </StoryOutroScreens>
     </ThemeStory>
   </ThemeStories>
-  
+
 </Theme>

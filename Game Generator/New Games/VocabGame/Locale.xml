@@ -4,7 +4,7 @@
     <entry>
       <key>LESSON</key>
       <value>
-        <Background>Backdrops\Medieval.png</Background>
+        <Background>Backdrops\Forest Day.png</Background>
         <Buttons>
           <entry>
             <key>BACK</key>
@@ -154,7 +154,7 @@
             <PathToAsset>Props\GenericInteraction\TextBubble.png</PathToAsset>
             <Width>235.56668090820313</Width>
           </GameObject>
-		  <!-- Villian text box -->
+		  <!-- Villain text box -->
           <GameObject>
             <Height>146.15000915527344</Height>
             <LocX>68.149978637695312</LocX>
@@ -206,7 +206,7 @@
     <entry>
       <key>CHALLENGE</key>
       <value>
-        <Background>Backdrops\Medieval.png</Background>
+        <Background>Backdrops\Forest night.png</Background>
         <Buttons>
           <entry>
             <key>CHALLENGE_1</key>
@@ -401,7 +401,7 @@
     <entry>
       <key>FAILURE</key>
       <value>
-        <Background>Backdrops\Medieval.png</Background>
+        <Background>Backdrops\Forest night.png</Background>
         <Buttons>
           <entry>
             <key>BACK</key>
@@ -551,7 +551,7 @@
             <PathToAsset>Props\GenericInteraction\TextBubble.png</PathToAsset>
             <Width>235.56668090820313</Width>
           </GameObject>
-		  <!-- Villian text box -->
+		  <!-- Villain text box -->
           <GameObject>
             <Height>146.15000915527344</Height>
             <LocX>68.149978637695312</LocX>
@@ -603,7 +603,7 @@
     <entry>
       <key>LESSON_STORY_INTRO</key>
       <value>
-        <Background>Backdrops\Medieval.png</Background>
+        <Background>Backdrops\Forest Day.png</Background>
         <Buttons>
           <entry>
             <key>BACK</key>
@@ -753,7 +753,7 @@
             <PathToAsset>Props\GenericInteraction\TextBubble.png</PathToAsset>
             <Width>235.56668090820313</Width>
           </GameObject>
-		  <!-- Villian text box -->
+		  <!-- Villain text box -->
           <GameObject>
             <Height>146.15000915527344</Height>
             <LocX>68.149978637695312</LocX>
@@ -805,7 +805,7 @@
     <entry>
       <key>LESSON_STORY_OUTRO</key>
       <value>
-        <Background>Backdrops\Medieval.png</Background>
+        <Background>Backdrops\cabin in the woods.png</Background>
         <Buttons>
           <entry>
             <key>BACK</key>
@@ -955,7 +955,7 @@
             <PathToAsset>Props\GenericInteraction\TextBubble.png</PathToAsset>
             <Width>235.56668090820313</Width>
           </GameObject>
-		  <!-- Villian text box -->
+		  <!-- Villain text box -->
           <GameObject>
             <Height>146.15000915527344</Height>
             <LocX>68.149978637695312</LocX>
