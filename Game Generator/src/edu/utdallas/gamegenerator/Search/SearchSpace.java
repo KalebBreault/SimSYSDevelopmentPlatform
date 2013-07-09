@@ -23,15 +23,15 @@ public class SearchSpace {
 	 * do not uncomment the print statements without commenting out the input.next() statements 
 	 * that immediately follow them. (one needs to be commented out at all times.)
 	 */
-			//System.out.println("#"+input.next()); //list type name
-			input.next(); //ignore type name
+			System.out.println("#"+input.next()); //list type name
+			//input.next(); //ignore type name
 			while (input.hasNextLine()) {
-				//System.out.println("#"+input.next()); //list choice name
-				input.next(); //ignore choice name
+				System.out.println("#"+input.next()); //list choice name
+				//input.next(); //ignore choice name
 				for(int i=0; i<numberOfCriteria; i++)
 					{
-				//	System.out.println("#"+input.next()); //list criteria name
-					input.next(); //ignore criteria name
+					System.out.println("#"+input.next()); //list criteria name
+					//input.next(); //ignore criteria name
 					searchSpace[choiceCounter][i]=input.nextInt();
 					}
 				choiceCounter++;

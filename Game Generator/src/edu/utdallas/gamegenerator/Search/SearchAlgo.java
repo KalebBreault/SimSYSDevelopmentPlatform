@@ -15,7 +15,8 @@ public class SearchAlgo {
 	private String xmlTheme;
 	private String[] allFiles = new String[6];
 
-	public SearchAlgo(LinkedList<String> CriteriaList, LinkedList<String>inputedCriteriaList){
+	public SearchAlgo()//LinkedList<String> CriteriaList, LinkedList<String>inputedCriteriaList)
+	{
 
 		xmlCharacters="Characters.xml";
 		xmlLessons="Lesson.xml";
@@ -23,10 +24,11 @@ public class SearchAlgo {
 		xmlLocale="Locale.xml";
 		xmlSubject="Subject.xml";
 		xmlTheme="Theme.xml";
-		String[] gameComponents = {"Characters", "Lesson", "Challange", "Locale", "Subect", "Theme"};
+		String[] gameComponents = {"Characters", "Lesson", "Challenge", "Locale", "Subject", "Theme"};
+		System.out.println("Test1");
 		for(int x=0; x<gameComponents.length; x++)
 		{
-			SearchSpace search= new SearchSpace(gameComponents[0]); 
+			SearchSpace search= new SearchSpace(gameComponents[x]); 
 			//searchSpace which should be from the metadata tags
 			Matrix componentInput = new Matrix(search.getSearchSpace());
 			//changes the SearchSpace array into a Matrix object
@@ -39,24 +41,29 @@ public class SearchAlgo {
 			//creates new object that contains the eigenvector
 			Matrix weightedMatrix = eigenDecomp.getV();
 			//makes the eigenvector matrix of the input
-			Matrix criteriaScore = componentInput.times(weightedMatrix);
+			System.out.println("weightedMatrix");
+			printMatrix(weightedMatrix);
+			System.out.println("componentInput");
+			printMatrix(componentInput);
+			Matrix criteriaScore = componentInput.times(getFirstColumn(weightedMatrix));
+//			Matrix criteriaScore = weightedMatrix.times(componentInput);
 			//multiplies the weighted score matrix by the input matrix. 
-			allFiles[0]=gameComponents[0]+getLargestValue(criteriaScore);
-			System.out.println(allFiles[0]);
+			allFiles[x]=gameComponents[x]+getLargestValue(criteriaScore);
+			System.out.println(allFiles[x]);
 			printMatrix(criteriaScore);
 		}
-		//Get rid of this vvvv when SearchInput is working. 
-		allFiles[0]=xmlCharacters;
-		allFiles[1]=xmlLessons;
-		allFiles[2]=xmlChallenges;
-		allFiles[3]=xmlLocale;
-		allFiles[4]=xmlSubject;
-		allFiles[5]=xmlTheme;
+		//Get rid of this when SearchInput is working. 
+//		allFiles[0]=xmlCharacters;
+//		allFiles[1]=xmlLessons;
+//		allFiles[2]=xmlChallenges;
+//		allFiles[3]=xmlLocale;
+//		allFiles[4]=xmlSubject;
+//		allFiles[5]=xmlTheme;
 	}
 	public int getLargestValue(Matrix in)
 	{
 		double[][] inputArray = in.getArray();
-		double largestValue=0;
+		double largestValue=inputArray[0][0];
 		int largestIndex=0;
 		for(int x = 0; x<inputArray.length; x++)
 		{	
@@ -67,6 +74,16 @@ public class SearchAlgo {
 			}
 		}
 		return largestIndex;
+	}
+	public Matrix getFirstColumn(Matrix inputMatrix)
+	{
+		double[][] inputArray = inputMatrix.getArray();
+		double[][] outputArray = new double[inputArray[0].length][1];
+		for(int x =0; x<inputArray[0].length;x++ )
+		{
+			outputArray[x][0]=inputArray[x][0];
+		}
+		return new Matrix(outputArray);
 	}
 	public void printMatrix(Matrix  inputMatrix)
 	{
@@ -80,6 +97,7 @@ public class SearchAlgo {
 			System.out.println("");
 		}
 	}
+	// Getter Methods
 	public String getCharacters(){
 		return xmlCharacters;
 	}
@@ -98,7 +116,6 @@ public class SearchAlgo {
 	public String getTheme(){
 		return xmlTheme;
 	}
-
 	public String[] searchResults(){
 		return allFiles;
 	}

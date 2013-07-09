@@ -19,12 +19,23 @@ public class Search {
 	
 
 	public Search(){
+		System.out.println("Test-1");
+		searchAlgo = new SearchAlgo();//searchInput.getSearchCriteria(), searchInput.getInputList());
+		System.out.println("Test0");
 		
-		searchAlgo = new SearchAlgo(searchInput.getSearchCriteria(), searchInput.getInputList());
 		allFiles=searchAlgo.searchResults();
-		
-	}
+		printAllFiles();
 
+	}
+	public void printAllFiles()
+	{
+		System.out.println(allFiles[0]);
+		System.out.println(allFiles[1]);
+		System.out.println(allFiles[2]);		
+		System.out.println(allFiles[3]);
+		System.out.println(allFiles[4]);
+		System.out.println(allFiles[5]);
+	}
 	public String[] getAllFiles(){
 		
 		return allFiles;

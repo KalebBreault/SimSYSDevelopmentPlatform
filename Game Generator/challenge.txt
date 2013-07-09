@@ -2,4 +2,3 @@
 challenge0: Length: 3 		difficulty: 5 		professionalSubject: 4	educationalSubject: 5	type: 1
 challenge1: Length: 9		difficulty: 5 		professionalSubject: 2	educationalSubject: 9	type: 1
 challenge2: Length: 9 		difficulty: 5 		professionalSubject: 9	educationalSubject: 2	type: 1
-
