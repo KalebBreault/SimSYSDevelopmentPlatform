@@ -76,9 +76,9 @@ public class Locale {
     public List<ScreenNode> getAct(int learningActId) {
         List<ScreenNode> actScreens = new ArrayList<ScreenNode>();
         actScreens.addAll(buildScreens(learningActId, ScreenType.LESSON_STORY_INTRO));
-        actScreens.addAll(buildScreens(learningActId, ScreenType.LESSON_STORY_OUTRO));
         actScreens.addAll(buildLesson(learningActId));
         actScreens.addAll(buildChallenges(learningActId));
+        actScreens.addAll(buildScreens(learningActId, ScreenType.LESSON_STORY_OUTRO));
         return actScreens;
     }
 
