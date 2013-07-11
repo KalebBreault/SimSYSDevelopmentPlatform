@@ -1,0 +1,64 @@
+<locale0>
+	<SearchMetaData>
+		<Setting>
+			<Past>9</Past>
+			<Present>1</Present>
+			<Future>1</Future>
+		</Setting>
+		<Subject>
+			<Professional>1</Professional>
+			<Casual>6</Casual>
+			<Natrue>3</Natrue>
+			<Educational>1</Educational>
+			<Non-Terestial>1</Non-Terestial>
+		</Subject>
+	</SearchMetaData>
+</locale0>
+<locale1>
+	<SearchMetaData>
+		<Setting>
+			<Past>1</Past>
+			<Present>9</Present>
+			<Future>1</Future>
+		</Setting>
+		<Subject>
+			<Professional>9</Professional>
+			<Casual>1</Casual>
+			<Natrue>1</Natrue>
+			<Non-Terestial>1</Non-Terestial>
+			<Educational>1</Educational>
+		</Subject>
+	</SearchMetaData>
+</locale1>
+<locale2>
+	<SearchMetaData>
+		<Setting>
+			<Past>1</Past>
+			<Present>6</Present>
+			<Future>6</Future>
+		</Setting>
+		<Subject>
+			<Professional>1</Professional>
+			<Casual>1</Casual>
+			<Natrue>1</Natrue>
+			<Non-Terestial>9</Non-Terestial>
+			<Educational>1</Educational>
+		</Subject>
+	</SearchMetaData>
+</locale2>
+<locale3>
+	<SearchMetaData>
+		<Setting>
+			<Past>1</Past>
+			<Present>9</Present>
+			<Future>1</Future>
+		</Setting>
+		<Subject>
+			<Professional>1</Professional>
+			<Casual>1</Casual>
+			<Natrue>1</Natrue>
+			<Non-Terestial>1</Non-Terestial>
+			<Educational>9</Educational>
+		</Subject>
+	</SearchMetaData>
+</locale3>

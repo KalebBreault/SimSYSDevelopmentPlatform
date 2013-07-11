@@ -1,0 +1,69 @@
+<challenge0>
+  <SearchMetaData>
+    <Length>
+    <Short>9</Short>
+    <Long>1	</Long>
+    </Length>
+    <Difficulty>
+    <Easy>9</Easy>
+    <Hard>1</Hard>
+    </Difficulty>
+    <Subject>
+      <Personal>1</Personal>
+      <Professional>1</Professional>
+      <School>8</School>
+    </Subject>
+    <QuestionType>MultipleChoice</QuestionType>
+  </SearchMetaData>
+</challenge0>
+<challenge1>
+  <SearchMetaData>
+    <Short>1	</Short>
+    <Long>9	</Long>
+    </Length>
+    <Difficulty>
+    <Easy>6</Easy>
+    <Hard>6</Hard>
+    </Difficulty>
+    <Subject>
+      <Personal>1</Personal>
+      <Professional>8</Professional>
+      <School>1</School>
+    </Subject>
+    <QuestionType>MultipleChoice</QuestionType>
+  </SearchMetaData>
+</challenge1>
+<challenge2>
+  <SearchMetaData>
+    <Short>5	</Short>
+    <Long>5	</Long>
+    </Length>
+    <Difficulty>
+    <Easy>1</Easy>
+    <Hard>9</Hard>
+    </Difficulty>
+    <Subject>
+      <Personal>1</Personal>
+      <Professional>1</Professional>
+      <School>8</School>
+    </Subject>
+    <QuestionType>MultipleChoice</QuestionType>
+  </SearchMetaData>
+</challenge2>  
+<challenge3>
+  <SearchMetaData>
+      <Short>9	</Short>
+    <Long>1	</Long>
+    </Length>
+        <Difficulty>
+    <Easy>6</Easy>
+    <Hard>6</Hard>
+    </Difficulty>
+    <Subject>
+      <Personal>1</Personal>
+      <Professional>1</Professional>
+      <School>8</School>
+    </Subject>
+    <QuestionType>MultipleChoice</QuestionType>
+  </SearchMetaData>
+</challenge3>

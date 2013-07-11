@@ -1,0 +1,72 @@
+<Subject0>
+	<SearchMetaData>
+		<Subject>
+			<Math>9</Math>
+			<Reading>1</Reading>
+			<English>1</English>
+			<SocialStudies>1</SocialStudies>
+			<Science>1</Science>
+			<Professional>1</Professional>
+		</Subject>
+		<GradeLevel>
+			<primary>9</primary>
+			<middle>1</middle>
+			<high>1</high>
+			<college>1</college>
+		</GradeLevel>
+	</SearchMetaData>
+</Subject0>
+<Subject1>
+	<SearchMetaData>
+		<Subject>
+			<Math>1</Math>
+			<Reading>1</Reading>
+			<English>1</English>
+			<SocialStudies>1</SocialStudies>
+			<Science>1</Science>
+			<Professional>9</Professional>
+		</Subject>
+		<GradeLevel>
+			<primary>1</primary>
+			<middle>1</middle>
+			<high>9</high>
+			<college>1</college>
+		</GradeLevel>
+	</SearchMetaData>
+</Subject1>
+<Subject2>
+	<SearchMetaData>
+		<Subject>
+			<Math>1</Math>
+			<Reading>1</Reading>
+			<English>1</English>
+			<SocialStudies>1</SocialStudies>
+			<Science>9</Science>
+			<Professional>1</Professional>
+		</Subject>
+		<GradeLevel>
+			<primary>1</primary>
+			<middle>9</middle>
+			<high>1</high>
+			<college>1</college>
+		</GradeLevel>
+	</SearchMetaData>
+</Subject2>
+<Subject3>
+	<SearchMetaData>
+		<Subject>
+			<Math>1</Math>
+			<Reading>1</Reading>
+			<English>9</English>
+			<SocialStudies>1</SocialStudies>
+			<Science>1</Science>
+			<Professional>1</Professional>
+		</Subject>
+		<GradeLevel>
+			<primary>1</primary>
+			<middle>1</middle>
+			<high>1</high>
+			<college>9</college>
+		</GradeLevel>
+	</SearchMetaData>
+</Subject3>
