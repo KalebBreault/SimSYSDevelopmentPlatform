@@ -24,11 +24,13 @@ public class SearchSpace {
 	double[][] searchSpace;
 	int numberOfChoices;
 	int numberOfCriteria;
-
+	int Criteria =0;
+	int row=0;
+	int col=0;
 	public SearchSpace(String type){
 		//READ FROM XML FILES
 		try {
-			System.out.println("SearchSpace Start");
+	//		System.out.println("SearchSpace Start");
 			//			jaxbContext = JAXBContext.newInstance();
 			//		
 			//	        file = new File("XMLmetadata\\"+type+".xml");
@@ -41,20 +43,15 @@ public class SearchSpace {
 
 			// normalize text representation
 			component.getDocumentElement ().normalize ();
-			System.out.println ("Root element of the file is \"" + 
-								component.getDocumentElement().getNodeName() +"\" with type: "+type);
+//			System.out.println ("Root element of the file is \"" + 
+//								component.getDocumentElement().getNodeName() +"\" with type: "+type);
 			NodeList listOfComponents = component.getElementsByTagName(type);
 			int totalComponents= listOfComponents.getLength();
-			System.out.println("Total num of "+type+" : " + totalComponents );   
-			System.out.println("StartRowCalc$$");
-			NodeList listOfMetadata = component.getElementsByTagName("SearchMetaData");
-			int totalMetadata=0; 
-			for(int i=1; i <listOfMetadata.getLength();i+=2)
-				{
-				totalMetadata+=rowSizeCalculator(listOfMetadata.item(i).getChildNodes(),0,0);
-				}
-			System.out.println(totalMetadata);
-			System.out.println("EndRowCalc$$");
+//			System.out.println("Total num of "+type+" : " + totalComponents );   
+			rowSizeCalculator(listOfComponents,0); 	//rowSizeCalculator counts ALL the leaf nodes which 
+			Criteria /= totalComponents; 		//is totalComponents*Criteria so divide that out
+//			System.out.println(Criteria);
+			searchSpace = new double[totalComponents][Criteria];
 			XMLInputRecurr(listOfComponents,0);
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
@@ -101,12 +98,28 @@ public class SearchSpace {
 	 */
 	private void matrixHandoff(String input)
 	{
-		int inputInteger = Integer.parseInt(input);
-	//	System.out.println("InputNumber:"+ inputInteger);
+		double inputDouble = Double.parseDouble(input);
+		searchSpace[col][row]= inputDouble; 
+		row++;
+		if(row>=searchSpace[col].length)
+		{
+			col++;
+			row=0;
+		}
+		if( col>searchSpace.length)
+		{
+			col=-1;
+		}
+		
+//	System.out.println("InputNumber:"+ inputDouble);
 	}
-	private int rowSizeCalculator(NodeList inList, int depthLevel, int counter)
+	private void countUp()
 	{
-		System.out.print(counter+", ");
+		Criteria++;
+	}
+	private void rowSizeCalculator(NodeList inList, int depthLevel)
+	{
+		//System.out.println("Criteria:"+Criteria+"\n depthLevel:"+depthLevel);
 		int start=0;
 		if(depthLevel>0)
 		{
@@ -117,16 +130,17 @@ public class SearchSpace {
 			if(j%2==1 || depthLevel==0){
 				if(inList.item(j).getChildNodes().item(1)!=null) 
 				{
-					return rowSizeCalculator(inList.item(j).getChildNodes(), depthLevel+1, counter);
+					rowSizeCalculator(inList.item(j).getChildNodes(), depthLevel+1);
 				}
 				else
 				{
-					System.out.println("CounterIncreased");
-					counter++;					
+				//	System.out.println("Criteria++");
+					//System.out.println("inList.item("+j+").getNodeName(): "+ inList.item(j).getNodeName().trim());
+					//System.out.println("inList.item("+j+").getTextContext(): "+ inList.item(j).getTextContent().trim());
+					countUp();					
 				}
 			}
 		}		
-	return counter;
 	}
 	/**
 	 * @Param NodeList the list of components, depth level of 0
@@ -141,15 +155,13 @@ public class SearchSpace {
 		}
 		for(int j=0; j<inList.getLength(); j++)
 		{
-			if(j%2==1 || depthLevel==0){
-				//VERBOSE
+			if(j%2==1 || depthLevel==0){ //For some reason, the tree is miss-shaped when it is initially passed in
+										 //this is why the code looks so weird here. 		
 //				for(int i =0; i<depthLevel;i++) //for depth tabs
 //				{
 //					System.out.print("\t");
 //				}
-//				System.out.println("inList.item("+j+").getNodeName(): "
-//									+ inList.item(j).getNodeName());
-				//END VERBOSE
+//				System.out.println("inList.item("+j+").getNodeName(): "+ inList.item(j).getNodeName());
 				if(inList.item(j).getChildNodes().item(1)!=null) 
 				{
 					XMLInputRecurr(inList.item(j).getChildNodes(), depthLevel+1);
