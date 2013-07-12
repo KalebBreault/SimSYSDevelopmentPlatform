@@ -29,7 +29,7 @@ public class SearchAlgo {
 		System.out.println("Test1, Start of SearchAlgo");
 		for(int x=0; x<gameComponents.length; x++)
 		{
-			SearchSpace search= new SearchSpace(gameComponents[x]); 
+			SearchSpace search= new SearchSpace(gameComponents[x]); }/*
 			//searchSpace which should be from the metadata tags
 			Matrix componentInput = new Matrix(search.getSearchSpace());
 			//changes the SearchSpace array into a Matrix object
@@ -52,7 +52,7 @@ public class SearchAlgo {
 			allFiles[x]=gameComponents[x]+getLargestValue(criteriaScore);
 			System.out.println(allFiles[x]);
 			printMatrix(criteriaScore);
-		}
+		}*/
 		//Get rid of this when SearchInput is working. 
 		allFiles[0]=xmlCharacters;
 		allFiles[1]=xmlLessons;

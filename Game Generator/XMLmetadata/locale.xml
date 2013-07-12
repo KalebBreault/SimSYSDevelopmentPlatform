@@ -1,5 +1,5 @@
-<locales>
-	<locale id="0">
+<Locales>
+	<Locale id="0">
 		<SearchMetaData>
 			<Setting>
 				<Past>9</Past>
@@ -14,8 +14,8 @@
 				<Non-Terrestrial>1</Non-Terrestrial>
 			</Subject>
 		</SearchMetaData>
-	</locale>
-	<locale id="1">
+	</Locale>
+	<Locale id="1">
 		<SearchMetaData>
 			<Setting>
 				<Past>1</Past>
@@ -30,8 +30,8 @@
 				<Educational>1</Educational>
 			</Subject>
 		</SearchMetaData>
-	</locale>
-	<locale id="2">
+	</Locale>
+	<Locale id="2">
 		<SearchMetaData>
 			<Setting>
 				<Past>1</Past>
@@ -46,8 +46,8 @@
 				<Educational>1</Educational>
 			</Subject>
 		</SearchMetaData>
-	</locale>
-	<locale id="3">
+	</Locale>
+	<Locale id="3">
 		<SearchMetaData>
 			<Setting>
 				<Past>1</Past>
@@ -62,5 +62,5 @@
 				<Educational>9</Educational>
 			</Subject>
 		</SearchMetaData>
-	</locale>
-</locales>
+	</Locale>
+</Locales>

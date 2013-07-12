@@ -1,14 +1,14 @@
 <Subjects>
 	<Subject id="0">
 		<SearchMetaData>
-			<Subject>
+			<SubjectType>
 				<Math>9</Math>
 				<Reading>1</Reading>
 				<English>1</English>
 				<SocialStudies>1</SocialStudies>
 				<Science>1</Science>
 				<Professional>1</Professional>
-			</Subject>
+			</SubjectType>
 			<GradeLevel>
 				<primary>9</primary>
 				<middle>1</middle>
@@ -19,14 +19,14 @@
 	</Subject>
 	<Subject id="1">
 		<SearchMetaData>
-			<Subject>
+			<SubjectType>
 				<Math>1</Math>
 				<Reading>1</Reading>
 				<English>1</English>
 				<SocialStudies>1</SocialStudies>
 				<Science>1</Science>
 				<Professional>9</Professional>
-			</Subject>
+			</SubjectType>
 			<GradeLevel>
 				<primary>1</primary>
 				<middle>1</middle>
@@ -37,14 +37,14 @@
 	</Subject>
 	<Subject id="2">
 		<SearchMetaData>
-			<Subject>
+			<SubjectType>
 				<Math>1</Math>
 				<Reading>1</Reading>
 				<English>1</English>
 				<SocialStudies>1</SocialStudies>
 				<Science>9</Science>
 				<Professional>1</Professional>
-			</Subject>
+			</SubjectType>
 			<GradeLevel>
 				<primary>1</primary>
 				<middle>9</middle>
@@ -55,14 +55,14 @@
 	</Subject>
 	<Subject id="3">
 		<SearchMetaData>
-			<Subject>
+			<SubjectType>
 				<Math>1</Math>
 				<Reading>1</Reading>
 				<English>9</English>
 				<SocialStudies>1</SocialStudies>
 				<Science>1</Science>
 				<Professional>1</Professional>
-			</Subject>
+			</SubjectType>
 			<GradeLevel>
 				<primary>1</primary>
 				<middle>1</middle>

@@ -39,21 +39,30 @@ public class SearchSpace {
 
             DocumentBuilderFactory docBuilderFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder docBuilder = docBuilderFactory.newDocumentBuilder();
-            Document doc = docBuilder.parse (new File("XMLmetadata//"+type+".xml"));
+            Document component = docBuilder.parse (new File("XMLmetadata//"+type+".xml"));
             
 
             // normalize text representation
-            doc.getDocumentElement ().normalize ();
+            component.getDocumentElement ().normalize ();
             System.out.println ("Root element of the doc is " + 
-                 doc.getDocumentElement().getNodeName());
+            		component.getDocumentElement().getNodeName() +" with type: "+type);
 
 
-            NodeList listOfPersons = doc.getElementsByTagName("person");
-            int totalPersons = listOfPersons.getLength();
+            NodeList listOfComponents = component.getElementsByTagName(type);
+            int totalPersons = listOfComponents.getLength();
             System.out.println("Total no of people : " + totalPersons);   
-	        
-	        
-	        
+	        NodeList listOfCriteria = component.getElementsByTagName("SearchMetaData");
+            for(int i=0; i<listOfCriteria.getLength() ; i++)
+            {
+            	Node tempNode = listOfCriteria.item(i);
+            	System.out.println("Metadata"+i+": "+tempNode.getNodeName());
+            	NodeList tempNodeChildren= tempNode.getChildNodes();
+                for(int j=0; j<tempNodeChildren.getLength(); j++)
+                {
+                	System.out.println("\tCriteria"+j+": "+tempNodeChildren.item(j).getNodeName());
+                }
+
+            }
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 			e.printStackTrace();
