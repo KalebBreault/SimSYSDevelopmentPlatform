@@ -27,11 +27,8 @@ public class SearchSpace {
 
 	public SearchSpace(String type){
 		//READ FROM XML FILES
-		JAXBContext jaxbContext = null;
-		File file = null;
-		Unmarshaller unmarshaller = null;
-
 		try {
+			System.out.println("SearchSpace Start");
 			//			jaxbContext = JAXBContext.newInstance();
 			//		
 			//	        file = new File("XMLmetadata\\"+type+".xml");
@@ -44,36 +41,21 @@ public class SearchSpace {
 
 			// normalize text representation
 			component.getDocumentElement ().normalize ();
-			System.out.println ("Root element of the doc is " + 
-					component.getDocumentElement().getNodeName() +" with type: "+type);
-			//			System.out.println("NodeValue: "+component.getDocumentElement());
-
+			System.out.println ("Root element of the file is \"" + 
+								component.getDocumentElement().getNodeName() +"\" with type: "+type);
 			NodeList listOfComponents = component.getElementsByTagName(type);
-			int totalPersons = listOfComponents.getLength();
-			System.out.println("Total no of people : " + totalPersons);   
-			//			NodeList listOfCriteria = component.getElementsByTagName("SearchMetaData");
+			int totalComponents= listOfComponents.getLength();
+			System.out.println("Total num of "+type+" : " + totalComponents );   
+			System.out.println("StartRowCalc$$");
+			NodeList listOfMetadata = component.getElementsByTagName("SearchMetaData");
+			int totalMetadata=0; 
+			for(int i=1; i <listOfMetadata.getLength();i+=2)
+				{
+				totalMetadata+=rowSizeCalculator(listOfMetadata.item(i).getChildNodes(),0,0);
+				}
+			System.out.println(totalMetadata);
+			System.out.println("EndRowCalc$$");
 			XMLInputRecurr(listOfComponents,0);
-			//			for(int i=1; i<listOfComponents.getLength() ; i++)
-			//			{
-			//				System.out.println("i: "+i);
-			//				int depthLevel=0;
-			//				System.out.println(listOfComponents.item(i).getNodeName());
-			//				NodeList leafNodes = listOfComponents.item(i).getChildNodes();
-			//
-			//				//				Node tempNode = listOfCriteria.item(i);
-			//				//				System.out.println(type+i+": "+tempNode.getNodeName());
-			//				//				NodeList tempNodeChildren= tempNode.getChildNodes();
-			//				//				for(int j=0; j<tempNodeChildren.getLength(); j++)
-			//				//				{		
-			//				//					NodeList tempNodeChildrensChildren = tempNodeChildren.item(j).getChildNodes();
-			//				//					for(int k=0; k<tempNodeChildrensChildren.getLength();k++)
-			//				//					{
-			//				//						if(k%2==1)
-			//				//							System.out.println("\tCriteria"+k+": "+tempNodeChildrensChildren.item(k).getNodeName() + 
-			//				//								"\n\t\t Value:"+ tempNodeChildrensChildren.item(k).getChildNodes().item(0).getChildNodes().item(0).getNodeName());
-			//				//					}//end of loop with j
-			//				//				}
-			//			}//end of loop with i
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 			e.printStackTrace();
@@ -113,37 +95,77 @@ public class SearchSpace {
 		}
 		 */
 	}
-	public NodeList XMLInputRecurr(NodeList inList, int depthLevel)
+	/**
+	 * @param String the input integer in string form
+	 * takes input string, parses it and adds it to a matrix. 
+	 */
+	private void matrixHandoff(String input)
+	{
+		int inputInteger = Integer.parseInt(input);
+	//	System.out.println("InputNumber:"+ inputInteger);
+	}
+	private int rowSizeCalculator(NodeList inList, int depthLevel, int counter)
+	{
+		System.out.print(counter+", ");
+		int start=0;
+		if(depthLevel>0)
+		{
+			start =1;
+		}
+		for(int j=0; j<inList.getLength(); j++)
+		{
+			if(j%2==1 || depthLevel==0){
+				if(inList.item(j).getChildNodes().item(1)!=null) 
+				{
+					return rowSizeCalculator(inList.item(j).getChildNodes(), depthLevel+1, counter);
+				}
+				else
+				{
+					System.out.println("CounterIncreased");
+					counter++;					
+				}
+			}
+		}		
+	return counter;
+	}
+	/**
+	 * @Param NodeList the list of components, depth level of 0
+	 * This method takes the text context from the XML files in tree format and hands them off to be put in a matrix
+	 */
+	private void XMLInputRecurr(NodeList inList, int depthLevel)
 	{
 		int start=0;
 		if(depthLevel>0)
 		{
 			start =1;
 		}
-		for(int j=start; j<inList.getLength(); j++)
+		for(int j=0; j<inList.getLength(); j++)
 		{
-			if(j%2==1){
-				for(int i =0; i<depthLevel;i++) //for depth tabs
-				{
-					System.out.print("\t");
-				}
-				System.out.println("inList.item("+j+").getNodeName(): "+ inList.item(j).getNodeName());
-				if(inList.item(j).getChildNodes()!=null)
+			if(j%2==1 || depthLevel==0){
+				//VERBOSE
+//				for(int i =0; i<depthLevel;i++) //for depth tabs
+//				{
+//					System.out.print("\t");
+//				}
+//				System.out.println("inList.item("+j+").getNodeName(): "
+//									+ inList.item(j).getNodeName());
+				//END VERBOSE
+				if(inList.item(j).getChildNodes().item(1)!=null) 
 				{
 					XMLInputRecurr(inList.item(j).getChildNodes(), depthLevel+1);
 				}
 				else
 				{
-					System.out.println("#####################################");
-					for(int i =0; i<depthLevel;i++) //for depth tabs
-					{
-						System.out.print("\t");
-					}
-					System.out.println("inList.item("+j+").getNodeValue(): "+inList.item(j).getTextContent().trim());
+					String output = inList.item(j).getTextContent().trim();
+//					for(int i =0; i<depthLevel;i++) //for depth tabs
+//					{
+//						System.out.print("\t");
+//					}
+//					System.out.println("inList.item("+j+").getTextContext(): "+ output);
+					matrixHandoff(output);
 				}
 			}
 		}
-		return inList;
 	}
 	public double[][] getSearchSpace()
 	{

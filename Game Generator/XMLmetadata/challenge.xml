@@ -14,7 +14,6 @@
 				<Professional>1</Professional>
 				<School>8</School>
 			</Subject>
-			<QuestionType>MultipleChoice</QuestionType>
 		</SearchMetaData>
 	</Challenge>
 	<Challenge id="1">
@@ -32,7 +31,6 @@
 				<Professional>8</Professional>
 				<School>1</School>
 			</Subject>
-			<QuestionType>MultipleChoice</QuestionType>
 		</SearchMetaData>
 	</Challenge>
 	<Challenge id="2">
@@ -50,7 +48,6 @@
 				<Professional>1</Professional>
 				<School>8</School>
 			</Subject>
-			<QuestionType>MultipleChoice</QuestionType>
 		</SearchMetaData>
 	</Challenge>
 	<Challenge id="3">
@@ -68,7 +65,6 @@
 				<Professional>1</Professional>
 				<School>8</School>
 			</Subject>
-			<QuestionType>MultipleChoice</QuestionType>
 		</SearchMetaData>
 	</Challenge>
 </Challenges>
