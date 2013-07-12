@@ -32,28 +32,28 @@ public class SearchAlgo {
 			SearchSpace search= new SearchSpace(gameComponents[x]); 	//searchSpace which should be from the metadata tags
 			Matrix componentInput = new Matrix(search.getSearchSpace());//changes the SearchSpace array into a Matrix object
 			printMatrix(componentInput);
-//			SearchInput input = new SearchInput(gameComponents[x]); //The input from the user 
-//			Matrix searchInput = new Matrix(input.getInput());
-//			printMatrix(searchInput);//brings the input into this class
-//			EigenvalueDecomposition eigenDecomp= searchInput.eig();//creates new object that contains the eigenvector
-//			Matrix weightedMatrix = eigenDecomp.getV();//makes the eigenvector matrix of the input
-//			System.out.println("weightedMatrix");
-//			printMatrix(weightedMatrix);
-//			System.out.println("componentInput");
-//			printMatrix(componentInput);
-//			Matrix criteriaScore = componentInput.times(getFirstColumn(weightedMatrix));//multiplies the weighted score matrix by the input matrix.
-//			allFiles[x]=gameComponents[x]+getLargestValue(criteriaScore);
-//			System.out.println(allFiles[x]);
-//			printMatrix(criteriaScore);
+			SearchInput input = new SearchInput(gameComponents[x]); //The input from the user 
+			Matrix searchInput = new Matrix(input.getInput());
+			printMatrix(searchInput);//brings the input into this class
+			EigenvalueDecomposition eigenDecomp= searchInput.eig();//creates new object that contains the eigenvector
+			Matrix weightedMatrix = eigenDecomp.getV();//makes the eigenvector matrix of the input
+			System.out.println("weightedMatrix");
+			printMatrix(weightedMatrix);
+			System.out.println("componentInput");
+			printMatrix(componentInput);
+			Matrix criteriaScore = componentInput.times(getFirstColumn(weightedMatrix));//multiplies the weighted score matrix by the input matrix.
+			allFiles[x]=gameComponents[x]+getLargestValue(criteriaScore);
+			System.out.println(allFiles[x]);
+			printMatrix(criteriaScore);
 		}// end of loop with x 
 
 		//Get rid of this when SearchInput is working. 
-		allFiles[0]=xmlCharacters;
-		allFiles[1]=xmlLessons;
-		allFiles[2]=xmlChallenges;
-		allFiles[3]=xmlLocale;
-		allFiles[4]=xmlSubject;
-		allFiles[5]=xmlTheme;
+//		allFiles[0]=xmlCharacters;
+//		allFiles[1]=xmlLessons;
+//		allFiles[2]=xmlChallenges;
+//		allFiles[3]=xmlLocale;
+//		allFiles[4]=xmlSubject;
+//		allFiles[5]=xmlTheme;
 	}
 	public int getLargestValue(Matrix in)
 	{
