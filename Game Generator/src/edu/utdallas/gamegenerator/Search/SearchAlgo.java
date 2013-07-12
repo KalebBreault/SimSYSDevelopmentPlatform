@@ -18,12 +18,12 @@ public class SearchAlgo {
 	public SearchAlgo()//LinkedList<String> CriteriaList, LinkedList<String>inputedCriteriaList)
 	{
 
-		xmlCharacters="Characters.xml";
-		xmlLessons="Lesson.xml";
-		xmlChallenges="Challenge.xml";
-		xmlLocale="Locale.xml";
-		xmlSubject="Subject.xml";
-		xmlTheme="Theme.xml";
+		xmlCharacters="Characters0";
+		xmlLessons="Lesson0";
+		xmlChallenges="Challenge0";
+		xmlLocale="Locale0";
+		xmlSubject="Subject0";
+		xmlTheme="Theme0";
 		String[] gameComponents = {"Characters", "Lesson", "Challenge", "Locale", "Subject", "Theme"};
 		///////////////////////////
 		System.out.println("Test1, Start of SearchAlgo");
@@ -52,7 +52,8 @@ public class SearchAlgo {
 			allFiles[x]=gameComponents[x]+getLargestValue(criteriaScore);
 			System.out.println(allFiles[x]);
 			printMatrix(criteriaScore);
-		}*/
+		}// end of loop with x 
+*/
 		//Get rid of this when SearchInput is working. 
 		allFiles[0]=xmlCharacters;
 		allFiles[1]=xmlLessons;
@@ -73,7 +74,7 @@ public class SearchAlgo {
 				largestValue = inputArray[x][0];
 				largestIndex = x;
 			}
-		}
+		}//end of looop with x
 		return largestIndex;
 	}
 	public Matrix getFirstColumn(Matrix inputMatrix)
