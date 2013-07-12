@@ -42,7 +42,7 @@
         </LOCharacters>
         <InformationBoxes>
           <InformationBox>
-            <Text>The planet furthest from the Earth is Neptune.</Text>
+            <Text>The planet farthest from the Earth is Neptune.</Text>
             <TextType>ALT1</TextType>
             <Timer></Timer>
           </InformationBox>
@@ -66,7 +66,7 @@
         </LOCharacters>
         <InformationBoxes>
           <InformationBox>
-            <Text>The planet closest to the sun is Mercury.</Text>
+            <Text>The planet closest to the Sun is Mercury.</Text>
             <TextType>ALT1</TextType>
             <Timer></Timer>
           </InformationBox>
@@ -90,7 +90,7 @@
         </LOCharacters>
         <InformationBoxes>
           <InformationBox>
-            <Text>The largest planet in the solar system is Jupiter.</Text>
+            <Text>The largest planet in the Solar System is Jupiter.</Text>
             <TextType>ALT1</TextType>
             <Timer></Timer>
           </InformationBox>

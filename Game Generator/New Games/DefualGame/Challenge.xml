@@ -32,6 +32,10 @@
 			  <CharacterType>HERO</CharacterType>
 			  <Timer></Timer>
 			</Character>
+			<Character>
+			  <CharacterType>PLAYER</CharacterType>
+			  <Timer></Timer>
+			</Character>
 		  </LOCharacters>
 		  <InformationBoxes>
 			<InformationBox>
@@ -87,6 +91,10 @@
             <CharacterType>HERO</CharacterType>
             <MovementType></MovementType>
             <Timer></Timer>
+            <Character>
+			  <CharacterType>PLAYER</CharacterType>
+			  <Timer></Timer>
+			</Character>
           </Character>
         </LOCharacters>
         <InformationBoxes>

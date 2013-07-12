@@ -88,9 +88,9 @@
           <Height>59.20001220703125</Height>
           <LocX>346.88330078125</LocX>
           <LocY>128.63331604003906</LocY>
-          <Text>Today is my first day of work and I am going to be trained!</Text>
+          <Text>Today is going to be great day at work! I wonder what is in store for today.</Text>
           <Width>210.28340148925781</Width>
-          <name>Today is my first day of work and I am going to be trained!</name>
+          <name>Today is going to be great day at work! I wonder what is in store for today.</name>
         </InformationBox>
       </InformationBoxes>
       <ThemeCharacters>
@@ -264,9 +264,4 @@
       </StoryOutroScreens>
     </ThemeStory>
   </ThemeStories>
-  <SearchMetaData>
-    <Setting>Cubicle</Setting>
-    <GameType>Workplace</GameType>
-    <Subject>Office</Subject>
-  </SearchMetaData>
 </Theme>

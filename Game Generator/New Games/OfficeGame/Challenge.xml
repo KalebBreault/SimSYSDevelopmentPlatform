@@ -67,7 +67,7 @@
             <Reward>
               <Points>2</Points>
             </Reward>
-            <Text>Log off the computer so nobody tampurs with your work.</Text>
+            <Text>Log off the computer so nobody tampers with your work.</Text>
             <Timer></Timer>
             <TransitionType>END_OF_STORY</TransitionType>
           </ChallengeOption>
@@ -77,7 +77,7 @@
             <Reward>
               <Points>-2147483646</Points>
             </Reward>
-            <Text>When your done for the day drop everything and leave.</Text>
+            <Text>When you are done for the day drop everything and leave.</Text>
             <Timer></Timer>
             <TransitionType>BEGINNING_OF_LESSON</TransitionType>
           </ChallengeOption>

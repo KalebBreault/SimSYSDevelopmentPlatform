@@ -200,7 +200,7 @@
 			</InformationBox>
 		    <InformationBox>
 			  <TextType>HERO</TextType>
-			  <Text>Welcome to The Forest of Many Questions. Here you will be tested thought a series of questions. Your goal is to escape through the cabin in the portal. I will do my best to prepare you for Lord Askalot's questions. He will try and prevent you from leaving.</Text>
+			  <Text>Welcome to The Forest of Many Questions. Here you will be tested though a series of questions. Your goal is to escape through the cabin in the portal. I will do my best to prepare you for Lord Askalot's questions. He will try and prevent you from leaving.</Text>
 			  <Timer></Timer>
 			</InformationBox>
 		    <InformationBox>

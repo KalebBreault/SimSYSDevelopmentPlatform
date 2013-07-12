@@ -101,7 +101,7 @@
             <Timer></Timer>
           </InformationBox>
           <InformationBox>
-            <Text>What is the closest planet to earth?</Text>
+            <Text>What is the closest planet to Earth?</Text>
             <TextType>CHALLENGE_DESCRIPTION</TextType>
             <Timer></Timer>
           </InformationBox>
@@ -209,7 +209,7 @@
             <Timer></Timer>
           </InformationBox>
           <InformationBox>
-            <Text>What is the farthest planet from earth?</Text>
+            <Text>What is the farthest planet from Earth?</Text>
             <TextType>CHALLENGE_DESCRIPTION</TextType>
             <Timer></Timer>
           </InformationBox>
@@ -318,7 +318,7 @@
             <Timer></Timer>
           </InformationBox>
           <InformationBox>
-            <Text>What is the largest planet in the solar system?</Text>
+            <Text>What is the largest planet in the Solar System?</Text>
             <TextType>CHALLENGE_DESCRIPTION</TextType>
             <Timer></Timer>
           </InformationBox>
@@ -427,7 +427,7 @@
             <Timer></Timer>
           </InformationBox>
           <InformationBox>
-            <Text>What is the planet closest to the sun?</Text>
+            <Text>What is the planet closest to the Sun?</Text>
             <TextType>CHALLENGE_DESCRIPTION</TextType>
             <Timer></Timer>
           </InformationBox>

@@ -37,9 +37,9 @@
           <Height>59.20001220703125</Height>
           <LocX>346.88330078125</LocX>
           <LocY>128.63331604003906</LocY>
-          <Text>Today's algebra lesson was difficult.. I wonder if Gooble can help!</Text>
+          <Text>Today's lesson was difficult. I wonder if Gooble can help!</Text>
           <Width>210.28340148925781</Width>
-          <name>Today's algebra lesson was difficult.. I wonder if Gooble can help!</name>
+          <name>Today's lesson was difficult. I wonder if Gooble can help!</name>
         </InformationBox>
       </InformationBoxes>
       <ThemeCharacters>
@@ -260,7 +260,7 @@
 			</InformationBox>
 		    <InformationBox>
 			  <TextType>ALT1</TextType>
-			  <Text>After defeating lord calcutron, sir solvesalot takes tou back to the warp zone that will take you back to your own world.</Text>
+			  <Text>After defeating Lord Calcutron, Sir Solvesalot takes you back to the warp zone that will take you back to your own world.</Text>
 			  <Timer></Timer>
 			</InformationBox>
 		  </InformationBoxes>			
