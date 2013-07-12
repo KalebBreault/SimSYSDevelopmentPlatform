@@ -1,4 +1,5 @@
-2 Theme
-     	 	vcriteria1			vcriteria2					
-criteria1: socialSubject: 1		professionalSubject: 1		
-criteria2: socialSubject: 1		professionalSubject: 1
+3 Theme
+	The diagonal should be 1, otherwise the top right triangle should be the inverse of the bottom left triangle		
+Gooble: 		vGooble: 1		vProTraining: 1		vOther: 1		
+ProTraining: 	vGooble: 1		vProTraining: 1		vOther: 1
+Other:			vGooble: 1		vProTraining: 1		vOther: 1

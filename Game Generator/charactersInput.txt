@@ -1,6 +1,8 @@
-4 Characters
-		   vCriteria1 	vCriteria2			vCriteria3					vCriteria4
-Criteria1: age: 1  		playerGender: 1 	numberOfCharacters: 1		nicelyDressed: 3
-Criteria2: age: 1  		playerGender: 1 	numberOfCharacters: 1		nicelyDressed: 3
-Criteria3: age: 1  		playerGender: 1 	numberOfCharacters: 1		nicelyDressed: 3
-Criteria4: age: .33  	playerGender: .33 	numberOfCharacters: .33		nicelyDressed: 1
+6 Characters
+	The diagonal should be 1, otherwise the top right triangle should be the inverse of the bottom left triangle		
+Young: 			vYoung: 1  	vOld: 1		vMale: 1		vFemale: 1		vCasualDress: 1		vFancyDress: 1
+Old: 			vYoung: 1  	vOld: 1		vMale: 1		vFemale: 1		vCasualDress: 1		vFancyDress: 1
+Male:			vYoung: 1  	vOld: 1		vMale: 1		vFemale: 1		vCasualDress: 1		vFancyDress: 1
+Female: 		vYoung: 1  	vOld: 1		vMale: 1		vFemale: 1		vCasualDress: 1		vFancyDress: 1
+CasualDress:	vYoung: 1  	vOld: 1		vMale: 1		vFemale: 1		vCasualDress: 1		vFancyDress: 1
+FancyDress:		vYoung: 1  	vOld: 1		vMale: 1		vFemale: 1		vCasualDress: 1		vFancyDress: 1
