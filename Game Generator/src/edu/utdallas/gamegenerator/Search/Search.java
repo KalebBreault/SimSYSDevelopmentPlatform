@@ -19,9 +19,11 @@ public class Search {
 	
 
 	public Search(){
-		System.out.println("Test-1");
+		///////////////////////////
+		System.out.println("Test -1, before SearchAlgoCalled");
 		searchAlgo = new SearchAlgo();//searchInput.getSearchCriteria(), searchInput.getInputList());
-		System.out.println("Test0");
+		///////////////////////////
+		System.out.println("Test0, after SearchAlgoCalled");
 		
 		allFiles=searchAlgo.searchResults();
 		printAllFiles();

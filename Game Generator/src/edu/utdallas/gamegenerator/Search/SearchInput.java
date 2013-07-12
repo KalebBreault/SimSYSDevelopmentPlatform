@@ -15,7 +15,8 @@ public class SearchInput {
 	
 	public SearchInput(String type){
 		criteriaList = new SearchCriteriaList();
-		System.out.println("Test2");
+		///////////////////////////
+		System.out.println("Test2, Start of SearchInput");
 		String userInput="OK";
 //		Scanner input= new Scanner(System.in);
 //		inputList= new LinkedList<String>();

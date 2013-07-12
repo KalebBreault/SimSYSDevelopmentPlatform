@@ -25,7 +25,8 @@ public class SearchAlgo {
 		xmlSubject="Subject.xml";
 		xmlTheme="Theme.xml";
 		String[] gameComponents = {"Characters", "Lesson", "Challenge", "Locale", "Subject", "Theme"};
-		System.out.println("Test1");
+		///////////////////////////
+		System.out.println("Test1, Start of SearchAlgo");
 		for(int x=0; x<gameComponents.length; x++)
 		{
 			SearchSpace search= new SearchSpace(gameComponents[x]); 
@@ -53,12 +54,12 @@ public class SearchAlgo {
 			printMatrix(criteriaScore);
 		}
 		//Get rid of this when SearchInput is working. 
-//		allFiles[0]=xmlCharacters;
-//		allFiles[1]=xmlLessons;
-//		allFiles[2]=xmlChallenges;
-//		allFiles[3]=xmlLocale;
-//		allFiles[4]=xmlSubject;
-//		allFiles[5]=xmlTheme;
+		allFiles[0]=xmlCharacters;
+		allFiles[1]=xmlLessons;
+		allFiles[2]=xmlChallenges;
+		allFiles[3]=xmlLocale;
+		allFiles[4]=xmlSubject;
+		allFiles[5]=xmlTheme;
 	}
 	public int getLargestValue(Matrix in)
 	{
