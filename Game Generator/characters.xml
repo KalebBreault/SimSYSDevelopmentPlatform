@@ -1,4 +1,4 @@
-<character0>
+<character id ="0">
 	<SearchMetaData>
 		<Age>
 			<Young>9</Young>
@@ -13,8 +13,8 @@
 			<Formal>1</Formal>
 		</Dress>
 	</SearchMetaData>
-</character0>
-<character1>
+</character>
+<character id ="1">
 	<SearchMetaData>
 		<Age>
 			<Young>1</Young>
@@ -29,8 +29,8 @@
 			<Formal>9</Formal>
 		</Dress>
 	</SearchMetaData>
-</character1>
-<character2>
+</character>
+<character id ="2">
 	<SearchMetaData>
 		<Age>
 			<Young>9</Young>
@@ -45,8 +45,8 @@
 			<Formal>1</Formal>
 		</Dress>
 	</SearchMetaData>
-</character2>
-<character3>
+</character>
+<character id ="3">
 	<SearchMetaData>
 		<Age>
 			<Young>5</Young>
@@ -61,4 +61,4 @@
 			<Formal>5</Formal>
 		</Dress>
 	</SearchMetaData>
-</character3>
+</character>

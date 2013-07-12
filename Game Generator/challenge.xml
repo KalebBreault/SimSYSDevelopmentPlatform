@@ -1,4 +1,4 @@
-<challenge0>
+<challenge id ="0">
   <SearchMetaData>
     <Length>
     <Short>9</Short>
@@ -15,8 +15,8 @@
     </Subject>
     <QuestionType>MultipleChoice</QuestionType>
   </SearchMetaData>
-</challenge0>
-<challenge1>
+</challenge>
+<challenge id ="1">
   <SearchMetaData>
     <Short>1	</Short>
     <Long>9	</Long>
@@ -32,8 +32,8 @@
     </Subject>
     <QuestionType>MultipleChoice</QuestionType>
   </SearchMetaData>
-</challenge1>
-<challenge2>
+</challenge>
+<challenge id ="2">
   <SearchMetaData>
     <Short>5	</Short>
     <Long>5	</Long>
@@ -49,8 +49,8 @@
     </Subject>
     <QuestionType>MultipleChoice</QuestionType>
   </SearchMetaData>
-</challenge2>  
-<challenge3>
+</challenge>  
+<challenge id ="3">
   <SearchMetaData>
       <Short>9	</Short>
     <Long>1	</Long>
@@ -66,4 +66,4 @@
     </Subject>
     <QuestionType>MultipleChoice</QuestionType>
   </SearchMetaData>
-</challenge3>
+</challenge>

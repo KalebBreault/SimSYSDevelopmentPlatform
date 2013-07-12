@@ -1,4 +1,4 @@
-<locale0>
+<locale id ="0">
 	<SearchMetaData>
 		<Setting>
 			<Past>9</Past>
@@ -8,13 +8,13 @@
 		<Subject>
 			<Professional>1</Professional>
 			<Casual>6</Casual>
-			<Natrue>3</Natrue>
+			<Nature>3</Nature>
 			<Educational>1</Educational>
-			<Non-Terestial>1</Non-Terestial>
+			<Non-Terrestrial>1</Non-Terrestrial>
 		</Subject>
 	</SearchMetaData>
-</locale0>
-<locale1>
+</locale>
+<locale id ="1">
 	<SearchMetaData>
 		<Setting>
 			<Past>1</Past>
@@ -24,13 +24,13 @@
 		<Subject>
 			<Professional>9</Professional>
 			<Casual>1</Casual>
-			<Natrue>1</Natrue>
-			<Non-Terestial>1</Non-Terestial>
+			<Nature>1</Nature>
+			<Non-Terrestrial>1</Non-Terrestrial>
 			<Educational>1</Educational>
 		</Subject>
 	</SearchMetaData>
-</locale1>
-<locale2>
+</locale>
+<locale id ="2">
 	<SearchMetaData>
 		<Setting>
 			<Past>1</Past>
@@ -40,13 +40,13 @@
 		<Subject>
 			<Professional>1</Professional>
 			<Casual>1</Casual>
-			<Natrue>1</Natrue>
-			<Non-Terestial>9</Non-Terestial>
+			<Nature>1</Nature>
+			<Non-Terrestrial>9</Non-Terrestrial>
 			<Educational>1</Educational>
 		</Subject>
 	</SearchMetaData>
-</locale2>
-<locale3>
+</locale>
+<locale id ="3">
 	<SearchMetaData>
 		<Setting>
 			<Past>1</Past>
@@ -56,9 +56,9 @@
 		<Subject>
 			<Professional>1</Professional>
 			<Casual>1</Casual>
-			<Natrue>1</Natrue>
-			<Non-Terestial>1</Non-Terestial>
+			<Nature>1</Nature>
+			<Non-Terrestrial>1</Non-Terrestrial>
 			<Educational>9</Educational>
 		</Subject>
 	</SearchMetaData>
-</locale3>
+</locale>

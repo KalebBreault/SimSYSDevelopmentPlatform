@@ -1,28 +1,28 @@
-<Theme0>
+<Theme id ="0">
 	<SearchMetaData>
 		<Gooble>9</Gooble>
 		<ProfessionalTraining>1</ProfessionalTraining>
 		<Other>1</Other>
 	</SearchMetaData>
-</Theme0>
-<Theme1>
+</Theme>
+<Theme id ="1">
 	<SearchMetaData>
 		<Gooble>1</Gooble>
 		<ProfessionalTraining>9</ProfessionalTraining>
 		<Other>1</Other>
 	</SearchMetaData>
-</Theme1>
-<Theme2>
+</Theme>
+<Theme id ="2">
 	<SearchMetaData>
 		<Gooble>9</Gooble>
 		<ProfessionalTraining>1</ProfessionalTraining>
 		<Other>1</Other>
 	</SearchMetaData>
-</Theme2>
-<Theme3>
+</Theme>
+<Theme id ="3">
 	<SearchMetaData>
 		<Gooble>1</Gooble>
 		<ProfessionalTraining>1</ProfessionalTraining>
 		<Other>9</Other>
 	</SearchMetaData>
-</Theme3>
+</Theme>

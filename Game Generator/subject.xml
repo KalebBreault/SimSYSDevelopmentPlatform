@@ -1,4 +1,4 @@
-<Subject0>
+<Subject id ="0">
 	<SearchMetaData>
 		<Subject>
 			<Math>9</Math>
@@ -15,8 +15,8 @@
 			<college>1</college>
 		</GradeLevel>
 	</SearchMetaData>
-</Subject0>
-<Subject1>
+</Subject>
+<Subject id ="1">
 	<SearchMetaData>
 		<Subject>
 			<Math>1</Math>
@@ -33,8 +33,8 @@
 			<college>1</college>
 		</GradeLevel>
 	</SearchMetaData>
-</Subject1>
-<Subject2>
+</Subject>
+<Subject id ="2">
 	<SearchMetaData>
 		<Subject>
 			<Math>1</Math>
@@ -51,8 +51,8 @@
 			<college>1</college>
 		</GradeLevel>
 	</SearchMetaData>
-</Subject2>
-<Subject3>
+</Subject>
+<Subject id ="3">
 	<SearchMetaData>
 		<Subject>
 			<Math>1</Math>
@@ -69,4 +69,4 @@
 			<college>9</college>
 		</GradeLevel>
 	</SearchMetaData>
-</Subject3>
+</Subject>
