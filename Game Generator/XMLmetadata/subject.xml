@@ -71,4 +71,22 @@
 			</GradeLevel>
 		</SearchMetaData>
 	</Subject>
+	<Subject id="4">
+		<SearchMetaData>
+			<SubjectType>
+				<Math>1</Math>
+				<Reading>1</Reading>
+				<English>1</English>
+				<SocialStudies>9</SocialStudies>
+				<Science>1</Science>
+				<Professional>1</Professional>
+			</SubjectType>
+			<GradeLevel>
+				<primary>1</primary>
+				<middle>2</middle>
+				<high>3</high>
+				<college>7</college>
+			</GradeLevel>
+		</SearchMetaData>
+	</Subject>
 </Subjects>

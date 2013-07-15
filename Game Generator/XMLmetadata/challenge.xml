@@ -67,4 +67,21 @@
 			</Subject>
 		</SearchMetaData>
 	</Challenge>
+	<Challenge id="4">
+		<SearchMetaData>
+			<Length>
+				<Short>6</Short>
+				<Long>4</Long>
+			</Length>
+			<Difficulty>
+				<Easy>4</Easy>
+				<Hard>6</Hard>
+			</Difficulty>
+			<Subject>
+				<Personal>1</Personal>
+				<Professional>1</Professional>
+				<School>8</School>
+			</Subject>
+		</SearchMetaData>
+	</Challenge>
 </Challenges>

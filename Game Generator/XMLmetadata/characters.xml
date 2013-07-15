@@ -63,4 +63,20 @@
 			</Dress>
 		</SearchMetaData>
 	</Characters>
+	<Characters id="4">
+		<SearchMetaData>
+			<Age>
+				<Young>3</Young>
+				<Old>7</Old>
+			</Age>
+			<PlayerGender>
+				<Male>5</Male>
+				<Female>5</Female>
+			</PlayerGender>
+			<Dress>
+				<Casual>3</Casual>
+				<Formal>7</Formal>
+			</Dress>
+		</SearchMetaData>
+	</Characters>
 </character>
