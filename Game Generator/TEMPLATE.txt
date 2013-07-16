@@ -1,4 +1,0 @@
-<numberOfChoices> <numberOfCriteria> //CriteriaName
-choiceName0: Criteria1: <value> Criteria2: <value> Criteria3: <value>
-choiceName1: Criteria1: <value> Criteria2: <value> Criteria3: <value>
-choiceName2: Criteria1: <value> Criteria2: <value> Criteria3: <value>

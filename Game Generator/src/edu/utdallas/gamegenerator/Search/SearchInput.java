@@ -16,7 +16,7 @@ public class SearchInput {
 	public SearchInput(String type){
 		criteriaList = new SearchCriteriaList();
 		///////////////////////////
-		System.out.println("Test2, Start of SearchInput");
+//		System.out.println("Test2, Start of SearchInput");
 		String userInput="OK";
 //		Scanner input= new Scanner(System.in);
 //		inputList= new LinkedList<String>();
@@ -45,7 +45,7 @@ public class SearchInput {
 		//TODO
 		try {
 			//BufferedReader input = new BufferedReader(new FileReader(type+".txt"));
-			Scanner input = new Scanner(new FileReader(type+"input.txt"));
+			Scanner input = new Scanner(new FileReader("CurrentSearchInput\\"+type+"input.txt"));
 			numberOfChoices= input.nextInt();
 			numberOfCriteria = numberOfChoices;
 			searchInputMatrix = new double[numberOfChoices][numberOfCriteria];
@@ -54,17 +54,19 @@ public class SearchInput {
 	 * do not uncomment the print statements without commenting out the input.next() statements 
 	 * that immediately follow them. (one needs to be commented out at all times.)
 	 */
-			System.out.println("#"+input.next()); //list type name
-//			input.next(); //ignore type name
+//			System.out.println("#"+input.next()); //list type name
+			input.next(); //ignore type name
+//			System.out.println("#"+input.nextLine());
 			input.nextLine();
-			System.out.println("#"+input.nextLine());
+//			System.out.println("#"+input.nextLine());
+			input.nextLine();			
 			while (input.hasNextLine()) {
-				System.out.println("#"+input.next()); //list choice name
-//				input.next(); //ignore choice name
+//				System.out.println("$"+input.next()); //list choice name
+				input.next(); //ignore choice name
 				for(int i=0; i<numberOfCriteria; i++)
 					{
-					System.out.println("#"+input.next()); //list criteria name
-//					input.next(); //ignore criteria name
+//					System.out.println("#"+input.next()); //list criteria name
+					input.next(); //ignore criteria name
 					searchInputMatrix[choiceCounter][i]=input.nextDouble();
 					}
 				choiceCounter++;
@@ -73,8 +75,10 @@ public class SearchInput {
 		}
 		catch(Exception e)
 		{
+			
 			System.out.println(e.getMessage());
 			e.printStackTrace();
+			System.out.println(type);
 		}
 	}
 	//assemble input from user into square matrix

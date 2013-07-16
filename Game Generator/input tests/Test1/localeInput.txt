@@ -7,4 +7,4 @@ Professional:		vPast: 1		vPresent: 1		vFuture: 1		vProfessional: 1		vCasual: 1		
 Casual: 			vPast: 1		vPresent: 1		vFuture: 1		vProfessional: 1		vCasual: 1		vNature: 1		vEducational: 1		vNon-Terrestrial: 1		
 Nature: 			vPast: 1		vPresent: 1		vFuture: 1		vProfessional: 1		vCasual: 1		vNature: 1		vEducational: 1		vNon-Terrestrial: 1		
 Educational: 		vPast: 1		vPresent: 1		vFuture: 1		vProfessional: 1		vCasual: 1		vNature: 1		vEducational: 1		vNon-Terrestrial: 1		
-Non-Terrestrial: 	vPast: 1		vPresent: 1		vFuture: 1		vProfessional: 1		vCasual: 1		vNature: 1		vEducational: 1		vNon-Terrestrial: 1		
+Non-Terrestrial: 	vPast: 1		vPresent: 1		vFuture: 1		vProfessional: 1		vCasual: 1		vNature: 1		vEducational: 1		vNon-Terrestrial: 1

@@ -26,20 +26,21 @@ public class SearchAlgo {
 		xmlTheme="Theme0";
 		String[] gameComponents = {"Characters", "Lesson", "Challenge", "Locale", "Subject", "Theme"};
 		///////////////////////////
-		System.out.println("Test1, Start of SearchAlgo");
+//		System.out.println("Test1, Start of SearchAlgo");
 		for(int x=0; x<gameComponents.length; x++)
 		{
 			SearchSpace search= new SearchSpace(gameComponents[x]); 	//searchSpace which should be from the metadata tags
 			Matrix componentInput = new Matrix(search.getSearchSpace());//changes the SearchSpace array into a Matrix object
-			printMatrix(componentInput);
 			SearchInput input = new SearchInput(gameComponents[x]); //The input from the user 
 			Matrix searchInput = new Matrix(input.getInput());
+			System.out.println("Matrcies for "+ gameComponents[x]);
+			System.out.println("Search Input");
 			printMatrix(searchInput);//brings the input into this class
 			EigenvalueDecomposition eigenDecomp= searchInput.eig();//creates new object that contains the eigenvector
 			Matrix weightedMatrix = eigenDecomp.getV();//makes the eigenvector matrix of the input
-			System.out.println("weightedMatrix");
+			System.out.println("Weighted Matrix / Eigenvector");
 			printMatrix(weightedMatrix);
-			System.out.println("componentInput");
+			System.out.println("Component Metadata Input");
 			printMatrix(componentInput);
 			Matrix criteriaScore = componentInput.times(getFirstColumn(weightedMatrix));//multiplies the weighted score matrix by the input matrix.
 			allFiles[x]=gameComponents[x]+getLargestValue(criteriaScore);
@@ -87,7 +88,7 @@ public class SearchAlgo {
 		{
 			for (int y =0; y <  inputArray[x].length; y++)
 			{
-				System.out.print(inputArray[x][y]+" ");
+				System.out.printf("%.2f ",inputArray[x][y]);
 			}
 			System.out.println("");
 		}
