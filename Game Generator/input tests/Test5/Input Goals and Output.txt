@@ -1,4 +1,4 @@
-TEST 5 (test 2 altered)
+Test 5 (test 2 altered)
 Lesson: 	Professional and educational
 Locale:		present, casual setting
 Subject:	Math, Primary level

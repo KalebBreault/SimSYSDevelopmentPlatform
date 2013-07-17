@@ -1,3 +1,4 @@
+Test3
 Lesson: 	Social and educational
 Locale:		future, non-Terrestrial setting
 Subject:	English, College level
@@ -27,12 +28,12 @@ Component Metadata Input
 9.00 1.00 9.00 1.00 9.00 1.00 
 5.00 5.00 9.00 1.00 5.00 5.00 
 3.00 7.00 5.00 5.00 3.00 7.00 
-Characters1
--10.84 
--13.29 
--12.57 
--12.93 
--12.24 
+Characters2
+-0.78 
+0.52 
+-1.03 
+-0.26 
+0.26 
 Matrcies for Lesson
 Search Input
 1.00 2.00 2.00 
@@ -48,12 +49,12 @@ Component Metadata Input
 5.00 5.00 1.00 
 1.00 9.00 1.00 
 1.00 9.00 1.00 
-Lesson2
--5.67 
--4.17 
--6.86 
--5.67 
--5.67 
+Lesson1
+-0.32 
+-2.86 
+5.66 
+-0.32 
+-0.32 
 Matrcies for Challenge
 Search Input
 1.00 0.50 1.00 1.00 1.00 1.00 1.00 
@@ -77,12 +78,12 @@ Component Metadata Input
 5.00 5.00 1.00 9.00 1.00 1.00 8.00 
 9.00 1.00 6.00 6.00 1.00 1.00 8.00 
 6.00 4.00 4.00 6.00 1.00 1.00 8.00 
-Challenge0
-10.28 
-12.38 
-12.00 
-11.79 
-11.39 
+Challenge1
+4.95 
+-4.95 
+4.95 
+4.95 
+4.95 
 Matrcies for Locale
 Search Input
 1.00 1.00 0.50 1.00 1.00 1.00 1.00 1.00 
@@ -108,12 +109,12 @@ Component Metadata Input
 1.00 6.00 6.00 1.00 1.00 1.00 9.00 1.00 
 1.00 9.00 1.00 1.00 1.00 1.00 1.00 9.00 
 9.00 1.00 1.00 1.00 1.00 1.00 1.00 9.00 
-Locale0
-6.67 
-6.92 
-7.94 
-10.23 
-10.23 
+Locale2
+1.41 
+0.00 
+-5.66 
+0.00 
+-0.00 
 Matrcies for Subject
 Search Input
 1.00 1.00 0.25 1.00 1.00 1.00 1.00 1.00 1.00 1.00 
@@ -143,12 +144,12 @@ Component Metadata Input
 1.00 1.00 1.00 1.00 9.00 1.00 1.00 9.00 1.00 1.00 
 1.00 1.00 9.00 1.00 1.00 1.00 1.00 1.00 1.00 9.00 
 1.00 1.00 1.00 9.00 1.00 1.00 1.00 2.00 3.00 7.00 
-Subject0
-6.96 
-6.96 
-6.96 
-10.76 
-7.78 
+Subject1
+0.00 
+-5.69 
+5.69 
+-0.00 
+-0.71 
 Matrcies for Theme
 Search Input
 1.00 1.00 1.00 
@@ -165,14 +166,14 @@ Component Metadata Input
 1.00 1.00 9.00 
 9.00 1.00 1.00 
 Theme1
-5.66 
--5.66 
-5.66 
-0.00 
-5.66 
-Characters1
-Lesson2
-Challenge0
-Locale0
-Subject0
+6.35 
+6.35 
+6.35 
+6.35 
+6.35 
+Characters2
+Lesson1
+Challenge1
+Locale2
+Subject1
 Theme1

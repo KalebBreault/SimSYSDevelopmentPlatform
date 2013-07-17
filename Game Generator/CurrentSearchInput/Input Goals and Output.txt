@@ -1,4 +1,3 @@
-Test2
 Lesson: 	Professional and educational
 Locale:		present, casual setting
 Subject:	Math, Primary level

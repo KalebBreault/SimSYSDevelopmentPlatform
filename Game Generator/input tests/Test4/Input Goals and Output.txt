@@ -1,3 +1,4 @@
+Test 4
 Lesson: 	Educational
 Locale:		past, educational setting
 Subject:	Science field with no difficulty preference
@@ -27,12 +28,12 @@ Component Metadata Input
 9.00 1.00 9.00 1.00 9.00 1.00 
 5.00 5.00 9.00 1.00 5.00 5.00 
 3.00 7.00 5.00 5.00 3.00 7.00 
-Characters2
-11.63 
-12.30 
-10.02 
-11.16 
-12.54 
+Characters0
+-4.77 
+2.65 
+-0.87 
+0.89 
+-0.19 
 Matrcies for Lesson
 Search Input
 1.00 0.50 1.00 
@@ -49,11 +50,11 @@ Component Metadata Input
 1.00 9.00 1.00 
 1.00 9.00 1.00 
 Lesson2
-5.67 
-3.00 
-0.33 
-5.67 
-5.67 
+5.00 
+11.59 
+-4.18 
+5.00 
+5.00 
 Matrcies for Challenge
 Search Input
 1.00 1.00 1.00 1.00 1.00 1.00 1.00 
@@ -78,11 +79,11 @@ Component Metadata Input
 9.00 1.00 6.00 6.00 1.00 1.00 8.00 
 6.00 4.00 4.00 6.00 1.00 1.00 8.00 
 Challenge1
--10.18 
--10.88 
--10.18 
--10.88 
--10.18 
+4.95 
+-4.95 
+4.95 
+4.95 
+4.95 
 Matrcies for Locale
 Search Input
 1.00 2.00 2.00 1.00 1.00 1.00 1.00 1.00 
@@ -108,12 +109,12 @@ Component Metadata Input
 1.00 6.00 6.00 1.00 1.00 1.00 9.00 1.00 
 1.00 9.00 1.00 1.00 1.00 1.00 1.00 9.00 
 9.00 1.00 1.00 1.00 1.00 1.00 1.00 9.00 
-Locale1
-8.29 
-7.78 
-9.87 
-7.78 
-8.60 
+Locale0
+-1.41 
+0.00 
+-0.00 
+5.65 
+5.65 
 Matrcies for Subject
 Search Input
 1.00 1.00 1.00 1.00 0.25 1.00 1.00 1.00 1.00 1.00 
@@ -143,12 +144,12 @@ Component Metadata Input
 1.00 1.00 1.00 1.00 9.00 1.00 1.00 9.00 1.00 1.00 
 1.00 1.00 9.00 1.00 1.00 1.00 1.00 1.00 1.00 9.00 
 1.00 1.00 1.00 9.00 1.00 1.00 1.00 2.00 3.00 7.00 
-Subject0
-8.22 
-8.22 
-8.42 
-8.22 
-8.54 
+Subject2
+0.00 
+-1.69 
+-4.62 
+6.31 
+3.73 
 Matrcies for Theme
 Search Input
 1.00 0.25 0.25 
@@ -164,15 +165,15 @@ Component Metadata Input
 9.00 1.00 1.00 
 1.00 1.00 9.00 
 9.00 1.00 1.00 
-Theme0
--1.67 
-6.33 
--1.67 
-6.33 
--1.67 
-Characters2
+Theme1
+0.00 
+-5.66 
+0.00 
+5.66 
+0.00 
+Characters0
 Lesson2
 Challenge1
-Locale1
-Subject0
-Theme0
+Locale0
+Subject2
+Theme1

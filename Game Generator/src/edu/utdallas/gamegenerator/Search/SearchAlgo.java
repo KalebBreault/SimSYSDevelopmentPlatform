@@ -42,7 +42,7 @@ public class SearchAlgo {
 			printMatrix(weightedMatrix);
 			System.out.println("Component Metadata Input");
 			printMatrix(componentInput);
-			Matrix criteriaScore = componentInput.times(getFirstColumn(weightedMatrix));//multiplies the weighted score matrix by the input matrix.
+			Matrix criteriaScore = componentInput.times(getLastColumn(weightedMatrix));//multiplies the weighted score matrix by the input matrix.
 			allFiles[x]=gameComponents[x]+getLargestValue(criteriaScore);
 			System.out.println(allFiles[x]);
 			printMatrix(criteriaScore);
@@ -71,14 +71,16 @@ public class SearchAlgo {
 		}//end of looop with x
 		return largestIndex;
 	}
-	public Matrix getFirstColumn(Matrix inputMatrix)
+	public Matrix getLastColumn(Matrix inputMatrix)
 	{
 		double[][] inputArray = inputMatrix.getArray();
 		double[][] outputArray = new double[inputArray[0].length][1];
 		for(int x =0; x<inputArray[0].length;x++ )
 		{
-			outputArray[x][0]=inputArray[x][0];
+			outputArray[x][0]=inputArray[x][0];//inputArray.length-1];
 		}
+		System.out.println("Eigenvector alone");
+		printMatrix(new Matrix (outputArray));
 		return new Matrix(outputArray);
 	}
 	public void printMatrix(Matrix  inputMatrix)
