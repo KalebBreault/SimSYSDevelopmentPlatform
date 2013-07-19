@@ -4,5 +4,5 @@ Young: 			vYoung: 1  	vOld: 4		vMale: 1		vFemale: 1		vCasualDress: 1		vFancyDres
 Old: 			vYoung: .25	vOld: 1		vMale: 1		vFemale: 1		vCasualDress: 1		vFancyDress: 1
 Male:			vYoung: 1  	vOld: 1		vMale: 1		vFemale: .5		vCasualDress: 1		vFancyDress: 1
 Female: 		vYoung: 1  	vOld: 1		vMale: 2		vFemale: 1		vCasualDress: 1		vFancyDress: 1
-CasualDress:		vYoung: 1  	vOld: 1		vMale: 1		vFemale: 1		vCasualDress: 1		vFancyDress: 1
+CasualDress:	vYoung: 1  	vOld: 1		vMale: 1		vFemale: 1		vCasualDress: 1		vFancyDress: 1
 FancyDress:		vYoung: 1  	vOld: 1		vMale: 1		vFemale: 1		vCasualDress: 1		vFancyDress: 1

@@ -24,19 +24,27 @@ public class SearchAlgo {
 		xmlLocale="Locale0";
 		xmlSubject="Subject0";
 		xmlTheme="Theme0";
-		String[] gameComponents = {"Characters", "Lesson", "Challenge", "Locale", "Subject", "Theme"};
+		String[] gameComponents = { "Characters", "Lesson", "Challenge", "Locale", "Subject", "Theme"};
+		Matrix[] componentInputs = new Matrix[6];
+		SearchInput input;
 		///////////////////////////
 //		System.out.println("Test1, Start of SearchAlgo");
+		for(int x=0; x<componentInputs.length; x++)
+		{
+		input = new SearchInput(gameComponents[x]); //The input from the user 
+		componentInputs[x]= new Matrix(input.getInput());
+		}//end of loop with x
+		redistributeInput(componentInputs);
 		for(int x=0; x<gameComponents.length; x++)
 		{
 			SearchSpace search= new SearchSpace(gameComponents[x]); 	//searchSpace which should be from the metadata tags
 			Matrix componentInput = new Matrix(search.getSearchSpace());//changes the SearchSpace array into a Matrix object
-			SearchInput input = new SearchInput(gameComponents[x]); //The input from the user 
-			Matrix searchInput = new Matrix(input.getInput());
+//			SearchInput input = new SearchInput(gameComponents[x]); //The input from the user 
+//			Matrix searchInput = new Matrix(input.getInput());
 			System.out.println("Matrcies for "+ gameComponents[x]);
 			System.out.println("Search Input");
-			printMatrix(searchInput);//brings the input into this class
-			EigenvalueDecomposition eigenDecomp= searchInput.eig();//creates new object that contains the eigenvector
+			printMatrix(componentInputs[x]);//brings the input into this class
+			EigenvalueDecomposition eigenDecomp= componentInputs[x].eig();//creates new object that contains the eigenvector
 			Matrix weightedMatrix = eigenDecomp.getV();//makes the eigenvector matrix of the input
 			System.out.println("Weighted Matrix / Eigenvector");
 			printMatrix(weightedMatrix);
@@ -55,6 +63,14 @@ public class SearchAlgo {
 //		allFiles[3]=xmlLocale;
 //		allFiles[4]=xmlSubject;
 //		allFiles[5]=xmlTheme;
+	}
+	/*
+	 * 
+	 */
+	private void redistributeInput(Matrix[] componentInputs) 
+	{
+		
+		
 	}
 	public int getLargestValue(Matrix in)
 	{
