@@ -36,11 +36,16 @@ public class SearchInput {
 //		input.close();
 //	
 		
-		receiveInput(type);
+		receiveTxtInput(type);
 		assembleInput();
 	}
-	//get input from user
-	public void receiveInput(String type)
+	public void receiveWizardInput()
+	{
+		
+	}
+	
+	//get input from txt files
+	public void receiveTxtInput(String type)
 	{
 		//TODO
 		try {

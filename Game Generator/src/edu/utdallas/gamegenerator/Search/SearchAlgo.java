@@ -14,6 +14,8 @@ public class SearchAlgo {
 	private String xmlSubject;
 	private String xmlTheme;
 	private String[] allFiles = new String[6];
+	private String[] gameComponents = { "Characters", "Lesson", "Challenge", "Locale", "Subject", "Theme"};
+
 
 	public SearchAlgo()//LinkedList<String> CriteriaList, LinkedList<String>inputedCriteriaList)
 	{
@@ -24,7 +26,6 @@ public class SearchAlgo {
 		xmlLocale="Locale0";
 		xmlSubject="Subject0";
 		xmlTheme="Theme0";
-		String[] gameComponents = { "Characters", "Lesson", "Challenge", "Locale", "Subject", "Theme"};
 		Matrix[] componentInputs = new Matrix[6];
 		SearchInput input;
 		///////////////////////////
@@ -34,7 +35,10 @@ public class SearchAlgo {
 		input = new SearchInput(gameComponents[x]); //The input from the user 
 		componentInputs[x]= new Matrix(input.getInput());
 		}//end of loop with x
-		redistributeInput(componentInputs);
+		//REPLACES ABOVE LOOP WITH WIZARD INPUTS
+		componentInputs = getWizardInputs(componentInputs);
+		printAllMatrixes(componentInputs);
+		//AHP Matrix Math
 		for(int x=0; x<gameComponents.length; x++)
 		{
 			SearchSpace search= new SearchSpace(gameComponents[x]); 	//searchSpace which should be from the metadata tags
@@ -67,9 +71,20 @@ public class SearchAlgo {
 	/*
 	 * 
 	 */
-	private void redistributeInput(Matrix[] componentInputs) 
+	private Matrix[] getWizardInputs(Matrix[] componentInputs)
 	{
+		InputWizard inputs = new InputWizard(componentInputs);
 		
+		
+		return inputs.getWizardInputs();
+	}
+	private void printAllMatrixes(Matrix[] componentInputs) 
+	{
+		for(int x=0; x<componentInputs.length;x++)
+		{
+			System.out.println(gameComponents[x]);
+			printMatrix(componentInputs[x]);
+		}
 		
 	}
 	public int getLargestValue(Matrix in)
