@@ -83,9 +83,9 @@
 			</SubjectType>
 			<GradeLevel>
 				<primary>1</primary>
-				<middle>2</middle>
-				<high>3</high>
-				<college>7</college>
+				<middle>1</middle>
+				<high>1</high>
+				<college>9</college>
 			</GradeLevel>
 		</SearchMetaData>
 	</Subject>

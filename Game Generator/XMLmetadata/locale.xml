@@ -9,7 +9,7 @@
 			<Subject>
 				<Professional>1</Professional>
 				<Casual>6</Casual>
-				<Nature>3</Nature>
+				<Nature>4</Nature>
 				<Educational>1</Educational>
 				<Non-Terrestrial>1</Non-Terrestrial>
 			</Subject>
@@ -35,7 +35,7 @@
 		<SearchMetaData>
 			<Setting>
 				<Past>1</Past>
-				<Present>6</Present>
+				<Present>4</Present>
 				<Future>6</Future>
 			</Setting>
 			<Subject>

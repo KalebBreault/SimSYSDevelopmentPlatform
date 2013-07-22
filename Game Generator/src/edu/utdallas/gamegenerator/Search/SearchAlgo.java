@@ -15,7 +15,7 @@ public class SearchAlgo {
 	private String xmlTheme;
 	private String[] allFiles = new String[6];
 	private String[] gameComponents = { "Characters", "Lesson", "Challenge", "Locale", "Subject", "Theme"};
-
+	private int[] allFileNumbers = new int[6];
 
 	public SearchAlgo()//LinkedList<String> CriteriaList, LinkedList<String>inputedCriteriaList)
 	{
@@ -34,8 +34,10 @@ public class SearchAlgo {
 //		System.out.println("Test1, Start of SearchAlgo");
 		for(int x=0; x<componentInputs.length; x++)
 		{
-		searchSpaces[x]= new SearchSpace(gameComponents[x]); 	//searchSpace which should be from the metadata tags	
-		componentInputSearchSpace[x]= new Matrix(searchSpaces[x].getSearchSpace());//changes the SearchSpace array into a Matrix object
+		searchSpaces[x]= new SearchSpace(gameComponents[x]); 	
+		//searchSpace which should be from the metadata tags	
+		componentInputSearchSpace[x]= new Matrix(searchSpaces[x].getSearchSpace());
+		//changes the SearchSpace array into a Matrix object
 		}	
 		
 		for(int x=0; x<componentInputs.length; x++)
@@ -46,23 +48,31 @@ public class SearchAlgo {
 		componentInputs = getWizardInputs(componentInputs);
 		printAllMatrixes(componentInputs);
 		//AHP Matrix Math
-		for(int x=0; x<gameComponents.length; x++)
+		for(int x=gameComponents.length-1; x>=0; x--)
 		{
-//			SearchInput input = new SearchInput(gameComponents[x]); //The input from the user 
-//			Matrix searchInput = new Matrix(input.getInput());
 			System.out.println("Matrcies for "+ gameComponents[x]);
 			System.out.println("Search Input");
 			printMatrix(componentInputs[x]);//brings the input into this class
-			EigenvalueDecomposition eigenDecomp= componentInputs[x].eig();//creates new object that contains the eigenvector
-			Matrix weightedMatrix = eigenDecomp.getV();//makes the eigenvector matrix of the input
+//OLDCODE- this code uses the JAMA Matrix library to get the eigenvector matrix. However due to inconsistent results, it has been scrapped.  
+//			EigenvalueDecomposition eigenDecomp= componentInputs[x].eig();
+//creates new object that contains the eigenvector
+//			Matrix weightedMatrix = eigenDecomp.getV();//makes the eigenvector matrix of the input
+//			System.out.println("Real Eigenvalues");
+//			printArray(eigenDecomp.getRealEigenvalues());
+//			System.out.println("Imiganary Eigenvalues");
+//			printArray(eigenDecomp.getImagEigenvalues());
 			System.out.println("Weighted Matrix / Eigenvector");
+			Matrix weightedMatrix = eigenvectorCalculation(componentInputs[x]);
 			printMatrix(weightedMatrix);
 			System.out.println("Component Metadata Input");
 			printMatrix(componentInputSearchSpace[x]);
-			Matrix criteriaScore = componentInputSearchSpace[x].times(getLastColumn(weightedMatrix));//multiplies the weighted score matrix by the input matrix.
-			allFiles[x]=gameComponents[x]+getLargestValue(criteriaScore);
-			System.out.println(allFiles[x]);
+			Matrix criteriaScore = componentInputSearchSpace[x].times(weightedMatrix);
+			//multiplies the weighted score matrix by the input matrix.
 			printMatrix(criteriaScore);
+			allFileNumbers[x]= getLargestValue(criteriaScore, x);
+			allFiles[x]=gameComponents[x]+allFileNumbers[x];			
+			System.out.println(allFiles[x]);
+		
 		}// end of loop with x 
 
 		//Get rid of this when SearchInput is working. 
@@ -76,6 +86,43 @@ public class SearchAlgo {
 	/*
 	 * 
 	 */
+	private Matrix eigenvectorCalculation(Matrix inputMatrix)
+	{
+		double[][] inputArray = inputMatrix.getArray();
+		double[][] outputArray = new double[inputArray.length][1];
+		int rowLength = inputMatrix.getRowDimension();
+		double[] rowSums = new double[inputArray.length];
+		for(int y=0; y<inputArray.length;y++)
+		{
+			for(int x=0; x<inputArray[y].length; x++)
+			{
+				rowSums[x]+=inputArray[x][y];
+			}
+		}
+		double rowSumsTotal =0;
+		for(int x=0; x< rowSums.length; x++)
+		{
+			rowSums[x]= Math.pow(rowSums[x],1.0/rowSums.length);
+			rowSumsTotal += rowSums[x];
+		}
+		for(int x=0; x< rowSums.length; x++)
+		{
+			rowSums[x]/=rowSumsTotal;
+		}
+		for(int x=0; x< rowSums.length; x++)
+		{
+			outputArray[x][0] = rowSums[x];
+		}
+				return new Matrix(outputArray) ;
+	}
+	
+	private void printArray(double[] input)
+	{
+		for(int x =0; x<input.length;x++ )
+		{
+			System.out.println(x+": "+input[x]);
+		}
+	}
 	private Matrix[] getWizardInputs(Matrix[] componentInputs)
 	{
 		InputWizard inputs = new InputWizard(componentInputs);
@@ -92,15 +139,21 @@ public class SearchAlgo {
 		}
 		
 	}
-	public int getLargestValue(Matrix in)
+	public int getLargestValue(Matrix in, int componentNumber)
 	{
 		double[][] inputArray = in.getArray();
 		double largestValue=inputArray[0][0];
 		int largestIndex=0;
 		for(int x = 0; x<inputArray.length; x++)
 		{	
-			if(inputArray[x][0]<largestValue)
+			if(inputArray[x][0]>largestValue)
 			{
+				largestValue = inputArray[x][0];
+				largestIndex = x;
+			}
+			if(inputArray[x][0]==largestValue && (componentNumber==1 || componentNumber ==2) && x==allFileNumbers[4])
+			{
+				System.out.println("@@@@@@@@@@@@Adjusting "+gameComponents[componentNumber]+" "+x+" to Subject "+allFileNumbers[4]);
 				largestValue = inputArray[x][0];
 				largestIndex = x;
 			}
@@ -115,8 +168,8 @@ public class SearchAlgo {
 		{
 			outputArray[x][0]=inputArray[x][0];//inputArray.length-1];
 		}
-		System.out.println("Eigenvector alone");
-		printMatrix(new Matrix (outputArray));
+//		System.out.println("Eigenvector alone");
+//		printMatrix(new Matrix (outputArray));
 		return new Matrix(outputArray);
 	}
 	public void printMatrix(Matrix  inputMatrix)
@@ -126,7 +179,7 @@ public class SearchAlgo {
 		{
 			for (int y =0; y <  inputArray[x].length; y++)
 			{
-				System.out.printf("%.2f ",inputArray[x][y]);
+				System.out.printf("%.3f ",inputArray[x][y]);
 			}
 			System.out.println("");
 		}

@@ -389,22 +389,22 @@ public class InputWizard implements ActionListener {
 		case "none":
 			break;
 		default:
-			System.out.println("Something went terribly terribly wrong.... gameTheme " + gameTheme);
+			System.out.println("Unanticipated Input for gameTheme " + gameTheme);
 			break;
 		}
 		switch(gameSubject)
 		{
 		//Subject
 		case "English":
-			componentInputs[4].setMatrix(0,5,0,5,optionMatrix(1,6));
+			componentInputs[4].setMatrix(0,5,0,5,optionMatrix(3,6));
 			educationalRating++;
 			break;
 		case "Math":
-			componentInputs[4].setMatrix(0,5,0,5,optionMatrix(2,6));
+			componentInputs[4].setMatrix(0,5,0,5,optionMatrix(1,6));
 			educationalRating++;
 			break;
 		case "Science":
-			componentInputs[4].setMatrix(0,5,0,5,optionMatrix(3,6));
+			componentInputs[4].setMatrix(0,5,0,5,optionMatrix(5,6));
 			educationalRating++;
 			break;
 		case "Social Studies":
@@ -412,7 +412,7 @@ public class InputWizard implements ActionListener {
 			educationalRating++;
 			break;
 		case "Literature":
-			componentInputs[4].setMatrix(0,5,0,5,optionMatrix(5,6));
+			componentInputs[4].setMatrix(0,5,0,5,optionMatrix(2,6));
 			educationalRating++;
 			break;
 		case "Professional":
@@ -422,7 +422,7 @@ public class InputWizard implements ActionListener {
 		case "none":
 			break;
 		default:
-			System.out.println("Something went terribly terribly wrong.... gameSubject " + gameSubject);
+			System.out.println("Unanticipated Input for gameSubject " + gameSubject);
 			break;
 		}
 		switch(gameSetting){
@@ -448,7 +448,7 @@ public class InputWizard implements ActionListener {
 		case "none":
 			break;
 		default:
-			System.out.println("Something went terribly terribly wrong....gameSetting " + gameSetting);
+			System.out.println("Unanticipated Input for gameSetting " + gameSetting);
 			break;
 		}
 		switch(gameDifficulty){
@@ -468,7 +468,7 @@ public class InputWizard implements ActionListener {
 		case "none":
 			break;
 		default:
-			System.out.println("Something went terribly terribly wrong....gameDifficulity " + gameDifficulty);
+			System.out.println("Unanticipated Input for gameDifficulity " + gameDifficulty);
 			break;
 		}
 		System.out.println("social: "+ socialRating + " Professional: "+ professionalRating + " Educational: " + educationalRating);
@@ -483,6 +483,7 @@ public class InputWizard implements ActionListener {
 			}
 			if(professionalRating>=socialRating && professionalRating>educationalRating)
 			{
+				componentInputs[3].setMatrix(0,2,0,2,optionMatrix(2,3));
 				componentInputs[2].setMatrix(4,6,4,6,optionMatrix(2,3));
 				componentInputs[1].setMatrix(0,2,0,2,optionMatrix(3,3));
 
@@ -527,6 +528,7 @@ public class InputWizard implements ActionListener {
 //Age					
 		case "Young":
 			playerAge = "Young";
+			break;
 		case "Old":
 			playerAge = "Old";
 			break;
@@ -617,7 +619,7 @@ public class InputWizard implements ActionListener {
 			gameDifficulty = "none";
 			break;
 		default:
-		System.out.println("Something went terribly terribly wrong....");
+		System.out.println("Unanticipated Input in ActionPerformed:" + e.getActionCommand());
 		break;
 		}
 	}
