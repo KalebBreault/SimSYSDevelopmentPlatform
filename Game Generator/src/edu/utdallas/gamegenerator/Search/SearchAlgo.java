@@ -28,12 +28,19 @@ public class SearchAlgo {
 		xmlTheme="Theme0";
 		Matrix[] componentInputs = new Matrix[6];
 		SearchInput input;
+		SearchSpace[] searchSpaces = new SearchSpace[6];
+		Matrix[] componentInputSearchSpace=new Matrix[6];
 		///////////////////////////
 //		System.out.println("Test1, Start of SearchAlgo");
 		for(int x=0; x<componentInputs.length; x++)
 		{
-		input = new SearchInput(gameComponents[x]); //The input from the user 
-		componentInputs[x]= new Matrix(input.getInput());
+		searchSpaces[x]= new SearchSpace(gameComponents[x]); 	//searchSpace which should be from the metadata tags	
+		componentInputSearchSpace[x]= new Matrix(searchSpaces[x].getSearchSpace());//changes the SearchSpace array into a Matrix object
+		}	
+		
+		for(int x=0; x<componentInputs.length; x++)
+		{
+		componentInputs[x]= new Matrix(new double[searchSpaces[x].getNumberOfCriteria()][searchSpaces[x].getNumberOfCriteria()]);
 		}//end of loop with x
 		//REPLACES ABOVE LOOP WITH WIZARD INPUTS
 		componentInputs = getWizardInputs(componentInputs);
@@ -41,8 +48,6 @@ public class SearchAlgo {
 		//AHP Matrix Math
 		for(int x=0; x<gameComponents.length; x++)
 		{
-			SearchSpace search= new SearchSpace(gameComponents[x]); 	//searchSpace which should be from the metadata tags
-			Matrix componentInput = new Matrix(search.getSearchSpace());//changes the SearchSpace array into a Matrix object
 //			SearchInput input = new SearchInput(gameComponents[x]); //The input from the user 
 //			Matrix searchInput = new Matrix(input.getInput());
 			System.out.println("Matrcies for "+ gameComponents[x]);
@@ -53,8 +58,8 @@ public class SearchAlgo {
 			System.out.println("Weighted Matrix / Eigenvector");
 			printMatrix(weightedMatrix);
 			System.out.println("Component Metadata Input");
-			printMatrix(componentInput);
-			Matrix criteriaScore = componentInput.times(getLastColumn(weightedMatrix));//multiplies the weighted score matrix by the input matrix.
+			printMatrix(componentInputSearchSpace[x]);
+			Matrix criteriaScore = componentInputSearchSpace[x].times(getLastColumn(weightedMatrix));//multiplies the weighted score matrix by the input matrix.
 			allFiles[x]=gameComponents[x]+getLargestValue(criteriaScore);
 			System.out.println(allFiles[x]);
 			printMatrix(criteriaScore);
@@ -99,7 +104,7 @@ public class SearchAlgo {
 				largestValue = inputArray[x][0];
 				largestIndex = x;
 			}
-		}//end of looop with x
+		}//end of loop with x
 		return largestIndex;
 	}
 	public Matrix getLastColumn(Matrix inputMatrix)

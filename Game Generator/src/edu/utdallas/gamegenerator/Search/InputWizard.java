@@ -118,6 +118,9 @@ public class InputWizard implements ActionListener {
      		JRadioButton workplaceButton= new JRadioButton("Workplace");
      		workplaceButton.setActionCommand("Workplace");
      		workplaceButton.addActionListener(this);
+     		JRadioButton otherButton= new JRadioButton("Other");
+     		otherButton.setActionCommand("Other");
+     		otherButton.addActionListener(this);
      		JRadioButton noThemePreference = new JRadioButton("No Preference",true);
      		noThemePreference.setActionCommand(none+" theme");
      		noThemePreference.addActionListener(this);
@@ -125,6 +128,7 @@ public class InputWizard implements ActionListener {
      		themeGroup.add(dreamButton);
      		themeGroup.add(virtualTourButton);
      		themeGroup.add(workplaceButton);
+     		themeGroup.add(otherButton);
      		themeGroup.add(noThemePreference);
      		JPanel themePanel = new JPanel(new FlowLayout(FlowLayout.LEFT));
             JLabel themeLabel = new JLabel("Game Theme:");
@@ -133,6 +137,7 @@ public class InputWizard implements ActionListener {
      		themePanel.add(dreamButton);
      		themePanel.add(virtualTourButton);
      		themePanel.add(workplaceButton);
+     		themePanel.add(otherButton);
      		themePanel.add(noThemePreference);
      	window.add(themePanel,nextOpenRow++);
       //SubjectButtons
@@ -298,7 +303,7 @@ public class InputWizard implements ActionListener {
 	public Matrix[] getWizardInputs() {
 		while(!submitClicked)
 		{
-			//WAIT!!!!
+			//WAIT!!!! waits for the user to hit submit once called
 		}
 		return componentInputs;
 	}
@@ -319,7 +324,7 @@ public class InputWizard implements ActionListener {
 		return new Matrix(outputArray);
 	}
 	private void distributeInputs() {
-							//start with character component
+		//start with character component
 		int socialRating = 0;
 		int professionalRating =0;
 		int educationalRating =0;
@@ -348,11 +353,10 @@ public class InputWizard implements ActionListener {
 		default:
 			break;
 		}
-
 		switch(playerDress){
 		case "Casual":
 			componentInputs[0].setMatrix(4,5,4,5,optionMatrix(1,2));
-//			socialRating++;
+			//			socialRating++;
 			break;
 		case "Fancy":
 			componentInputs[0].setMatrix(4,5,4,5,optionMatrix(2,2));
@@ -363,133 +367,132 @@ public class InputWizard implements ActionListener {
 			break;
 		}
 		switch(gameTheme){
-				case "Gooble":
-					componentInputs[5].setMatrix(0,2,0,2,optionMatrix(1,3));
-					educationalRating++;
-					break;
-				case "Dream":
-					componentInputs[5].setMatrix(0,2,0,2,optionMatrix(3,3));
-					socialRating++;
-					break;
-				case "VirtualTour":
-					componentInputs[5].setMatrix(0,2,0,2,optionMatrix(3,3));
-					professionalRating++;
-					break;
-				case "Workplace":
-					componentInputs[5].setMatrix(0,2,0,2,optionMatrix(2,3));
-					professionalRating++;
-					break;
-				case "no theme":
-					break;
-				case "none":
-					break;
-				default:
-					System.out.println("Something went terribly terribly wrong.... gameTheme " + gameTheme);
-					break;
+		case "Gooble":
+			componentInputs[5].setMatrix(0,4,0,4,optionMatrix(1,5));
+			educationalRating++;
+			break;
+		case "Dream":
+			componentInputs[5].setMatrix(0,4,0,4,optionMatrix(2,5));
+			socialRating++;
+			break;
+		case "VirtualTour":
+			componentInputs[5].setMatrix(0,4,0,4,optionMatrix(3,5));
+			professionalRating++;
+			break;
+		case "Workplace":
+			componentInputs[5].setMatrix(0,4,0,4,optionMatrix(4,5));
+			socialRating++;
+			break;
+		case "Other":
+			componentInputs[5].setMatrix(0,4,0,4,optionMatrix(5,5));
+			break;
+		case "none":
+			break;
+		default:
+			System.out.println("Something went terribly terribly wrong.... gameTheme " + gameTheme);
+			break;
 		}
 		switch(gameSubject)
 		{
 		//Subject
-				case "English":
-					componentInputs[4].setMatrix(0,5,0,5,optionMatrix(1,6));
-					educationalRating++;
-					break;
-				case "Math":
-					componentInputs[4].setMatrix(0,5,0,5,optionMatrix(2,6));
-					educationalRating++;
-					break;
-				case "Science":
-					componentInputs[4].setMatrix(0,5,0,5,optionMatrix(3,6));
-					educationalRating++;
-					break;
-				case "Social Studies":
-					componentInputs[4].setMatrix(0,5,0,5,optionMatrix(4,6));
-					educationalRating++;
-					break;
-				case "Literature":
-					componentInputs[4].setMatrix(0,5,0,5,optionMatrix(5,6));
-					educationalRating++;
-					break;
-				case "Professional":
-					componentInputs[4].setMatrix(0,5,0,5,optionMatrix(6,6));
-					professionalRating++;
-					break;
-				case "no subject":
-					gameSubject = "none";
-					break;
-				case "none":
-					break;
-				default:
-					System.out.println("Something went terribly terribly wrong.... gameSubject " + gameSubject);
-					break;
+		case "English":
+			componentInputs[4].setMatrix(0,5,0,5,optionMatrix(1,6));
+			educationalRating++;
+			break;
+		case "Math":
+			componentInputs[4].setMatrix(0,5,0,5,optionMatrix(2,6));
+			educationalRating++;
+			break;
+		case "Science":
+			componentInputs[4].setMatrix(0,5,0,5,optionMatrix(3,6));
+			educationalRating++;
+			break;
+		case "Social Studies":
+			componentInputs[4].setMatrix(0,5,0,5,optionMatrix(4,6));
+			educationalRating++;
+			break;
+		case "Literature":
+			componentInputs[4].setMatrix(0,5,0,5,optionMatrix(5,6));
+			educationalRating++;
+			break;
+		case "Professional":
+			componentInputs[4].setMatrix(0,5,0,5,optionMatrix(6,6));
+			professionalRating++;
+			break;
+		case "none":
+			break;
+		default:
+			System.out.println("Something went terribly terribly wrong.... gameSubject " + gameSubject);
+			break;
 		}
 		switch(gameSetting){
 		//Setting
-				case "ProfessionalSetting":
-					professionalRating+=2;
-					componentInputs[3].setMatrix(3,7,3,7,optionMatrix(1,5));
-					break;
-				case "CasualSetting":
-					socialRating+=2;
-					componentInputs[3].setMatrix(3,7,3,7,optionMatrix(2,5));
-					break;
-				case "NaturalSetting":
-					componentInputs[3].setMatrix(3,7,3,7,optionMatrix(3,5));
-					break;
-				case "EducationalSetting":
-					componentInputs[3].setMatrix(3,7,3,7,optionMatrix(4,5));
-					educationalRating+=2;
-					break;
-				case "Non-TerrestialSetting":
-					componentInputs[3].setMatrix(3,7,3,7,optionMatrix(5,5));
-					break;
-				case "no setting":
-					break;
-				case "none":
-					break;
-				default:
-					System.out.println("Something went terribly terribly wrong....gameSetting " + gameSetting);
-					break;
+		case "Professional":
+			professionalRating+=2;
+			componentInputs[3].setMatrix(3,7,3,7,optionMatrix(1,5));
+			break;
+		case "Casual":
+			socialRating+=2;
+			componentInputs[3].setMatrix(3,7,3,7,optionMatrix(2,5));
+			break;
+		case "Natural":
+			componentInputs[3].setMatrix(3,7,3,7,optionMatrix(3,5));
+			break;
+		case "Educational":
+			componentInputs[3].setMatrix(3,7,3,7,optionMatrix(4,5));
+			educationalRating+=2;
+			break;
+		case "Non-Terrestial":
+			componentInputs[3].setMatrix(3,7,3,7,optionMatrix(5,5));
+			break;
+		case "none":
+			break;
+		default:
+			System.out.println("Something went terribly terribly wrong....gameSetting " + gameSetting);
+			break;
 		}
 		switch(gameDifficulty){
 		//Difficulty
-				case "Easy":
-					componentInputs[2].setMatrix(0,1,0,1,optionMatrix(1,2));
-					componentInputs[2].setMatrix(2,3,2,3,optionMatrix(1,2));
-					break;
-				case "Medium":
-					break;
-				case "Hard":
-					componentInputs[2].setMatrix(0,1,0,1,optionMatrix(2,2));
-					componentInputs[2].setMatrix(2,3,2,3,optionMatrix(2,2));
-					break;
-				case "no difficulity":
-					gameDifficulty = "none";
-					break;
-				case "none":
-					break;
-				default:
-					System.out.println("Something went terribly terribly wrong....gameDifficulity " + gameDifficulty);
-					break;
+		case "Easy":
+			componentInputs[2].setMatrix(0,2,0,2,optionMatrix(1,3));
+			componentInputs[2].setMatrix(3,5,3,5,optionMatrix(1,3));
+			break;
+		case "Medium":
+			componentInputs[2].setMatrix(0,2,0,2,optionMatrix(2,3));
+			componentInputs[2].setMatrix(3,5,3,5,optionMatrix(2,3));
+			break;
+		case "Hard":
+			componentInputs[2].setMatrix(0,2,0,2,optionMatrix(3,3));
+			componentInputs[2].setMatrix(3,5,3,5,optionMatrix(3,3));
+			break;
+		case "none":
+			break;
+		default:
+			System.out.println("Something went terribly terribly wrong....gameDifficulity " + gameDifficulty);
+			break;
 		}
+		System.out.println("social: "+ socialRating + " Professional: "+ professionalRating + " Educational: " + educationalRating);
+
+		if(!(socialRating == professionalRating && professionalRating == educationalRating))
+		{
 			if(socialRating>professionalRating && socialRating>educationalRating)
 			{
 				componentInputs[2].setMatrix(4,6,4,6,optionMatrix(1,3));
 				componentInputs[1].setMatrix(0,2,0,2,optionMatrix(1,3));
 
 			}
-			if(professionalRating>socialRating && professionalRating>educationalRating)
+			if(professionalRating>=socialRating && professionalRating>educationalRating)
 			{
 				componentInputs[2].setMatrix(4,6,4,6,optionMatrix(2,3));
 				componentInputs[1].setMatrix(0,2,0,2,optionMatrix(3,3));
 
 			}
-			if(educationalRating>socialRating && educationalRating>professionalRating)
+			if(educationalRating>=socialRating && educationalRating>=professionalRating)
 			{
 				componentInputs[2].setMatrix(4,6,4,6,optionMatrix(3,3));
 				componentInputs[1].setMatrix(0,2,0,2,optionMatrix(2,3));
 			}
-		
+		}
 	}	
 	public void printStrings()
 	{
@@ -552,6 +555,9 @@ public class InputWizard implements ActionListener {
 			break;
 		case "Workplace":
 			gameTheme = "Workplace";
+			break;
+		case "Other":
+			gameTheme = "Other";
 			break;
 		case "no theme":
 			gameTheme = "none";

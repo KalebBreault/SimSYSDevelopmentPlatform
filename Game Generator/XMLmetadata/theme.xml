@@ -2,35 +2,46 @@
 	<Theme id="0">
 		<SearchMetaData>
 			<Gooble>9</Gooble>
-			<ProfessionalTraining>1</ProfessionalTraining>
+			<Dream>1</Dream>
+			<VirtualTour> 1 </VirtualTour>
+			<Workplace>1</Workplace>
 			<Other>1</Other>
+			
 		</SearchMetaData>
 	</Theme>
 	<Theme id="1">
 		<SearchMetaData>
 			<Gooble>1</Gooble>
-			<ProfessionalTraining>9</ProfessionalTraining>
+	<Dream>1</Dream>
+			<VirtualTour> 1 </VirtualTour>
+			<Workplace>9</Workplace>
 			<Other>1</Other>
 		</SearchMetaData>
 	</Theme>
 	<Theme id="2">
 		<SearchMetaData>
 			<Gooble>9</Gooble>
-			<ProfessionalTraining>1</ProfessionalTraining>
+			<Dream>1</Dream>
+			<VirtualTour> 1 </VirtualTour>
+			<Workplace>1</Workplace>
 			<Other>1</Other>
 		</SearchMetaData>
 	</Theme>
 	<Theme id="3">
 		<SearchMetaData>
 			<Gooble>1</Gooble>
-			<ProfessionalTraining>1</ProfessionalTraining>
-			<Other>9</Other>
+			<Dream>9</Dream>
+			<VirtualTour> 1 </VirtualTour>
+			<Workplace>1</Workplace>
+			<Other>1</Other>
 		</SearchMetaData>
 	</Theme>
 	<Theme id="4">
 		<SearchMetaData>
 			<Gooble>9</Gooble>
-			<ProfessionalTraining>1</ProfessionalTraining>
+			<Dream>1</Dream>
+			<VirtualTour> 1 </VirtualTour>
+			<Workplace>1</Workplace>
 			<Other>1</Other>
 		</SearchMetaData>
 	</Theme>

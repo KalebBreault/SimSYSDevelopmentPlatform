@@ -21,12 +21,10 @@ public class SearchSpace {
 	/**
 	 * @param String type : type of game component search. 
 	 */
-	double[][] searchSpace;
-	int numberOfChoices;
-	int numberOfCriteria;
-	int Criteria =0;
-	int row=0;
-	int col=0;
+	private double[][] searchSpace;
+	private int Criteria =0;
+	private int row=0;
+	private int col=0;
 	public SearchSpace(String type){
 		//READ FROM XML FILES
 		try {
@@ -96,6 +94,10 @@ public class SearchSpace {
 	 * @param String the input integer in string form
 	 * takes input string, parses it and adds it to a matrix. 
 	 */
+	public int getNumberOfCriteria()
+	{
+		return Criteria; 
+	}
 	private void matrixHandoff(String input)
 	{
 		double inputDouble = Double.parseDouble(input);
