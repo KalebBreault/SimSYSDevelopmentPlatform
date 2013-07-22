@@ -27,7 +27,7 @@ public class InputWizard implements ActionListener {
  	private String gameSubject= "none";  	
  	private String gameSetting= "none";   	
  	private String gameDifficulty= "none"; 
-
+ 	private static final int wizardRowSize = 10; //row size for wizard
  
 	public InputWizard(Matrix[] input)
 	{
@@ -36,9 +36,9 @@ public class InputWizard implements ActionListener {
 		
         window.setSize(WIDTH, HEIGHT);
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        window.setLayout(new GridLayout(10,1));
+        window.setLayout(new GridLayout(wizardRowSize,1));
         window.setVisible(true);
-        int x =0;
+        int nextOpenRow =0; // next available row slot
         final String none = "no";
     //GenderButtons    
         ButtonGroup genderGroup = new ButtonGroup();
@@ -60,7 +60,7 @@ public class InputWizard implements ActionListener {
         	genderPanel.add(maleButton);
         	genderPanel.add(femaleButton);
         	genderPanel.add(noGenderPreference);
-        window.add(genderPanel,x++);
+        window.add(genderPanel,nextOpenRow++);
         //ageButtons    
         ButtonGroup ageGroup = new ButtonGroup();
         	JRadioButton youngButton = new JRadioButton("Young");
@@ -81,7 +81,7 @@ public class InputWizard implements ActionListener {
         	agePanel.add(youngButton);
         	agePanel.add(oldButton);
         	agePanel.add(noAgePreference);
-        window.add(agePanel,x++);
+        window.add(agePanel,nextOpenRow++);
         
         //dressButtons    
         ButtonGroup dressGroup = new ButtonGroup();
@@ -103,7 +103,7 @@ public class InputWizard implements ActionListener {
         	dressPanel.add(casualButton);
         	dressPanel.add(fancyButton );
         	dressPanel.add(noDressPreference);
-        window.add(dressPanel,x++);
+        window.add(dressPanel,nextOpenRow++);
         //Theme Buttons
      	ButtonGroup themeGroup = new ButtonGroup();
      		JRadioButton goobleButton = new JRadioButton("Gooble");
@@ -134,7 +134,7 @@ public class InputWizard implements ActionListener {
      		themePanel.add(virtualTourButton);
      		themePanel.add(workplaceButton);
      		themePanel.add(noThemePreference);
-     	window.add(themePanel,x++);
+     	window.add(themePanel,nextOpenRow++);
       //SubjectButtons
         ButtonGroup subjectGroup = new ButtonGroup();
     		JRadioButton englishButton = new JRadioButton("English");
@@ -175,7 +175,7 @@ public class InputWizard implements ActionListener {
     		subjectPanel.add(literatureButton);
     		subjectPanel.add(professionalButton);
     		subjectPanel.add(noSubjectPreference);
-    	window.add(subjectPanel,x++);
+    	window.add(subjectPanel,nextOpenRow++);
     //Setting Buttons	
      	ButtonGroup settingGroup = new ButtonGroup();
      		JRadioButton professionalSettingButton = new JRadioButton("Professional");
@@ -211,7 +211,7 @@ public class InputWizard implements ActionListener {
  			settingPanel.add(educationalSettingButton);
  			settingPanel.add(nonTerrestialSettingButton);
  			settingPanel.add(noSettingPreference);
- 		window.add(settingPanel,x++);
+ 		window.add(settingPanel,nextOpenRow++);
         //difficulty Buttons
      	ButtonGroup difficultyGroup = new ButtonGroup();
      		JRadioButton easyButton = new JRadioButton("Easy");
@@ -237,7 +237,7 @@ public class InputWizard implements ActionListener {
      		difficultyPanel.add(mediumButton);
      		difficultyPanel.add(hardButton);
      		difficultyPanel.add(noDifficultyPreference);
-     	window.add(difficultyPanel,x++);
+     	window.add(difficultyPanel,nextOpenRow++);
         //ADD MORE BUTTON SETS HERE IN FUTURE
      	
         
@@ -248,7 +248,7 @@ public class InputWizard implements ActionListener {
         JButton submitButton = new JButton("Submit");
         submitButton.addActionListener(this);
         submitButton.setActionCommand("Submit");
-        window.add(submitButton, x++);
+        window.add(submitButton, nextOpenRow++);
 	}
 	private void initializeComponentInputs()
 	{
@@ -488,7 +488,6 @@ public class InputWizard implements ActionListener {
 			{
 				componentInputs[2].setMatrix(4,6,4,6,optionMatrix(3,3));
 				componentInputs[1].setMatrix(0,2,0,2,optionMatrix(2,3));
-
 			}
 		
 	}	

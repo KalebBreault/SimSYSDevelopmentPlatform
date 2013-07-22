@@ -2,91 +2,13 @@
 <Game>
     <Acts>
         <Act>
-            <ID>a34129dd-50c4-4896-a479-f7eed26c3c27</ID>
+            <ID>8a6e745b-2c7f-49b5-ba58-9ea23aefac71</ID>
             <Name>Act0</Name>
             <Scenes>
                 <Scene>
-                    <Background>Backdrops\Store Front.png</Background>
-                    <ID>5474624f-8975-4deb-b321-48a3e254f9fe</ID>
+                    <Background>Backdrops\Home Office.png</Background>
+                    <ID>6aa03cb0-9ddd-41e0-8afd-68bddac8008b</ID>
                     <Name>Act0 Scene0</Name>
-                    <Screens>
-                        <Screen>
-                            <Assets>
-<AssetBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="InformationBoxAsset">
-    <FontFamily>Comic Sans MS</FontFamily>
-    <FontSize>15</FontSize>
-    <Height>67.83334350585938</Height>
-    <ID>8060a7c8-ee68-4a28-8215-28c9c35d0e1a</ID>
-    <X>191.48330688476562</X>
-    <X2>581.8333129882812</X2>
-    <Y>152.06666564941406</Y>
-    <Y2>219.90000915527344</Y2>
-    <Name>Gooble!</Name>
-    <Opacity>1</Opacity>
-    <Width>390.3500061035156</Width>
-</AssetBase>
-<AssetBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="InformationBoxAsset">
-    <FontFamily>Comic Sans MS</FontFamily>
-    <FontSize>15</FontSize>
-    <Height>36.99998474121094</Height>
-    <ID>594ac795-b8a9-4a73-af5a-8f60b2e3c8ca</ID>
-    <X>193.3332977294922</X>
-    <X2>413.4833068847656</X2>
-    <Y>224.2166748046875</Y>
-    <Y2>261.21665954589844</Y2>
-    <Name>Office</Name>
-    <Opacity>1</Opacity>
-    <Width>220.15000915527344</Width>
-</AssetBase>
-<AssetBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="InformationBoxAsset">
-    <FontFamily>Comic Sans MS</FontFamily>
-    <FontSize>15</FontSize>
-    <Height>64.13333129882812</Height>
-    <ID>dd665dff-eb1c-4342-962d-50196bbdd093</ID>
-    <X>192.0999755859375</X>
-    <X2>413.4833068847656</X2>
-    <Y>266.1499938964844</Y>
-    <Y2>330.2833251953125</Y2>
-    <Name>Company Process</Name>
-    <Opacity>1</Opacity>
-    <Width>221.38333129882812</Width>
-</AssetBase>
-<AssetBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ButtonAsset">
-    <BehaviorList>
-        <Behavior xsi:type="TransitionBehavior">
-            <EndLocationX>0.0</EndLocationX>
-            <EndLocationY>0.0</EndLocationY>
-            <Speed>0.0</Speed>
-            <StartLocationX>0.0</StartLocationX>
-            <StartLocationY>0.0</StartLocationY>
-            <Time>0</Time>
-            <TransitionID>f42daf45-6c84-496c-876d-7d5572308529</TransitionID>
-            <Trigger>Click</Trigger>
-        </Behavior>
-    </BehaviorList>
-    <FontFamily>Comic Sans MS</FontFamily>
-    <FontSize>15</FontSize>
-    <Height>35.76666259765625</Height>
-    <ID>9c943c07-3eda-4b32-b960-cb35f8b45dfd</ID>
-    <X>422.11663818359375</X>
-    <X2>520.1666564941406</X2>
-    <Y>266.1500244140625</Y>
-    <Y2>301.91668701171875</Y2>
-    <Name>Begin Game</Name>
-    <Opacity>1</Opacity>
-    <Width>98.05001831054688</Width>
-</AssetBase>
-                            </Assets>
-                            <Background>Backdrops\Store Front.png</Background>
-                            <ID>7b91fb64-e1f1-4580-a6a8-98be8cd86581</ID>
-                            <Name>Act0 Scene0 Screen0</Name>
-                        </Screen>
-                    </Screens>
-                </Scene>
-                <Scene>
-                    <Background>Backdrops\Office Day.png</Background>
-                    <ID>e275391a-6339-4e3d-8416-4b38d743eac3</ID>
-                    <Name>Act0 Scene1</Name>
                     <Screens>
                         <Screen>
                             <Assets>
@@ -95,7 +17,7 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>78.31666564941406</Height>
-    <ID>83f132c0-2e1b-4c54-8bad-a045cf0938be</ID>
+    <ID>a5778752-0deb-4e21-8243-9df9a2871859</ID>
     <X>327.1499938964844</X>
     <X2>575.0499877929688</X2>
     <Y>123.69999694824219</Y>
@@ -105,42 +27,28 @@
 </AssetBase>
 <AssetBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CharacterAsset">
     <BehaviorList/>
-    <DisplayImage>character_11\char11_WalkRBehind.png</DisplayImage>
+    <DisplayImage>character_15\char15_WalkRBehind.png</DisplayImage>
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
-    <Height>301.0</Height>
-    <ID>b90dec3e-c167-40a0-a333-159d82453f5f</ID>
-    <X>340.0</X>
-    <X2>534.0</X2>
-    <Y>234.0</Y>
-    <Y2>535.0</Y2>
+    <Height>292.9166717529297</Height>
+    <ID>b7fc5b02-e067-4501-9c45-c0ca887e4cf3</ID>
+    <X>209.36663818359375</X>
+    <X2>380.79998779296875</X2>
+    <Y>130.4833526611328</Y>
+    <Y2>423.4000244140625</Y2>
     <Opacity>1</Opacity>
-    <Width>194.0</Width>
-</AssetBase>
-<AssetBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CharacterAsset">
-    <BehaviorList/>
-    <DisplayImage>character_3\char3_RPointUp.png</DisplayImage>
-    <FontFamily>Comic Sans MS</FontFamily>
-    <FontSize>15</FontSize>
-    <Height>583.91667175293</Height>
-    <ID>1da76a30-8ac5-4284-8dac-5305754faf78</ID>
-    <X>200.366638183594</X>
-    <X2>536.799987792969</X2>
-    <Y>292.483352661133</Y>
-    <Y2>876.400024414063</Y2>
-    <Opacity>1</Opacity>
-    <Width>336.433349609375</Width>
+    <Width>171.433349609375</Width>
 </AssetBase>
 <AssetBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="InformationBoxAsset">
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>59.20001220703125</Height>
-    <ID>d48de41a-7c3c-46fa-8b77-3ea3718d0959</ID>
+    <ID>4e8302f3-330a-48dd-9abf-e56994376bdd</ID>
     <X>346.88330078125</X>
     <X2>557.1667022705078</X2>
     <Y>128.63331604003906</Y>
     <Y2>187.8333282470703</Y2>
-    <Name>Today is my first day of work and I am going to be trained!</Name>
+    <Name>Today's algebra lesson was difficult.. I wonder if Gooble can help!</Name>
     <Opacity>1</Opacity>
     <Width>210.2834014892578</Width>
 </AssetBase>
@@ -153,7 +61,7 @@
             <StartLocationX>0.0</StartLocationX>
             <StartLocationY>0.0</StartLocationY>
             <Time>0</Time>
-            <TransitionID>c41ee1a5-5ceb-4a18-8e0d-2eea31574563</TransitionID>
+            <TransitionID>9b039056-a0ab-4bb2-a673-349e0670f1b6</TransitionID>
             <Trigger>Click</Trigger>
         </Behavior>
     </BehaviorList>
@@ -161,7 +69,7 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>50.566680908203125</Height>
-    <ID>334e7a8f-4478-4034-9b0f-b9507975d8cc</ID>
+    <ID>cd26a650-4207-4169-896c-a32d6619e162</ID>
     <X>581.8333129882812</X>
     <X2>739.7000122070312</X2>
     <Y>332.75</Y>
@@ -171,21 +79,138 @@
     <Width>157.86669921875</Width>
 </AssetBase>
                             </Assets>
-                            <Background>Backdrops\Office Day.png</Background>
-                            <ID>f42daf45-6c84-496c-876d-7d5572308529</ID>
+                            <Background>Backdrops\Home Office.png</Background>
+                            <ID>b9e64cfa-1aad-4a41-a635-a7611154abdc</ID>
+                            <Name>Act0 Scene0 Screen0</Name>
+                        </Screen>
+                    </Screens>
+                </Scene>
+                <Scene>
+                    <Background>Backdrops\FaceingPC.png</Background>
+                    <ID>f9ae4d2e-99d4-491b-942d-8d00b1518400</ID>
+                    <Name>Act0 Scene1</Name>
+                    <Screens>
+                        <Screen>
+                            <Assets>
+<AssetBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="InformationBoxAsset">
+    <FontFamily>Comic Sans MS</FontFamily>
+    <FontSize>15</FontSize>
+    <Height>67.83334350585938</Height>
+    <ID>9df94ee8-e08a-432a-a8f9-1953c1edaa76</ID>
+    <X>191.48330688476562</X>
+    <X2>581.8333129882812</X2>
+    <Y>152.06666564941406</Y>
+    <Y2>219.90000915527344</Y2>
+    <Name>Gooble!</Name>
+    <Opacity>1</Opacity>
+    <Width>390.3500061035156</Width>
+</AssetBase>
+<AssetBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="InformationBoxAsset">
+    <FontFamily>Comic Sans MS</FontFamily>
+    <FontSize>15</FontSize>
+    <Height>36.99998474121094</Height>
+    <ID>1ad13a5e-367e-4c21-9dda-805e714e8ddf</ID>
+    <X>193.3332977294922</X>
+    <X2>413.4833068847656</X2>
+    <Y>224.2166748046875</Y>
+    <Y2>261.21665954589844</Y2>
+    <Name>Algebra</Name>
+    <Opacity>1</Opacity>
+    <Width>220.15000915527344</Width>
+</AssetBase>
+<AssetBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="InformationBoxAsset">
+    <FontFamily>Comic Sans MS</FontFamily>
+    <FontSize>15</FontSize>
+    <Height>64.13333129882812</Height>
+    <ID>137ce042-6d15-4543-9f3a-004e9c005d84</ID>
+    <X>192.0999755859375</X>
+    <X2>413.4833068847656</X2>
+    <Y>266.1499938964844</Y>
+    <Y2>330.2833251953125</Y2>
+    <Name>Algebra Adventures</Name>
+    <Opacity>1</Opacity>
+    <Width>221.38333129882812</Width>
+</AssetBase>
+<AssetBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ButtonAsset">
+    <BehaviorList>
+        <Behavior xsi:type="TransitionBehavior">
+            <EndLocationX>0.0</EndLocationX>
+            <EndLocationY>0.0</EndLocationY>
+            <Speed>0.0</Speed>
+            <StartLocationX>0.0</StartLocationX>
+            <StartLocationY>0.0</StartLocationY>
+            <Time>0</Time>
+            <TransitionID>f98723d4-e7bd-48a2-bd23-ac7e9b5e068a</TransitionID>
+            <Trigger>Click</Trigger>
+        </Behavior>
+    </BehaviorList>
+    <FontFamily>Comic Sans MS</FontFamily>
+    <FontSize>15</FontSize>
+    <Height>35.76666259765625</Height>
+    <ID>674ad899-2f57-48a1-8ec2-62ec89c035d2</ID>
+    <X>422.11663818359375</X>
+    <X2>520.1666564941406</X2>
+    <Y>266.1500244140625</Y>
+    <Y2>301.91668701171875</Y2>
+    <Name>View</Name>
+    <Opacity>1</Opacity>
+    <Width>98.05001831054688</Width>
+</AssetBase>
+                            </Assets>
+                            <Background>Backdrops\FaceingPC.png</Background>
+                            <ID>9b039056-a0ab-4bb2-a673-349e0670f1b6</ID>
                             <Name>Act0 Scene1 Screen0</Name>
+                        </Screen>
+                    </Screens>
+                </Scene>
+                <Scene>
+                    <Background>Backdrops\FaceingPC _Warping.png</Background>
+                    <ID>c7984b22-8165-4c3c-9a79-83cbdb13a129</ID>
+                    <Name>Act0 Scene2</Name>
+                    <Screens>
+                        <Screen>
+                            <Assets>
+<AssetBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ButtonAsset">
+    <BehaviorList>
+        <Behavior xsi:type="TransitionBehavior">
+            <EndLocationX>0.0</EndLocationX>
+            <EndLocationY>0.0</EndLocationY>
+            <Speed>0.0</Speed>
+            <StartLocationX>0.0</StartLocationX>
+            <StartLocationY>0.0</StartLocationY>
+            <Time>0</Time>
+            <TransitionID>0d794ce0-7ad6-459e-8dce-addd5b65f747</TransitionID>
+            <Trigger>Click</Trigger>
+        </Behavior>
+    </BehaviorList>
+    <FontFamily>Comic Sans MS</FontFamily>
+    <FontSize>15</FontSize>
+    <Height>52.416656494140625</Height>
+    <ID>8e3ec8d0-c655-44af-903f-e8a79ec992e4</ID>
+    <X>636.7166137695312</X>
+    <X2>766.2166748046875</X2>
+    <Y>336.45001220703125</Y>
+    <Y2>388.8666687011719</Y2>
+    <Name>Continue</Name>
+    <Opacity>1</Opacity>
+    <Width>129.50006103515625</Width>
+</AssetBase>
+                            </Assets>
+                            <Background>Backdrops\FaceingPC _Warping.png</Background>
+                            <ID>f98723d4-e7bd-48a2-bd23-ac7e9b5e068a</ID>
+                            <Name>Act0 Scene2 Screen0</Name>
                         </Screen>
                     </Screens>
                 </Scene>
             </Scenes>
         </Act>
         <Act>
-            <ID>681b6831-e8d4-4a68-b75b-f18a51088b42</ID>
+            <ID>ddd8921f-0686-482a-9e73-e71d515df722</ID>
             <Name>Act1</Name>
             <Scenes>
                 <Scene>
                     <Background>Backdrops\moon surface.png</Background>
-                    <ID>5c4681f3-1007-4438-9ac2-785ecaa76209</ID>
+                    <ID>26ce67dc-06dd-438c-8eac-6134607c9f20</ID>
                     <Name>Act1 Scene0</Name>
                     <Screens>
                         <Screen>
@@ -195,7 +220,7 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>143.68331909179688</Height>
-    <ID>c88e21f9-d20f-4405-84a5-8f39792b6d17</ID>
+    <ID>6ed04cf4-e5ff-47df-a98b-d02252d4db6e</ID>
     <X>36.08330154418945</X>
     <X2>191.48330688476562</X2>
     <Y>194.00001525878906</Y>
@@ -208,7 +233,7 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>79.55000305175781</Height>
-    <ID>f5242229-dda5-482a-a9b0-c418a62d8a23</ID>
+    <ID>9297244f-4d81-41a1-add5-1f3e06de73c0</ID>
     <X>278.4333190917969</X>
     <X2>514.0</X2>
     <Y>251.3500213623047</Y>
@@ -221,7 +246,7 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>146.15000915527344</Height>
-    <ID>2da4c752-147e-41a0-9d1f-569f60001532</ID>
+    <ID>f495eaa8-d568-4558-ad7d-1e20e9426908</ID>
     <X>68.14997863769531</X>
     <X2>287.6833038330078</X2>
     <Y>205.71669006347656</Y>
@@ -231,11 +256,11 @@
 </AssetBase>
 <AssetBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CharacterAsset">
     <BehaviorList/>
-    <DisplayImage>character_11\char11_RPointNo.png</DisplayImage>
+    <DisplayImage>character_15\char15_RPointNo.png</DisplayImage>
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>91.26666259765625</Height>
-    <ID>7275f314-86ee-409e-b95d-3a02ce85c12c</ID>
+    <ID>bd386e24-7b84-4a0b-be50-131994ec3a02</ID>
     <X>135.98329162597656</X>
     <X2>240.19995880126953</X2>
     <Y>313.01666259765625</Y>
@@ -245,11 +270,11 @@
 </AssetBase>
 <AssetBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CharacterAsset">
     <BehaviorList/>
-    <DisplayImage>character_3\char3_LPointUp.png</DisplayImage>
+    <DisplayImage>character_19\char19_LPointUp.png</DisplayImage>
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>133.816650390625</Height>
-    <ID>2b841723-089d-4233-a021-0f0e966fc448</ID>
+    <ID>d0cf5f04-9367-47f3-ae11-bb55fdfdc154</ID>
     <X>295.0833435058594</X>
     <X2>378.3333282470703</X2>
     <Y>277.25</Y>
@@ -261,7 +286,7 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>46.86668395996094</Height>
-    <ID>9096312f-cd25-439f-84b4-1f582f07c0a6</ID>
+    <ID>760485f3-6f11-4dae-9f58-49ee7dbb0d66</ID>
     <X>61.36663818359375</X>
     <X2>145.8499755859375</X2>
     <Y>224.21665954589844</Y>
@@ -274,12 +299,12 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>51.18333435058594</Height>
-    <ID>51f8352b-1ec9-480f-8f49-080c892c57a6</ID>
+    <ID>8134a63b-d8f0-4d06-a358-9c6ee2b59b1c</ID>
     <X>292.0</X>
     <X2>499.816650390625</X2>
     <Y>261.8333282470703</Y>
     <Y2>313.01666259765625</Y2>
-    <Name>Hello, my name is David and I will be your supervisor today while we go over how our company works.</Name>
+    <Name>I am Sir Solvesalot!</Name>
     <Opacity>1</Opacity>
     <Width>207.816650390625</Width>
 </AssetBase>
@@ -287,12 +312,12 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>151.70001220703125</Height>
-    <ID>6a943e79-2186-4fa9-8238-f902d4380526</ID>
+    <ID>5cd66d19-6a6f-4c48-8af7-7c66c0b1464d</ID>
     <X>9.566641807556152</X>
     <X2>342.566650390625</X2>
     <Y>129.25</Y>
     <Y2>280.95001220703125</Y2>
-    <Name>This is your first day at work.</Name>
+    <Name>You awake in a strange land and run into strange man..</Name>
     <Opacity>1</Opacity>
     <Width>333.00000858306885</Width>
 </AssetBase>
@@ -305,14 +330,14 @@
             <StartLocationX>0.0</StartLocationX>
             <StartLocationY>0.0</StartLocationY>
             <Time>0</Time>
-            <TransitionID>6d4ba54b-7cd3-45cf-8261-d9d43e7a9821</TransitionID>
+            <TransitionID>ae7f313c-4218-421d-bf39-0c8fe6e0b11d</TransitionID>
             <Trigger>Click</Trigger>
         </Behavior>
     </BehaviorList>
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>48.0999755859375</Height>
-    <ID>c1a2e09f-9bae-4273-b13e-e4134c3af4d9</ID>
+    <ID>796885a1-2698-4070-84df-dbcf32c219b4</ID>
     <X>571.9666137695312</X>
     <X2>700.8499755859375</X2>
     <Y>335.2166748046875</Y>
@@ -323,14 +348,14 @@
 </AssetBase>
                             </Assets>
                             <Background>Backdrops\moon surface.png</Background>
-                            <ID>814cf3b1-334d-45b5-a1a5-e0ceea24d3e1</ID>
+                            <ID>0d794ce0-7ad6-459e-8dce-addd5b65f747</ID>
                             <Name>Act1 Scene0 Screen0</Name>
                         </Screen>
                     </Screens>
                 </Scene>
                 <Scene>
                     <Background>Backdrops\Moon Surface.png</Background>
-                    <ID>9e3f82c1-13a2-42a7-9d30-ee77cb3b36ec</ID>
+                    <ID>cafc7f7b-da03-4da7-b64a-ec5444370b69</ID>
                     <Name>Act1 Scene1</Name>
                     <Screens>
                         <Screen>
@@ -340,7 +365,7 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>143.68331909179688</Height>
-    <ID>c6afe72a-c37f-45c9-887e-fe9b89471fac</ID>
+    <ID>c519af97-e2aa-4cb6-a92b-0d544d13312a</ID>
     <X>36.08330154418945</X>
     <X2>191.48330688476562</X2>
     <Y>194.00001525878906</Y>
@@ -353,7 +378,7 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>79.55000305175781</Height>
-    <ID>039693bc-2219-490c-a718-c29856e4f08b</ID>
+    <ID>3bf8faf8-a85f-448d-900a-ad74150b23cd</ID>
     <X>278.4333190917969</X>
     <X2>514.0</X2>
     <Y>251.3500213623047</Y>
@@ -366,7 +391,7 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>146.15000915527344</Height>
-    <ID>4cc0b6b0-e6b4-45ef-abde-f1d300d6315f</ID>
+    <ID>ead98ce7-c347-48eb-bae2-b32af4b467f4</ID>
     <X>68.14997863769531</X>
     <X2>287.6833038330078</X2>
     <Y>205.71669006347656</Y>
@@ -376,11 +401,11 @@
 </AssetBase>
 <AssetBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CharacterAsset">
     <BehaviorList/>
-    <DisplayImage>character_3\char3_LPointUp.png</DisplayImage>
+    <DisplayImage>character_19\char19_LPointUp.png</DisplayImage>
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>133.816650390625</Height>
-    <ID>48c8dba4-e8b0-4684-828b-0528c56769ed</ID>
+    <ID>c58b0863-4898-4120-b4c6-6c44d36a4aa1</ID>
     <X>295.0833435058594</X>
     <X2>378.3333282470703</X2>
     <Y>277.25</Y>
@@ -392,7 +417,7 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>151.70001220703125</Height>
-    <ID>e24818a4-0b12-4b5e-946f-75b64bc2b63c</ID>
+    <ID>893e037f-ec64-4f31-b621-4ddec3a5c9e5</ID>
     <X>9.566641807556152</X>
     <X2>342.566650390625</X2>
     <Y>129.25</Y>
@@ -410,14 +435,14 @@
             <StartLocationX>0.0</StartLocationX>
             <StartLocationY>0.0</StartLocationY>
             <Time>0</Time>
-            <TransitionID>4a503739-e665-43ca-ba7a-6d57444845d7</TransitionID>
+            <TransitionID>f5a56fed-9929-4ccf-99e8-79719e3a181d</TransitionID>
             <Trigger>Click</Trigger>
         </Behavior>
     </BehaviorList>
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>48.0999755859375</Height>
-    <ID>7ae77ecd-001e-4bd2-aeea-5cede4536fbb</ID>
+    <ID>46e67d92-ff8c-42e6-9ff3-cc8206131144</ID>
     <X>571.9666137695312</X>
     <X2>700.8499755859375</X2>
     <Y>335.2166748046875</Y>
@@ -428,14 +453,14 @@
 </AssetBase>
                             </Assets>
                             <Background>Backdrops\Moon Surface.png</Background>
-                            <ID>6d4ba54b-7cd3-45cf-8261-d9d43e7a9821</ID>
+                            <ID>ae7f313c-4218-421d-bf39-0c8fe6e0b11d</ID>
                             <Name>Act1 Scene1 Screen0</Name>
                         </Screen>
                     </Screens>
                 </Scene>
                 <Scene>
                     <Background>Backdrops\moon surface.png</Background>
-                    <ID>e20899bc-59b4-4945-8210-30d9f561e706</ID>
+                    <ID>0ecd86e8-9918-4388-b593-d2b7037e8f02</ID>
                     <Name>Act1 Scene2</Name>
                     <Screens>
                         <Screen>
@@ -445,7 +470,7 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>61.666656494140625</Height>
-    <ID>e12b3aa3-918b-42b8-baed-6b31b77eda08</ID>
+    <ID>040caa17-2f21-45e3-b5c4-da6ed37ebdde</ID>
     <X>69.38330841064453</X>
     <X2>234.03330993652344</X2>
     <Y>273.5500183105469</Y>
@@ -457,7 +482,7 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>40.70001220703125</Height>
-    <ID>35f6c989-2cfc-4edd-b5a7-7bb55f300974</ID>
+    <ID>06ce4f84-0606-429b-b82c-91a1c9b542ef</ID>
     <X>76.78329849243164</X>
     <X2>226.01663208007812</X2>
     <Y>280.9499816894531</Y>
@@ -470,7 +495,7 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>56.116668701171875</Height>
-    <ID>8ea9daa6-cecf-439a-9038-0dbe53e72132</ID>
+    <ID>5d674186-a349-4fac-acee-2aa2d9b76a75</ID>
     <X>186.5499725341797</X>
     <X2>748.9500122070312</X2>
     <Y>171.18333435058594</Y>
@@ -483,7 +508,7 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>49.95001220703125</Height>
-    <ID>f7991eed-ef9d-41c5-971b-6088bc6558e9</ID>
+    <ID>d0d2175f-822f-44a8-b5d5-7af634b535c7</ID>
     <X>184.08331298828125</X>
     <X2>752.6499633789062</X2>
     <Y>115.68333435058594</Y>
@@ -511,14 +536,14 @@
             <StartLocationX>0.0</StartLocationX>
             <StartLocationY>0.0</StartLocationY>
             <Time>0</Time>
-            <TransitionID>6e7ecc52-c38f-4d55-ae7a-fd905ad94840</TransitionID>
+            <TransitionID>81e06402-940c-43cb-a3a2-323d1675799d</TransitionID>
             <Trigger>Click</Trigger>
         </Behavior>
     </BehaviorList>
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>33.91668701171875</Height>
-    <ID>394779db-cc21-49c3-a4c3-081506b35da6</ID>
+    <ID>e3a78aa5-7bfc-4a32-bd76-1643c872f60c</ID>
     <X>322.83331298828125</X>
     <X2>607.7333374023438</X2>
     <Y>230.38333129882812</Y>
@@ -546,14 +571,14 @@
             <StartLocationX>0.0</StartLocationX>
             <StartLocationY>0.0</StartLocationY>
             <Time>0</Time>
-            <TransitionID>4a503739-e665-43ca-ba7a-6d57444845d7</TransitionID>
+            <TransitionID>f5a56fed-9929-4ccf-99e8-79719e3a181d</TransitionID>
             <Trigger>Click</Trigger>
         </Behavior>
     </BehaviorList>
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>33.91668701171875</Height>
-    <ID>f663c0af-f5a1-438d-a865-f0604d87db1a</ID>
+    <ID>3ba7a43e-40b0-4e8f-b034-a2b213ae9373</ID>
     <X>322.83331298828125</X>
     <X2>607.7333374023438</X2>
     <Y>265.5333557128906</Y>
@@ -581,14 +606,14 @@
             <StartLocationX>0.0</StartLocationX>
             <StartLocationY>0.0</StartLocationY>
             <Time>0</Time>
-            <TransitionID>037818d5-40a3-41e7-afc4-2610acceeb9d</TransitionID>
+            <TransitionID>dad7d92d-3fc3-4d1a-94bd-24872bc20bf6</TransitionID>
             <Trigger>Click</Trigger>
         </Behavior>
     </BehaviorList>
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>33.91668701171875</Height>
-    <ID>e0585441-8311-4ab8-b6fa-736dc2c9e849</ID>
+    <ID>03b256d0-0e58-4ff0-bbd5-f37d709656fd</ID>
     <X>322.83331298828125</X>
     <X2>607.7333374023438</X2>
     <Y>303.76666259765625</Y>
@@ -616,14 +641,14 @@
             <StartLocationX>0.0</StartLocationX>
             <StartLocationY>0.0</StartLocationY>
             <Time>0</Time>
-            <TransitionID>6d4ba54b-7cd3-45cf-8261-d9d43e7a9821</TransitionID>
+            <TransitionID>ae7f313c-4218-421d-bf39-0c8fe6e0b11d</TransitionID>
             <Trigger>Click</Trigger>
         </Behavior>
     </BehaviorList>
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>33.91668701171875</Height>
-    <ID>8f065d6d-b356-4a66-9689-58442643e7a5</ID>
+    <ID>9c5e1e69-5945-49f1-afed-247df2fc2392</ID>
     <X>322.83331298828125</X>
     <X2>607.7333374023438</X2>
     <Y>343.23333740234375</Y>
@@ -634,14 +659,14 @@
 </AssetBase>
                             </Assets>
                             <Background>Backdrops\moon surface.png</Background>
-                            <ID>4a503739-e665-43ca-ba7a-6d57444845d7</ID>
+                            <ID>f5a56fed-9929-4ccf-99e8-79719e3a181d</ID>
                             <Name>Act1 Scene2 Screen0</Name>
                         </Screen>
                     </Screens>
                 </Scene>
                 <Scene>
                     <Background>Backdrops\moon surface.png</Background>
-                    <ID>ac21a869-8878-47ab-b041-c89d6de63467</ID>
+                    <ID>05111afc-62d2-485c-8152-6eec46a62597</ID>
                     <Name>Act1 Scene3</Name>
                     <Screens>
                         <Screen>
@@ -651,7 +676,7 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>143.68331909179688</Height>
-    <ID>41f1cace-bdbf-4144-b6b0-70b1871eeed6</ID>
+    <ID>07537bf2-1257-4ec6-b334-22776ee43044</ID>
     <X>36.08330154418945</X>
     <X2>191.48330688476562</X2>
     <Y>194.00001525878906</Y>
@@ -664,7 +689,7 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>79.55000305175781</Height>
-    <ID>c152b523-444d-4e8c-89c4-506ce901ff4f</ID>
+    <ID>0cc3b773-53ee-4a56-ac3a-d1821518ca88</ID>
     <X>278.4333190917969</X>
     <X2>514.0</X2>
     <Y>251.3500213623047</Y>
@@ -677,7 +702,7 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>146.15000915527344</Height>
-    <ID>dbdf876a-c81d-4d18-a383-ed6d269856bf</ID>
+    <ID>f75632d5-7c9e-4ea4-b765-43b6f36c8122</ID>
     <X>68.14997863769531</X>
     <X2>287.6833038330078</X2>
     <Y>205.71669006347656</Y>
@@ -691,7 +716,7 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>111.61668395996094</Height>
-    <ID>fec22dbc-4860-4932-8de1-aafbb266cff7</ID>
+    <ID>bee6fd23-43f8-4dda-bd01-ec82bbc0b2d9</ID>
     <X>444.31666564941406</X>
     <X2>542.3666687011719</X2>
     <Y>129.86666870117188</Y>
@@ -701,11 +726,11 @@
 </AssetBase>
 <AssetBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CharacterAsset">
     <BehaviorList/>
-    <DisplayImage>character_3\char3_LPointUp.png</DisplayImage>
+    <DisplayImage>character_19\char19_LPointUp.png</DisplayImage>
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>133.816650390625</Height>
-    <ID>b69f64f7-81e3-4c4f-a20e-844cdb2cb9af</ID>
+    <ID>528999c2-7f44-4861-804b-071e8e4d481d</ID>
     <X>295.0833435058594</X>
     <X2>378.3333282470703</X2>
     <Y>277.25</Y>
@@ -717,7 +742,7 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>151.70001220703125</Height>
-    <ID>87d5ad8a-183b-48b9-8f32-ce8edf35bb76</ID>
+    <ID>1d24bde1-02be-40ea-9ef5-24a719d1365f</ID>
     <X>9.566641807556152</X>
     <X2>342.566650390625</X2>
     <Y>129.25</Y>
@@ -730,7 +755,7 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>51.18333435058594</Height>
-    <ID>45cf9c65-0c98-409b-a036-61bd6b836553</ID>
+    <ID>44ffe770-0cab-4c72-ad09-4e528f6af0c4</ID>
     <X>292.0</X>
     <X2>499.816650390625</X2>
     <Y>261.8333282470703</Y>
@@ -748,14 +773,14 @@
             <StartLocationX>0.0</StartLocationX>
             <StartLocationY>0.0</StartLocationY>
             <Time>0</Time>
-            <TransitionID>4a503739-e665-43ca-ba7a-6d57444845d7</TransitionID>
+            <TransitionID>f5a56fed-9929-4ccf-99e8-79719e3a181d</TransitionID>
             <Trigger>Click</Trigger>
         </Behavior>
     </BehaviorList>
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>48.0999755859375</Height>
-    <ID>77fe8916-b823-4b26-8161-28bd52ee6d44</ID>
+    <ID>264d994b-e961-45d9-adb9-40745a69321f</ID>
     <X>571.9666137695312</X>
     <X2>700.8499755859375</X2>
     <Y>335.2166748046875</Y>
@@ -766,14 +791,14 @@
 </AssetBase>
                             </Assets>
                             <Background>Backdrops\moon surface.png</Background>
-                            <ID>6e7ecc52-c38f-4d55-ae7a-fd905ad94840</ID>
+                            <ID>81e06402-940c-43cb-a3a2-323d1675799d</ID>
                             <Name>Act1 Scene3 Screen0</Name>
                         </Screen>
                     </Screens>
                 </Scene>
                 <Scene>
                     <Background>Backdrops\moon surface.png</Background>
-                    <ID>7d73b099-4bae-4d31-a305-088204165428</ID>
+                    <ID>722eea75-a312-44e7-ab01-722d6d082f58</ID>
                     <Name>Act1 Scene4</Name>
                     <Screens>
                         <Screen>
@@ -783,7 +808,7 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>61.666656494140625</Height>
-    <ID>70d630eb-9b1d-47f5-ac07-823289fd97ed</ID>
+    <ID>d8fd92ed-7ee9-441e-9b94-be8c6f79d666</ID>
     <X>69.38330841064453</X>
     <X2>234.03330993652344</X2>
     <Y>273.5500183105469</Y>
@@ -795,7 +820,7 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>40.70001220703125</Height>
-    <ID>3a0ff535-8981-491e-9100-688724716b46</ID>
+    <ID>0a083cc0-55aa-4e49-8354-7dabde50f85a</ID>
     <X>76.78329849243164</X>
     <X2>226.01663208007812</X2>
     <Y>280.9499816894531</Y>
@@ -808,7 +833,7 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>56.116668701171875</Height>
-    <ID>ea7341de-82d3-4aac-911b-834c62c35bae</ID>
+    <ID>9affeffc-1bc9-4eaf-abc6-14a899fe3e94</ID>
     <X>186.5499725341797</X>
     <X2>748.9500122070312</X2>
     <Y>171.18333435058594</Y>
@@ -821,7 +846,7 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>49.95001220703125</Height>
-    <ID>176bda38-0251-4197-a632-3405d4bde737</ID>
+    <ID>bd53ea0d-9a46-41b5-b859-a9846925ad05</ID>
     <X>184.08331298828125</X>
     <X2>752.6499633789062</X2>
     <Y>115.68333435058594</Y>
@@ -849,14 +874,14 @@
             <StartLocationX>0.0</StartLocationX>
             <StartLocationY>0.0</StartLocationY>
             <Time>0</Time>
-            <TransitionID>f6d916c8-49e3-4563-9fb5-f7b04139650f</TransitionID>
+            <TransitionID>7ea0cf47-3c73-4a9e-bf7a-d398907f1a03</TransitionID>
             <Trigger>Click</Trigger>
         </Behavior>
     </BehaviorList>
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>33.91668701171875</Height>
-    <ID>ddd264e2-ce40-4097-881b-10a5513e0233</ID>
+    <ID>733f1894-926b-4c53-b3e2-a2e8a6a39ba8</ID>
     <X>322.83331298828125</X>
     <X2>607.7333374023438</X2>
     <Y>230.38333129882812</Y>
@@ -884,14 +909,14 @@
             <StartLocationX>0.0</StartLocationX>
             <StartLocationY>0.0</StartLocationY>
             <Time>0</Time>
-            <TransitionID>4a503739-e665-43ca-ba7a-6d57444845d7</TransitionID>
+            <TransitionID>f5a56fed-9929-4ccf-99e8-79719e3a181d</TransitionID>
             <Trigger>Click</Trigger>
         </Behavior>
     </BehaviorList>
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>33.91668701171875</Height>
-    <ID>2c69a818-9fb3-4bd5-ba56-b58828b75bc0</ID>
+    <ID>05228912-b736-4548-9a50-2b4ec8fa0612</ID>
     <X>322.83331298828125</X>
     <X2>607.7333374023438</X2>
     <Y>265.5333557128906</Y>
@@ -919,14 +944,14 @@
             <StartLocationX>0.0</StartLocationX>
             <StartLocationY>0.0</StartLocationY>
             <Time>0</Time>
-            <TransitionID>037818d5-40a3-41e7-afc4-2610acceeb9d</TransitionID>
+            <TransitionID>dad7d92d-3fc3-4d1a-94bd-24872bc20bf6</TransitionID>
             <Trigger>Click</Trigger>
         </Behavior>
     </BehaviorList>
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>33.91668701171875</Height>
-    <ID>026d162a-670d-48f6-976a-0a3994af0855</ID>
+    <ID>5fd0f2a9-dd18-4b79-af8c-1647b1635a66</ID>
     <X>322.83331298828125</X>
     <X2>607.7333374023438</X2>
     <Y>303.76666259765625</Y>
@@ -954,14 +979,14 @@
             <StartLocationX>0.0</StartLocationX>
             <StartLocationY>0.0</StartLocationY>
             <Time>0</Time>
-            <TransitionID>6d4ba54b-7cd3-45cf-8261-d9d43e7a9821</TransitionID>
+            <TransitionID>ae7f313c-4218-421d-bf39-0c8fe6e0b11d</TransitionID>
             <Trigger>Click</Trigger>
         </Behavior>
     </BehaviorList>
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>33.91668701171875</Height>
-    <ID>e1470aba-d4d6-4e69-9eba-fa9397762b3e</ID>
+    <ID>b644597c-c3b9-4f5d-8a87-66c6503a93c4</ID>
     <X>322.83331298828125</X>
     <X2>607.7333374023438</X2>
     <Y>343.23333740234375</Y>
@@ -972,14 +997,14 @@
 </AssetBase>
                             </Assets>
                             <Background>Backdrops\moon surface.png</Background>
-                            <ID>045bf9ce-845c-4ca0-b9d7-1d0d70f2dbb7</ID>
+                            <ID>5fdc25b6-4077-42d3-a10f-ced8bc7b47ce</ID>
                             <Name>Act1 Scene4 Screen0</Name>
                         </Screen>
                     </Screens>
                 </Scene>
                 <Scene>
                     <Background>Backdrops\moon surface.png</Background>
-                    <ID>0bd211b9-9e5a-42af-bce9-bc20782b2c23</ID>
+                    <ID>993e6313-3ecf-45ae-a147-b07b213b2a8a</ID>
                     <Name>Act1 Scene5</Name>
                     <Screens>
                         <Screen>
@@ -989,7 +1014,7 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>143.68331909179688</Height>
-    <ID>e536a0fa-b7b9-401a-a990-9a7b71fa25e7</ID>
+    <ID>0f0e0e24-69e5-4f6d-8f3e-da97d01d38bb</ID>
     <X>36.08330154418945</X>
     <X2>191.48330688476562</X2>
     <Y>194.00001525878906</Y>
@@ -1002,7 +1027,7 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>79.55000305175781</Height>
-    <ID>4083259a-6653-456b-ac64-10177cad1cb2</ID>
+    <ID>b72be82b-4c2f-40aa-a9bb-07f7cbfe25a2</ID>
     <X>278.4333190917969</X>
     <X2>514.0</X2>
     <Y>251.3500213623047</Y>
@@ -1015,7 +1040,7 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>146.15000915527344</Height>
-    <ID>4f58e9af-2127-4756-a13b-e7321f4788c6</ID>
+    <ID>26f9c3ea-ac87-47aa-8ae4-2f4f81e67268</ID>
     <X>68.14997863769531</X>
     <X2>287.6833038330078</X2>
     <Y>205.71669006347656</Y>
@@ -1029,7 +1054,7 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>111.61668395996094</Height>
-    <ID>7cd79aea-1e34-4eec-aa4e-86f3d65506b5</ID>
+    <ID>3bde7c4f-01ed-4e19-87e5-991b17407194</ID>
     <X>444.31666564941406</X>
     <X2>542.3666687011719</X2>
     <Y>129.86666870117188</Y>
@@ -1039,11 +1064,11 @@
 </AssetBase>
 <AssetBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CharacterAsset">
     <BehaviorList/>
-    <DisplayImage>character_3\char3_LPointUp.png</DisplayImage>
+    <DisplayImage>character_19\char19_LPointUp.png</DisplayImage>
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>133.816650390625</Height>
-    <ID>99cba9eb-cded-42aa-a05e-ca79c4dc8423</ID>
+    <ID>c6978b02-9a70-4e35-afb5-61fdbc12bfb6</ID>
     <X>295.0833435058594</X>
     <X2>378.3333282470703</X2>
     <Y>277.25</Y>
@@ -1055,7 +1080,7 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>151.70001220703125</Height>
-    <ID>efa656fd-0388-477a-8735-2967ebd73513</ID>
+    <ID>7114935c-56ac-4cd0-b96c-2412ce9fbbaf</ID>
     <X>9.566641807556152</X>
     <X2>342.566650390625</X2>
     <Y>129.25</Y>
@@ -1068,7 +1093,7 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>51.18333435058594</Height>
-    <ID>18e5e8ad-9dd9-446b-84cc-c96b426a6900</ID>
+    <ID>dbca09eb-9561-4199-9ec3-31724cd55e39</ID>
     <X>292.0</X>
     <X2>499.816650390625</X2>
     <Y>261.8333282470703</Y>
@@ -1086,14 +1111,14 @@
             <StartLocationX>0.0</StartLocationX>
             <StartLocationY>0.0</StartLocationY>
             <Time>0</Time>
-            <TransitionID>045bf9ce-845c-4ca0-b9d7-1d0d70f2dbb7</TransitionID>
+            <TransitionID>5fdc25b6-4077-42d3-a10f-ced8bc7b47ce</TransitionID>
             <Trigger>Click</Trigger>
         </Behavior>
     </BehaviorList>
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>48.0999755859375</Height>
-    <ID>839d8c56-7986-4ff2-a4e4-6cef25249758</ID>
+    <ID>2f47e9c6-4a88-48de-88ca-d562d4b309e6</ID>
     <X>571.9666137695312</X>
     <X2>700.8499755859375</X2>
     <Y>335.2166748046875</Y>
@@ -1104,14 +1129,14 @@
 </AssetBase>
                             </Assets>
                             <Background>Backdrops\moon surface.png</Background>
-                            <ID>f6d916c8-49e3-4563-9fb5-f7b04139650f</ID>
+                            <ID>7ea0cf47-3c73-4a9e-bf7a-d398907f1a03</ID>
                             <Name>Act1 Scene5 Screen0</Name>
                         </Screen>
                     </Screens>
                 </Scene>
                 <Scene>
                     <Background>Backdrops\moon surface.png</Background>
-                    <ID>6ec9d02e-05e4-4d8a-b391-9d485b4ff042</ID>
+                    <ID>e0a058f6-0715-4347-a78c-3bc75cf9f874</ID>
                     <Name>Act1 Scene6</Name>
                     <Screens>
                         <Screen>
@@ -1121,7 +1146,7 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>61.666656494140625</Height>
-    <ID>8ce3a192-c9af-4473-8eab-3af88801d8bd</ID>
+    <ID>cb95caec-0352-4085-8fca-85aafac000ba</ID>
     <X>69.38330841064453</X>
     <X2>234.03330993652344</X2>
     <Y>273.5500183105469</Y>
@@ -1133,7 +1158,7 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>40.70001220703125</Height>
-    <ID>b5c2db2a-44e1-40b1-8e51-c8a884b12fee</ID>
+    <ID>cbf7fc7b-1501-4df6-ac16-43e295dd07c1</ID>
     <X>76.78329849243164</X>
     <X2>226.01663208007812</X2>
     <Y>280.9499816894531</Y>
@@ -1146,7 +1171,7 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>56.116668701171875</Height>
-    <ID>d79e2bb1-6feb-405c-9f17-14e007f1e40e</ID>
+    <ID>e800eb5a-7e60-43d5-ba60-da7cff646107</ID>
     <X>186.5499725341797</X>
     <X2>748.9500122070312</X2>
     <Y>171.18333435058594</Y>
@@ -1159,7 +1184,7 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>49.95001220703125</Height>
-    <ID>47cf6d19-10b7-4465-8636-2db4a04f5fee</ID>
+    <ID>4dde861e-17be-4820-a465-16f45ae17b11</ID>
     <X>184.08331298828125</X>
     <X2>752.6499633789062</X2>
     <Y>115.68333435058594</Y>
@@ -1187,14 +1212,14 @@
             <StartLocationX>0.0</StartLocationX>
             <StartLocationY>0.0</StartLocationY>
             <Time>0</Time>
-            <TransitionID>037818d5-40a3-41e7-afc4-2610acceeb9d</TransitionID>
+            <TransitionID>dad7d92d-3fc3-4d1a-94bd-24872bc20bf6</TransitionID>
             <Trigger>Click</Trigger>
         </Behavior>
     </BehaviorList>
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>33.91668701171875</Height>
-    <ID>896b02b1-e442-43d7-b996-faa3cdfe0add</ID>
+    <ID>b2bdd719-8ffa-4abc-86c6-0182d9d00436</ID>
     <X>322.83331298828125</X>
     <X2>607.7333374023438</X2>
     <Y>230.38333129882812</Y>
@@ -1222,14 +1247,14 @@
             <StartLocationX>0.0</StartLocationX>
             <StartLocationY>0.0</StartLocationY>
             <Time>0</Time>
-            <TransitionID>4a503739-e665-43ca-ba7a-6d57444845d7</TransitionID>
+            <TransitionID>f5a56fed-9929-4ccf-99e8-79719e3a181d</TransitionID>
             <Trigger>Click</Trigger>
         </Behavior>
     </BehaviorList>
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>33.91668701171875</Height>
-    <ID>ac6e1e4d-cb42-41d3-b431-6edb3cae4cd6</ID>
+    <ID>84cbf4f5-25ca-4201-b18a-4eaff84cc91a</ID>
     <X>322.83331298828125</X>
     <X2>607.7333374023438</X2>
     <Y>265.5333557128906</Y>
@@ -1257,14 +1282,14 @@
             <StartLocationX>0.0</StartLocationX>
             <StartLocationY>0.0</StartLocationY>
             <Time>0</Time>
-            <TransitionID>219ea767-9636-48e4-87f6-c19e57485f93</TransitionID>
+            <TransitionID>ab6d8830-c355-4c32-b096-f955699ca04b</TransitionID>
             <Trigger>Click</Trigger>
         </Behavior>
     </BehaviorList>
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>33.91668701171875</Height>
-    <ID>4551e862-fdeb-4461-ae72-80bd4ad3d15b</ID>
+    <ID>7f460ec7-c530-4161-bf35-8745e89855a9</ID>
     <X>322.83331298828125</X>
     <X2>607.7333374023438</X2>
     <Y>303.76666259765625</Y>
@@ -1292,14 +1317,14 @@
             <StartLocationX>0.0</StartLocationX>
             <StartLocationY>0.0</StartLocationY>
             <Time>0</Time>
-            <TransitionID>6d4ba54b-7cd3-45cf-8261-d9d43e7a9821</TransitionID>
+            <TransitionID>ae7f313c-4218-421d-bf39-0c8fe6e0b11d</TransitionID>
             <Trigger>Click</Trigger>
         </Behavior>
     </BehaviorList>
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>33.91668701171875</Height>
-    <ID>db8fe8e9-e776-4b1e-8a26-415b0cc2d212</ID>
+    <ID>635fb0cb-1bb4-4892-a06a-2b0bd18e0b19</ID>
     <X>322.83331298828125</X>
     <X2>607.7333374023438</X2>
     <Y>343.23333740234375</Y>
@@ -1310,14 +1335,14 @@
 </AssetBase>
                             </Assets>
                             <Background>Backdrops\moon surface.png</Background>
-                            <ID>7f6ff3c5-cd47-4345-87de-0807e7d900d1</ID>
+                            <ID>b9ff3a7c-1301-46ac-a462-0636fc43a62c</ID>
                             <Name>Act1 Scene6 Screen0</Name>
                         </Screen>
                     </Screens>
                 </Scene>
                 <Scene>
                     <Background>Backdrops\moon surface.png</Background>
-                    <ID>4ae90df1-5729-4fa5-9cdb-493724bddf60</ID>
+                    <ID>80633222-c633-4c8a-910f-3e071ce2be1d</ID>
                     <Name>Act1 Scene7</Name>
                     <Screens>
                         <Screen>
@@ -1327,7 +1352,7 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>143.68331909179688</Height>
-    <ID>8ad76cc3-df1f-4fd6-b15d-ba7b4f82c4eb</ID>
+    <ID>a04ef787-5f72-4f80-a1cd-6d6e367be545</ID>
     <X>36.08330154418945</X>
     <X2>191.48330688476562</X2>
     <Y>194.00001525878906</Y>
@@ -1340,7 +1365,7 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>79.55000305175781</Height>
-    <ID>b91d6866-0976-4025-95d3-90538527bba6</ID>
+    <ID>b3279201-710e-4cd9-b889-8bf395b8dd7e</ID>
     <X>278.4333190917969</X>
     <X2>514.0</X2>
     <Y>251.3500213623047</Y>
@@ -1353,7 +1378,7 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>146.15000915527344</Height>
-    <ID>28d90e26-9d44-45ec-813b-2510b042baf6</ID>
+    <ID>5dbb4ace-36d2-417f-97d7-1a8e3dc26127</ID>
     <X>68.14997863769531</X>
     <X2>287.6833038330078</X2>
     <Y>205.71669006347656</Y>
@@ -1367,7 +1392,7 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>111.61668395996094</Height>
-    <ID>467888c8-9985-4f62-8801-4a7eb4708f39</ID>
+    <ID>9b062854-1b75-4ec4-8d29-024587a35aa2</ID>
     <X>444.31666564941406</X>
     <X2>542.3666687011719</X2>
     <Y>129.86666870117188</Y>
@@ -1377,11 +1402,11 @@
 </AssetBase>
 <AssetBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CharacterAsset">
     <BehaviorList/>
-    <DisplayImage>character_3\char3_LPointUp.png</DisplayImage>
+    <DisplayImage>character_19\char19_LPointUp.png</DisplayImage>
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>133.816650390625</Height>
-    <ID>ad4838b4-c45e-42da-af29-19cd130c308d</ID>
+    <ID>ce51da8a-0e4f-4e24-a614-8d54ed6d54ac</ID>
     <X>295.0833435058594</X>
     <X2>378.3333282470703</X2>
     <Y>277.25</Y>
@@ -1393,7 +1418,7 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>151.70001220703125</Height>
-    <ID>43a6f2bd-d301-432d-b77f-6f6d32146f0a</ID>
+    <ID>8580edef-fdbd-4742-8158-46ce70ef9ac0</ID>
     <X>9.566641807556152</X>
     <X2>342.566650390625</X2>
     <Y>129.25</Y>
@@ -1406,7 +1431,7 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>51.18333435058594</Height>
-    <ID>87cd13db-9529-40e3-a3c1-706388916541</ID>
+    <ID>da1c4c0f-5459-4dc1-8ddb-b5bf08443b12</ID>
     <X>292.0</X>
     <X2>499.816650390625</X2>
     <Y>261.8333282470703</Y>
@@ -1424,14 +1449,14 @@
             <StartLocationX>0.0</StartLocationX>
             <StartLocationY>0.0</StartLocationY>
             <Time>0</Time>
-            <TransitionID>7f6ff3c5-cd47-4345-87de-0807e7d900d1</TransitionID>
+            <TransitionID>b9ff3a7c-1301-46ac-a462-0636fc43a62c</TransitionID>
             <Trigger>Click</Trigger>
         </Behavior>
     </BehaviorList>
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>48.0999755859375</Height>
-    <ID>7743ed68-55bc-49e4-bcb7-0dc46cec10c4</ID>
+    <ID>801bb92e-4f46-456e-b6dc-c0c85bcb9224</ID>
     <X>571.9666137695312</X>
     <X2>700.8499755859375</X2>
     <Y>335.2166748046875</Y>
@@ -1442,14 +1467,14 @@
 </AssetBase>
                             </Assets>
                             <Background>Backdrops\moon surface.png</Background>
-                            <ID>219ea767-9636-48e4-87f6-c19e57485f93</ID>
+                            <ID>ab6d8830-c355-4c32-b096-f955699ca04b</ID>
                             <Name>Act1 Scene7 Screen0</Name>
                         </Screen>
                     </Screens>
                 </Scene>
                 <Scene>
                     <Background>Backdrops\moon surface.png</Background>
-                    <ID>f401eb8b-5988-470a-a410-069c25f42bfd</ID>
+                    <ID>9231a3a2-447d-4843-9663-12a4ec7b4995</ID>
                     <Name>Act1 Scene8</Name>
                     <Screens>
                         <Screen>
@@ -1459,7 +1484,7 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>143.68331909179688</Height>
-    <ID>2a73cf6e-c2bd-47c2-be08-aa812ff0e4c4</ID>
+    <ID>9da01ade-7528-4f76-9baf-e45a9ebf1958</ID>
     <X>36.08330154418945</X>
     <X2>191.48330688476562</X2>
     <Y>194.00001525878906</Y>
@@ -1472,7 +1497,7 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>79.55000305175781</Height>
-    <ID>33a3d1d5-b662-4dcf-b9b4-1ad6eee874a2</ID>
+    <ID>374704c5-d62d-44d0-b8cc-bbd037ebb877</ID>
     <X>278.4333190917969</X>
     <X2>514.0</X2>
     <Y>251.3500213623047</Y>
@@ -1485,7 +1510,7 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>146.15000915527344</Height>
-    <ID>546f0a90-f64a-44c9-add4-10cbf42dadd1</ID>
+    <ID>ed7ce187-6c92-4b18-bb13-19292460125d</ID>
     <X>68.14997863769531</X>
     <X2>287.6833038330078</X2>
     <Y>205.71669006347656</Y>
@@ -1495,11 +1520,11 @@
 </AssetBase>
 <AssetBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CharacterAsset">
     <BehaviorList/>
-    <DisplayImage>character_3\char3_LPointUp.png</DisplayImage>
+    <DisplayImage>character_19\char19_LPointUp.png</DisplayImage>
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>133.816650390625</Height>
-    <ID>fb5a5afc-ce27-4fae-99d7-6605259b16b2</ID>
+    <ID>3ff3e6c5-a88d-4349-b628-68ed440a89ed</ID>
     <X>295.0833435058594</X>
     <X2>378.3333282470703</X2>
     <Y>277.25</Y>
@@ -1507,30 +1532,16 @@
     <Opacity>1</Opacity>
     <Width>83.24998474121094</Width>
 </AssetBase>
-<AssetBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CharacterAsset">
-    <BehaviorList/>
-    <DisplayImage>character_11\char11_RPointNo.png</DisplayImage>
-    <FontFamily>Comic Sans MS</FontFamily>
-    <FontSize>15</FontSize>
-    <Height>91.26666259765625</Height>
-    <ID>b3e8b6d1-dc73-42a4-b329-e2332d8ee48b</ID>
-    <X>135.98329162597656</X>
-    <X2>240.19995880126953</X2>
-    <Y>313.01666259765625</Y>
-    <Y2>404.2833251953125</Y2>
-    <Opacity>1</Opacity>
-    <Width>104.21666717529297</Width>
-</AssetBase>
 <AssetBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="InformationBoxAsset">
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>51.18333435058594</Height>
-    <ID>b97e504e-3c28-4620-8dd2-dcd6ca2cb506</ID>
+    <ID>34a4abdd-cfa2-45da-be9d-1eb62fa1d621</ID>
     <X>292.0</X>
     <X2>499.816650390625</X2>
     <Y>261.8333282470703</Y>
     <Y2>313.01666259765625</Y2>
-    <Name>Let us begin our tour! Remember to listen closely, there may be a quiz at the end.</Name>
+    <Name>Have a safe journey back to your world!</Name>
     <Opacity>1</Opacity>
     <Width>207.816650390625</Width>
 </AssetBase>
@@ -1538,12 +1549,12 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>151.70001220703125</Height>
-    <ID>1c71ccde-c400-4a9c-a100-fa624b8df91a</ID>
+    <ID>b1ff93ce-ace1-4c47-b660-0cf4c61c13a8</ID>
     <X>9.566641807556152</X>
     <X2>342.566650390625</X2>
     <Y>129.25</Y>
     <Y2>280.95001220703125</Y2>
-    <Name>Tension builds as the tour is about to begin...</Name>
+    <Name>After defeating lord calcutron, sir solvesalot takes tou back to the warp zone that will take you back to your own world.</Name>
     <Opacity>1</Opacity>
     <Width>333.00000858306885</Width>
 </AssetBase>
@@ -1556,25 +1567,25 @@
             <StartLocationX>0.0</StartLocationX>
             <StartLocationY>0.0</StartLocationY>
             <Time>0</Time>
-            <TransitionID>037818d5-40a3-41e7-afc4-2610acceeb9d</TransitionID>
+            <TransitionID>dad7d92d-3fc3-4d1a-94bd-24872bc20bf6</TransitionID>
             <Trigger>Click</Trigger>
         </Behavior>
     </BehaviorList>
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>48.0999755859375</Height>
-    <ID>e1a3eb28-ec41-4cf4-86a0-efbdaa19d9d7</ID>
+    <ID>df79cf77-9be6-462d-b657-d4c0c2b020f7</ID>
     <X>571.9666137695312</X>
     <X2>700.8499755859375</X2>
     <Y>335.2166748046875</Y>
     <Y2>383.316650390625</Y2>
-    <Name>Begin</Name>
+    <Name>Warp!</Name>
     <Opacity>1</Opacity>
     <Width>128.88336181640625</Width>
 </AssetBase>
                             </Assets>
                             <Background>Backdrops\moon surface.png</Background>
-                            <ID>1d4bb039-1bd7-4b43-8b26-69a4521976c8</ID>
+                            <ID>3f3028f4-639c-43dd-b2a9-ea770e168a37</ID>
                             <Name>Act1 Scene8 Screen0</Name>
                         </Screen>
                     </Screens>
@@ -1582,12 +1593,12 @@
             </Scenes>
         </Act>
         <Act>
-            <ID>f2cb12ca-8d6c-4756-b40c-81c9241a61ac</ID>
+            <ID>d7374fd7-ea56-4e6a-aed9-be503059a4e6</ID>
             <Name>Act2</Name>
             <Scenes>
                 <Scene>
-                    <Background>Backdrops\Cubicle.png</Background>
-                    <ID>05f4b58d-9c69-4f72-8ae2-96a54291c472</ID>
+                    <Background>Backdrops\Home Office.png</Background>
+                    <ID>4a1dcd0f-15a3-40c3-84b5-0cda23fb1521</ID>
                     <Name>Act2 Scene0</Name>
                     <Screens>
                         <Screen>
@@ -1597,7 +1608,7 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>109.76666259765625</Height>
-    <ID>c9e02cee-b9d3-4d11-a25a-9ad18f346f03</ID>
+    <ID>661f1c9b-e90e-41e4-b72e-568bd052e3eb</ID>
     <X>362.2999572753906</X>
     <X2>639.7999877929688</X2>
     <Y>98.41665649414062</Y>
@@ -1607,25 +1618,11 @@
 </AssetBase>
 <AssetBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CharacterAsset">
     <BehaviorList/>
-    <DisplayImage>character_11\char11_RPointUp.png</DisplayImage>
+    <DisplayImage>character_15\char15_RPointUp.png</DisplayImage>
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>294.7666549682617</Height>
-    <ID>ec61f3d0-8cd3-4dfa-971f-8129e3f31c7a</ID>
-    <X>218.61663818359375</X>
-    <X2>458.49993896484375</X2>
-    <Y>126.16666412353516</Y>
-    <Y2>420.9333190917969</Y2>
-    <Opacity>1</Opacity>
-    <Width>239.88330078125</Width>
-</AssetBase>
-<AssetBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CharacterAsset">
-    <BehaviorList/>
-    <DisplayImage>character_3\char3_LPointUp.png</DisplayImage>
-    <FontFamily>Comic Sans MS</FontFamily>
-    <FontSize>15</FontSize>
-    <Height>294.7666549682617</Height>
-    <ID>a5f74219-1297-46ab-a43a-32142b6ec1bd</ID>
+    <ID>38a4555b-cf91-46fa-be57-df15f0b79e4c</ID>
     <X>218.61663818359375</X>
     <X2>458.49993896484375</X2>
     <Y>126.16666412353516</Y>
@@ -1637,105 +1634,12 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>66.59999084472656</Height>
-    <ID>4e1a1ec5-6de8-4c52-a7af-e0d7d32b782c</ID>
+    <ID>867c0dfc-6f0b-4bac-97e6-4069c81a325f</ID>
     <X>375.86663818359375</X>
     <X2>625.6166687011719</X2>
     <Y>113.83334350585938</Y>
     <Y2>180.43333435058594</Y2>
-    <Name>You have passed the Company Process Test</Name>
-    <Opacity>1</Opacity>
-    <Width>249.75003051757812</Width>
-</AssetBase>
-<AssetBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="InformationBoxAsset">
-    <FontFamily>Comic Sans MS</FontFamily>
-    <FontSize>15</FontSize>
-    <Height>66.59999084472656</Height>
-    <ID>47bd934d-941d-4589-b98e-a79b3ae0d889</ID>
-    <X>375.86663818359375</X>
-    <X2>625.6166687011719</X2>
-    <Y>113.83334350585938</Y>
-    <Y2>180.43333435058594</Y2>
-    <Name>Nice job today, I will see you tomorrow!</Name>
-    <Opacity>1</Opacity>
-    <Width>249.75003051757812</Width>
-</AssetBase>
-<AssetBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ButtonAsset">
-    <BehaviorList>
-        <Behavior xsi:type="TransitionBehavior">
-            <EndLocationX>0.0</EndLocationX>
-            <EndLocationY>0.0</EndLocationY>
-            <Speed>0.0</Speed>
-            <StartLocationX>0.0</StartLocationX>
-            <StartLocationY>0.0</StartLocationY>
-            <Time>0</Time>
-            <TransitionID>29ae0565-760d-4336-8752-70a70b489d34</TransitionID>
-            <Trigger>Click</Trigger>
-        </Behavior>
-    </BehaviorList>
-    <DisplayImage>PathToAsset10</DisplayImage>
-    <FontFamily>Comic Sans MS</FontFamily>
-    <FontSize>15</FontSize>
-    <Height>46.86669921875</Height>
-    <ID>bff4478d-1afd-4065-a8d9-0004dc21fb90</ID>
-    <X>570.7332763671875</X>
-    <X2>692.2166137695312</X2>
-    <Y>325.9666748046875</Y>
-    <Y2>372.8333740234375</Y2>
-    <Name>Begin to Leave</Name>
-    <Opacity>1</Opacity>
-    <Width>121.48333740234375</Width>
-</AssetBase>
-                            </Assets>
-                            <Background>Backdrops\Cubicle.png</Background>
-                            <ID>037818d5-40a3-41e7-afc4-2610acceeb9d</ID>
-                            <Name>Act2 Scene0 Screen0</Name>
-                        </Screen>
-                    </Screens>
-                </Scene>
-                <Scene>
-                    <Background>Backdrops\Office Night.png</Background>
-                    <ID>51449581-f9ae-4a30-9f2a-8920bb6a3c66</ID>
-                    <Name>Act2 Scene1</Name>
-                    <Screens>
-                        <Screen>
-                            <Assets>
-<AssetBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ImageAsset">
-    <DisplayImage>Props\GenericInteraction\TextBubble.png</DisplayImage>
-    <FontFamily>Comic Sans MS</FontFamily>
-    <FontSize>15</FontSize>
-    <Height>109.76666259765625</Height>
-    <ID>0ada94a2-6f1d-4d7d-a7e7-f4321c329c19</ID>
-    <X>362.2999572753906</X>
-    <X2>639.7999877929688</X2>
-    <Y>98.41665649414062</Y>
-    <Y2>208.18331909179688</Y2>
-    <Opacity>1</Opacity>
-    <Width>277.5000305175781</Width>
-</AssetBase>
-<AssetBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CharacterAsset">
-    <BehaviorList/>
-    <DisplayImage>character_11\char11_RPointUp.png</DisplayImage>
-    <FontFamily>Comic Sans MS</FontFamily>
-    <FontSize>15</FontSize>
-    <Height>294.7666549682617</Height>
-    <ID>3bd11fd6-a99a-44b6-9100-c97b6955f935</ID>
-    <X>218.61663818359375</X>
-    <X2>458.49993896484375</X2>
-    <Y>126.16666412353516</Y>
-    <Y2>420.9333190917969</Y2>
-    <Opacity>1</Opacity>
-    <Width>239.88330078125</Width>
-</AssetBase>
-<AssetBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="InformationBoxAsset">
-    <FontFamily>Comic Sans MS</FontFamily>
-    <FontSize>15</FontSize>
-    <Height>66.59999084472656</Height>
-    <ID>46281663-cab5-45f6-b3d2-bb2551368239</ID>
-    <X>375.86663818359375</X>
-    <X2>625.6166687011719</X2>
-    <Y>113.83334350585938</Y>
-    <Y2>180.43333435058594</Y2>
-    <Name>What a great day! I learned so much.</Name>
+    <Name>What a great game! I learned so much.</Name>
     <Opacity>1</Opacity>
     <Width>249.75003051757812</Width>
 </AssetBase>
@@ -1755,7 +1659,7 @@
     <FontFamily>Comic Sans MS</FontFamily>
     <FontSize>15</FontSize>
     <Height>46.86669921875</Height>
-    <ID>ec44c42c-6862-4602-8137-4ac883938dd3</ID>
+    <ID>520e68f4-a4d9-4ff5-ad83-9d0e52201edc</ID>
     <X>570.7332763671875</X>
     <X2>692.2166137695312</X2>
     <Y>325.9666748046875</Y>
@@ -1765,15 +1669,15 @@
     <Width>121.48333740234375</Width>
 </AssetBase>
                             </Assets>
-                            <Background>Backdrops\Office Night.png</Background>
-                            <ID>29ae0565-760d-4336-8752-70a70b489d34</ID>
-                            <Name>Act2 Scene1 Screen0</Name>
+                            <Background>Backdrops\Home Office.png</Background>
+                            <ID>dad7d92d-3fc3-4d1a-94bd-24872bc20bf6</ID>
+                            <Name>Act2 Scene0 Screen0</Name>
                         </Screen>
                     </Screens>
                 </Scene>
             </Scenes>
         </Act>
     </Acts>
-    <ID>0fccfc00-f469-4883-a954-a24654da9f63</ID>
+    <ID>b12db853-230d-4d32-9761-b527c5eec0e4</ID>
     <Name>Game</Name>
 </Game>
