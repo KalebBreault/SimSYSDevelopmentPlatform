@@ -238,7 +238,7 @@ public class InputWizard implements ActionListener {
      		difficultyPanel.add(hardButton);
      		difficultyPanel.add(noDifficultyPreference);
      	window.add(difficultyPanel,x++);
-        //ADD MORE BUTTON SETS HERE
+        //ADD MORE BUTTON SETS HERE IN FUTURE
      	
         
      	
@@ -381,8 +381,10 @@ public class InputWizard implements ActionListener {
 					break;
 				case "no theme":
 					break;
+				case "none":
+					break;
 				default:
-					System.out.println("Something went terribly terribly wrong...." + gameTheme);
+					System.out.println("Something went terribly terribly wrong.... gameTheme " + gameTheme);
 					break;
 		}
 		switch(gameSubject)
@@ -415,8 +417,10 @@ public class InputWizard implements ActionListener {
 				case "no subject":
 					gameSubject = "none";
 					break;
+				case "none":
+					break;
 				default:
-					System.out.println("Something went terribly terribly wrong...." + gameSubject);
+					System.out.println("Something went terribly terribly wrong.... gameSubject " + gameSubject);
 					break;
 		}
 		switch(gameSetting){
@@ -441,8 +445,10 @@ public class InputWizard implements ActionListener {
 					break;
 				case "no setting":
 					break;
+				case "none":
+					break;
 				default:
-					System.out.println("Something went terribly terribly wrong...." + gameSetting);
+					System.out.println("Something went terribly terribly wrong....gameSetting " + gameSetting);
 					break;
 		}
 		switch(gameDifficulty){
@@ -460,8 +466,10 @@ public class InputWizard implements ActionListener {
 				case "no difficulity":
 					gameDifficulty = "none";
 					break;
+				case "none":
+					break;
 				default:
-					System.out.println("Something went terribly terribly wrong...." + gameDifficulty);
+					System.out.println("Something went terribly terribly wrong....gameDifficulity " + gameDifficulty);
 					break;
 		}
 			if(socialRating>professionalRating && socialRating>educationalRating)
