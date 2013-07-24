@@ -4,7 +4,7 @@
     <entry>
       <key>LESSON</key>
       <value>
-        <Background>Backdrops\Moon Surface.png</Background>
+        <Background>Backdrops\Egypt.png</Background>
         <Buttons>
           <entry>
             <key>BACK</key>
@@ -206,7 +206,7 @@
     <entry>
       <key>CHALLENGE</key>
       <value>
-        <Background>Backdrops\moon surface.png</Background>
+        <Background>Backdrops\Egypt.png</Background>
         <Buttons>
           <entry>
             <key>CHALLENGE_1</key>
@@ -401,7 +401,7 @@
     <entry>
       <key>FAILURE</key>
       <value>
-        <Background>Backdrops\moon surface.png</Background>
+        <Background>Backdrops\Egypt.png</Background>
         <Buttons>
           <entry>
             <key>BACK</key>
@@ -603,7 +603,7 @@
     <entry>
       <key>LESSON_STORY_INTRO</key>
       <value>
-        <Background>Backdrops\moon surface.png</Background>
+        <Background>Backdrops\Egypt.png</Background>
         <Buttons>
           <entry>
             <key>BACK</key>
@@ -805,7 +805,7 @@
     <entry>
       <key>LESSON_STORY_OUTRO</key>
       <value>
-        <Background>Backdrops\moon surface.png</Background>
+        <Background>Backdrops\Egypt.png</Background>
         <Buttons>
           <entry>
             <key>BACK</key>

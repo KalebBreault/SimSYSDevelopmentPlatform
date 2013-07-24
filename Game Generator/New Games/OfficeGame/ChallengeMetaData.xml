@@ -1,9 +1,17 @@
-  <SearchMetaData>
-    <Length>Medium</Length>
-    <Difficulty>Medium</Difficulty>
-    <Subject>
-      <General>Workplace</General>
-      <Focus>OfficeRules</Focus>
-    </Subject>
-    <QuestionType>MultipleChoice</QuestionType>
-  </SearchMetaData>
+<SearchMetaData>
+			<Length>
+				<Short>1	</Short>
+				<Medium>1</Medium>
+				<Long>9	</Long>
+			</Length>
+			<Difficulty>
+				<Easy>1</Easy>
+				<Medium>9</Medium>
+				<Hard>1</Hard>
+			</Difficulty>
+			<Subject>
+				<Personal>1</Personal>
+				<Professional>9</Professional>
+				<School>1</School>
+			</Subject>
+		</SearchMetaData>

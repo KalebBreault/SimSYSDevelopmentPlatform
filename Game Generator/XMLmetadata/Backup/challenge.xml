@@ -3,16 +3,18 @@
 		<SearchMetaData>
 			<Length>
 				<Short>9</Short>
+				<Medium>1</Medium>
 				<Long>1	</Long>
 			</Length>
 			<Difficulty>
 				<Easy>9</Easy>
+				<Medium>1</Medium>
 				<Hard>1</Hard>
 			</Difficulty>
 			<Subject>
 				<Personal>1</Personal>
 				<Professional>1</Professional>
-				<School>8</School>
+				<School>9</School>
 			</Subject>
 		</SearchMetaData>
 	</Challenge>
@@ -20,15 +22,17 @@
 		<SearchMetaData>
 			<Length>
 				<Short>1	</Short>
+				<Medium>1</Medium>
 				<Long>9	</Long>
 			</Length>
 			<Difficulty>
-				<Easy>6</Easy>
-				<Hard>6</Hard>
+				<Easy>1</Easy>
+				<Medium>9</Medium>
+				<Hard>1</Hard>
 			</Difficulty>
 			<Subject>
 				<Personal>1</Personal>
-				<Professional>8</Professional>
+				<Professional>9</Professional>
 				<School>1</School>
 			</Subject>
 		</SearchMetaData>
@@ -36,17 +40,19 @@
 	<Challenge id="2">
 		<SearchMetaData>
 			<Length>
-				<Short>5	</Short>
-				<Long>5	</Long>
+				<Short>1</Short>
+				<Medium>9</Medium>				
+				<Long>1</Long>
 			</Length>
 			<Difficulty>
 				<Easy>1</Easy>
+				<Medium>1</Medium>				
 				<Hard>9</Hard>
 			</Difficulty>
 			<Subject>
 				<Personal>1</Personal>
 				<Professional>1</Professional>
-				<School>8</School>
+				<School>9</School>
 			</Subject>
 		</SearchMetaData>
 	</Challenge>
@@ -54,33 +60,37 @@
 		<SearchMetaData>
 			<Length>
 				<Short>9</Short>
+				<Medium>1</Medium>
 				<Long>1	</Long>
 			</Length>
 			<Difficulty>
-				<Easy>6</Easy>
-				<Hard>6</Hard>
+				<Easy>1</Easy>
+				<Medium>9</Medium>
+				<Hard>1</Hard>
 			</Difficulty>
 			<Subject>
 				<Personal>1</Personal>
 				<Professional>1</Professional>
-				<School>8</School>
+				<School>9</School>
 			</Subject>
 		</SearchMetaData>
 	</Challenge>
 	<Challenge id="4">
 		<SearchMetaData>
 			<Length>
-				<Short>6</Short>
-				<Long>4</Long>
+				<Short>2</Short>
+				<Medium>8</Medium>
+				<Long>1</Long>
 			</Length>
 			<Difficulty>
-				<Easy>4</Easy>
-				<Hard>6</Hard>
+				<Easy>1</Easy>
+				<Medium>8</Medium>
+				<Hard>2</Hard>
 			</Difficulty>
 			<Subject>
 				<Personal>1</Personal>
 				<Professional>1</Professional>
-				<School>8</School>
+				<School>9</School>
 			</Subject>
 		</SearchMetaData>
 	</Challenge>

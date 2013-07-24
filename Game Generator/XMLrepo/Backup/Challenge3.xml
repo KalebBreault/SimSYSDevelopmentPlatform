@@ -10,7 +10,7 @@
             <Reward>
               <Points>-2147483646</Points>
             </Reward>
-	  <Text>2</Text>
+	  <Text>increase</Text>
 	  <Timer></Timer>
 	  <TransitionType>ADDITIONAL</TransitionType>
 	  <AdditionalScreens>
@@ -30,10 +30,6 @@
 			</Character>
 			<Character>
 			  <CharacterType>HERO</CharacterType>
-			  <Timer></Timer>
-			</Character>
-			<Character>
-			  <CharacterType>PLAYER</CharacterType>
 			  <Timer></Timer>
 			</Character>
 		  </LOCharacters>
@@ -61,7 +57,7 @@
             <Reward>
               <Points>-2147483646</Points>
             </Reward>
-            <Text>4</Text>
+            <Text>refrain</Text>
             <Timer></Timer>
             <TransitionType>BEGINNING_OF_CHALLENGE</TransitionType>
           </ChallengeOption>
@@ -71,7 +67,7 @@
             <Reward>
               <Points>2</Points>
             </Reward>
-            <Text>6</Text>
+            <Text>let up</Text>
             <Timer></Timer>
             <TransitionType>END_OF_STORY</TransitionType>
           </ChallengeOption>
@@ -81,20 +77,21 @@
             <Reward>
               <Points>-2147483646</Points>
             </Reward>
-            <Text>8</Text>
+            <Text>consume</Text>
             <Timer></Timer>
             <TransitionType>BEGINNING_OF_LESSON</TransitionType>
           </ChallengeOption>
   </ChallengeOptions>
         <LOCharacters>
           <Character>
-            <CharacterType>HERO</CharacterType>
+            <CharacterType>VILLIAN</CharacterType>
             <MovementType></MovementType>
             <Timer></Timer>
-            <Character>
-			  <CharacterType>PLAYER</CharacterType>
-			  <Timer></Timer>
-			</Character>
+          </Character>
+          <Character>
+            <CharacterType>PLAYER</CharacterType>
+            <MovementType></MovementType>
+            <Timer></Timer>
           </Character>
         </LOCharacters>
         <InformationBoxes>
@@ -104,12 +101,12 @@
             <Timer></Timer>
           </InformationBox>
           <InformationBox>
-            <Text>Using Algebra solve:</Text>
+            <Text>Sir Askalot appears and you now must now use your knowledge to answer his questions:</Text>
             <TextType>CHALLENGE_QUESTION</TextType>
             <Timer></Timer>
           </InformationBox>
           <InformationBox>
-            <Text>2 + 4</Text>
+            <Text>Which of the following is a synonym for "abate"? </Text>
             <TextType>CHALLENGE_DESCRIPTION</TextType>
             <Timer></Timer>
           </InformationBox>

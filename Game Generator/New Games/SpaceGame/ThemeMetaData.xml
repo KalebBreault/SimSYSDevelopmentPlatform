@@ -1,5 +1,9 @@
-  <SearchMetaData>
-    <Setting>Space</Setting>
-    <GameType>Adventure</GameType>
-    <Subject>Science</Subject>
-  </SearchMetaData>
+ 	<Theme id="2">
+		<SearchMetaData>
+			<Gooble>1</Gooble>
+			<Dream>1</Dream>
+			<VirtualTour>9</VirtualTour>
+			<Workplace>1</Workplace>
+			<Other>1</Other>
+		</SearchMetaData>
+	</Theme>

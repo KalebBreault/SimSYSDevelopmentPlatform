@@ -1,6 +1,5 @@
-  <SearchMetaData>
-    <Subject>
-      <General>English</General>
-      <Focus>Vocabulary</Focus>
-    </Subject>
-  </SearchMetaData>
+		<SearchMetaData>
+			<Social>1</Social>
+			<Educational>9</Educational>
+			<Professional>1</Professional>
+		</SearchMetaData>

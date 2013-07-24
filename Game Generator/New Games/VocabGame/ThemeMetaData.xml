@@ -1,5 +1,7 @@
-  <SearchMetaData>
-    <Setting>Forest</Setting>
-    <GameType>Adventure</GameType>
-    <Subject>English</Subject>
-  </SearchMetaData>
+		<SearchMetaData>
+			<Gooble>1</Gooble>
+			<Dream>9</Dream>
+			<VirtualTour> 1 </VirtualTour>
+			<Workplace>1</Workplace>
+			<Other>1</Other>
+		</SearchMetaData>

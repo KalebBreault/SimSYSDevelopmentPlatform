@@ -1,5 +1,7 @@
-  <SearchMetaData>
-    <Setting>Cubicle</Setting>
-    <GameType>Workplace</GameType>
-    <Subject>Office</Subject>
-  </SearchMetaData>
+		<SearchMetaData>
+			<Gooble>1</Gooble>
+			<Dream>1</Dream>
+			<VirtualTour> 1 </VirtualTour>
+			<Workplace>9</Workplace>
+			<Other>1</Other>
+		</SearchMetaData>

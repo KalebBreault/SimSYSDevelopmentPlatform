@@ -10,7 +10,7 @@
             <Reward>
               <Points>-2147483646</Points>
             </Reward>
-	  <Text>Leave trash for the custodian.</Text>
+	  <Text>2840BC</Text>
 	  <Timer></Timer>
 	  <TransitionType>ADDITIONAL</TransitionType>
 	  <AdditionalScreens>
@@ -57,7 +57,7 @@
             <Reward>
               <Points>-2147483646</Points>
             </Reward>
-            <Text>Leave computer logged in to begin work fast the next day.</Text>
+            <Text>1560BC</Text>
             <Timer></Timer>
             <TransitionType>BEGINNING_OF_CHALLENGE</TransitionType>
           </ChallengeOption>
@@ -67,7 +67,7 @@
             <Reward>
               <Points>2</Points>
             </Reward>
-            <Text>Log off the computer so nobody tampers with your work.</Text>
+            <Text>2560BC</Text>
             <Timer></Timer>
             <TransitionType>END_OF_STORY</TransitionType>
           </ChallengeOption>
@@ -77,31 +77,36 @@
             <Reward>
               <Points>-2147483646</Points>
             </Reward>
-            <Text>When you are done for the day drop everything and leave.</Text>
+            <Text>1840BC</Text>
             <Timer></Timer>
             <TransitionType>BEGINNING_OF_LESSON</TransitionType>
           </ChallengeOption>
   </ChallengeOptions>
         <LOCharacters>
-          <!--<Character>
-            <CharacterType>HERO</CharacterType>
+          <Character>
+            <CharacterType>VILLIAN</CharacterType>
             <MovementType></MovementType>
             <Timer></Timer>
-          </Character>-->
-        </LOCharacters>
+          </Character>
+          <Character>
+            <CharacterType>PLAYER</CharacterType>
+            <MovementType></MovementType>
+            <Timer></Timer>
+          </Character>
+         </LOCharacters>
         <InformationBoxes>
-          <InformationBox>
-            <Text>You can do it!!</Text>
+          <!--<InformationBox>
+              <Text>You can do it!!</Text>
             <TextType>HERO</TextType>
             <Timer></Timer>
-          </InformationBox>
+          </InformationBox>-->
           <InformationBox>
-            <Text>Using the knowledge learned during the tour:</Text>
+            <Text>A strange man appears and demands you answer his questions:</Text>
             <TextType>CHALLENGE_QUESTION</TextType>
             <Timer></Timer>
           </InformationBox>
           <InformationBox>
-            <Text>What is the standard procedure at the end of the day?</Text>
+            <Text>About what year was the Great Pyramid of Giza finished?</Text>
             <TextType>CHALLENGE_DESCRIPTION</TextType>
             <Timer></Timer>
           </InformationBox>
@@ -118,7 +123,7 @@
             <Reward>
               <Points>-2147483646</Points>
             </Reward>
-	  <Text>Yell across the room, they like projecting their voice.</Text>
+	  <Text>1st</Text>
 	  <Timer></Timer>
 	  <TransitionType>ADDITIONAL</TransitionType>
 	  <AdditionalScreens>
@@ -165,7 +170,7 @@
             <Reward>
               <Points>-2147483646</Points>
             </Reward>
-            <Text>Send them an email, it is fast and easy.</Text>
+            <Text>10th</Text>
             <Timer></Timer>
             <TransitionType>BEGINNING_OF_CHALLENGE</TransitionType>
           </ChallengeOption>
@@ -175,7 +180,7 @@
             <Reward>
               <Points>2</Points>
             </Reward>
-            <Text>Walk over and ask them, they prefer to talk face to face.</Text>
+            <Text>18th</Text>
             <Timer></Timer>
             <TransitionType>END_OF_STORY</TransitionType>
           </ChallengeOption>
@@ -185,146 +190,43 @@
             <Reward>
               <Points>-2147483646</Points>
             </Reward>
-            <Text>Hope they can read your mind, they have been practicing.</Text>
+            <Text>22nd</Text>
             <Timer></Timer>
             <TransitionType>BEGINNING_OF_LESSON</TransitionType>
           </ChallengeOption>
   </ChallengeOptions>
         <LOCharacters>
-          <!--<Character>
-            <CharacterType>HERO</CharacterType>
+          <Character>
+            <CharacterType>VILLIAN</CharacterType>
             <MovementType></MovementType>
             <Timer></Timer>
-          </Character>-->
+          </Character>
+          <Character>
+            <CharacterType>PLAYER</CharacterType>
+            <MovementType></MovementType>
+            <Timer></Timer>
+          </Character>
         </LOCharacters>
         <InformationBoxes>
-          <InformationBox>
+          <!--<InformationBox>
             <Text>You can do it!!</Text>
             <TextType>HERO</TextType>
             <Timer></Timer>
-          </InformationBox>
+          </InformationBox>-->
           <InformationBox>
-            <Text>Using the knowledge learned during the tour:</Text>
+            <Text>Using the knowledge of Egyptian history:</Text>
             <TextType>CHALLENGE_QUESTION</TextType>
             <Timer></Timer>
           </InformationBox>
           <InformationBox>
-            <Text>What is the best way to reach the designers</Text>
+            <Text>King Tut rule from 1332BC to 1323BC, in what dynasty is that?</Text>
             <TextType>CHALLENGE_DESCRIPTION</TextType>
             <Timer></Timer>
           </InformationBox>
         </InformationBoxes>
         <Timer>60</Timer>
       </LessonChallenge>
-      <LessonChallenge>
-        <Buttons>
-        </Buttons>
-  <ChallengeOptions>
-	<ChallengeOption>
-            <ChallengeOptionType>BUTTON</ChallengeOptionType>
-	  <ButtonLocationType>CHALLENGE_1</ButtonLocationType>
-            <Reward>
-              <Points>2</Points>
-            </Reward>
-	  <Text>Never leave an opened cup or bottle at your desk.</Text>
-	  <Timer></Timer>
-	  <TransitionType>END_OF_STORY</TransitionType>
-
-	  <ChallengeOptionType>BUTTON</ChallengeOptionType>
-	</ChallengeOption>
-          <ChallengeOption>
-            <ChallengeOptionType>BUTTON</ChallengeOptionType>
-            <ButtonLocationType>CHALLENGE_2</ButtonLocationType>
-            <Reward>
-              <Points>-2147483646</Points>
-            </Reward>
-            <Text>Never eat at your desk.</Text>
-            <Timer></Timer>
-            <TransitionType>BEGINNING_OF_CHALLENGE</TransitionType>
-          </ChallengeOption>
-          <ChallengeOption>
-            <ChallengeOptionType>BUTTON</ChallengeOptionType>
-            <ButtonLocationType>CHALLENGE_3</ButtonLocationType>
-            <Reward>
-              <Points>-2147483646</Points>
-            </Reward>
-            <Text>Never sit on your desk.</Text>
-            <Timer></Timer>
-            <TransitionType>ADDITIONAL</TransitionType>
-            	  <AdditionalScreens>
-		<AdditionalScreen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="failureScreen">
-		  <Buttons>
-			<Button>
-			  <ButtonLocationType>NEXT</ButtonLocationType>
-			  <Text>Retry</Text>
-			  <Timer></Timer>
-			  <TransitionType>CURRENT_CHALLENGE</TransitionType>
-			</Button>
-		  </Buttons>
-		  <LOCharacters>
-			<Character>
-			  <CharacterType>VILLIAN</CharacterType>
-			  <Timer></Timer>
-			</Character>
-			<Character>
-			  <CharacterType>HERO</CharacterType>
-			  <Timer></Timer>
-			</Character>
-		  </LOCharacters>
-		  <InformationBoxes>
-			<InformationBox>
-			  <Text>You answered incorrectly!</Text>
-			  <TextType>ALT1</TextType>
-			  <Timer></Timer>
-			</InformationBox>
-			<InformationBox>
-			  <Text>Don't worry! You can try again.</Text>
-			  <TextType>HERO</TextType>
-			  <Timer></Timer>
-			</InformationBox>
-		  </InformationBoxes>
-		  <ChallengeOptions />
-		  <Timer></Timer>
-		</AdditionalScreen>
-	  </AdditionalScreens>
-          </ChallengeOption>
-          <ChallengeOption>
-            <ChallengeOptionType>BUTTON</ChallengeOptionType>
-            <ButtonLocationType>CHALLENGE_4</ButtonLocationType>
-            <Reward>
-              <Points>-2147483646</Points>
-            </Reward>
-            <Text>Never use your cell phone at your desk.</Text>
-            <Timer></Timer>
-            <TransitionType>BEGINNING_OF_LESSON</TransitionType>
-          </ChallengeOption>
-  </ChallengeOptions>
-        <LOCharacters>
-          <!--<Character>
-            <CharacterType>HERO</CharacterType>
-            <MovementType></MovementType>
-            <Timer></Timer>
-          </Character>-->
-        </LOCharacters>
-        <InformationBoxes>
-          <InformationBox>
-            <Text>You can do it!!</Text>
-            <TextType>HERO</TextType>
-            <Timer></Timer>
-          </InformationBox>
-          <InformationBox>
-            <Text>Using the knowledge learned during the tour:</Text>
-            <TextType>CHALLENGE_QUESTION</TextType>
-            <Timer></Timer>
-          </InformationBox>
-          <InformationBox>
-            <Text>What is prohibited while at your desk?</Text>
-            <TextType>CHALLENGE_DESCRIPTION</TextType>
-            <Timer></Timer>
-          </InformationBox>
-        </InformationBoxes>
-        <Timer>60</Timer>
-      </LessonChallenge>
+      
     </LessonChallenges>
 
 </Challenge>

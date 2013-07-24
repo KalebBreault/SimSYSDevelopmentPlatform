@@ -4,7 +4,7 @@
     <entry>
       <key>LESSON</key>
       <value>
-        <Background>Backdrops\Moon Surface.png</Background>
+        <Background>Backdrops\Cubicle.png</Background>
         <Buttons>
           <entry>
             <key>BACK</key>
@@ -29,10 +29,10 @@
           <entry>
             <key>PLAYER</key>
             <value>
-              <Height>91.26666259765625</Height>
-              <LocX>135.98329162597656</LocX>
-              <LocY>313.01666259765625</LocY>
-              <Width>104.21666717529297</Width>
+              <Height>238</Height>
+              <LocX>144</LocX>
+              <LocY>220</LocY>
+              <Width>184</Width>
               <CharacterAssetType>RIGHT_POINT_NO</CharacterAssetType>
               <CharacterType>PLAYER</CharacterType>
               <Movements>
@@ -66,10 +66,10 @@
           <entry>
             <key>HERO</key>
             <value>
-              <Height>133.816650390625</Height>
-              <LocX>295.08334350585938</LocX>
-              <LocY>277.25</LocY>
-              <Width>83.249984741210938</Width>
+              <Height>335</Height>
+              <LocX>359</LocX>
+              <LocY>154</LocY>
+              <Width>168</Width>
               <CharacterAssetType>LEFT_POINT_UP</CharacterAssetType>
               <CharacterType>HERO</CharacterType>
               <Movements>
@@ -206,7 +206,7 @@
     <entry>
       <key>CHALLENGE</key>
       <value>
-        <Background>Backdrops\moon surface.png</Background>
+        <Background>Backdrops\FaceingPC.png</Background>
         <Buttons>
           <entry>
             <key>CHALLENGE_1</key>
@@ -283,7 +283,7 @@
               </Movements>
             </value>
           </entry>
-          <entry>
+          <!----><entry>
             <key>HERO</key>
             <value>
               <Height>133.816650390625</Height>
@@ -386,7 +386,7 @@
               <Width>562.40003967285156</Width>
             </value>
           </entry>
-          <entry>
+          <!-- --><entry>
             <key>HERO</key>
             <value>
               <Height>40.70001220703125</Height>
@@ -401,7 +401,7 @@
     <entry>
       <key>FAILURE</key>
       <value>
-        <Background>Backdrops\moon surface.png</Background>
+        <Background>Backdrops\Cubicle.png</Background>
         <Buttons>
           <entry>
             <key>BACK</key>
@@ -603,7 +603,7 @@
     <entry>
       <key>LESSON_STORY_INTRO</key>
       <value>
-        <Background>Backdrops\moon surface.png</Background>
+        <Background>Backdrops\Cubicle.png</Background>
         <Buttons>
           <entry>
             <key>BACK</key>
@@ -628,10 +628,10 @@
           <entry>
             <key>PLAYER</key>
             <value>
-              <Height>91.26666259765625</Height>
-              <LocX>135.98329162597656</LocX>
-              <LocY>313.01666259765625</LocY>
-              <Width>104.21666717529297</Width>
+              <Height>238</Height>
+              <LocX>111</LocX>
+              <LocY>204</LocY>
+              <Width>278</Width>
               <CharacterAssetType>RIGHT_POINT_NO</CharacterAssetType>
               <CharacterType>PLAYER</CharacterType>
               <Movements>
@@ -665,10 +665,10 @@
           <entry>
             <key>HERO</key>
             <value>
-              <Height>133.816650390625</Height>
-              <LocX>295.08334350585938</LocX>
-              <LocY>277.25</LocY>
-              <Width>83.249984741210938</Width>
+              <Height>273</Height>
+              <LocX>357</LocX>
+              <LocY>172</LocY>
+              <Width>186</Width>
               <CharacterAssetType>LEFT_POINT_UP</CharacterAssetType>
               <CharacterType>HERO</CharacterType>
               <Movements>
@@ -805,7 +805,7 @@
     <entry>
       <key>LESSON_STORY_OUTRO</key>
       <value>
-        <Background>Backdrops\moon surface.png</Background>
+        <Background>Backdrops\Cubicle.png</Background>
         <Buttons>
           <entry>
             <key>BACK</key>
@@ -830,10 +830,10 @@
           <entry>
             <key>PLAYER</key>
             <value>
-              <Height>91.26666259765625</Height>
-              <LocX>135.98329162597656</LocX>
-              <LocY>313.01666259765625</LocY>
-              <Width>104.21666717529297</Width>
+              <Height>238</Height>
+              <LocX>144</LocX>
+              <LocY>220</LocY>
+              <Width>184</Width>
               <CharacterAssetType>RIGHT_POINT_NO</CharacterAssetType>
               <CharacterType>PLAYER</CharacterType>
               <Movements>
@@ -867,10 +867,10 @@
           <entry>
             <key>HERO</key>
             <value>
-              <Height>133.816650390625</Height>
-              <LocX>295.08334350585938</LocX>
-              <LocY>277.25</LocY>
-              <Width>83.249984741210938</Width>
+              <Height>335</Height>
+              <LocX>359</LocX>
+              <LocY>154</LocY>
+              <Width>168</Width>
               <CharacterAssetType>LEFT_POINT_UP</CharacterAssetType>
               <CharacterType>HERO</CharacterType>
               <Movements>

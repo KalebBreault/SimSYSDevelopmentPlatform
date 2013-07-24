@@ -1,6 +1,5 @@
-    <SearchMetaData>
-    <Subject>
-      <General>Workplace</General>
-      <Focus>OfficeRules</Focus>
-    </Subject>
-  </SearchMetaData>
+		<SearchMetaData>
+			<Social>1</Social>
+			<Educational>1</Educational>
+			<Professional>9</Professional>
+		</SearchMetaData>

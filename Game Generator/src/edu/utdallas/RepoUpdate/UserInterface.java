@@ -20,10 +20,20 @@ public class UserInterface {
 			inputNumb=input.nextInt();
 			
 			if (inputNumb==1){
+				String foldervalidate;
+				
 				String newGamename;
 				System.out.println("What is the folder name of your new game?(New Games//????)");
 				newGamename=input.next();
-				update.addGame(newGamename);
+				
+				foldervalidate= "New Games//"+newGamename;
+				File validate = new File(foldervalidate);
+				
+				if (validate.exists()){
+					update.addGame(newGamename);
+				} else{
+					System.out.println("Could not find folder. Please try again.");
+				}
 				
 				
 

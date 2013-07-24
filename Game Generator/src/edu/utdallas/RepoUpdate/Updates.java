@@ -9,6 +9,7 @@ public class Updates {
 	String[] gameComponents = {"Characters", "Lesson", "Challenge", "Locale", "Subject", "Theme"};
 	String[] repoGameComponents = {"characters", "lesson", "challenge", "locale", "subject", "theme"};
 	String[] elements= {"</Character>", "</Lessons>", "</Challenges>", "</Locales>", "</Subjects>", "</Themes>"};
+	Scanner input = new Scanner(System.in);
 	
 	public Updates(){
 		
@@ -19,7 +20,6 @@ public class Updates {
 		String textlocation;
 		String nextInputLine;
 		Integer gameNumb=-1;
-				
 		
 		
 		for(int x=0; x<gameComponents.length; x++)
@@ -38,6 +38,7 @@ public class Updates {
 				while (copy.hasNext()){
 					writeTemp.write(copy.nextLine()+"\n");
 				}//end while
+				
 				copy.close();
 				writeTemp.close();
 				
@@ -74,17 +75,29 @@ public class Updates {
 					
 					output.write(nextInputLine+"\n");
 					//System.out.println(fileinput.nextLine());
+					
 					temp.setWritable(true);
 					temp.delete();
 				}//end while
 				
-				System.out.println("XMLmetadata Updated.\n");
-						
-				
-				
-				
+				System.out.println(repoGameComponents[x]+" XMLmetadata Updated.");
 				output.close();
 				fileinput.close();
+				
+				////////////////////////////////////////////////////////////////////////////////////////////////
+				textlocation="New Games//"+newGamename+"//"+ gameComponents[x]+".xml";				
+				File fileAddition = new File(textlocation);				
+			
+				Scanner addFile = new Scanner(fileAddition);
+				PrintWriter writeNewFile = new PrintWriter("XMLrepo//"+gameComponents[x]+gameNumb+".xml");
+				while (addFile.hasNext()){
+					writeNewFile.write(addFile.nextLine()+"\n");
+				}//end while
+			    
+				System.out.println(gameComponents[x]+ " XMLrepo Added.\n");
+				addFile.close();
+				writeNewFile.close();
+				////////////////////////////////////////////////////////////////////////////////////////////////
 			
 			}//end try
 			catch (Exception e) {
@@ -93,7 +106,8 @@ public class Updates {
 			}//end catch		
 			
 		}//end for
-		
+
+
 	}//end addGame
 	
 	public void remakeRepo(){
