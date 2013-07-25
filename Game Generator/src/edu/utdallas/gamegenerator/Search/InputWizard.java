@@ -30,8 +30,7 @@ public class InputWizard implements ActionListener {
  	private String gameSetting= "none";   	
  	private String gameDifficulty= "none"; 
  	private JFileChooser saveFileChooser;
- 	private String gameSavePath = "C:\\Users\\Kaleb\\Documents\\GitHub\\SimSYSDevelopmentPlatform\\Game Generator\\Game.xml";
- 	//private JFrame saveFileChooserWindow;
+ 	private String gameSavePath = "C:\\";
  	private static final int wizardRowSize = 10; //row size for wizard
  
 	public InputWizard(Matrix[] input)
@@ -515,6 +514,17 @@ public class InputWizard implements ActionListener {
 	{
 		return gameSavePath;
 	}
+	public void checkForXML(String input)
+	{			
+		if(!input.contains("."))
+				{
+			gameSavePath = input+".xml";
+				}
+		String extension = input.substring(input.lastIndexOf(".") + 1, input.length());
+		if (!extension.equals("xml")&& !extension.equals("XML")) {
+		    gameSavePath= input.substring(0,input.lastIndexOf("."))+".xml";
+		}
+	}
 	public void actionPerformed(ActionEvent e) 
 	{
 		switch(e.getActionCommand()) 
@@ -529,6 +539,8 @@ public class InputWizard implements ActionListener {
 			{
 				File file = saveFileChooser.getSelectedFile();
 				gameSavePath=file.getAbsolutePath(); 
+				checkForXML(gameSavePath);
+				System.out.println("Game Save Path: "+gameSavePath);
 				submitClicked = true;
 				window.dispose();
 			}
