@@ -12,6 +12,7 @@ public class InputWizard implements ActionListener {
 /**
  * @Author Kaleb Breault
  * This class makes a GUI interface for entering input. 
+ * implements ActionListener so a subclass for it is not needed. 
  */
 	
 	private static int WIDTH = 750;
@@ -477,20 +478,20 @@ public class InputWizard implements ActionListener {
 		{
 			if(socialRating>professionalRating && socialRating>educationalRating)
 			{
-				componentInputs[2].setMatrix(4,6,4,6,optionMatrix(1,3));
+				componentInputs[2].setMatrix(6,8,6,8,optionMatrix(1,3));
 				componentInputs[1].setMatrix(0,2,0,2,optionMatrix(1,3));
 
 			}
 			if(professionalRating>=socialRating && professionalRating>educationalRating)
 			{
 				componentInputs[3].setMatrix(0,2,0,2,optionMatrix(2,3));
-				componentInputs[2].setMatrix(4,6,4,6,optionMatrix(2,3));
+				componentInputs[2].setMatrix(6,8,6,8,optionMatrix(2,3));
 				componentInputs[1].setMatrix(0,2,0,2,optionMatrix(3,3));
 
 			}
 			if(educationalRating>=socialRating && educationalRating>=professionalRating)
 			{
-				componentInputs[2].setMatrix(4,6,4,6,optionMatrix(3,3));
+				componentInputs[2].setMatrix(6,8,6,8,optionMatrix(3,3));
 				componentInputs[1].setMatrix(0,2,0,2,optionMatrix(2,3));
 			}
 		}
@@ -615,7 +616,7 @@ public class InputWizard implements ActionListener {
 		case "Hard":
 			gameDifficulty = "Hard";
 			break;
-		case "no difficulity":
+		case "no difficulty":
 			gameDifficulty = "none";
 			break;
 		default:
