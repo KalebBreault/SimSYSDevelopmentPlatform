@@ -16,7 +16,7 @@ public class SearchAlgo {
 	private String[] allFiles = new String[6];
 	private String[] gameComponents = { "Characters", "Lesson", "Challenge", "Locale", "Subject", "Theme"};
 	private int[] allFileNumbers = new int[6];
-
+	private InputWizard inputs;
 	public SearchAlgo()//LinkedList<String> CriteriaList, LinkedList<String>inputedCriteriaList)
 	{
 
@@ -125,7 +125,7 @@ public class SearchAlgo {
 	}
 	private Matrix[] getWizardInputs(Matrix[] componentInputs)
 	{
-		InputWizard inputs = new InputWizard(componentInputs);
+		inputs = new InputWizard(componentInputs);
 		
 		
 		return inputs.getWizardInputs();
@@ -138,6 +138,10 @@ public class SearchAlgo {
 			printMatrix(componentInputs[x]);
 		}
 		
+	}
+	public String getFileLocation()
+	{
+		return inputs.getFileLocation();	
 	}
 	public int getLargestValue(Matrix in, int componentNumber)
 	{

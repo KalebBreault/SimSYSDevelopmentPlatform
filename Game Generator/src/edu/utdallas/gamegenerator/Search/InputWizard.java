@@ -7,6 +7,7 @@ import Jama.Matrix;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.File;
 
 public class InputWizard implements ActionListener {
 /**
@@ -28,6 +29,9 @@ public class InputWizard implements ActionListener {
  	private String gameSubject= "none";  	
  	private String gameSetting= "none";   	
  	private String gameDifficulty= "none"; 
+ 	private JFileChooser saveFileChooser;
+ 	private String gameSavePath = "C:\\Users\\Kaleb\\Documents\\GitHub\\SimSYSDevelopmentPlatform\\Game Generator\\Game.xml";
+ 	//private JFrame saveFileChooserWindow;
  	private static final int wizardRowSize = 10; //row size for wizard
  
 	public InputWizard(Matrix[] input)
@@ -244,17 +248,18 @@ public class InputWizard implements ActionListener {
      		difficultyPanel.add(hardButton);
      		difficultyPanel.add(noDifficultyPreference);
      	window.add(difficultyPanel,nextOpenRow++);
-        //ADD MORE BUTTON SETS HERE IN FUTURE
+        //ADD MORE BUTTON SETS HERE IN FUTURE IF DESIRED
      	
         
      	
      	
      	//Submit Button on bottom
-     	
+     	JPanel submitPanel = new JPanel(new GridLayout(1,3));
         JButton submitButton = new JButton("Submit");
         submitButton.addActionListener(this);
         submitButton.setActionCommand("Submit");
-        window.add(submitButton, nextOpenRow++);
+        submitPanel.add(submitButton);
+        window.add(submitPanel, nextOpenRow++);
 	}
 	private void initializeComponentInputs()
 	{
@@ -506,6 +511,10 @@ public class InputWizard implements ActionListener {
 		System.out.println(gameDifficulty);
 		System.out.println(gameSubject);
 	}
+	public String getFileLocation()
+	{
+		return gameSavePath;
+	}
 	public void actionPerformed(ActionEvent e) 
 	{
 		switch(e.getActionCommand()) 
@@ -514,8 +523,21 @@ public class InputWizard implements ActionListener {
 			printStrings();
 			distributeInputs();
 			System.out.println("Submit Clicked");
-			submitClicked = true;
-			window.dispose();
+			saveFileChooser = new JFileChooser();
+			int returnValue = saveFileChooser.showSaveDialog(saveFileChooser);
+			if(returnValue==JFileChooser.APPROVE_OPTION)
+			{
+				File file = saveFileChooser.getSelectedFile();
+				gameSavePath=file.getAbsolutePath(); 
+				submitClicked = true;
+				window.dispose();
+			}
+			else if(returnValue == JFileChooser.CANCEL_OPTION)
+			{
+				System.out.println("Save cancelled by user. /n Returning.");
+			}
+//			saveFileChooserWindow = new JFrame();
+		
 			break;
 //Gender			
 		case "Male": 

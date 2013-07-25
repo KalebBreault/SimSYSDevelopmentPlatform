@@ -29,6 +29,10 @@ public class Search {
 		printAllFiles();
 
 	}
+	public String getFileLocation()
+	{
+		return searchAlgo.getFileLocation();
+	}
 	public void printAllFiles()
 	{
 		System.out.println(allFiles[0]);
