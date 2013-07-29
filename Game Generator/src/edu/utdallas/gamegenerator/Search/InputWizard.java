@@ -378,7 +378,7 @@ public class InputWizard implements ActionListener {
 			componentInputs[4].setMatrix(6,9,6,9,optionMatrix(1,4));
 			educationalRating++;
 			break;
-		case "middle":
+		case "secondary":
 			componentInputs[4].setMatrix(6,9,6,9,optionMatrix(2,4));
 			educationalRating++;
 			break;
@@ -565,6 +565,7 @@ public class InputWizard implements ActionListener {
 	}	
 	public void printStrings()
 	{
+		System.out.println(gameGradeLevel);
 		System.out.println(playerGender);
 		System.out.println(playerAge);
 		System.out.println(playerDress);
@@ -620,8 +621,8 @@ public class InputWizard implements ActionListener {
 		case "primary":
 			gameGradeLevel = "primary";
 			break;
-		case "middle":
-			gameGradeLevel = "middle";
+		case "secondary":
+			gameGradeLevel = "secondary";
 			break;
 		case "high":
 			gameGradeLevel = "high";
