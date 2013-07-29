@@ -2,11 +2,14 @@ package edu.utdallas.gamegenerator.Search;
 
 import javax.swing.*;
 
+import edu.utdallas.RepoUpdate.Updates;
+
 import Jama.Matrix;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
 import java.io.File;
 
 public class InputWizard implements ActionListener {
@@ -21,6 +24,12 @@ public class InputWizard implements ActionListener {
 	private Matrix[] componentInputs;
 	private boolean submitClicked = false;
  	private JFrame window = new JFrame();
+ 	private JPanel mainPannel;
+ 	private JMenuBar menuBar;
+ 	private JMenu menu;
+ 	private JMenuItem addToRepo;
+ 	private JMenuItem remakeRepo;
+ 	
  	
  	private String playerGender= "none"; 
   	private String playerAge= "none";	
@@ -32,20 +41,32 @@ public class InputWizard implements ActionListener {
  	private JFileChooser saveFileChooser;
  	private String gameSavePath = "C:\\";
  	private static final int wizardRowSize = 10; //row size for wizard
- 	private JPanel mainPannel;
  	private String gameGradeLevel = "none";
- 
+	private Updates updater;
 	public InputWizard(Matrix[] input)
 	{
 		componentInputs = input;
 		initializeComponentInputs();
-		
         window.setSize(WIDTH, HEIGHT);
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         window.setVisible(true);
         int nextOpenRow =0; // next available row slot
         final String none = "no";
         mainPannel = new JPanel(new GridLayout(wizardRowSize,1));
+// making menu        
+        menuBar = new JMenuBar();
+        menu = new JMenu("Repository Tools");
+        menu.setMnemonic(KeyEvent.VK_R);
+        menuBar.add(menu);
+        addToRepo = new JMenuItem("Add game to repository", KeyEvent.VK_A);
+        addToRepo.setActionCommand("addToRepo");
+        addToRepo.addActionListener(this);
+        remakeRepo = new JMenuItem("Remake the repository", KeyEvent.VK_R);
+        remakeRepo.addActionListener(this);
+        remakeRepo.setActionCommand("remakeRepo");
+        menu.add(addToRepo);
+        menu.add(remakeRepo);
+        
     //gradeButtons    
     ButtonGroup gradeGroup = new ButtonGroup();
  		JRadioButton primaryButton = new JRadioButton("Primary School");
@@ -298,6 +319,7 @@ public class InputWizard implements ActionListener {
         submitPanel.add(submitButton);
         mainPannel.add(submitPanel, nextOpenRow++);
         window.add(mainPannel,BorderLayout.CENTER);
+        window.add(menuBar,BorderLayout.NORTH);
 	}
 	private void initializeComponentInputs()
 	{
@@ -600,6 +622,7 @@ public class InputWizard implements ActionListener {
 			distributeInputs();
 			System.out.println("Submit Clicked");
 			saveFileChooser = new JFileChooser();
+			saveFileChooser.changeToParentDirectory();
 			int returnValue = saveFileChooser.showSaveDialog(saveFileChooser);
 			if(returnValue==JFileChooser.APPROVE_OPTION)
 			{
@@ -616,6 +639,35 @@ public class InputWizard implements ActionListener {
 			}
 //			saveFileChooserWindow = new JFrame();
 		
+			break;
+		case "addToRepo":
+			File parent = new File("New Games\\");
+			saveFileChooser = new JFileChooser(parent);
+			saveFileChooser.setDialogTitle("Choose the game folder");
+			saveFileChooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
+			updater= new Updates();
+			int returnValue2 = saveFileChooser.showOpenDialog(saveFileChooser);
+			String gameName;
+			if(returnValue2==JFileChooser.APPROVE_OPTION)
+			{
+				File file = saveFileChooser.getSelectedFile();
+				gameName= file.getParentFile().getAbsolutePath();
+				
+				if(gameName.contains("New Games"))
+				{
+//					gameName.substring(gameName.lastIndexOf('\\'),gameName.lastIndexOf('.'));
+				System.out.println("game Name"+ gameName);
+				}
+			}
+			else if(returnValue2 == JFileChooser.CANCEL_OPTION)
+			{
+				System.out.println("Open cancelled by user. /n Returning.");
+			}
+			
+			break;
+		case "remakeRepo":
+			updater = new Updates();
+			updater.remakeRepo();
 			break;
 			// Grade 
 		case "primary":
