@@ -157,7 +157,7 @@ public class SearchAlgo {
 			}
 			if(inputArray[x][0]==largestValue && (componentNumber==1 || componentNumber ==2) && x==allFileNumbers[4])
 			{
-				System.out.println("@@@@@@@@@@@@Adjusting "+gameComponents[componentNumber]+" "+x+" to Subject "+allFileNumbers[4]);
+				System.out.println("Adjusting "+gameComponents[componentNumber]+" "+x+" to Subject "+allFileNumbers[4]);
 				largestValue = inputArray[x][0];
 				largestIndex = x;
 			}

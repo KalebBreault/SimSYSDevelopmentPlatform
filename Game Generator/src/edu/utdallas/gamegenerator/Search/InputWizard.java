@@ -16,7 +16,7 @@ public class InputWizard implements ActionListener {
  * implements ActionListener so a subclass for it is not needed. 
  */
 	
-	private static int WIDTH = 750;
+	private static int WIDTH =800;
 	private static int HEIGHT = 600;
 	private Matrix[] componentInputs;
 	private boolean submitClicked = false;
@@ -32,6 +32,8 @@ public class InputWizard implements ActionListener {
  	private JFileChooser saveFileChooser;
  	private String gameSavePath = "C:\\";
  	private static final int wizardRowSize = 10; //row size for wizard
+ 	private JPanel mainPannel;
+ 	private String gameGradeLevel = "none";
  
 	public InputWizard(Matrix[] input)
 	{
@@ -40,10 +42,46 @@ public class InputWizard implements ActionListener {
 		
         window.setSize(WIDTH, HEIGHT);
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        window.setLayout(new GridLayout(wizardRowSize,1));
         window.setVisible(true);
         int nextOpenRow =0; // next available row slot
         final String none = "no";
+        mainPannel = new JPanel(new GridLayout(wizardRowSize,1));
+    //gradeButtons    
+    ButtonGroup gradeGroup = new ButtonGroup();
+ 		JRadioButton primaryButton = new JRadioButton("Primary School");
+ 		primaryButton.setActionCommand("primary");
+ 		primaryButton.addActionListener(this);
+ 		JRadioButton secondaryButton = new JRadioButton("Secondary School");
+ 		secondaryButton.setActionCommand("secondary");
+ 		secondaryButton.addActionListener(this);
+ 		JRadioButton highButton = new JRadioButton("High School");
+ 		highButton.setActionCommand("high");
+ 		highButton.addActionListener(this);
+ 		JRadioButton collegeButton= new JRadioButton("College");
+ 		collegeButton.setActionCommand("college");
+ 		collegeButton.addActionListener(this);
+ 		JRadioButton jobTrainingButton= new JRadioButton("Job Training");
+ 		jobTrainingButton.setActionCommand("jobTraining");
+ 		jobTrainingButton.addActionListener(this);
+ 		JRadioButton noGradePreference = new JRadioButton("No Preference",true);
+ 		noGradePreference.setActionCommand(none+" grade");
+ 		noGradePreference.addActionListener(this);
+ 		gradeGroup.add(primaryButton);
+ 		gradeGroup.add(secondaryButton);
+ 		gradeGroup.add(highButton);
+ 		gradeGroup.add(collegeButton);
+ 		gradeGroup.add(jobTrainingButton);
+ 		gradeGroup.add(noGradePreference);
+ 		JPanel gradePanel = new JPanel(new FlowLayout(FlowLayout.LEFT));
+        JLabel gradeLabel = new JLabel("Indended grade level:");
+    	gradePanel.add(gradeLabel);
+ 		gradePanel.add(primaryButton);
+ 		gradePanel.add(secondaryButton);
+ 		gradePanel.add(highButton);
+ 		gradePanel.add(collegeButton);
+ 		gradePanel.add(jobTrainingButton);
+ 		gradePanel.add(noGradePreference);
+ 	mainPannel.add(gradePanel,nextOpenRow++);
     //GenderButtons    
         ButtonGroup genderGroup = new ButtonGroup();
         	JRadioButton maleButton = new JRadioButton("Male");
@@ -64,7 +102,7 @@ public class InputWizard implements ActionListener {
         	genderPanel.add(maleButton);
         	genderPanel.add(femaleButton);
         	genderPanel.add(noGenderPreference);
-        window.add(genderPanel,nextOpenRow++);
+        mainPannel.add(genderPanel,nextOpenRow++);
         //ageButtons    
         ButtonGroup ageGroup = new ButtonGroup();
         	JRadioButton youngButton = new JRadioButton("Young");
@@ -85,7 +123,7 @@ public class InputWizard implements ActionListener {
         	agePanel.add(youngButton);
         	agePanel.add(oldButton);
         	agePanel.add(noAgePreference);
-        window.add(agePanel,nextOpenRow++);
+        mainPannel.add(agePanel,nextOpenRow++);
         
         //dressButtons    
         ButtonGroup dressGroup = new ButtonGroup();
@@ -107,7 +145,7 @@ public class InputWizard implements ActionListener {
         	dressPanel.add(casualButton);
         	dressPanel.add(fancyButton );
         	dressPanel.add(noDressPreference);
-        window.add(dressPanel,nextOpenRow++);
+        mainPannel.add(dressPanel,nextOpenRow++);
         //Theme Buttons
      	ButtonGroup themeGroup = new ButtonGroup();
      		JRadioButton goobleButton = new JRadioButton("Gooble");
@@ -143,7 +181,7 @@ public class InputWizard implements ActionListener {
      		themePanel.add(workplaceButton);
      		themePanel.add(otherButton);
      		themePanel.add(noThemePreference);
-     	window.add(themePanel,nextOpenRow++);
+     	mainPannel.add(themePanel,nextOpenRow++);
       //SubjectButtons
         ButtonGroup subjectGroup = new ButtonGroup();
     		JRadioButton englishButton = new JRadioButton("English");
@@ -184,7 +222,7 @@ public class InputWizard implements ActionListener {
     		subjectPanel.add(literatureButton);
     		subjectPanel.add(professionalButton);
     		subjectPanel.add(noSubjectPreference);
-    	window.add(subjectPanel,nextOpenRow++);
+    	mainPannel.add(subjectPanel,nextOpenRow++);
     //Setting Buttons	
      	ButtonGroup settingGroup = new ButtonGroup();
      		JRadioButton professionalSettingButton = new JRadioButton("Professional");
@@ -220,7 +258,7 @@ public class InputWizard implements ActionListener {
  			settingPanel.add(educationalSettingButton);
  			settingPanel.add(nonTerrestialSettingButton);
  			settingPanel.add(noSettingPreference);
- 		window.add(settingPanel,nextOpenRow++);
+ 		mainPannel.add(settingPanel,nextOpenRow++);
         //difficulty Buttons
      	ButtonGroup difficultyGroup = new ButtonGroup();
      		JRadioButton easyButton = new JRadioButton("Easy");
@@ -246,7 +284,7 @@ public class InputWizard implements ActionListener {
      		difficultyPanel.add(mediumButton);
      		difficultyPanel.add(hardButton);
      		difficultyPanel.add(noDifficultyPreference);
-     	window.add(difficultyPanel,nextOpenRow++);
+     	mainPannel.add(difficultyPanel,nextOpenRow++);
         //ADD MORE BUTTON SETS HERE IN FUTURE IF DESIRED
      	
         
@@ -258,7 +296,8 @@ public class InputWizard implements ActionListener {
         submitButton.addActionListener(this);
         submitButton.setActionCommand("Submit");
         submitPanel.add(submitButton);
-        window.add(submitPanel, nextOpenRow++);
+        mainPannel.add(submitPanel, nextOpenRow++);
+        window.add(mainPannel,BorderLayout.CENTER);
 	}
 	private void initializeComponentInputs()
 	{
@@ -334,6 +373,30 @@ public class InputWizard implements ActionListener {
 		int professionalRating =0;
 		int educationalRating =0;
 		System.out.println("distributing Inputs");
+		switch(gameGradeLevel){
+		case "primary":
+			componentInputs[4].setMatrix(6,9,6,9,optionMatrix(1,4));
+			educationalRating++;
+			break;
+		case "middle":
+			componentInputs[4].setMatrix(6,9,6,9,optionMatrix(2,4));
+			educationalRating++;
+			break;
+		case "high":
+			componentInputs[4].setMatrix(6,9,6,9,optionMatrix(3,4));
+			educationalRating++;
+			break;
+		case "college":
+			componentInputs[4].setMatrix(6,9,6,9,optionMatrix(4,4));
+			educationalRating++;
+			break;
+		case "jobTraining":
+			professionalRating++;
+			break;
+		case "no grade":
+			socialRating++;
+		break;
+		}
 		switch(playerAge){
 		case "Young":
 			componentInputs[0].setMatrix(0,1,0,1,optionMatrix(1,2));
@@ -551,6 +614,25 @@ public class InputWizard implements ActionListener {
 //			saveFileChooserWindow = new JFrame();
 		
 			break;
+			// Grade 
+		case "primary":
+			gameGradeLevel = "primary";
+			break;
+		case "middle":
+			gameGradeLevel = "middle";
+			break;
+		case "high":
+			gameGradeLevel = "high";
+			break;
+		case "college":
+			gameGradeLevel = "college";
+			break;
+		case "jobTraining":
+			gameGradeLevel = "jobTraining";
+			break;
+		case "no grade":
+			gameGradeLevel = "none";
+		break;
 //Gender			
 		case "Male": 
 			playerGender = "Male";
