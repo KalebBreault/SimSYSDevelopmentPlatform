@@ -636,9 +636,7 @@ public class InputWizard implements ActionListener {
 			else if(returnValue == JFileChooser.CANCEL_OPTION)
 			{
 				System.out.println("Save cancelled by user. /n Returning.");
-			}
-//			saveFileChooserWindow = new JFrame();
-		
+			}		
 			break;
 		case "addToRepo":
 			File parent = new File("New Games\\");
@@ -655,7 +653,6 @@ public class InputWizard implements ActionListener {
 				
 				if(gameName.contains("New Games"))
 				{
-//					gameName.substring(gameName.lastIndexOf('\\'),gameName.lastIndexOf('.'));
 				System.out.println("game Name"+ gameName);
 				}
 			}
