@@ -621,8 +621,7 @@ public class InputWizard implements ActionListener {
 			printStrings();
 			distributeInputs();
 			System.out.println("Submit Clicked");
-			saveFileChooser = new JFileChooser();
-			saveFileChooser.changeToParentDirectory();
+			saveFileChooser = new JFileChooser("OutputGames//");
 			int returnValue = saveFileChooser.showSaveDialog(saveFileChooser);
 			if(returnValue==JFileChooser.APPROVE_OPTION)
 			{
