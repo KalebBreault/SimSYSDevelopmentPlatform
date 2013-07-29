@@ -634,7 +634,7 @@ public class InputWizard implements ActionListener {
 			}
 			else if(returnValue == JFileChooser.CANCEL_OPTION)
 			{
-				System.out.println("Save cancelled by user. /n Returning.");
+				System.out.println("Save cancelled by user. \n Returning.");
 			}		
 			break;
 		case "addToRepo":
