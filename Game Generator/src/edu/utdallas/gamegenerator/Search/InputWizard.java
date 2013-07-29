@@ -258,9 +258,9 @@ public class InputWizard implements ActionListener {
      		JRadioButton educationalSettingButton= new JRadioButton("Educational");
      		educationalSettingButton.setActionCommand("EducationalSetting");
      		educationalSettingButton.addActionListener(this);
-     		JRadioButton nonTerrestialSettingButton= new JRadioButton("Non-Terrestial");
-     		nonTerrestialSettingButton.setActionCommand("Non-TerrestialSetting");
-     		nonTerrestialSettingButton.addActionListener(this);
+     		JRadioButton nonterrestrialSettingButton= new JRadioButton("Non-terrestrial");
+     		nonterrestrialSettingButton.setActionCommand("Non-terrestrialSetting");
+     		nonterrestrialSettingButton.addActionListener(this);
      		JRadioButton noSettingPreference = new JRadioButton("No Preference",true);
      		noSettingPreference.setActionCommand(none+" setting");
      		noSettingPreference.addActionListener(this);
@@ -268,7 +268,7 @@ public class InputWizard implements ActionListener {
      		settingGroup.add(casualSettingButton);
      		settingGroup.add(naturalSettingButton);
      		settingGroup.add(educationalSettingButton);
-     		settingGroup.add(nonTerrestialSettingButton);
+     		settingGroup.add(nonterrestrialSettingButton);
  			settingGroup.add(noSettingPreference);
  			JPanel settingPanel = new JPanel(new FlowLayout(FlowLayout.LEFT));
  			JLabel settingLabel = new JLabel("Game Setting:");
@@ -277,7 +277,7 @@ public class InputWizard implements ActionListener {
  			settingPanel.add(casualSettingButton);
  			settingPanel.add(naturalSettingButton);
  			settingPanel.add(educationalSettingButton);
- 			settingPanel.add(nonTerrestialSettingButton);
+ 			settingPanel.add(nonterrestrialSettingButton);
  			settingPanel.add(noSettingPreference);
  		mainPannel.add(settingPanel,nextOpenRow++);
         //difficulty Buttons
@@ -532,7 +532,7 @@ public class InputWizard implements ActionListener {
 			componentInputs[3].setMatrix(3,7,3,7,optionMatrix(4,5));
 			educationalRating+=2;
 			break;
-		case "Non-Terrestial":
+		case "Non-terrestrial":
 			componentInputs[3].setMatrix(3,7,3,7,optionMatrix(5,5));
 			break;
 		case "none":
@@ -771,8 +771,8 @@ public class InputWizard implements ActionListener {
 		case "EducationalSetting":
 			gameSetting = "Educational";
 			break;
-		case "Non-TerrestialSetting":
-			gameSetting = "Non-Terrestial";
+		case "Non-terrestrialSetting":
+			gameSetting = "Non-terrestrial";
 			break;
 		case "no setting":
 			gameSetting = "none";
