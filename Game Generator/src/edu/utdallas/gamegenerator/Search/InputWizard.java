@@ -649,12 +649,15 @@ public class InputWizard implements ActionListener {
 			if(returnValue2==JFileChooser.APPROVE_OPTION)
 			{
 				File file = saveFileChooser.getSelectedFile();
-				gameName= file.getParentFile().getAbsolutePath();
+				gameName= file.getAbsolutePath();
 				
-				if(gameName.contains("New Games"))
-				{
-				System.out.println("game Name"+ gameName);
-				}
+//				if(gameName.contains("New Games"))
+//				{ 
+//				System.out.println("Game name: "+ gameName.substring(gameName.lastIndexOf('\\')+1,gameName.length()));				
+//				updater.addGame(gameName.substring(gameName.lastIndexOf('\\')+1,gameName.length()));
+//				}
+				System.out.println("Game name: "+ gameName.substring(gameName.lastIndexOf('\\')+1,gameName.length()));
+				updater.addGame(gameName.substring(gameName.lastIndexOf('\\')+1,gameName.length()));
 			}
 			else if(returnValue2 == JFileChooser.CANCEL_OPTION)
 			{
