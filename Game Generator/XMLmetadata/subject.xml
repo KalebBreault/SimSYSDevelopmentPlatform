@@ -16,8 +16,8 @@
 				<college>1</college>
 			</GradeLevel>
 		</SearchMetaData>
-	</Subject>
-	<Subject id="1">
+</Subject>
+<Subject id="1">
 		<SearchMetaData>
 			<SubjectType>
 				<Math>1</Math>
@@ -34,8 +34,8 @@
 				<college>1</college>
 			</GradeLevel>
 		</SearchMetaData>
-	</Subject>
-	<Subject id="2">
+</Subject>
+<Subject id="2">
 		<SearchMetaData>
 			<SubjectType>
 				<Math>1</Math>
@@ -52,8 +52,8 @@
 				<college>1</college>
 			</GradeLevel>
 		</SearchMetaData>
-	</Subject>
-	<Subject id="3">
+</Subject>
+<Subject id="3">
 		<SearchMetaData>
 			<SubjectType>
 				<Math>1</Math>
@@ -70,8 +70,8 @@
 				<college>9</college>
 			</GradeLevel>
 		</SearchMetaData>
-	</Subject>
-	<Subject id="4">
+</Subject>
+<Subject id="4">
 		<SearchMetaData>
 			<SubjectType>
 				<Math>1</Math>
@@ -88,5 +88,5 @@
 				<college>9</college>
 			</GradeLevel>
 		</SearchMetaData>
-	</Subject>
+</Subject>
 </Subjects>

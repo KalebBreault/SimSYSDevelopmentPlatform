@@ -15,10 +15,13 @@ public class UserInterface {
 		Updates update= new Updates();
 		
 		while (done==false){
-			Integer inputNumb=-1;
-			System.out.print("What would you like to do:\n1 - Add Game to XMLmetadata. \n\n2 - Remake XMLmetadata. \n\n0 - Done.\n");
+			
+			int inputNumb=-1;
+			System.out.print("What would you like to do:\n1 - Add Game to Repos. \n\n2 - Remake Repos. \n\n0 - Done.\n");
+			
 			inputNumb=input.nextInt();
 			
+					
 			if (inputNumb==1){
 				String foldervalidate;
 				
@@ -38,12 +41,12 @@ public class UserInterface {
 				
 
 			} else if (inputNumb==2){
-				System.out.println("Still under development...");
+				//System.out.println("Still under development...");
 				update.remakeRepo();
 				
 			}else if (inputNumb==0){
 				done=true;
-			}else if (inputNumb==-1){
+			}else{
 				System.out.println("Unidentified input, please try again.");
 			}
 		

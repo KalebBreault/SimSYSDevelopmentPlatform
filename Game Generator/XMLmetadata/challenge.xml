@@ -17,9 +17,9 @@
 				<School>9</School>
 			</Subject>
 		</SearchMetaData>
-	</Challenge>
-	<Challenge id="1">
-		<SearchMetaData>
+</Challenge>
+<Challenge id="1">
+<SearchMetaData>
 			<Length>
 				<Short>1	</Short>
 				<Medium>1</Medium>
@@ -36,8 +36,8 @@
 				<School>1</School>
 			</Subject>
 		</SearchMetaData>
-	</Challenge>
-	<Challenge id="2">
+</Challenge>
+<Challenge id="2">
 		<SearchMetaData>
 			<Length>
 				<Short>1</Short>
@@ -55,8 +55,8 @@
 				<School>9</School>
 			</Subject>
 		</SearchMetaData>
-	</Challenge>
-	<Challenge id="3">
+</Challenge>
+<Challenge id="3">
 		<SearchMetaData>
 			<Length>
 				<Short>9</Short>
@@ -74,8 +74,8 @@
 				<School>9</School>
 			</Subject>
 		</SearchMetaData>
-	</Challenge>
-	<Challenge id="4">
+</Challenge>
+<Challenge id="4">
 		<SearchMetaData>
 			<Length>
 				<Short>2</Short>
@@ -93,5 +93,5 @@
 				<School>9</School>
 			</Subject>
 		</SearchMetaData>
-	</Challenge>
+</Challenge>
 </Challenges>
