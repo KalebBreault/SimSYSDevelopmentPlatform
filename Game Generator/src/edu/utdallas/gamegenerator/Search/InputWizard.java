@@ -580,12 +580,14 @@ public class InputWizard implements ActionListener {
 	public void checkForXML(String input)
 	{			
 		if(!input.contains("."))
-				{
+		{
 			gameSavePath = input+".xml";
-				}
-		String extension = input.substring(input.lastIndexOf(".") + 1, input.length());
-		if (!extension.equals("xml")&& !extension.equals("XML")) {
-		    gameSavePath= input.substring(0,input.lastIndexOf("."))+".xml";
+		}
+		else{ 
+			String extension = input.substring(input.lastIndexOf(".") + 1, input.length());
+			if (!extension.equals("xml")&& !extension.equals("XML")) {
+				gameSavePath= input.substring(0,input.lastIndexOf("."))+".xml";
+			}
 		}
 	}
 	public void actionPerformed(ActionEvent e) 
