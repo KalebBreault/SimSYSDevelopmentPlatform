@@ -84,7 +84,11 @@ public class SearchAlgo {
 //		allFiles[5]=xmlTheme;
 	}
 	/*
-	 * 
+	 * FAKE EIGENVECTOR CALCULATION
+	 * The original eigenvector calculation through the library returned poor, unreadable
+	 * results with no documentation. This prompted me (Kaleb) to find and employ this 
+	 * alternative method. Its basicly weighting the matrix and putting into a 1 dimensional 
+	 * matrix.
 	 */
 	private Matrix eigenvectorCalculation(Matrix inputMatrix)
 	{
@@ -123,6 +127,7 @@ public class SearchAlgo {
 			System.out.println(x+": "+input[x]);
 		}
 	}
+	//Creates, calls, and returns the input wizard inputs
 	private Matrix[] getWizardInputs(Matrix[] componentInputs)
 	{
 		inputs = new InputWizard(componentInputs);

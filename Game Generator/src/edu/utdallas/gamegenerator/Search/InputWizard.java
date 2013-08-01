@@ -321,6 +321,7 @@ public class InputWizard implements ActionListener {
         window.add(mainPannel,BorderLayout.CENTER);
         window.add(menuBar,BorderLayout.NORTH);
 	}
+	//sets all the component Inputs to 0
 	private void initializeComponentInputs()
 	{
 		for(int x=0; x<componentInputs.length;x++)
@@ -329,6 +330,7 @@ public class InputWizard implements ActionListener {
 		}
 		
 	}
+	// sets all the values of the matrix to the given value. 
 	private Matrix initializeMatrix(Matrix inputMatrix, double initValue)
 	{
 		double[][] inputMatrixArray = inputMatrix.getArray();
@@ -342,6 +344,7 @@ public class InputWizard implements ActionListener {
 		
 		return inputMatrix;		
 	}
+	//same as above, only with an array instead of a matrix 
 	private double[][] initializeArray(double[][] inputMatrixArray, double initValue)
 	{
 		for(int y=0; y<inputMatrixArray.length;y++)
@@ -354,6 +357,7 @@ public class InputWizard implements ActionListener {
 		
 		return inputMatrixArray;		
 	}
+	//prints the given matrix
 	private void printMatrix(Matrix  inputMatrix)
 	{
 		double[][] inputArray = inputMatrix.getArray();
@@ -389,6 +393,7 @@ public class InputWizard implements ActionListener {
 		}						
 		return new Matrix(outputArray);
 	}
+	//called once after the submit button was clicked and a valid location is given.
 	private void distributeInputs() {
 		//start with character component
 		int socialRating = 0;
@@ -396,6 +401,8 @@ public class InputWizard implements ActionListener {
 		int educationalRating =0;
 		System.out.println("distributing Inputs");
 		switch(gameGradeLevel){
+		//There is probably a better way to do this, with lists or whatnot but this was the quick
+		//implementation that I(Kaleb) decided to go with
 		case "primary":
 			componentInputs[4].setMatrix(6,9,6,9,optionMatrix(1,4));
 			educationalRating++;
