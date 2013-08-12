@@ -13,7 +13,7 @@ package edu.utdallas.gamegenerator.Search;
 public class Search {
 	
 	
-	private SearchInput searchInput;
+	//private SearchInput searchInput;
 	private SearchAlgo searchAlgo;
 	private String[] allFiles = new String[6];
 	

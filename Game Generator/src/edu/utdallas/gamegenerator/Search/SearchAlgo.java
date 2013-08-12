@@ -17,6 +17,7 @@ public class SearchAlgo {
 	private String[] gameComponents = { "Characters", "Lesson", "Challenge", "Locale", "Subject", "Theme"};
 	private int[] allFileNumbers = new int[6];
 	private InputWizard inputs;
+	
 	public SearchAlgo()//LinkedList<String> CriteriaList, LinkedList<String>inputedCriteriaList)
 	{
 
@@ -27,7 +28,7 @@ public class SearchAlgo {
 		xmlSubject="Subject0";
 		xmlTheme="Theme0";
 		Matrix[] componentInputs = new Matrix[6];
-		SearchInput input;
+		//SearchInput input;
 		SearchSpace[] searchSpaces = new SearchSpace[6];
 		Matrix[] componentInputSearchSpace=new Matrix[6];
 		///////////////////////////

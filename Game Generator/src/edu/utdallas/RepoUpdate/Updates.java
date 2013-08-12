@@ -11,7 +11,7 @@ public class Updates {
 	String[] repoGameComponents = {"characters", "lesson", "challenge", "locale", "subject", "theme"};
 	String[] elementsOpen= {"<character>", "<Lessons>", "<Challenges>", "<Locales>", "<Subjects>", "<Themes>"};
 	String[] elementsClose= {"</character>", "</Lessons>", "</Challenges>", "</Locales>", "</Subjects>", "</Themes>"};
-	String[] Games= {"DefaultGame", "OfficeGame", "SpaceGame", "VocabGame", "HistoryGame"};
+	String[] Games= {"MathGame", "OfficeGame", "SpaceGame", "VocabGame", "HistoryGame"};
 	Scanner input = new Scanner(System.in);
 	int gameNumb;
 	int checkCount=0;

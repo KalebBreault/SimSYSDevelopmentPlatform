@@ -4,6 +4,15 @@ import java.io.FileReader;
 import java.util.LinkedList;
 import java.util.Scanner;
 
+/*
+ * 
+ * 
+ * //CURRENTLY NOT BEING USED. USED BEFORE INPUT WIZARD WAS CREATED.
+ * 
+ * 
+ * 
+ */
+
 //Control Class- Prompts the user for the search criteria input.
 //Validates the input by calling the SearchComponents class.
 public class SearchInput {

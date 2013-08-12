@@ -1,6 +1,18 @@
 package edu.utdallas.gamegenerator.Search;
 
 import java.util.LinkedList;
+
+/*
+ * 
+ * 
+ * //CURRENTLY NOT BEING USED. USED BEFORE INPUT WIZARD WAS CREATED.
+ * 
+ * 
+ * 
+ */
+
+
+
 //Entity Class- Creates the list of search criteria available. Has a validate feature to ensure the CriteriaInput is search-able. 
 public class SearchCriteriaList {
 	private String Criteria_1="Criteria_1";
